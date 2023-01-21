@@ -1,0 +1,114 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Lappet Town (2) - Route 1 (5)
+2,North,0,5,South,4
+# Lappet Town (2) - Safari Zone (66)
+2,West,0,66,East,0
+# Route 8 (69) - Lappet Town (2)
+69,North,12,2,South,0
+# Route 6 (44) - Route 1 (5)
+44,South,43,5,North,0
+# Safari Zone (66) - Route 1 (5)
+66,North,18,5,South,0
+# Cedolan City (7) - Route 1 (5)
+7,South,0,5,North,2
+# Cedolan City (7) - Route 6 (44)
+7,West,5,44,East,0
+# Cedolan City (7) - Lerucean Town (23)
+7,East,0,23,West,78
+# Route 7 (47) - Cedolan City (7)
+47,West,0,7,East,0
+# Route 2 (21) - Cedolan City (7)
+21,South,0,7,North,21
+# Route 2 (21) - Lerucean Town (23)
+21,East,0,23,West,1
+# Route 2 (21) - Route 7 (47)
+21,East,77,47,West,0
+# Crashsite A (22) - Kurisu's House (32)
+22,East,0,32,West,5
+# Route 3 (31) - Lerucean Town (23)
+31,South,32,23,North,0
+# Route 3 (31) - Ingido Plateau (35)
+31,West,0,35,East,10
+# Kurisu's House (32) - Route 1 (42)
+32,South,8,42,North,0
+# Ingido Plateau (35) - Route 4 (39)
+35,West,11,39,East,0
+# Route 5 (41) - Route 4 (40)
+41,North,0,40,South,0
+# Route 5 (41) - Route 6 (45)
+41,South,6,45,North,0
+# Route 1 (42) - Titan's Foot Village (43)
+42,East,0,43,West,16
+# Route 3 (78) - Titan's Foot Village (43)
+78,South,0,43,North,47
+# Route 2 (77) - Titan's Foot Village (43)
+77,South,0,43,North,1
+# Route 5 (90) - Titan's Foot Village (43)
+90,North,0,43,South,14
+# Route 7 (47) - Battle Frontier (52)
+47,East,8,52,West,0
+# Route 8 (69) - Safari Zone (66)
+69,North,0,66,South,10
+# Route 2 (77) - Route 3 (78)
+77,East,0,78,West,2
+# Azure Lake (79) - Route 3 (78)
+79,South,0,78,North,10
+# Azure Base (81) - Route 3 (78)
+81,West,0,78,East,3
+# Route 4 (85) - Route 4 (86)
+85,South,3,86,North,0
+# Route 6 (91) - Route 4 (85)
+91,North,0,85,South,58
+# Route 4 (86) - Route 11 (121)
+86,North,68,121,South,0
+# Route 6 (91) - Route 4 (86)
+91,West,0,86,East,0
+# Luna Mine Entrance (87) - Route 4 (86)
+87,East,0,86,West,2
+# Route 6 (91) - Route 11 (121)
+91,North,13,121,South,0
+# Maple Town (92) - Route 6 (91)
+92,West,0,91,East,5
+# Route 7 (98) - Maple Town (92)
+98,North,13,92,South,0
+# Girit Town (99) - Route 7 (98)
+99,East,0,98,West,1
+# Route 8 (102) - Route 9 (106)
+102,South,12,106,North,0
+# Route 10 (107) - Route 9 (106)
+107,North,0,106,South,0
+# Bonfire Island (108) - Route 10 (107)
+108,West,8,107,East,0
+# Route 11 (121) - Route 12 (122)
+121,North,0,122,South,1
+# Azure Lake (124) - Route 12 (122)
+124,East,0,122,West,0
+# Lavenn Forest (139) - Lavenn Forest (123)
+139,South,0,123,North,25
+# Route 13 (134) - Eridhe Town (136)
+134,East,0,136,West,5
+# Eridhe Town (136) - Route 14 (137)
+136,North,17,137,South,0
+# Aurum Desert (145) - Route 14 (137)
+145,East,0,137,West,9
+# Route 15 (147) - Route 15 (148)
+147,North,27,148,South,0
+# Route 15 (148) - Stark Beach (149)
+148,South,41,149,North,0
+# Stark Beach (149) - Stark Bay (151)
+149,South,0,151,North,0
+# Stark Bay (151) - Route 16 (152)
+151,North,67,152,South,0
+# Draconis Village (163) - Route 16 (152)
+163,South,10,152,North,0
+# Route 17 (162) - Draconis Village (163)
+162,South,0,163,North,0
+# Route 17 (164) - Route 17 (162)
+164,West,0,162,East,0
+# Route 17 (164) - Draconis Village (163)
+164,South,0,163,North,50
+# Route 19 (177) - Route 18 (176)
+177,West,3,176,East,0
+# Frostpeak Town (178) - Route 19 (177)
+178,West,10,177,East,0

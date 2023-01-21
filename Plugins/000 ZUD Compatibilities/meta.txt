@@ -1,0 +1,5 @@
+Name         = ZUD Compatibilities
+Version      = 1.2
+Website      = https://www.pokecommunity.com/showthread.php?t=454201
+Requires     = ZUD Plugin,1.1
+Credits      = Lucidious89

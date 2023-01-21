@@ -1,0 +1,46 @@
+Name         = ZUD Plugin
+Version      = 1.1.4
+Requires     = v19.1 Hotfixes
+Website      = https://www.pokecommunity.com/showthread.php?t=454201
+Credits      = Lucidious89
+
+###############################################################################
+###############################################################################
+#### 
+#### Full Credits
+#### 
+###############################################################################
+###############################################################################
+#
+# -Z-Move Credits-
+# Base Script (v16.2):              Marcello
+# Additional Credits (v16.2):       Zumi, Ice Cream Sand Witch, Amethyst, Jan, Sardines, Inuki
+# Adaptation to Essentials v18.1:   StCooler
+# Adaptation to Essentials v19.1:   Lucidious89
+#
+# -Ultra Burst Credits- 
+# Base Script (v17.2):              WolfPP
+# Adaptation to Essentials v18.1:   Lucidious89, StCooler
+# Adaptation to Essentials v19.1:   Lucidious89
+#
+# -Dynamax Credits-
+# Original Tutorial (v17.2):        Fauno
+# Adaptation to Essentials v18.1:   Lucidious89, StCooler
+# Adaptation to Essentials v19.1:   Lucidious89
+#
+# -Max Raid Credits-
+# Original Scripts (v17.2):         Lucidious89
+# Adaptation to Essentials v18.1:   Lucidious89, StCooler
+# Adaptation to Essentials v19.1:   Lucidious89
+#
+# -Dynamax Adventures Credits-
+# Original Scripts (v19.1):         Lucidious89
+#
+# -Graphic Credits-
+# Official Item/Pokemon Icons:      Game Freak
+# Gigantamax Pokemon Sprites:       Contributors to Smogon's Sword/Shield Sprite Project
+#
+# -Audio Credits-
+# All audio files:                  Game Freak
+###############################################################################
+###############################################################################

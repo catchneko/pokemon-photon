@@ -1,0 +1,47 @@
+[FONT=courier new]
+[LIST]
+[*]Battler Sprites:
+[LIST]
+[*]Gen 1-5 Pokemon Sprites      - veekun
+[*]Gen 6 Pokemon Sprites        - All Contributors To Smogon X/Y Sprite Project
+[*]Gen 7 Pokemon Sprites        - All Contributors To Smogon Sun/Moon Sprite Project
+[*]Gen 8 Pokemon Sprites        - All Contributors To Smogon  Sword/Shield Sprite Project
+[/LIST]
+[*]Overworld Sprites
+[LIST]
+[*]Gen 6 Pokemon Overworlds     - princess-pheonix, LunarDusk, Wolfang62, TintjeMadelintje101, piphybuilder88
+[*]Gen 7 Pokemon Overworlds     - Larry Turbo, princess-pheonix
+[*]Gen 8 Pokemon Overworlds     - SageDeoxys, Wolfang62
+[*]Gen 1-5 Pokemon Overworlds   - MissingLukey, help-14, Kymoyonian, cSc-A7X, 2and2makes5, Pokegirl4ever, Fernandojl, Silver-Skies, TyranitarDark, Getsuei-H, Kid1513, Milomilotic11, Kyt666, kdiamo11, Chocosrawlooid, Syledude, Gallanty, Gizamimi-Pichu, 2and2makes5, Zyon17,LarryTurbo, spritesstealer
+[/LIST]
+[*]Icon Sprites
+[LIST]
+[*]Gen 1-6 Pokemon Icon Sprites - Alaguesia
+[*]Gen 7 Pokemon Icon Sprites   - Marin, MapleBranchWing, Contributors to the DS Styled Gen 7+ Repository
+[*]Gen 8 Icon Sprites           - Larry Turbo, Leparagon
+[/LIST]
+[*]Cry Credits:
+[LIST]
+[*]Gen 1-6 Pokemon Cries        - Rhyden
+[*]Gen 7 Pokemon Cries          - Marin, Rhyden
+[*]Gen 8 Pokemon Cries          - Zeak6464
+[/LIST]
+[*]PBS Credits:
+[LIST]
+[*]Golisopod User, Zerokid, TheToxic, HM100, KyureJL, ErwanBeurier
+[/LIST]
+[*]Script Credits:
+[LIST]
+[*]EBS Bitmap Wrapper - Luka S.J.
+[*]Gen 8 Scripts      - Golisopod User, Maruno, Vendily, TheToxic, HM100, Aioross, WolfPP, MFilice, lolface, KyureJL, DarrylBD99, Turn20Negate, TheKandinavian, ErwanBeurier
+[/LIST]
+[*]Compilation of Resources:
+[LIST]
+[*]Golisopod User, UberDunsparce
+[/LIST]
+[*]Porting to v19:
+[LIST]
+[*]Golisopod User, Maruno
+[/LIST]
+[/LIST]
+[/FONT]

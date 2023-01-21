@@ -1,0 +1,198 @@
+# This installation is part of the ZUD Plugin for Pokemon Essentials v19.1
+# Refer to each section below to learn how to edit this file.
+#
+#########################################################################
+# SECTION 1 : Z-MOVES
+#########################################################################
+#-----------------------------------
+# Generic Z-Move Compatibility
+#-----------------------------------
+# A) Add a generic Z-Move for a new type in this section, in the format: ZMove = Z-Move Name, Z-Crystal, Move Type.
+#-----------------------------------
+ZMove = BREAKNECKBLITZ,NORMALIUMZ,NORMAL
+ZMove = INFERNOOVERDRIVE,FIRIUMZ,FIRE
+ZMove = HYDROVORTEX,WATERIUMZ,WATER
+ZMove = GIGAVOLTHAVOC,ELECTRIUMZ,ELECTRIC
+ZMove = BLOOMDOOM,GRASSIUMZ,GRASS
+ZMove = SUBZEROSLAMMER,ICIUMZ,ICE
+ZMove = ALLOUTPUMMELING,FIGHTINIUMZ,FIGHTING
+ZMove = ACIDDOWNPOUR,POISONIUMZ,POISON
+ZMove = TECTONICRAGE,GROUNDIUMZ,GROUND
+ZMove = SUPERSONICSKYSTRIKE,FLYINIUMZ,FLYING
+ZMove = SHATTEREDPSYCHE,PSYCHIUMZ,PSYCHIC
+ZMove = SAVAGESPINOUT,BUGINIUMZ,BUG
+ZMove = CONTINENTALCRUSH,ROCKIUMZ,ROCK
+ZMove = NEVERENDINGNIGHTMARE,GHOSTIUMZ,GHOST
+ZMove = DEVASTATINGDRAKE,DRAGONIUMZ,DRAGON
+ZMove = BLACKHOLEECLIPSE,DARKINIUMZ,DARK
+ZMove = CORKSCREWCRASH,STEELIUMZ,STEEL
+ZMove = TWINKLETACKLE,FAIRIUMZ,FAIRY
+#-----------------------------------
+# Exclusive Z-Move Compatibility
+#-----------------------------------
+# B) Add an exclusive Z-Move for a species in this section, in the format: ZMoveEx = Z-Move Name, Z-Crystal, Converted Move, Species_form.
+#-----------------------------------
+ZMoveEx = CATASTROPIKA,PIKANIUMZ,VOLTTACKLE,PIKACHU
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_9
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_10
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_11
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_12
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_13
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_14
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_15
+ZMoveEx = TENMILLIONVOLTTUNDERBOLT,PIKASHUNIUMZ,THUNDERBOLT,PIKACHU_16
+ZMoveEx = STOKEDSPARKSURFER,ALORAICHIUMZ,THUNDERBOLT,RAICHU_1
+ZMoveEx = EXTREMEEVOBOOST,EEVIUMZ,LASTRESORT,EEVEE
+ZMoveEx = PULVERIZINGPANCAKE,SNORLIUMZ,GIGAIMPACT,SNORLAX
+ZMoveEx = GENESISSUPERNOVA,MEWNIUMZ,PSYCHIC,MEW
+ZMoveEx = SINISTERARROWRAID,DECIDIUMZ,SPIRITSHACKLE,DECIDUEYE
+ZMoveEx = MALICIOUSMOONSAULT,INCINIUMZ,DARKESTLARIAT,INCINEROAR
+ZMoveEx = OCEANICOPERETTA,PRIMARIUMZ,SPARKLINGARIA,PRIMARINA
+ZMoveEx = SPLINTEREDSTORMSHARDS,LYCANIUMZ,STONEEDGE,LYCANROC
+ZMoveEx = SPLINTEREDSTORMSHARDS,LYCANIUMZ,STONEEDGE,LYCANROC_1
+ZMoveEx = SPLINTEREDSTORMSHARDS,LYCANIUMZ,STONEEDGE,LYCANROC_2
+ZMoveEx = LETSSNUGGLEFOREVER,MIMIKIUMZ,PLAYROUGH,MIMIKYU
+ZMoveEx = LETSSNUGGLEFOREVER,MIMIKIUMZ,PLAYROUGH,MIMIKYU_1
+ZMoveEx = CLANGOROUSSOULBLAZE,KOMMONIUMZ,CLANGINGSCALES,KOMMOO
+ZMoveEx = GUARDIANOFALOLA,TAPUNIUMZ,NATURESMADNESS,TAPUKOKO
+ZMoveEx = GUARDIANOFALOLA,TAPUNIUMZ,NATURESMADNESS,TAPULELE
+ZMoveEx = GUARDIANOFALOLA,TAPUNIUMZ,NATURESMADNESS,TAPUBULU
+ZMoveEx = GUARDIANOFALOLA,TAPUNIUMZ,NATURESMADNESS,TAPUFINI
+ZMoveEx = SEARINGSUNRAZESMASH,SOLGANIUMZ,SUNSTEELSTRIKE,SOLGALEO
+ZMoveEx = MENACINGMOONRAZEMAELSTROM,LUNALIUMZ,MOONGEISTBEAM,LUNALA
+ZMoveEx = SEARINGSUNRAZESMASH,SOLGANIUMZ,SUNSTEELSTRIKE,NECROZMA_1
+ZMoveEx = MENACINGMOONRAZEMAELSTROM,LUNALIUMZ,MOONGEISTBEAM,NECROZMA_2
+ZMoveEx = LIGHTTHATBURNSTHESKY,ULTRANECROZIUMZ,PHOTONGEYSER,NECROZMA_3,NECROZMA_1
+ZMoveEx = LIGHTTHATBURNSTHESKY,ULTRANECROZIUMZ,PHOTONGEYSER,NECROZMA_4,NECROZMA_2
+ZMoveEx = SOULSTEALING7STARSTRIKE,MARSHADIUMZ,SPECTRALTHIEF,MARSHADOW
+#-------------------------------
+# C) Status Z-Move Compatibility
+#-------------------------------
+# Give a status move a Z-Move effect by adding that move to the array with the desired effect in this section.
+# The following effects are implemented, but go unused by any existing move. Use them if you want:
+# DefBoost2, DefBoost3, SpAtkBoost3, SpDefBoost3, SpeedBoost3, AccBoost2, AccBoost3, EvaBoost2, EvaBoost3, OmniBoost2, OmniBoost3
+#-------------------------------
+AtkBoost1 = BULKUP,HONECLAWS,HOWL,LASERFOCUS,LEER,MEDITATE,ODORSLEUTH,POWERTRICK,ROTOTILLER,SCREECH,SHARPEN,TAILWHIP,TAUNT,TOPSYTURVY,WILLOWISP,WORKUP,COACHING
+AtkBoost2 = MIRRORMOVE
+AtkBoost3 = SPLASH
+DefBoost1 = AQUARING,BABYDOLLEYES,BANEFULBUNKER,BLOCK,CHARM,DEFENDORDER,FAIRYLOCK,FEATHERDANCE,FLOWERSHIELD,GRASSYTERRAIN,GROWL,HARDEN,MATBLOCK,NOBLEROAR,PAINSPLIT,PLAYNICE,POISONGAS,POISONPOWDER,QUICKGUARD,REFLECT,ROAR,SPIDERWEB,SPIKES,SPIKYSHIELD,STEALTHROCK,STRENGTHSAP,TEARFULLOOK,TICKLE,TORMENT,TOXIC,TOXICSPIKES,VENOMDRENCH,WIDEGUARD,WITHDRAW,OCTOLOCK
+SpAtkBoost1 = CONFUSERAY,ELECTRIFY,EMBARGO,FAKETEARS,GEARUP,GRAVITY,GROWTH,INSTRUCT,IONDELUGE,METALSOUND,MINDREADER,MIRACLEEYE,NIGHTMARE,PSYCHICTERRAIN,REFLECTTYPE,SIMPLEBEAM,SOAK,SWEETKISS,TEETERDANCE,TELEKINESIS,MAGICPOWDER
+SpAtkBoost2 = HEALBLOCK,PSYCHOSHIFT
+SpDefBoost1 = CHARGE,CONFIDE,COSMICPOWER,CRAFTYSHIELD,EERIEIMPULSE,ENTRAINMENT,FLATTER,GLARE,INGRAIN,LIGHTSCREEN,MAGICROOM,MAGNETICFLUX,MEANLOOK,MISTYTERRAIN,MUDSPORT,SPOTLIGHT,STUNSPORE,THUNDERWAVE,WATERSPORT,WHIRLWIND,WISH,WONDERROOM,CORROSIVEGAS,DECORATE
+SpDefBoost2 = AROMATICMIST,CAPTIVATE,IMPRISON,MAGICCOAT,POWDER
+SpeedBoost1 = AFTERYOU,AURORAVEIL,ELECTRICTERRAIN,ENCORE,GASTROACID,GRASSWHISTLE,GUARDSPLIT,GUARDSWAP,HAIL,HYPNOSIS,LOCKON,LOVELYKISS,POWERSPLIT,POWERSWAP,QUASH,RAINDANCE,ROLEPLAY,SAFEGUARD,SANDSTORM,SCARYFACE,SING,SKILLSWAP,SLEEPPOWDER,SPEEDSWAP,STICKYWEB,STRINGSHOT,SUNNYDAY,SUPERSONIC,TOXICTHREAD,WORRYSEED,YAWN,COURTCHANGE,TARSHOT
+SpeedBoost2 = ALLYSWITCH,BESTOW,MEFIRST,RECYCLE,SNATCH,SWITCHEROO,TRICK
+AccBoost1 = COPYCAT,DEFENSECURL,DEFOG,FOCUSENERGY,MIMIC,SWEETSCENT,TRICKROOM
+EvaBoost1 = CAMOUFLAGE,DETECT,FLASH,KINESIS,LUCKYCHANT,MAGNETRISE,SANDATTACK,SMOKESCREEN
+OmniBoost1 = CELEBRATE,CONVERSION,FORESTSCURSE,GEOMANCY,HAPPYHOUR,HOLDHANDS,PURIFY,SKETCH,TRICKORTREAT,TEATIME
+CritBoost = ACUPRESSURE,FORESIGHT,HEARTSWAP,SLEEPTALK,TAILWIND
+ResetStats = ACIDARMOR,AGILITY,AMNESIA,ATTRACT,AUTOTOMIZE,BARRIER,BATONPASS,CALMMIND,COIL,COTTONGUARD,COTTONSPORE,DARKVOID,DISABLE,DOUBLETEAM,DRAGONDANCE,ENDURE,FLORALHEALING,FOLLOWME,HEALORDER,HEALPULSE,HELPINGHAND,IRONDEFENSE,KINGSSHIELD,LEECHSEED,MILKDRINK,MINIMIZE,MOONLIGHT,MORNINGSUN,NASTYPLOT,PERISHSONG,PROTECT,QUIVERDANCE,RAGEPOWDER,RECOVER,REST,ROCKPOLISH,ROOST,SHELLSMASH,SHIFTGEAR,SHOREUP,SLACKOFF,SOFTBOILED,SPORE,SUBSTITUTE,SWAGGER,SWALLOW,SWORDSDANCE,SYNTHESIS,TAILGLOW,LIFEDEW,OBSTRUCT,JUNGLEHEALING
+HealUser = AROMATHERAPY,BELLYDRUM,CONVERSION2,HAZE,HEALBELL,MIST,PSYCHUP,REFRESH,SPITE,STOCKPILE,TELEPORT,TRANSFORM,CLANGOROUSSOUL,NORETREAT,STUFFCHEEKS
+HealSwitch = MEMENTO,PARTINGSHOT
+FocusOnUser = DESTINYBOND,GRUDGE
+#
+#########################################################################
+# SECTION 2 : DYNAMAX
+#########################################################################
+#-----------------------------------
+# Generic Max Move Compatibility
+#-----------------------------------
+# A) Add a generic Max Move for a new type in this section, in the format: MaxMove = Max Move Name, Move Type.
+#-----------------------------------
+MaxMove = MAXSTRIKE,NORMAL
+MaxMove = MAXKNUCKLE,FIGHTING
+MaxMove = MAXAIRSTREAM,FLYING
+MaxMove = MAXOOZE,POISON
+MaxMove = MAXQUAKE,GROUND
+MaxMove = MAXROCKFALL,ROCK
+MaxMove = MAXFLUTTERBY,BUG
+MaxMove = MAXPHANTASM,GHOST
+MaxMove = MAXSTEELSPIKE,STEEL
+MaxMove = MAXFLARE,FIRE
+MaxMove = MAXGEYSER,WATER
+MaxMove = MAXOVERGROWTH,GRASS
+MaxMove = MAXLIGHTNING,ELECTRIC
+MaxMove = MAXMINDSTORM,PSYCHIC
+MaxMove = MAXHAILSTORM,ICE
+MaxMove = MAXWYRMWIND,DRAGON
+MaxMove = MAXDARKNESS,DARK
+MaxMove = MAXSTARFALL,FAIRY
+#-----------------------------------
+# Exclusive G-Max Move Compatibility
+#-----------------------------------
+# B) Add an exclusive G-Max Move for a species in this section, in the format: GMaxMove = Max Move Name, Move Type, Species_form.
+#-----------------------------------
+GMaxMove = GMAXVINELASH,GRASS,VENUSAUR
+GMaxMove = GMAXWILDFIRE,FIRE,CHARIZARD
+GMaxMove = GMAXCANNONADE,WATER,BLASTOISE
+GMaxMove = GMAXBEFUDDLE,BUG,BUTTERFREE
+GMaxMove = GMAXVOLTCRASH,ELECTRIC,PIKACHU
+GMaxMove = GMAXGOLDRUSH,NORMAL,MEOWTH
+GMaxMove = GMAXCHISTRIKE,FIGHTING,MACHAMP
+GMaxMove = GMAXTERROR,GHOST,GENGAR
+GMaxMove = GMAXFOAMBURST,WATER,KINGLER
+GMaxMove = GMAXRESONANCE,ICE,LAPRAS
+GMaxMove = GMAXCUDDLE,NORMAL,EEVEE
+GMaxMove = GMAXREPLENISH,NORMAL,SNORLAX
+GMaxMove = GMAXMALODOR,POISON,GARBODOR
+GMaxMove = GMAXMELTDOWN,STEEL,MELMETAL
+GMaxMove = GMAXDRUMSOLO,GRASS,RILLABOOM
+GMaxMove = GMAXFIREBALL,FIRE,CINDERACE
+GMaxMove = GMAXHYDROSNIPE,WATER,INTELEON
+GMaxMove = GMAXWINDRAGE,FLYING,CORVIKNIGHT
+GMaxMove = GMAXGRAVITAS,PSYCHIC,ORBEETLE
+GMaxMove = GMAXSTONESURGE,WATER,DREDNAW
+GMaxMove = GMAXVOLCALITH,ROCK,COALOSSAL
+GMaxMove = GMAXTARTNESS,GRASS,FLAPPLE
+GMaxMove = GMAXSWEETNESS,GRASS,APPLETUN
+GMaxMove = GMAXSANDBLAST,GROUND,SANDACONDA
+GMaxMove = GMAXSTUNSHOCK,ELECTRIC,TOXTRICITY
+GMaxMove = GMAXSTUNSHOCK,ELECTRIC,TOXTRICITY_1
+GMaxMove = GMAXCENTIFERNO,FIRE,CENTISKORCH
+GMaxMove = GMAXSMITE,FAIRY,HATTERENE
+GMaxMove = GMAXSNOOZE,DARK,GRIMMSNARL
+GMaxMove = GMAXFINALE,FAIRY,ALCREMIE
+GMaxMove = GMAXSTEELSURGE,STEEL,COPPERAJAH
+GMaxMove = GMAXDEPLETION,DRAGON,DURALUDON
+GMaxMove = GMAXONEBLOW,DARK,URSHIFU
+GMaxMove = GMAXRAPIDFLOW,WATER,URSHIFU_1
+#-----------------------------------
+# Gigantamax Species Data
+#-----------------------------------
+# C) Adds flavor data to G-Max forms in this section, in the format: DexData = Species_form, G-Max Height, G-Max Name, G-Max Dex Entry.
+#-----------------------------------
+DexData = VENUSAUR,24.0,Gigantamax Venusaur,"In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it."
+DexData = CHARIZARD,28.0,Gigantamax Charizard,"This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy."
+DexData = BLASTOISE,25.0,Gigantamax Blastoise,"Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain."
+DexData = BUTTERFREE,17.0,Gigantamax Butterfree,"Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales."
+DexData = PIKACHU,21.0,Gigantamax Pikachu,"Its Gigantamax power expanded, forming its supersized body and towering tail."
+DexData = MEOWTH,33.0,Gigantamax Meowth,"Its body has grown incredibly long and the coin on its forehead has grown incredibly large—all thanks to Gigantamax power."
+DexData = MACHAMP,25.0,Gigantamax Machamp,"The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts."
+DexData = GENGAR,20.0,Gigantamax Gengar,"It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you."
+DexData = KINGLER,19.0,Gigantamax Kingler,"The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything."
+DexData = LAPRAS,24.0,Gigantamax Lapras,"Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying."
+DexData = EEVEE,18.0,Gigantamax Eevee,"Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind."
+DexData = SNORLAX,35.0,Gigantamax Snorlax,"Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size."
+DexData = GARBODOR,21.0,Gigantamax Garbodor,"Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys."
+DexData = MELMETAL,25.0,Gigantamax Melmetal,"In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy."
+DexData = RILLABOOM,28.0,Gigantamax Rillaboom,"Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest."
+DexData = CINDERACE,27.0,Gigantamax Cinderace,"Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet."
+DexData = INTELEON,40.0,Gigantamax Inteleon,"Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature."
+DexData = CORVIKNIGHT,14.0,Gigantamax Corviknight,"Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away."
+DexData = ORBEETLE,14.0,Gigantamax Orbeetle,"Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering."
+DexData = DREDNAW,24.0,Gigantamax Drednaw,"It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws."
+DexData = COALOSSAL,42.0,Gigantamax Coalossal,"Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit."
+DexData = FLAPPLE,24.0,Gigantamax Flapple,"Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple."
+DexData = APPLETUN,24.0,Gigantamax Appletun,"Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before."
+DexData = SANDACONDA,22.0,Gigantamax Sandaconda,"Sand swirls around its body with such speed and power that it could pulverize a skyscraper."
+DexData = TOXTRICITY,24.0,Gigantamax Toxtricity,"Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat."
+DexData = CENTISKORCH,75.0,Gigantamax Centiskorch,"The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms."
+DexData = HATTERENE,26.0,Gigantamax Hatterene,"Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess."
+DexData = GRIMMSNARL,32.0,Gigantamax Grimmsnarl,"Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building."
+DexData = ALCREMIE,30.0,Gigantamax Alcremie,"It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim."
+DexData = COPPERAJAH,23.0,Gigantamax Copperajah,"After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow."
+DexData = DURALUDON,43.0,Gigantamax Duraludon,"It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy."
+DexData = ETERNATUS,100.0,Eternamax Eternatus,"Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time."
+DexData = URSHIFU,29.0,G-Max Single Strike Urshifu,"The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit."
+DexData = TOXTRICITY_1,24.0,Gigantamax Toxtricity,"Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat."
+DexData = URSHIFU_1,26.0,G-Max Rapid Strike Urshifu,"As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch."

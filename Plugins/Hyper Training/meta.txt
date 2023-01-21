@@ -1,0 +1,4 @@
+Name      = Hyper Training
+Version   = 1.1.0
+Website   = https://reliccastle.com/resources/181/
+Credits   = Jonas930

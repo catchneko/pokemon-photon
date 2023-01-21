@@ -1,0 +1,3 @@
+Name         = Fossil Revive
+Version      = 1.0
+Credits      = GT-Baka 

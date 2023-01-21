@@ -1,0 +1,4 @@
+﻿Name      = Voltseon's A-Star Pathfinding
+Version   = 1.1.2
+Website   = https://www.voltseon.com/
+Credits   = Voltseon, Golisopod User

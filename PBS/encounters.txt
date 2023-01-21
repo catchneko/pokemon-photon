@@ -1,0 +1,518 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[042] # Route 1
+Land,18
+    30,GEODUDE,3,4
+    30,RATTATA_1,3,4
+    20,GRUBBIN,3,4
+    20,ROOKIDEE,3,4
+#-------------------------------
+[043] # Titan's Foot Village
+GoodRod
+    100,SKRELP,15
+SuperRod
+    75,RELICANTH,35
+    25,DRAGALGE,35
+#-------------------------------
+[077] # Route 2
+Land,18
+    25,GRUBBIN,3,5
+    25,RATTATA_1,3,5
+    25,ROOKIDEE,3,5
+    15,BUDEW,4,5
+    10,PICHU,4,5
+GoodRod
+    55,TYMPOLE,15
+    45,FRILLISH,15
+SuperRod
+    55,PALPITOAD,35
+    35,STARYU,35
+    10,JELLICENT,35
+#-------------------------------
+[078] # Route 3
+Land,18
+    25,BUDEW,4,6
+    20,GEODUDE,4,6
+    20,SHELLOS,4,6
+    15,NINCADA,4,5
+    10,LITLEO,3,5
+    10,PIKACHU,4,6
+#-------------------------------
+[079] # Azure Lake
+Land,18
+    30,ROOKIDEE,4,7
+    30,SHELLOS,4,7
+    25,WINGULL,4,6
+    15,CHEWTLE,4,6
+GoodRod
+    55,SKRELP,15
+    45,TYMPOLE,15
+SuperRod
+    55,PALPITOAD,35
+    35,STARYU,35
+    10,REMORAID_1,35
+#-------------------------------
+[081] # Azure Base
+GoodRod
+    55,SKRELP,15
+    45,TYMPOLE,15
+SuperRod
+    55,PALPITOAD,35
+    35,STARYU,35
+    10,REMORAID_1,35
+#-------------------------------
+[085] # Route 4
+Land,18
+    20,BUDEW,6,8
+    20,SEWADDLE,6,8
+    18,SHROOMISH,6,8
+    15,GRUBBIN,6,8
+    15,NINCADA,6,8
+    7,MUNCHLAX,6,8
+    5,PIKACHU,6,8
+#-------------------------------
+[086] # Route 4
+Land,18
+    18,BIDOOF,7,9
+    18,MANKEY,7,9
+    15,SEWADDLE,7,9
+    15,TYMPOLE,7,9
+    12,PIKIPEK,7,9
+    10,MIMEJR,7,9
+    7,MUNCHLAX,7,9
+    5,EEVEE,7,9
+#-------------------------------
+[088] # Luna Mine
+Cave,4
+    22,GEODUDE,8,10
+    20,NOIBAT,8,10
+    18,DIGLETT_1,8,10
+    15,ZUBAT,9,10
+    14,ARON,8,9
+    7,CLEFFA,8,9
+    4,CLEFAIRY,9,10
+#-------------------------------
+[090] # Route 5
+Land,18
+    32,RATTATA_1,8,11
+    25,MANKEY,8,11
+    20,MAREEP,8,11
+    17,FARFETCHD_1,10,12
+    6,RIOLU,9,12
+#-------------------------------
+[091] # Route 6
+Land,18
+    22,COTTONEE,10,12
+    20,BUNEARY_1,10,12
+    17,DEWPIDER,10,12
+    12,FARFETCHD_1,10,12
+    21,MINCCINO,10,12
+    8,EEVEE,10,12
+GoodRod
+    55,TYMPOLE,15
+    45,FRILLISH,15
+SuperRod
+    55,PALPITOAD,35
+    35,STARYU,35
+    10,JELLICENT,35
+#-------------------------------
+[097] # Nocturne Wood
+Land,18
+    20,SKORUPI,11,13
+    20,PIKIPEK,11,13
+    18,COTTONEE,11,13
+    16,VENONAT,11,13
+    14,BUNEARY_1,11,13
+    14,MISDREAVUS,11,13
+#-------------------------------
+[098] # Route 7
+Land,18
+    18,CORPHISH_1,11,13
+    16,ROOKIDEE,11,13
+    14,MAREEP,11,13
+    18,VENONAT,11,13
+    18,AIPOM,11,13
+    14,MEDITITE,11,13
+    4,AUDINO,12,13
+#-------------------------------
+[099] # Girit Town
+GoodRod
+    90,MAGIKARP_1,15
+    10,RELICANTH,15
+SuperRod
+    55,SEADRA,35
+    45,RELICANTH,35
+#-------------------------------
+[102] # Route 8
+Land,18
+    19,ROGGENROLA,12,14
+    19,GEODUDE,11,14
+    17,MIENFOO,12,15
+    17,CHEWTLE,11,13
+    12,MEDITITE,12,14
+    12,SIZZLIPEDE,12,15
+    4,GIBLE,13,14
+#-------------------------------
+[104] # Luna Mine
+Cave,4
+    20,GEODUDE,12,15
+    20,ARON,12,15
+    15,ZUBAT,12,15
+    15,ONIX,13,16
+    15,DIGLETT_1,12,15
+    10,NOSEPASS,13,15
+    5,CLEFAIRY,12,15
+#-------------------------------
+[106] # Route 9
+Land,18
+    18,WINGULL,13,15
+    12,HOUNDOUR,13,15
+    12,ROGGENROLA,13,15
+    12,CHEWTLE,13,15
+    15,SOLOSIS,13,15
+    15,STUFFUL,13,15
+    8,NIDORANfE,13,14
+    8,NIDORANmA,13,14
+GoodRod
+    55,MAGIKARP_1,15
+    40,HORSEA,15
+    5,RELICANTH,15
+SuperRod
+    55,SEADRA,35
+    35,RELICANTH,35
+    10,GYARADOS_1,35
+#-------------------------------
+[107] # Route 10
+GoodRod
+    60,FRILLISH,15
+    40,HORSEA,15
+SuperRod
+    55,SEADRA,35
+    35,STARYU,35
+    10,JELLICENT,35
+#-------------------------------
+[108] # Bonfire Island
+GoodRod
+    60,FRILLISH,15
+    40,HORSEA,15
+SuperRod
+    55,SEADRA,35
+    35,STARYU,35
+    10,JELLICENT,35
+#-------------------------------
+[118] # Waterside Cavern
+Cave,4
+    20,BARBOACH,17,20
+    20,ROGGENROLA,17,21
+    20,BRONZOR,17,21
+    15,NOIBAT,18,22
+    10,SABLEYE,17,21
+    10,MAWILE,17,21
+    5,WYNAUT,17,19
+GoodRod
+    60,BARBOACH,15
+    40,SKRELP,15
+SuperRod
+    55,WHISCASH,35
+    40,DRAGALGE,35
+    5,MARSHTOMP,35
+#-------------------------------
+[121] # Route 11
+Land,18
+    20,PETILIL,19,22
+    20,CUTIEFLY,19,22
+    15,CORPHISH_1,19,22
+    15,STUFFUL,19,22
+    10,VULPIX,19,22
+    10,CORVISQUIRE,20,23
+    10,SKORUPI,19,22
+GoodRod
+    60,WISHIWASHI,15
+    40,FRILLISH,15
+SuperRod
+    60,WISHIWASHI,35
+    40,JELLICENT,35
+#-------------------------------
+[122] # Route 12
+Land,18
+    20,PETILIL,20,23
+    20,CUTIEFLY,20,23
+    15,VULPIX,20,23
+    15,TANGELA,20,23
+    10,HONEDGE,19,22
+    10,DITTO,20,23
+    5,TREECKO,18,20
+    5,EEVEE,18,21
+#-------------------------------
+[123] # Lavenn Forest
+Land,18
+    20,MORELULL,21,24
+    15,MISDREAVUS,21,24
+    15,GOOMY,21,24
+    15,HATENNA,21,24
+    10,FOONGUS,21,24
+    10,FROAKIE,18,20
+    10,TANGELA,21,24
+    5,GOTHITA,19,21
+GoodRod
+    60,BARBOACH,15
+    40,TYNAMO,15
+SuperRod
+    55,EELEKTRIK,35
+    35,WHISCASH,35
+    10,SLIGGOO,35
+#-------------------------------
+[124] # Azure Lake
+Land,18
+    30,WINGULL,20,23
+    25,SHELLOS,20,23
+    20,DODUO,21,24
+    15,CHEWTLE,20,23
+    10,TRUMBEAK,22,25
+Water,2
+    100,MANTYKE,15,25
+GoodRod
+    60,MAGIKARP_1,15
+    40,REMORAID_1,15
+SuperRod
+    55,STARYU,35
+    35,GYARADOS_1,35
+    10,OCTILLERY_1,35
+#-------------------------------
+[126] # Azure Shipyard
+Cave,4
+    40,SHELLOS,21,24
+    28,CORSOLA_1,22,25
+    24,MAREANIE,22,25
+    8,DHELMISE,23,26
+GoodRod
+    70,FRILLISH,15
+    30,FINNEON_1,15
+SuperRod
+    60,JELLICENT,35
+    30,LUMINEON_1,35
+    10,DHELMISE,35
+#-------------------------------
+[132] # Keystone Pass
+Cave,4
+    30,GEODUDE_1,24,26
+    20,JOLTIK,23,25
+    13,GOLBAT,25,27
+    10,CUBONE,23,25
+    10,ONIX,24,26
+    10,DIGLETT_1,23,25
+    7,DRUDDIGON,25,27
+#-------------------------------
+[133] # Keystone Pass
+Cave,4
+    30,GEODUDE_1,24,26
+    20,JOLTIK,23,25
+    13,GOLBAT,25,27
+    10,CUBONE,23,25
+    10,ONIX,24,26
+    10,DIGLETT_1,23,25
+    7,DRUDDIGON,25,27
+#-------------------------------
+[134] # Route 13
+Land,18
+    22,GEODUDE_1,25,27
+    20,CUBONE,25,27
+    15,CHESPIN_1,18,22
+    15,SHUPPET,25,27
+    10,VULLABY,23,26
+    9,HAWLUCHA,25,28
+    5,LARVESTA,24,26
+    4,MAROWAK_1,28,30
+#-------------------------------
+[137] # Route 14
+Land,18
+    22,LOTAD_1,27,29
+    22,TRAPINCH,27,29
+    17,GOLETT,28,30
+    15,MARACTUS,28,30
+    10,VULLABY,27,30
+    8,LARVESTA,27,30
+    6,MAROWAK_1,29,32
+#-------------------------------
+[140] # Abandoned House
+Cave,4
+    30,SHUPPET,32,35
+    25,MISDREAVUS,32,35
+    20,HATTREM,33,36
+    15,SINISTEA_1,30,33
+    10,GOTHORITA,33,36
+#-------------------------------
+[145] # Aurum Desert
+Land,18
+    21,TRAPINCH,30,32
+    20,PHANPY,29,31
+    16,GOLETT,29,32
+    15,CLAUNCHER_1,29,32
+    9,MARACTUS,30,32
+    9,QUILLADIN,29,31
+    5,COMBUSKEN,29,31
+    5,METANG,30,32
+#-------------------------------
+[146] # Ancient Ruins
+Cave,4
+    30,GOLETT,31,33
+    30,YAMASK_1,31,33
+    15,DEINO,28,31
+    10,XATU,32,34
+    10,ELGYEM,31,33
+    5,METANG,31,34
+#-------------------------------
+[147] # Route 15
+Land,18
+    27,PHANPY,32,34
+    22,VULLABY,32,34
+    22,RUFFLET,32,35
+    15,QUILLADIN_1,33,35
+    14,ELECTABUZZ,34,37
+#-------------------------------
+[148] # Route 15
+Land,18
+    24,SWABLU,32,34
+    21,VULLABY,32,35
+    21,RUFFLET,32,35
+    16,BAGON,29
+    12,ELECTABUZZ,35,37
+    6,GABITE,35,37
+#-------------------------------
+[149] # Stark Beach
+Land,18
+    28,SWABLU,33,36
+    23,RUFFLET,33,36
+    23,SANDYGAST,33,36
+    16,MINIOR,35,38
+    10,SHELGON,35,38
+GoodRod
+    70,SHELLOS_1,15
+    30,LOMBRE,15
+SuperRod
+    60,LOMBRE,35
+    30,WISHIWASHI,35
+    10,GASTRODON_1,35
+#-------------------------------
+[150] # Argentum Caldera
+Cave,4
+    21,ONIX,32,35
+    21,KOFFING,32,35
+    16,VANILLISH_1,33,36
+    16,MAGMAR,32,35
+    10,WARTORTLE_2,32,35
+    8,TURTONATOR,33,37
+    8,LARVESTA,33,37
+GoodRod
+    65,SLUGMA,15
+    35,VANILLITE_1,15
+SuperRod
+    65,MAGCARGO,35
+    35,VANILLISH_1,35
+#-------------------------------
+[152] # Route 16
+Land,18
+    24,FOMANTIS,33,36
+    24,ROSELIA,34,37
+    18,KLINK_1,33,36
+    14,FURRET,34,39
+    10,DRAMPA,34,39
+    10,BEEDRILL,33,38
+#-------------------------------
+[154] # The Crucible
+Cave,4
+    23,SABLEYE,35,39
+    23,MAWILE,35,39
+    20,GOLBAT,35,39
+    14,LAIRON,35,39
+    10,MEDICHAM,36,40
+    10,KLANG_1,35,39
+#-------------------------------
+[155] # Crucible Labyrinth
+Cave,4
+    23,SABLEYE,35,39
+    23,MAWILE,35,39
+    20,LAIRON,35,39
+    14,METANG,35,39
+    10,MEDICHAM,36,40
+    10,BRONZONG,35,39
+#-------------------------------
+[156] # The Crucible
+GoodRod
+    65,GRIMER_1,15
+    35,SLUGMA_1,15
+SuperRod
+    65,GRIMER_1,35
+    35,MAGCARGO_1,35
+#-------------------------------
+[157] # The Crucible
+Cave,4
+    23,SABLEYE,35,39
+    23,MAWILE,35,39
+    20,MEDICHAM,36,40
+    14,METANG,35,39
+    10,BRONZONG,35,39
+    10,NOIVERN,36,40
+#-------------------------------
+[158] # The Crucible
+Cave,4
+    23,SABLEYE,35,39
+    23,MAWILE,35,39
+    20,SNORUNT,34,38
+    14,MEDICHAM,36,40
+    10,METANG,35,39
+    10,BRONZONG,35,39
+#-------------------------------
+[160] # Argentum Caldera
+Cave,4
+    25,ONIX,38,41
+    23,MAGCARGO,38,41
+    18,VANILLISH_1,38,41
+    16,MAGMAR,37,40
+    10,WARTORTLE_2,37,40
+    8,TURTONATOR,38,41
+#-------------------------------
+[162] # Route 17
+Land,18
+    21,ROCKRUFF,33,36
+    18,CHARJABUG,38,42
+    16,PIDGEOTTO,38,42
+    16,GRAVELER,38,42
+    10,JANGMOO,33,36
+    10,ALTARIA,40,44
+    9,SKARMORY,39,44
+#-------------------------------
+[172] # Draconis Cave
+Cave,4
+    22,BOLDORE,37,42
+    20,AXEW,34,38
+    20,PAWNIARD,34,38
+    14,LAIRON,37,42
+    10,DRAMPA,39,44
+    7,HAKAMOO,38,43
+    7,GABITE,38,43
+#-------------------------------
+[176] # Route 18
+Land,18
+    22,SNORUNT,36,40
+    22,VULPIX_1,36,40
+    16,QUILAVA_1,37,42
+    16,MUNCHLAX,37,41
+    12,CINCCINO,40,45
+    12,AMBIPOM,40,45
+#-------------------------------
+[177] # Route 19
+Land,18
+    20,VULPIX_1,36,40
+    20,DARUMAKA_1,37,41
+    16,QUILAVA_1,38,42
+    14,CUBCHOO,36,41
+    10,GLALIE,40,45
+    10,MEDICHAM,39,43
+    10,ABSOL,39,43
+GoodRod
+    55,SPHEAL,15
+    45,WAILMER,15
+SuperRod
+    55,SEALEO,35
+    45,WAILMER,35
