@@ -7,3 +7,36 @@ Alpha 0.2.0
 - Switched the options for the Multiple Save plugin so "Save" is first
 - Fixed an error involving the bridges on Route 6
 ```
+```
+Alpha 0.3.0
+- Pikachu now evolves into Alolan Raichu using a Big Malasada
+- TM60 has been changed to Rapid Spin
+- TM61 has been changed to Hidden Power
+- Mystery Gift (excluding Debug command) now only works after beating Gym 1
+- Changed the layout of the house at Luna Mine Entrance (made it smaller)
+- Changed two floor tiles in Nocturne Wood (happy now Penny?)
+- Slightly reduced the opacity of Nocturne Wood's overlay graphic to improve visibility
+- Changed Route 1's encounters:
+	- Rattata-Alola (35%)
+	- Grubbin (30%)
+	- Rookidee (20%)
+	- Geodude (15%)
+- Added another main story cutscene
+- Changed Ace Trainer Gino's Roserade to a Roselia
+- Defined the Abilities for the following trainers' Pokémon:
+	- Gym Leader Helia
+	- Ace Trainer David
+	- Gym Leader Dylan
+	- Rival Kurisu (Bonfire Island)
+	- Team Beastman Grunt (M,3)
+	- Ace Trainer Gino
+	- PKMN Trainer Phoebe (Waterside Cavern)
+	- Ace Trainer Emilia
+	- Gym Leader Jade
+- Changed one of Amber's partner dialogue lines
+- Changed the layout of Eridhe Town slightly
+- Placed more Zygarde Cells across the map, bringing the current total to 45
+- Added more items to the Girit Town Stuff Shop
+- Changed Pink Scarf's effect (now gives 20% boost to Fairy-type moves)
+- Removed some redundant files (this should not affect gameplay)
+```

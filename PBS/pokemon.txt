@@ -841,7 +841,7 @@ BattlerEnemyX = 5
 BattlerEnemyY = 28
 BattlerShadowX = 0
 BattlerShadowSize = 1
-Evolutions = RAICHU,Item,THUNDERSTONE,RAICHU,Item,BIGMALASADA
+Evolutions = RAICHU,Item,THUNDERSTONE,RAICHU,ItemP,BIGMALASADA
 #-------------------------------
 [26]
 Name = Raichu

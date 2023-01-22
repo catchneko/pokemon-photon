@@ -213,7 +213,7 @@
 211,OVALSTONE,Oval Stone,Oval Stones,1,3000,"A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",0,0,0
 212,REDSCARF,Red Scarf,Red Scarves,1,100,"An item to be held by a Pokémon. It boosts the Cool aspect of the holder in a Contest.",0,0,0
 213,BLUESCARF,Blue Scarf,Blue Scarves,1,100,"An item to be held by a Pokémon. It boosts the Beauty aspect of the holder in a Contest.",0,0,0
-214,PINKSCARF,Pink Scarf,Pink Scarves,1,100,"An item to be held by a Pokémon. It boosts the Cute aspect of the holder in a Contest.",0,0,0
+214,PINKSCARF,Pink Scarf,Pink Scarves,1,100,"An item to be held by a Pokémon. It is an adorable scarf that boosts the power of Fairy-type moves.",0,0,0
 215,GREENSCARF,Green Scarf,Green Scarves,1,100,"An item to be held by a Pokémon. It boosts the Smart aspect of the holder in a Contest.",0,0,0
 216,YELLOWSCARF,Yellow Scarf,Yellow Scarves,1,100,"An item to be held by a Pokémon. It boosts the Tough aspect of the holder in a Contest.",0,0,0
 #-------------------------------
@@ -350,8 +350,8 @@
 345,TM57,TM57,TM57s,4,10000,"The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.",3,0,0,PAYBACK
 346,TM58,TM58,TM58s,4,10000,"If the target has already taken some damage in the same turn, this attack's power is doubled.",3,0,0,ASSURANCE
 347,TM59,TM59,TM59s,4,100000,"The user flings its held item at the target to attack. This move's power and effects depend on the item.",3,0,0,FLING
-348,TM60,TM60,TM60s,4,30000,"The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",3,0,0,POWERSWAP
-349,TM61,TM61,TM61s,4,30000,"The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",3,0,0,GUARDSWAP
+348,TM60,TM60,TM60s,4,30000,"A spin attack that can also eliminate such moves as Bind, Wrap, and Leech Seed. This also raises the user’s Speed stat.",3,0,0,RAPIDSPIN
+349,TM61,TM61,TM61s,4,30000,"A unique attack that varies in type depending on the Pokémon using it.",3,0,0,HIDDENPOWER
 350,TM62,TM62,TM62s,4,30000,"The user lays a trap of spikes at the opposing team's feet. The trap hurts Pokémon that switch into battle.",3,0,0,SPIKES
 351,TM63,TM63,TM63s,4,50000,"An energy-draining punch. The user's HP is restored by half the damage taken by the target.",3,0,0,DRAINPUNCH
 352,TM64,TM64,TM64s,4,10000,"The power of this attack move is doubled if the user has been hurt by the target in the same turn.",3,0,0,AVALANCHE

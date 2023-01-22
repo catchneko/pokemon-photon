@@ -2,9 +2,9 @@
 #-------------------------------
 [042] # Route 1
 Land,18
-    30,GEODUDE,3,4
-    30,RATTATA_1,3,4
-    20,GRUBBIN,3,4
+    15,GEODUDE,3,4
+    35,RATTATA_1,3,4
+    30,GRUBBIN,3,4
     20,ROOKIDEE,3,4
 #-------------------------------
 [043] # Titan's Foot Village
