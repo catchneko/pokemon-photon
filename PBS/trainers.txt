@@ -259,7 +259,7 @@ Items = SUPERPOTION,SUPERPOTION
 LoseText = "WHAT?! My bugs! My army of bugs!"
 Pokemon = CHARJABUG,21
     Moves = ACROBATICS,SPARK,UTURN,BITE
-    Item = BUGGEM
+    Item = MAGNET
     IV = 15,15,15,15,15,15
     EV = 10,70,70,10,10,15
 Pokemon = SHEDINJA,21
@@ -1457,7 +1457,7 @@ Pokemon = SYLVEON,49
 Pokemon = GOTHITELLE,50
 #-------------------------------
 [ACETRAINER_F,Kiki]
-Pokemon = MEDICHAM,60
+Pokemon = MEDICHAM,55
     Item = MEDICHAMITE
 #-------------------------------
 [CAMPER,Blake]

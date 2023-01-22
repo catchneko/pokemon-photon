@@ -1,0 +1,9 @@
+```
+Alpha 0.2.0
+- Changed Gym Leader Dylan's Charjabug's held item to Magnet
+- Finished Ace Trainer Kiki + the Medichamite event in Argentum Caldera
+- Changed Big Malasada's effect
+- Changed the layout of Route 5 slightly to unblock the path
+- Switched the options for the Multiple Save plugin so "Save" is first
+- Fixed an error involving the bridges on Route 6
+```
