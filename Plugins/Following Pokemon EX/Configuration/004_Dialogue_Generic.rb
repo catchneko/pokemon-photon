@@ -9,10 +9,9 @@ Events.OnTalkToFollower += proc { |_pkmn, _random_val|
   items = [
     :POTION,        :SUPERPOTION,  :FULLRESTORE,    :REVIVE,        :PPUP,
     :PPMAX,         :RARECANDY,    :REPEL,          :MAXREPEL,      :ESCAPEROPE,
-    :HONEY,         :TINYMUSHROOM, :PEARL,          :NUGGET,        :GREATBALL,
+    :FULLHEAL,      :TINYMUSHROOM, :PEARL,          :NUGGET,        :GREATBALL,
     :ULTRABALL,     :THUNDERSTONE, :MOONSTONE,      :SUNSTONE,      :DUSKSTONE,
-    :REDAPRICORN,   :BLUEAPRICORN, :YELLOWAPRICORN, :GREENAPRICORN, :PINKAPRICORN,
-    :BLACKAPRICORN, :WHITEAPRICORN
+	:SHINYSTONE,	:EXPCANDYXS,   :EXPCANDYS,		:QUICKBALL
   ]
   # If no message or quantity is specified the default message is used and the quantity of item is 1
   next true if FollowingPkmn.item(items.sample)

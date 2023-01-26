@@ -23,7 +23,7 @@ Immunities = GROUND
 Name = Poison
 InternalName = POISON
 Weaknesses = GROUND,PSYCHIC
-Resistances = FIGHTING,POISON,GRASS,FAIRY,LIGHT
+Resistances = FIGHTING,POISON,GRASS,FAIRY,LIGHT,WATER
 #-------------------------------
 [4]
 Name = Ground
@@ -75,7 +75,7 @@ Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY
 Name = Water
 InternalName = WATER
 IsSpecialType = true
-Weaknesses = GRASS,ELECTRIC,POISON
+Weaknesses = GRASS,ELECTRIC
 Resistances = STEEL,FIRE,WATER,ICE
 #-------------------------------
 [12]

@@ -69,7 +69,7 @@ Pokemon = CHEWTLE,13
     EV = 0,30,30,10,0,0
     AbilityIndex = 1
 Pokemon = BIBAREL,14
-    Moves = TACKLE,WATERGUN,GROWL,WHIRLPOOL
+    Moves = TACKLE,WATERGUN,DEFENSECURL,WHIRLPOOL
     Item = MYSTICWATER
     EV = 0,10,30,0,30,0
     AbilityIndex = 0
@@ -380,7 +380,7 @@ Pokemon = MIENFOO,21
 LoseText = "Oops!"
 Pokemon = HORSEA,21
 Pokemon = NIDORINA,21
-Pokemon = AUDINO,22
+Pokemon = AUDINO,19
 #-------------------------------
 [GENTLEMAN,Cornforth]
 LoseText = "Hrm..."
@@ -396,10 +396,10 @@ Pokemon = MRMIME,22
 #-------------------------------
 [FISHERMAN,Eric]
 LoseText = "Ack! Time to go fishing again!"
-Pokemon = SKRELP,22
-Pokemon = HORSEA,22
-Pokemon = TYMPOLE,22
-Pokemon = MAGIKARP,25
+Pokemon = SKRELP,20
+Pokemon = HORSEA,20
+Pokemon = TYMPOLE,20
+Pokemon = MAGIKARP,23
     Form = 1
 #-------------------------------
 [PICNICKER,Blaise]

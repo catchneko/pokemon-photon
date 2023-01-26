@@ -40,3 +40,67 @@ Alpha 0.3.0
 - Changed Pink Scarf's effect (now gives 20% boost to Fairy-type moves)
 - Removed some redundant files (this should not affect gameplay)
 ```
+```
+Alpha 0.4.0
+- Flareon now learns Crunch at level 40, replacing Bulk Up (which it still gets through TR)
+- Slightly adjusted the shiny colors for Prism Outpost Chesnaught
+- Added follower sprites for the following Pokémon:
+	- Prism Outpost Mienshao
+	- Prism Outpost Squirtle
+	- Prism Outpost Wartortle
+	- Prism Outpost Blastoise
+- Prism Outpost Chespin, Quilladin, and Chesnaught can now learn Spikes via TM
+- Snivy, Servine, and Serperior can now learn Magical Leaf via TM
+- Snivy and Servine can now learn Dragon Pulse via TM (Serperior already does)
+- Changed Prism Outpost Chespin's, Quilladin's, and Chesnaught's Pokédex colors to Brown
+- Porygon, Chinchou, Lanturn, Remoraid, Octillery, Remoraid-Prism, Octillery-Prism, Mantine, Mantine-Prism, Porygon2, Porygon-Z, Genesect, Espurr, Meowstic-Male, Meowstic-Female, Xurkitree, Horsea, Seadra, Kingdra, Qwilfish, Vibrava, Flygon, Mantyke, Blastoise, Blastoise-Prism, Butterfree, Pikachu, Raichu, Clefairy, Clefable, Psyduck, Golduck, Abra, Kadabra, Alakazam, Slowpoke, Slowbro, Slowking, Slowpoke-Galar, Slowbro-Galar, Slowking-Galar, Magnemite, Magneton, Magnezone, Cloyster, Goldeen, Seaking, Staryu, Starmie, Mr. Mime, Mr. Mime-Galar, Mr. Rime, Jynx, Electabuzz, Electivire, Lapras, Vaporeon, Jolteon, Articuno, Articuno-Galar, Zapdos, Mewtwo, Mew, Pichu, Cleffa, Togepi, Togetic, Togekiss, Natu, Xatu, Umbreon, Delibird, Smoochum, Elekid, Raikou, Suicune, Lugia, Ho-oh, Celebi, Ralts, Kirlia, Gardevoir, Gallade, Sableye, Electrike, Manectric, Lunatone, Solrock, Lunatone-Prism, Solrock-Prism, Baltoy, Claydol, Glalie, Froslass, Spheal, Sealeo, Walrein, Metang, Metagross, Regice, Kyogre, Jirachi, Shinx, Luxio, Luxray, Bronzor, Bronzong, Mime Jr., Glaceon, Rotom, Uxie, Mesprit, Azelf, Uxie-Prism, Mesprit-Prism, Azelf-Prism, Cresselia, Victini, Munna, Musharna, Woobat, Swoobat, Audino, Venipede, Whirlipede, Scolipede, Sigilyph, Gothita, Gothorita, Gothitelle, Solosis, Duosion, Reuniclus, Vanillite, Vanillish, Vanilluxe, Emolga, Karrablast, Escavalier, Klink, Klang, Klinklang, Klink-Prism, Klang-Prism, Klinklang-Prism, Elgyem, Beheeyem, Cryogonal, Shelmet, Accelgor, Golett, Golurk, Hydreigon, Larvesta, Volcarona, Zekrom, Kyurem, Black Kyurem, White Kyurem, Malamar, Helioptile, Heliolisk, Dedenne, Vikavolt, Cutiefly, Ribombee, Dewpider, Araquanid, Fomantis, Lurantis, Morelull, Shiinotic, Type: Null, Silvally, Drampa, Lunala, Pheromosa, Necrozma, Magearna, Poipole, Naganadel, Dottler, Orbeetle, Gossifleur, Eldegoss, Flapple, Appletun, Toxtricity-Amped, Toxtricity-LowKey, Sizzlipede, Centiskorch, Sinistea, Polteageist, Sinistea-Prism, Polteageist-Prism, Hatenna, Hattrem, Hatterene, Snom, Frosmoth, Indeedee-Male, Indeedee-Female, Dreepy, Drakloak, Dragapult, Eternatus, Zarude, Regieleki, Calyrex, Calyrex-IceRider, and Calyrex-ShadowRider can now learn Signal Beam
+- Phanpy, Spheal, Sealeo, Walrein, Onix, Steelix, Steelix-Prism, Voltorb, Electrode, Koffing, Weezing, Weezing-Galar, Ninjask, Aron, Lairon, Aggron, Glalie, Metang, Metagross, Turtwig, Grotle, Torterra, Buizel, Floatzel, Bronzor, Bronzong, Venipede, Whirlipede, Scolipede, Tirtouga, Carracosta, Klink, Klang, Klinklang, Klink-Prism, Klang-Prism, Klinklang-Prism, Chespin, Quilladin, Chesnaught, Chespin-Prism, Quilladin-Prism, Chesnaught-Prism, and Minior can now learn Rapid Spin
+- Mantyke's catch rate has been buffed from 25 to 55
+- Misdreavus's catch rate has been buffed from 45 to 65
+- Added some post-battle dialogue for Arnon's Gym making it clearer where to go next.
+- Added more dialogue to the scene with Zygarde on Route 11
+- Changed moveset for Gym Leader Arnon's Bibarel (Growl -> Defense Curl)
+- Changed some dialogue for the Keystone Pass Phoebe cutscene
+- Fixed a path tile error on Route 2 (this does not affect the layout of the map)
+- Poison is no longer super effective to Water
+- Poison now resists Water
+- Added a message at the Mystery Gift computer informing the player if they specifically haven't progressed far enough in-game to use it
+- Fixed some eventing in Luna Mine
+- Updated the item pool for follower Pokémon (removed items that aren't used otherwise in-game)
+- Updated the layout of Route 4, Luna Mine Entrance, Route 6, Maple Gym, and Route 9
+- Changed the Maple Town gate to look less bad
+- Changed the PokéMart theme from the default MIDI song to a better one
+- Added interiors to the Frostpeak Town Pokémon Center and PokéMart
+- Adjusted overworld movement for some trainers
+- Added after-battle rewards for certain Ace Trainers
+- TM97 has been changed to Crunch
+- TR16 has been changed to Grassy Glide
+- TR32 has been changed to Triple Axel
+- Changed overworld TMs to be in a gold Poké Ball
+- Added TM shops in the PokéMarts of Girit Town, Eridhe Town, and Frostpeak Town
+- Fixed a bug where if you had 6 badges or greater, PokéMarts would crash the game (lol forgot a comma in the item list)
+- Reduced the price of TM28 Giga Drain from P$100,000 to P$50,000
+- Reduced the price of Ability Patches from P$20,000 to P$10,000
+- Removed field move/HM effects for Cut, Dive, Flash, Headbutt, and Defog
+- Raised the price of King's Rocks from P$100 to P$2,000
+- Rattata-Alola now evolves into Raticate-Alola at Lv.20 (any time of day)
+- Magikarp-Prism now evolves into Gyarados-Prism at Lv.20
+- Fixed some slight mapping errors involving the trees in Maple Town and Route 6
+- Fixed the cutscene in Nocturne Wood where Dylan just walks down and vanishes into the trees
+- Revised some of Dylan's dialogue (he yells less now) and added post-battle dialogue for him detailing where to go next and informing the player that they can use Rock Smash outside of battle now
+- Minor change to Youngster Connor's dialogue
+- Changed the levels for some encounters on Route 7
+	- Corphish-Prism (Lv11-14)
+	- Meditite (Lv11-14)
+	- Audino (Lv12-14)
+- Fixed a minor mapping issue on Route 8 involving grass being underneath stair tiles
+- Fixed a visual bug involving Route 8's fog graphics appearing on Route 9
+- Changed Route 9's Good Rod encounters:
+	- Magikarp-Prism (55%)
+	- Horsea (45%)
+- Reduced the levels of Fisherman Eric's team to 20/20/20/23
+- Reduced Lass Amy's Audino to Lv.19 (it gave too much XP before)
+- Fixed eventing on Route 9
+- Moved the Kurisu fight on Bonfire Island to in front of the cave entrance
+- Fixed a bug involving Kurisu's sprite disappearing if you lose to him on Bonfire Island
+```

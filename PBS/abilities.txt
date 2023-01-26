@@ -271,7 +271,7 @@
 269,OMNIPOTENT,Omnipotent,"Grants complete invincibility."
 270,EVAPORATION,Evaporation,"Evaporates Water-type moves; raises Sp.Def."
 271,MELTDOWN,Meltdown,"Its shell breaks if its HP becomes half or less."
-272,ULTRACANNON,Ultra Cannon,"Powers up beam moves."
+272,ULTRABLASTER,Ultra Blaster,"Powers up beam moves."
 273,VERSATILITY,Versatility,"Powers up moves of a different type from itself."
 274,SNOWFORCE,Snow Force,"Powers up Ice-type moves in hail."
 275,SIXTHSENSE,Sixth Sense,"Powers up Psychic-type moves."

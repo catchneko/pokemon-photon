@@ -127,13 +127,13 @@ Land,18
 #-------------------------------
 [098] # Route 7
 Land,18
-    18,CORPHISH_1,11,13
+    18,CORPHISH_1,11,14
     16,ROOKIDEE,11,13
     14,MAREEP,11,13
     18,VENONAT,11,13
     18,AIPOM,11,13
-    14,MEDITITE,11,13
-    4,AUDINO,12,13
+    14,MEDITITE,11,14
+    4,AUDINO,12,14
 #-------------------------------
 [099] # Girit Town
 GoodRod
@@ -175,8 +175,7 @@ Land,18
     8,NIDORANmA,13,14
 GoodRod
     55,MAGIKARP_1,15
-    40,HORSEA,15
-    5,RELICANTH,15
+    45,HORSEA,15
 SuperRod
     55,SEADRA,35
     35,RELICANTH,35
