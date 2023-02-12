@@ -148,3 +148,8 @@ Alpha 0.5.0
 - Added an extra line of dialogue to Jade on Bonfire Island recommending the player take on the Gym first (seriously why do you all skip Gym 3 and go straight for the rival fight and then complain about the level jump??)
 - Added Gardevoirite P and Galladite P items (Mega Stones for Prism-Gardevoir and Prism-Gallade), though neither the stones nor the Pokémon are obtainable yet
 ```
+```
+Alpha 0.5.1
+- Added an NPC to Maple Town informing the player of the Vitamin/EXP Candy shop in Girit Town
+- Fixed the title screen how did I forget this I'm crying :(
+```
