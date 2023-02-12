@@ -8,5 +8,13 @@ RPG Maker XP
 
 
 Vendily in the Relic Castle Discord - the Mantyke evolution script
-Lolw3e932 on DA - Forest filter thing
+Lolw3e932 on DA - Route 4 (North) overlay graphic
 Clara-Dragon on DA - Ultra Wormhole Sprite
+
+Hidden Ability Capsule script:
+	Kirik - For the edits into making this code.
+	Marin - For getting parts of the code to function correctly.
+	Maruno - Debug code for ability index
+
+	AiurJordan - Adapt to v19.1
+	ThatWelshOne_ - Helpful in debugging this script.

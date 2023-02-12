@@ -104,3 +104,47 @@ Alpha 0.4.0
 - Moved the Kurisu fight on Bonfire Island to in front of the cave entrance
 - Fixed a bug involving Kurisu's sprite disappearing if you lose to him on Bonfire Island
 ```
+```
+Alpha 0.5.0
+- Fixed the sideways stairs tiles
+- Added a warp to the Faypoint Gym to make leaving easier
+- Fixed an invalid tile error in the Zygarde Research Lab that caused the game to crash upon entering it
+- Changed Ace Trainer Gino:
+	- Reduced EVs on his Pokémon
+	- Replaced Marowak-Alola's Bomemerang with Bulldoze
+	- Removed Marowak-Alola's Muscle Band
+	- Reduced everything to Lv.26
+	- Replaced Venomoth with a Skorupi (see docs for its set)
+- Changed Gym Leader Helia:
+	- Replaced Ludicolo-Prism's Flame Burst with Incinerate
+	- Replaced Ludicolo-Prism's Fire Gem with Charcoal
+- Added revised level up movesets for the following Pokémon:
+	- Cottonee/Whimsicott
+	- Mareep/Flaaffy/Ampharos
+- Budew now learns Toxic at Lv18 and Nasty Plot at Lv24
+- Pichu now learns Volt Tackle at Lv24
+- Changed Mareep line's abilities to Static/Fluffy/(HA) Mold Breaker
+- Changed Ability Patch to allow you to pick between all of a Pokémon's abilities, instead of being a one-way change from a normal Ability to a HA
+- Wild Johtonian Slugma/Magcargo can sometimes hold a Magma Coat
+- Changed Hex Maniac Alice's Delphox to a Braixen
+- Changed Ace Trainer Jessica's Mr. Rime to a Mr. Mime-Galar
+- Changed Gym Leader Amber's Lopunny-Prism to a Shiinotic
+- Changed Gym Leader Amber's Reuniclus to a Gothitelle
+- Gothita/Gothorita/Gothitelle can now learn Dazzling Gleam
+- Adjusted EVs for basically every trainer
+- Defined the Abilities for the following trainers' Pokémon:
+	- Gym Leader Amber
+	- Rival Kurisu (Keystone Pass) (YES this means no more Zygarde-Complete jumpscare)
+	- Ace Trainer Milo (Pelipper only)
+	- PKMN Trainer Phoebe (Keystone Pass)
+	- Ace Trainer Erin
+	- Gym Leader Jack
+- Fixed a graphical bug where Prism Outpost Squirtle's follower sprite was too big
+- Added an interior to the house on Route 9
+- Fixed a minor graphical bug with the doors to the houses on Bonfire Island
+- Added the Power Weight/Bracer/Belt/Lens/Band/Anklet to the Bonfire Island training cave shops
+- Replaced the old MIDI gym theme with the Gen 5 gym theme
+- Started working on the Frostpeak Gym (but it's not accessible or finished yet)
+- Added an extra line of dialogue to Jade on Bonfire Island recommending the player take on the Gym first (seriously why do you all skip Gym 3 and go straight for the rival fight and then complain about the level jump??)
+- Added Gardevoirite P and Galladite P items (Mega Stones for Prism-Gardevoir and Prism-Gallade), though neither the stones nor the Pokémon are obtainable yet
+```
