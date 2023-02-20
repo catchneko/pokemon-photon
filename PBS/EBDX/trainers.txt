@@ -58,6 +58,10 @@ VictoryTheme     = victorygymleader.ogg
 BattleVS         = integratedVS
 VictoryTheme     = victorygymleader.ogg
 #-------------------------------
+[LEADER_Noel]
+BattleVS         = integratedVS
+VictoryTheme     = victorygymleader.ogg
+#-------------------------------
 [BEASTMAN_admin_HS]
 VictoryTheme     = VictoryTeamPlasma.ogg
 #-------------------------------

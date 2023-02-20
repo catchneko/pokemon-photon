@@ -99,4 +99,5 @@
 96,KURISU3,Rival,85,Counterattack.ogg,,,Male,100,
 97,LEADER_Mitsuki,Gym Leader,100,BattleGymLeader.ogg,,,Female,,
 98,ASHER,Youngster,50,,,,Male,,
+99,LEADER_Noel,Gym Leader,100,BattleGymLeader.ogg,,,Male,,
 120,BECCACAT,Elite Trainer,100,Battle Champion Iris.ogg,,,Female,,

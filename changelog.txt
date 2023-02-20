@@ -147,9 +147,72 @@ Alpha 0.5.0
 - Started working on the Frostpeak Gym (but it's not accessible or finished yet)
 - Added an extra line of dialogue to Jade on Bonfire Island recommending the player take on the Gym first (seriously why do you all skip Gym 3 and go straight for the rival fight and then complain about the level jump??)
 - Added Gardevoirite P and Galladite P items (Mega Stones for Prism-Gardevoir and Prism-Gallade), though neither the stones nor the Pokémon are obtainable yet
-```
-```
+
 Alpha 0.5.1
 - Added an NPC to Maple Town informing the player of the Vitamin/EXP Candy shop in Girit Town
 - Fixed the title screen how did I forget this I'm crying :(
+```
+```
+Alpha 0.6.0
+- Fixed the year in the pre-title splash screen (it's been 2023 for the past month and a half smh)
+- Added revised level up movesets for the following Pokémon:
+	- Farfetch'd-Galar/Sirfetch'd
+	- Dewpider/Araquanid
+	- Minccino/Cinccino
+	- Misdreavus/Mismagius
+	- Skorupi/Drapion
+	- Venonat/Venomoth
+- Added follower sprites for the following Pokémon:
+	- Prism Outpost Vanillite
+	- Prism Outpost Vanillish
+	- Prism Outpost Vanilluxe
+	- Prism Outpost Slugma
+	- Prism Outpost Magcargo
+- Galarian Farfetch'd now evolves into Sirfetch'd when leveled up knowing Swords Dance
+- Changed Minccino's abilities to Skill Link/Technician/(HA) Pickup
+- Changed Cinccino's abilities to Skill Link/Technician/(HA) Fur Coat
+- Added a new ability: Life Roots (draining moves and Ingrain/Aqua Ring restore 30% more HP)
+- Changed Lileep and Cradily's abilities to Suction Cups/Life Roots/(HA) Storm Drain
+- Increased Payback's base power from 50 to 60, changed effect to the same as Revenge/Avalanche
+- Changed a few sprites to look cleaner:
+	- Amber's VS sprite
+	- Kurisu's first VS sprite
+	- Jade's VS sprite
+	- Jack's battle sprite
+	- Amber's battle sprite
+	- Kurisu's partner backsprite
+	- Amber's partner backsprite
+- Changed some dialogue in Argentum Caldera's plot cutscene
+- Made changes to the AI that makes it do stupid things less often (thank you Penny for the code you are great)
+- Changed the layout of Crashsite A and Titan's Foot Village (they look less boring now
+- Changed the layout of Route 10 (it's an actual route now)
+- Made some other very minor tweaks to the following maps:
+	- Kurisu's House (Outside)
+	- Kurisu's House (Inside) (you can pick your starter from below the table now)
+	- Titan's Foot Village (fixed a visual bug with one of the doors)
+	- Titan's Foot Village Pokémon Center (moved an NPC one square down)
+	- Frostpeak Town (removed one tree to make navigating the town easier)
+	- Route 19 (added a roadblock blocking off where Route 21 will be since it's not finished yet)
+- Finished Frostpeak Gym and made it accessible, and continued the story until right after Gym 8
+- Added trainers:
+	- Swimmer Harold (Route 10)
+	- Swimmer Debra (Route 10)
+	- Swimmer Gilbert (Route 10)
+	- Swimmer Stan (Route 10)
+	- Ace Trainer Ashton (Frostpeak Gym)
+	- Ace Trainer April (Frostpeak Gym)
+	- Ace Trainer Denzel (Frostpeak Gym)
+	- Ace Trainer Evelyn (Frostpeak Gym)
+	- Gym Leader Noel (Frostpeak Gym)
+- Added a few more NPCs to the overworld for flavor text reasons
+- Moved the Route 1 Kurisu fight a few tiles over to fix a cutscene
+- Added a proper lock to the weird inaccessible house in Azure Base (I'll give it a purpose later)
+- Changed Mantyke's Pokédex entry since this game doesn't take place in Galar lol (bri ish moment)
+- Fixed the move route of Ace Trainer Reece on Route 18
+- Fixed an error in which using an Ability Patch would crash the game
+- Added the rest of Prism Outpost to the town map and made Frostpeak Town a Fly location
+- Reduced the price of PP Up from P$9800 to P$2400
+- Reduced the price of PP Max from P$9800 to P$7200
+- Exp. Share now awards the holder(s) the same amount of EXP as the battlers, instead of halving it
+- Slightly adjusted the colors of Slugma/Magcargo's follower sprites
 ```

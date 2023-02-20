@@ -523,6 +523,55 @@ Pokemon = CASTFORM,20
 Pokemon = MUNCHLAX,20
 Pokemon = CLEFAIRY,20
 #-------------------------------
+[BLACKBELT,Chuck,1]
+LoseText = "My roaring fist - stopped!"
+Pokemon = BRELOOM,40
+Pokemon = PRIMEAPE,40
+Pokemon = MARSHTOMP,40
+Pokemon = DODRIO,40
+Pokemon = NIDOKING,40
+#-------------------------------
+[HIKER,Jerome,1]
+LoseText = "My solid defenses - crumbled!"
+Pokemon = GRAVELER,40
+Pokemon = MAGCARGO,40
+Pokemon = SKARMORY,40
+Pokemon = WEEZING,40
+Pokemon = AGGRON,40
+#-------------------------------
+[PSYCHIC_F,Paula,1]
+LoseText = "My mind's eye - blinded!"
+Pokemon = ESPEON,40
+Pokemon = PORYGON2,40
+Pokemon = ROSELIA,40
+Pokemon = GLACEON,40
+Pokemon = REUNICLUS,40
+#-------------------------------
+[POKEMANIAC,Andrew,1]
+LoseText = "My ironclad will - broken!"
+Pokemon = SLIGGOO,40
+Pokemon = UMBREON,40
+Pokemon = ALTARIA,40
+Pokemon = CRADILY,40
+Pokemon = BLASTOISE,40
+    Form = 2
+#-------------------------------
+[YOUNGSTER,Wade,1]
+LoseText = "My blistering speed - outmatched!"
+Pokemon = GOLBAT,40
+Pokemon = STARMIE,40
+Pokemon = ELECTABUZZ,40
+Pokemon = FURRET,40
+Pokemon = PIDGEOT,40
+#-------------------------------
+[PICNICKER,Hikari,1]
+LoseText = "I wish the health bar ticked down faster..."
+Pokemon = CLEFAIRY,40
+Pokemon = VAPOREON,40
+Pokemon = SNORLAX,40
+Pokemon = GLALIE,40
+Pokemon = SEISMITOAD,40
+#-------------------------------
 [HIKER,Brent]
 LoseText = "Smashed!"
 Pokemon = BOLDORE,26
@@ -677,6 +726,30 @@ Pokemon = DRACOVISH,32
     Nature = RELAXED
     EV = 45,45,100,0,0,0
     AbilityIndex = 1
+#-------------------------------
+[SWIMMER_M,Harold]
+LoseText = "I can't win when I'm tired!"
+Pokemon = WINGULL,29
+Pokemon = WINGULL,29
+#-------------------------------
+[SWIMMER_F,Debra]
+LoseText = "I can swim, but battling's a different story..."
+Pokemon = HORSEA,28
+Pokemon = PALPITOAD,28
+Pokemon = FRILLISH,28
+#-------------------------------
+[SWIMMER_M,Gilbert]
+LoseText = "Uwah!"
+Pokemon = SKRELP,29
+Pokemon = STARYU,29
+#-------------------------------
+[SWIMMER_M,Stan]
+LoseText = "Oops..."
+Pokemon = BARBOACH,27
+Pokemon = MUDKIP,27
+Pokemon = MANTYKE,27
+Pokemon = REMORAID,27
+    Form = 1
 #-------------------------------
 [FISHERMAN,Kamil]
 LoseText = "My fish!"
@@ -1964,7 +2037,7 @@ Pokemon = HAWLUCHA,45
 Pokemon = GRENINJA,45
     Form = 1
 #-------------------------------
-[ACETRAINER_M,"Owen"]
+[ACETRAINER_M,Owen]
 LoseText = "It's hard to win with Pokémon you've just met..."
 Pokemon = CHESPIN,15
     Form = 1
@@ -1972,6 +2045,125 @@ Pokemon = CYNDAQUIL,15
     Form = 1
 Pokemon = SQUIRTLE,15
     Form = 2
+#-------------------------------
+[ACETRAINER_M,Ashton]
+LoseText = "Great work."
+Pokemon = GLACEON,56
+    Moves = FREEZEDRY,HYPERVOICE,SHADOWBALL,REFLECT
+    AbilityIndex = 0
+    Nature = CALM
+    EV = 0,0,60,0,125,60
+Pokemon = STARMIE,56
+    Moves = BLIZZARD,FLASHCANNON,PSYSHOCK,SURF
+    AbilityIndex = 1
+    Nature = MODEST
+    EV = 0,0,0,60,125,60
+Pokemon = GLALIE,56
+    Moves = ICICLECRASH,IRONHEAD,BODYSLAM,CRUNCH
+    AbilityIndex = 1
+    Nature = IMPISH
+    EV = 0,125,60,0,0,60
+#-------------------------------
+[ACETRAINER_F,April]
+LoseText = "Ow! I got bonked on the head!"
+Pokemon = QUILAVA,56
+    Form = 1
+    Moves = ICEBEAM,QUICKATTACK,DARKPULSE,CHILLINGAIR
+    AbilityIndex = 1
+    EV = 0,0,0,60,125,125
+    Nature = MODEST
+Pokemon = ARCTOVISH,56
+    Moves = ANCIENTPOWER,FREEZEDRY,ICEBEAM,IRONHEAD
+    AbilityIndex = 1
+    EV = 0,60,125,0,60,0
+    Nature = RELAXED
+Pokemon = ROTOM,56
+    Form = 3
+    Moves = DISCHARGE,BLIZZARD,HEX,THUNDERWAVE
+    AbilityIndex = 1
+    EV = 0,0,60,0,125,60
+    Nature = MODEST
+#-------------------------------
+[ACETRAINER_M,Denzel]
+LoseText = "You've shattered me!"
+Pokemon = MRMIME,57
+    Form = 1
+    Moves = ICEPUNCH,DAZZLINGGLEAM,ENERGYBALL,BRICKBREAK
+    AbilityIndex = 2
+    EV = 0,60,0,60,125,0
+    Nature = LONELY
+Pokemon = AURORUS,57
+    Moves = DISCHARGE,HYPERVOICE,POWERGEM,AURORAVEIL
+    AbilityIndex = 0
+    EV = 125,0,0,0,60,60
+    Nature = SASSY
+Pokemon = DARMANITAN,57
+    Form = 1
+    Moves = ICEPUNCH
+    AbilityIndex = 0
+    EV = 60,125,0,60,0,0
+    Nature = LONELY
+#-------------------------------
+[ACETRAINER_F,Evelyn]
+LoseText = "You absolutely have what it takes."
+Pokemon = WAILORD,57
+    Moves = AVALANCHE,BODYPRESS,LIQUIDATION,REST
+    AbilityIndex = 1
+    EV = 60,60,125,0,0,0
+    Nature = RELAXED
+Pokemon = NINETALES,57
+    Form = 1
+    Moves = DAZZLINGGLEAM,ICEBEAM,EXTRASENSORY,CALMMIND
+    AbilityIndex = 0
+    EV = 0,0,0,60,125,60
+    Nature = TIMID
+Pokemon = WALREIN,57
+    Moves = AVALANCHE,BODYSLAM,CRUNCH,WATERFALL
+    AbilityIndex = 0
+    EV = 60,125,60,0,0,0
+    Nature = RELAXED
+#-------------------------------
+[LEADER_Noel,Noel]
+LoseText = "You've broken through the icy wall that stood in your way and achieved victory. I commend your incredible skill, and the trust you've placed in your Pokémon."
+Pokemon = BEARTIC,60
+    Form = 1
+    Item = ASSAULTVEST
+    AbilityIndex = 1
+    Moves = AVALANCHE,POWERUPPUNCH,ROCKSLIDE,EARTHQUAKE
+    EV = 90,90,170,0,0,0
+    Nature = ADAMANT
+Pokemon = WALREIN,59
+    Item = ROCKYHELMET
+    AbilityIndex = 1
+    Moves = AVALANCHE,HAIL,SURF,RAPIDSPIN
+    EV = 90,0,0,0,90,170
+    Nature = CALM
+Pokemon = ARCTOZOLT,59
+    Item = EXPERTBELT
+    AbilityIndex = 2
+    Moves = STONEEDGE,BOLTBEAK,BLIZZARD,SUBSTITUTE
+    EV = 0,90,170,0,0,90
+    Nature = IMPISH
+Pokemon = SALAMENCE,60
+    Item = SAFETYGOGGLES
+    AbilityIndex = 0
+    Moves = DRAGONCLAW,FLAMETHROWER,DEFOG,IRONTAIL
+    EV = 155,80,0,0,80,0
+    Nature = HASTY
+Pokemon = GARDEVOIR,61
+    Form = 2
+    Item = NEVERMELTICE
+    AbilityIndex = 0
+    Moves = FLAMETHROWER,ICYWIND,DAZZLINGGLEAM,HAIL
+    EV = 0,0,0,90,170,90
+    Nature = MODEST
+Pokemon = GALLADE,61
+    Form = 2
+    Item = GALLADITEP
+    AbilityIndex = 0
+    Moves = REFLECT,DRAINPUNCH,IRONHEAD,FROSTBLADE
+    EV = 0,75,85,55,0,65
+    Nature = IMPISH
 #-------------------------------
 [BECCACAT,test]
 LoseText = "Fuck you!"

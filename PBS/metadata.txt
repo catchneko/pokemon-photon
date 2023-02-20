@@ -960,15 +960,32 @@ ShowArea = true
 Outdoor = true
 ShowArea = true
 Weather = Snow,50
+MapPosition = 0,18,6
 #-------------------------------
 [177]
 # Route 19
 Outdoor = true
 ShowArea = true
 Weather = Snow,50
+MapPosition = 0,20,6
 #-------------------------------
 [178]
 # Frostpeak Town
 Outdoor = true
 ShowArea = true
+HealingSpot = 178,8,25
 Weather = Snow,70
+MapPosition = 0,23,7
+#-------------------------------
+[181]
+# Frostpeak Poké Center
+MapPosition = 0,23,7
+#-------------------------------
+[182]
+# Frostpeak Mart
+MapPosition = 0,23,7
+#-------------------------------
+[183]
+# Frostpeak Gym
+Weather = Snow,100
+MapPosition = 0,23,7

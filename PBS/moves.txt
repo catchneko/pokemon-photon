@@ -46,7 +46,7 @@
 43,FEINTATTACK,Feint Attack,0A5,60,DARK,Physical,0,20,0,NearOther,0,abef,"The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail."
 44,THIEF,Thief,0F1,60,DARK,Physical,100,25,0,NearOther,0,abef,"The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item."
 45,SNARL,Snarl,045,55,DARK,Special,95,15,100,AllNearFoes,0,befk,"The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease."
-46,PAYBACK,Payback,084,50,DARK,Physical,100,10,0,NearOther,0,abef,"If the user moves after the target, this attack's power will be doubled."
+46,PAYBACK,Payback,081,60,DARK,Physical,100,10,0,NearOther,0,abef,"If the user was hurt by the target in the same turn, this attack's power will be doubled."
 47,PURSUIT,Pursuit,088,40,DARK,Physical,100,20,0,NearOther,0,abef,"An attack move that inflicts double damage if used on a target that is switching out of battle."
 48,BEATUP,Beat Up,0C1,1,DARK,Physical,100,10,0,NearOther,0,bef,"The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage."
 49,FLING,Fling,0F7,1,DARK,Physical,100,10,0,NearOther,0,bef,"The user flings its held item at the target to attack. Its power and effects depend on the item."

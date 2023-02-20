@@ -275,3 +275,4 @@
 273,VERSATILITY,Versatility,"Powers up moves of a different type from itself."
 274,SNOWFORCE,Snow Force,"Powers up Ice-type moves in hail."
 275,SIXTHSENSE,Sixth Sense,"Powers up Psychic-type moves."
+276,LIFEROOTS,Life Roots,"Restores 30% more HP from draining moves and Ingrain."
