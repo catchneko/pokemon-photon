@@ -62,7 +62,6 @@ Immunities = POISON
 Name = ???
 InternalName = QMARKS
 IsPseudoType = true
-Resistances = NORMAL,FIGHTING,FLYING,BUG,ROCK,GROUND,GHOST,STEEL,POISON,FIRE,GRASS,WATER,ELECTRIC,ICE,DRAGON,PSYCHIC,DARK,FAIRY
 #-------------------------------
 [10]
 Name = Fire
@@ -125,7 +124,7 @@ Immunities = PSYCHIC
 Name = Fairy
 InternalName = FAIRY
 IsSpecialType = true
-Weaknesses = POISON,STEEL,LIGHT
+Weaknesses = POISON,STEEL
 Resistances = FIGHTING,DARK
 Immunities = DRAGON
 #-------------------------------

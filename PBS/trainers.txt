@@ -386,8 +386,8 @@ Pokemon = NIDORINO,22
 [PSYCHIC_F,Nora]
 LoseText = "My foresight was wrong!"
 Pokemon = SOLOSIS,22
-Pokemon = ESPEON,22
-Pokemon = MRMIME,22
+Pokemon = ESPEON,20
+Pokemon = MRMIME,20
     Form = 1
 #-------------------------------
 [FISHERMAN,Eric]
@@ -466,7 +466,7 @@ Pokemon = SKRELP,27
     Item = EVIOLITE
     Nature = QUIET
     EV = 45,45,0,0,100,0
-    AbilityIndex = 0
+    AbilityIndex = 2
 Pokemon = NINJASK,27
     Moves = AERIALACE,FEINTATTACK,BUGBITE,METALCLAW
     Item = CHARTIBERRY
@@ -1344,7 +1344,7 @@ Pokemon = HOUNDOOM,48
 LoseText = "..."
 Pokemon = ELECTIVIRE,50
     Form = 99
-    Moves = THUNDERPUNCH,BRICKBREAK,PHOTONICFIST,ICEPUNCH
+    Moves = THUNDERPUNCH,BRICKBREAK,PHOTONICRUSH,ICEPUNCH
 Pokemon = MAGMORTAR,50
     Form = 99
     Moves = FLAMETHROWER,SOLARBEAM,RAYOFLIGHT,PSYCHIC
@@ -1506,6 +1506,7 @@ Pokemon = DRAGALGE,52
     Nature = SASSY
     EV = 0,0,80,0,80,170
 Pokemon = ZYGARDE,52
+    AbilityIndex = 0
     Form = 1
     Moves = DRAGONDANCE,THOUSANDARROWS,ROCKSLIDE,OUTRAGE
     Item = MUSCLEBAND
@@ -2031,11 +2032,12 @@ Pokemon = SNORLAX,52
 #-------------------------------
 [ASHER,Asher]
 LoseText = "Oh no!"
-Pokemon = MIMIKYU,48
+Pokemon = MIMIKYU,43
     Moves = THUNDERBOLT,QUICKATTACK,IRONTAIL,CURSE
-Pokemon = HAWLUCHA,45
-Pokemon = GRENINJA,45
+Pokemon = HAWLUCHA,40
+Pokemon = GRENINJA,40
     Form = 1
+    Ability = QMARKS
 #-------------------------------
 [ACETRAINER_M,Owen]
 LoseText = "It's hard to win with Pokémon you've just met..."
@@ -2164,6 +2166,37 @@ Pokemon = GALLADE,61
     Moves = REFLECT,DRAINPUNCH,IRONHEAD,FROSTBLADE
     EV = 0,75,85,55,0,65
     Nature = IMPISH
+#-------------------------------
+[POKEMONRANGER_M,Weston]
+LoseText = "I lost."
+Pokemon = LILLIGANT,55
+Pokemon = WHISCASH,55
+Pokemon = MAGMAR,55
+#-------------------------------
+[ACETRAINER_F,Macie]
+LoseText = "Looks like I need to train harder before I go back home..."
+Pokemon = BEWEAR,53
+    Moves = BRICKBREAK,BODYSLAM,DARKESTLARIAT,AERIALACE
+Pokemon = PALOSSAND,53
+    Moves = ANCIENTPOWER,EARTHPOWER,GIGADRAIN,SHADOWBALL
+Pokemon = LURANTIS,53
+    Moves = LEECHLIFE,PETALBLIZZARD,POISONJAB
+Pokemon = TURTONATOR,53
+    Moves = DRAGONPULSE,FLAMETHROWER,SCORCHINGSANDS,HYPERVOICE
+Pokemon = ARAQUANID,53
+    Moves = CRUNCH,LIQUIDATION,LEECHLIFE,FACADE
+#-------------------------------
+[POKEMONRANGER_F,Brielle]
+LoseText = "Well... now I've taken a tumble."
+Pokemon = CRAWDAUNT,55
+    Form = 1
+Pokemon = MEDICHAM,55
+Pokemon = FRAXURE,55
+#-------------------------------
+[POKEMANIAC,Alvaro]
+LoseText = "W-what?!"
+Pokemon = BEEDRILL,56
+Pokemon = BLISSEY,56
 #-------------------------------
 [BECCACAT,test]
 LoseText = "Fuck you!"

@@ -112,3 +112,5 @@
 177,West,3,176,East,0
 # Frostpeak Town (178) - Route 19 (177)
 178,West,10,177,East,0
+# Altar of the Stars (191) - Route 20 (185)
+191,South,0,185,North,8

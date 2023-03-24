@@ -216,3 +216,141 @@ Alpha 0.6.0
 - Exp. Share now awards the holder(s) the same amount of EXP as the battlers, instead of halving it
 - Slightly adjusted the colors of Slugma/Magcargo's follower sprites
 ```
+```
+Alpha 0.7.0
+- Added follower sprites for the following Pokémon:
+	- Prism Outpost Solrock
+	- Prism Outpost Lunatone
+- Finished Jade's sidequest, and made the Steelixite obtainable
+- Finished Arnon's sidequest, and made the Drednawite obtainable
+- Added Route 20, Exeggutor Island, and Altar of the Stars
+- Continued the main story for a little while
+- Added revised level up movesets for the following Pokémon:
+	- Frillish/Jellicent
+	- Skrelp/Dragalge
+	- Corphish-Prism/Crawdaunt-Prism
+	- Aipom/Ambipom
+	- Meditite/Medicham
+	- Audino
+	- Roggenrola/Boldore/Gigalith
+	- Mienfoo/Mienshao-Prism
+	- Gible/Gabite/Garchomp
+	- Sizzlipede/Centiskorch
+	- Onix/Steelix/Steelix-Prism
+	- Nosepass/Probopass
+	- NidoranF/Nidorina/Nidoqueen
+	- NidoranM/Nidorino/Nidoking
+	- Magikarp-Prism/Gyarados-Prism
+	- Magikarp/Gyarados
+	- Horsea/Seadra/Kingdra
+	- Castform
+	- Lileep/Cradily
+	- Amaura/Aurorus
+	- Tirtouga/Carracosta
+	- Archen/Archeops
+	- Omanyte/Omastar
+	- Dracozolt/Arctozolt/Dracovish/Arctovish
+	- Sableye/Mawile
+	- Wynaut/Wobbuffet
+	- Bronzor/Bronzong
+	- Petilil/Lilligant
+	- Vulpix/Ninetales
+	- Vulpix-Alola/Ninetales-Alola
+	- Cutiefly/Ribombee
+	- Wishiwashi
+	- Zygarde
+	- Tangela/Tangrowth
+	- Honedge/Doublade/Aegislash
+	- Ditto (lol)
+	- Treecko/Grovyle/Sceptile
+	- Morelull/Shiinotic
+	- Foongus/Amoonguss
+	- Goomy/Sliggoo/Goodra
+	- Hatenna/Hattrem/Hatterene
+	- Froakie/Frogadier/Greninja
+	- Gothita/Gothorita/Gothitelle
+	- Mimikyu
+	- Tynamo/Eelektrik/Eelektross
+	- Doduo/Dodrio
+	- Mantyke/Mantine-Prism
+	- Remoraid-Prism/Octillery-Prism
+- Changed Sentret's base stats:
+	- HP 55 -> 50 (-5)
+	- Atk 66 -> 61 (-5)
+	- SpA 35 -> 45 (+10)
+- Changed Furret's base stats:
+	- HP 105 -> 100 (-5)
+	- Atk 96 -> 86 (-10)
+	- SpA 45 -> 70 (+25)
+	- Spe 115 -> 105 (-10)
+- Changed Archen's base stats:
+	- Atk 97 -> 74 (-23)
+	- SpA 64 -> 71 (+7)
+- Changed Archeops's base stats:
+	- Atk 120 -> 110 (-10)
+	- SpA 100 -> 105 (+5)
+- Changed Aurorus's base stats:
+	- Atk 77 -> 59 (-19)
+	- Def 72 -> 80 (+8)
+	- SpA 99 -> 106 (+7)
+	- SpD 92 -> 106 (+14)
+	- Spe 58 -> 51 (-7)
+- Changed Mienshao-Prism's base stats:
+	- Atk 125 -> 120 (-5)
+	- SpA 100 -> 105 (+5)
+	- SpD 55 -> 70 (+15)
+	- Spe 115 -> 100 (-15)
+- Changed Onix's base stats:
+	- HP 45 -> 55 (+10)
+	- Def 160 -> 130 (-30)
+	- SpD 45 -> 65 (+20)
+- Changed Whiscash's base stats:
+	- Atk 78 -> 83 (+5)
+	- Def 73 -> 78 (+5)
+	- SpA 76 -> 81 (+5)
+	- SpD 71 -> 76 (+5)
+- Changed Ribombee's base stats:
+	- Def 60 -> 65 (+5)
+	- SpD 70 -> 85 (+15)
+- Changed Ditto's base stats:
+	- ALL 48 -> 60 (+12)
+- Changed Deino/Zweilous's abilities to Hustle/Intimidate/(HA) Merciless
+- Changed Hydreigon's abilities to Levitate/Intimidate/(HA) Merciless
+- Changed Probopass's abilities to Sturdy/Magnet Pull/(HA) Levitate
+- Changed Sableye's abilities to Prankster/Stall/(HA) Keen Eye
+- Changed Mawile's abilities to Sheer Force/Intimidate/(HA) Versatility
+- Changed Morelull/Shiinotic's abilities to Rain Dish/Effect Spore/(HA) Life Roots
+- Changed Tynamo's abilities to Levitate/Swift Swim/(HA) Static
+- Changed Eelektrik/Eelektross's abilities to Levitate/Swift Swim/(HA) Versatility
+- Changed Mega Audino's ability to Regenerator
+- Mienshao-Prism can now learn Fly
+- Gible and Gabite can now learn Crunch
+- Garchomp can now learn Steel Wing
+- Glaceon can now learn Earth Power and Flash Cannon
+- NidoranM, Nidorino, and Nidoking can now learn Aerial Ace
+- Sizzlipede and Centiskorch can now learn Poison Jab
+- Carracosta can now learn Psychic Fangs
+- Archen and Archeops can now learn Flamethrower and Fire Blast
+- Omastar can now learn Razor Shell
+- Petilil and Lilligant can now learn Weather Ball, Dazzling Gleam, Shadow Ball, and Extrasensory
+- Wishiwashi can now learn Dazzling Gleam
+- Eelektrik and Eelektross can now learn Surf
+- Remoraid-Prism can now learn Liquidation
+- Updated Merciless's ability description to reflect the changes made to it
+- Updated Play Nice's move description to reflect the changes made to it
+- Changed Rivalry to remove the downside
+- Changed the move Photonic Fist's name to Photonic Rush
+- Bounce is now 100 BP and 90% accuracy
+- Smog now has a 100% chance to poison the target
+- Inferno is now 120 BP
+- Dynamic Punch is now 120 BP
+- Changed Psychic Nora:
+	- Espeon and Mr. Mime-Galar reduced from Lv22 to Lv20
+- Changed Rival Kurisu (Bonfire Island):
+	- Skrelp's ability changed from Adaptability to Corrosion
+- Fairy is no longer weak to Light
+- Larvesta now evolves into Volcarona at Level 45
+- Removed all incense requirements for breeding baby Pokémon
+- Reduced the prices of all TMs
+- Added a new plugin showing stat changes in battle
+```

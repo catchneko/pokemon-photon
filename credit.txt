@@ -18,3 +18,6 @@ Hidden Ability Capsule script:
 
 	AiurJordan - Adapt to v19.1
 	ThatWelshOne_ - Helpful in debugging this script.
+
+Panorama Graphics: Various stock images I edited
+Palm Tree Tiles: ThePurplest on RC

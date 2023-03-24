@@ -989,3 +989,27 @@ MapPosition = 0,23,7
 # Frostpeak Gym
 Weather = Snow,100
 MapPosition = 0,23,7
+#-------------------------------
+[185]
+# Route 20
+Outdoor = true
+ShowArea = true
+MapPosition = 0,24,5
+#-------------------------------
+[186]
+# Exeggutor Island
+Outdoor = true
+ShowArea = true
+MapPosition = 0,29,6
+#-------------------------------
+[188]
+# Ultra Space Wilds
+Outdoor = false
+ShowArea = true
+WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[191]
+# Altar of the Stars
+Outdoor = true
+ShowArea = true
+MapPosition = 0,24,3

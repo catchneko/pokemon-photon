@@ -182,6 +182,10 @@ SuperRod
     10,GYARADOS_1,35
 #-------------------------------
 [107] # Route 10
+Water,2
+    33,FRILLISH,15,25
+    33,WINGULL,15,25
+    33,HORSEA,15,25
 GoodRod
     60,FRILLISH,15
     40,HORSEA,15
@@ -191,6 +195,10 @@ SuperRod
     10,JELLICENT,35
 #-------------------------------
 [108] # Bonfire Island
+Water,2
+    33,FRILLISH,15,25
+    33,WINGULL,15,25
+    33,HORSEA,15,25
 GoodRod
     60,FRILLISH,15
     40,HORSEA,15
@@ -509,9 +517,42 @@ Land,18
     10,GLALIE,40,45
     10,MEDICHAM,39,43
     10,ABSOL,39,43
+Water,2
+    100,SEEL,15,25
 GoodRod
     55,SPHEAL,15
     45,WAILMER,15
 SuperRod
     55,SEALEO,35
     45,WAILMER,35
+#-------------------------------
+[185] # Route 20
+Land,18
+    22,RHYHORN,38,42
+    18,PIDGEOTTO,40,44
+    14,SCYTHER,40,44
+    14,PINSIR,40,44
+    12,PINCURCHIN,39,43
+    10,LYCANROC,40,44
+    5,CHANSEY,39,43
+    5,PYUKUMUKU,39,43
+Water,2
+    75,SEEL,15,25
+    25,MANTYKE,15,25
+GoodRod
+    65,FRILLISH,15
+    35,STARYU,15
+SuperRod
+    55,STARYU,35
+    35,WAILMER,35
+    10,JELLICENT,35
+#-------------------------------
+[186] # Exeggutor Island
+Land,18
+    20,EXEGGCUTE,42,45
+    20,EXEGGUTOR_1,42,45
+    20,PELIPPER,42,45
+    15,TROPIUS,42,45
+    10,PINSIR,42,45
+    10,GASTRODON_1,42,45
+    5,CASTFORM,42,45

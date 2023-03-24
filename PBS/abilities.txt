@@ -195,7 +195,7 @@
 193,WIMPOUT,Wimp Out,"Cowardly switches out if its HP becomes half or less."
 194,EMERGENCYEXIT,Emergency Exit,"Switches out if its HP becomes half or less."
 195,WATERCOMPACTION,Water Compaction,"Sharply ups Defense when hit by a Water-type move."
-196,MERCILESS,Merciless,"Its attacks are critical hits when it is poisoned."
+196,MERCILESS,Merciless,"Ups critical rate on foes with status ailments."
 197,SHIELDSDOWN,Shields Down,"Its shell breaks if its HP becomes half or less."
 198,STAKEOUT,Stakeout,"Deals doubles damage to a target's replacement."
 199,WATERBUBBLE,Water Bubble,"Weakens incoming Fire-type moves and prevents burns."
@@ -276,3 +276,4 @@
 274,SNOWFORCE,Snow Force,"Powers up Ice-type moves in hail."
 275,SIXTHSENSE,Sixth Sense,"Powers up Psychic-type moves."
 276,LIFEROOTS,Life Roots,"Restores 30% more HP from draining moves and Ingrain."
+277,QMARKS,???,"Does nothing. The player should not have this."
