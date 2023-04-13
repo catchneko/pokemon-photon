@@ -356,7 +356,7 @@ Land,18
     16,GOLETT,29,32
     15,CLAUNCHER_1,29,32
     9,MARACTUS,30,32
-    9,QUILLADIN,29,31
+    9,QUILLADIN_1,29,31
     5,COMBUSKEN,29,31
     5,METANG,30,32
 #-------------------------------

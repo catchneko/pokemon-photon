@@ -354,3 +354,96 @@ Alpha 0.7.0
 - Reduced the prices of all TMs
 - Added a new plugin showing stat changes in battle
 ```
+```
+Alpha 0.8.0
+- Continued the main story
+- Added 5 additional Zygarde cells, bringing the total to 50 and allowing Zygarde-50% to be obtained
+- Raised the base money rate of a few trainer classes
+- Added proper looping for a few music tracks:
+	- Victory! (Gym Leader)
+	- Victory Lies Before You! (Gym Leader last mon)
+	- Battle! (Wild Pokémon)
+	- Battle! (Trainer Battle)
+	- Victory! (Wild Pokémon)
+	- Victory! (Trainer)
+	- Battle! (Gym Leader)
+	- A Formidable Enemy (Aether Burst Pokémon battle)
+	- Bringer of Chaos! Ultimate (Kurisu battle)
+- Fixed an error involving Kurisu being at Azure Shipyard when he shouldn't be
+- Using Fly outside of battle with the first Pokémon in your party no longer crashes the game
+- Fixed a typo causing the shop in Girit Town to crash
+- Also added the Protector to the shop in Girit Town
+- Added the Chill Orb to the held item shop in Bonfire Island's Training Cave
+- Added a Poké Ball shop in Faypoint Town
+- Added two new locations (Cave of Verity and Cave of Valor), there's nothing in them yet and the Cave of Acuity will be in a future location
+- Finished the side areas of Waterside Cavern (there's some items in there)
+- Added a Hidden Power type checking NPC to the Pokémon Center in Girit Town
+- Swapped the positions of the first two Pikachu in Lavenn Forest's Mimikyu sidequest to make it less annoying
+- Removed nighttime shading from Lavenn Forest and Faypoint Town (for visibility reasons)
+- Fixed an error in Aurum Desert where Kalosian Quilladin was encountered instead of Prism Outpost Quilladin
+- Fixed an error where the Ultra Blaster ability did nothing
+- Changed which TRs are sold in which shops to make a bit more sense and be less random
+- Fixed the description of TR45 Muddy Water to be of the correct move (it used Mud Bomb's description for some reason)
+- Fixed the description of TR60 X-Scissor to match the updated description in this game
+- Changed Pink Scarf's price from P$100 to P$3,000 to match the other type-boosting items
+- Replaced Maractus's overworld sprite with the official B2W2 one
+- Adjusted the colors of Combusken's shiny sprites a bit to make it more distinct from its base coloration
+- Changed TR13 from Focus Energy to Terrain Pulse
+- Changed TR26 from Endure to Spike Cannon
+- Added follower sprites for the following Pokémon:
+	- Prism Outpost Lotad/Lombre/Ludicolo
+	- Prism Outpost Clauncher/Clawitzer
+	- Prism Outpost Mantine
+- Added revised level up movesets for the following Pokémon:
+	- Corsola-Galar/Cursola
+	- Mareanie/Toxapex
+	- Dhelmise
+	- Finneon-Prism/Lumineon-Prism
+	- Joltik/Galvantula
+	- Cubone/Marowak-Alola
+	- Druddigon
+	- Chespin-Prism/Quilladin-Prism/Chesnaught-Prism
+	- Shuppet/Banette
+	- Vullaby/Mandibuzz
+	- Hawlucha
+	- Larvesta/Volcarona
+	- Lotad-Prism/Lombre-Prism/Ludicolo-Prism
+	- Lotad/Lombre/Ludicolo
+	- Maractus
+	- Trapinch/Vibrava/Flygon
+	- Golett/Golurk
+	- Phanpy/Donphan
+	- Clauncher-Prism/Clawitzer-Prism
+	- Torchic/Combusken/Blaziken
+	- Beldum/Metang/Metagross
+	- Staryu/Starmie
+	- Mudkip/Marshtomp/Swampert
+	- Yamask-Galar/Runerigus
+	- Deino/Zweilous/Hydreigon
+	- Natu/Xatu
+- Changed Druddigon's base stats from 77/130/105/60/90/48 to 87/120/105/60/90/48
+- Changed Chespin-Prism's base stats from 56/61/65/48/45/38 to 56/66/65/38/50/38
+- Changed Larvesta's base stats from 55/80/55/70/55/60 to 55/85/55/75/75/60
+- Changed Maractus's base stats from 80/86/72/126/72/60 to 80/86/72/116/82/60
+- Changed Flygon's base stats from 80/110/75/100/75/105 to 80/100/80/100/80/100
+- Changed Finneon-Prism/Lumineon-Prism's hidden ability to Cursed Body
+- Changed Chespin-Prism/Quilladin-Prism/Chesnaught-Prism's hidden ability to Tough Claws
+- Changed Phanpy's abilities to Pickup/Sand Force/(HA) Sand Veil
+- Changed Donphan's abilities to Sturdy/Sand Force/(HA) Sand Veil
+- Changed Clauncher-Prism/Clawitzer-Prism's hidden ability to Transistor
+- Changed Beldum's hidden ability to Magnet Pull (imagine getting Iron Fist and literally 0 punching moves :troll:)
+- Shellder, Cloyster, Corsola, Corsola-Galar, Cursola, Mareanie, Toxapex, Omanyte, Omastar, Sandshrew, Sandslash, Sandshrew-Alola, Sandslash-Alola, NidoranF, Nidorina, Nidoqueen, NidoranM, Nidorino, Nidoking, Rhyhorn, Rhydon, Rhyperior, Seadra, Kingdra, Scizor, Pinsir, Tauros, Lapras, Jolteon, Cyndaquil-Prism, Quilava-Prism, Typhlosion-Prism, Spinarak, Ariados, Ambipom, Forretress, Dunsparce, Gligar, Gliscor, Qwilfish, Heracross, Remoraid-Prism, Octillery-Prism, Mantine-Prism, Skarmory, Pupitar, Tyranitar, Zigzagoon, Linoone, Zigzagoon-Galar, Linoone-Galar, Obstagoon, Mawile, Aron, Lairon, Aggron, Cacnea, Cacturne, Zangoose, Solrock, Solrock-Prism, Baltoy, Claydol, Anorith, Armaldo, Huntail, Beldum, Metang, Metagross, Groudon, Prinplup, Empoleon, Roserade, Garchomp, Lucario, Skorupi, Drapion, Dewott, Samurott, Drilbur, Excadrill, Venipede, Whirlipede, Scolipede, Basculin, Maractus, Dwebble, Crustle, Tirtouga, Carracosta, Escavalier, Ferroseed, Ferrothorn, Klinklang, Eelektross, Axew, Fraxure, Haxorus, Druddigon, Pawniard, Bisharp, Durant, Cobalion, Kyurem, Genesect, Chespin, Quilladin, Chesnaught, Chespin-Prism, Quilladin-Prism, Chesnaught-Prism, Greninja, Binacle, Barbaracle, Tyrunt, Tyrantrum, Klefki, Bergmite, Avalugg, Pikipek, Trumbeak, Toucannon, Grubbin, Charjabug, Vikavolt, Rockruff, Lycanroc, Lurantis, Golisopod, Type: Null, Silvally, Minior, Turtonator, Togedemaru, Dhelmise, Xurkitree,  Necrozma, Magearna, Poipole, Naganadel, Rookidee, Corvisquire, Corviknight, Chewtle, Drednaw, Meowth-Galar, Perrserker, Farfetch'd-Galar, Sirfetch'd, Falinks, Pincurchin, Cufant, Copperajah, Dracozolt, Arctozolt, Dracovish, Arctovish, Duraludon, Mew, and Eternatus can now learn Spike Cannon
+- Corsola-Galar and Cursola can now learn Focus Blast and Dazzling Gleam
+- Mareanie and Toxapex can now learn Foul Play
+- Joltik and Galvantula can now learn U-Turn and Electric Terrain
+- Maractus can now learn Fire Spin, Flamethrower, Earth Power, Terrain Pulse, Megahorn, Baton Pass, Heat Wave, Focus Blast, and Pollen Puff
+- Clauncher-Prism and Clawitzer-Prism can now learn Volt Switch
+- Runerigus can now learn Iron Head, Fire Punch, Thunder Punch, and Ice Punch
+- Gave Leavanny Sticky Web and Knock Off at Lv1
+- Bone Club is now 60 BP and 100% accuracy
+- Dragon Rush is now 100 BP and 85% accuracy
+- Focus Blast is now 75% accuracy
+- Drill Run is now 100% accuracy and has 15 PP
+- X-Scissor now has a high critical hit rate
+- Hidden Power now becomes physical/special depending on the user's higher offensive stat
+```

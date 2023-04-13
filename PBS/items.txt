@@ -213,7 +213,7 @@
 211,OVALSTONE,Oval Stone,Oval Stones,1,3000,"A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",0,0,0
 212,REDSCARF,Red Scarf,Red Scarves,1,100,"An item to be held by a Pokémon. It boosts the Cool aspect of the holder in a Contest.",0,0,0
 213,BLUESCARF,Blue Scarf,Blue Scarves,1,100,"An item to be held by a Pokémon. It boosts the Beauty aspect of the holder in a Contest.",0,0,0
-214,PINKSCARF,Pink Scarf,Pink Scarves,1,100,"An item to be held by a Pokémon. It is an adorable scarf that boosts the power of Fairy-type moves.",0,0,0
+214,PINKSCARF,Pink Scarf,Pink Scarves,1,3000,"An item to be held by a Pokémon. It is an adorable scarf that boosts the power of Fairy-type moves.",0,0,0
 215,GREENSCARF,Green Scarf,Green Scarves,1,100,"An item to be held by a Pokémon. It boosts the Smart aspect of the holder in a Contest.",0,0,0
 216,YELLOWSCARF,Yellow Scarf,Yellow Scarves,1,100,"An item to be held by a Pokémon. It boosts the Tough aspect of the holder in a Contest.",0,0,0
 #-------------------------------
@@ -351,7 +351,7 @@
 346,TM58,TM58,TM58s,4,2500,"If the target has already taken some damage in the same turn, this attack's power is doubled.",3,0,0,ASSURANCE
 347,TM59,TM59,TM59s,4,25000,"The user flings its held item at the target to attack. This move's power and effects depend on the item.",3,0,0,FLING
 348,TM60,TM60,TM60s,4,7500,"A spin attack that can also eliminate such moves as Bind, Wrap, and Leech Seed. This also raises the user’s Speed stat.",3,0,0,RAPIDSPIN
-349,TM61,TM61,TM61s,4,7500,"A unique attack that varies in type depending on the Pokémon using it.",3,0,0,HIDDENPOWER
+349,TM61,TM61,TM61s,4,7500,"A unique attack that varies in type and category depending on the Pokémon using it.",3,0,0,HIDDENPOWER
 350,TM62,TM62,TM62s,4,7500,"The user lays a trap of spikes at the opposing team's feet. The trap hurts Pokémon that switch into battle.",3,0,0,SPIKES
 351,TM63,TM63,TM63s,4,12500,"An energy-draining punch. The user's HP is restored by half the damage taken by the target.",3,0,0,DRAINPUNCH
 352,TM64,TM64,TM64s,4,2500,"The power of this attack move is doubled if the user has been hurt by the target in the same turn.",3,0,0,AVALANCHE
@@ -730,10 +730,10 @@
 709,TR10,TR10,TR10s,4,16000,"The user sets off an earthquake that strikes every Pokémon around it.",6,0,0,EARTHQUAKE
 710,TR11,TR11,TR11s,4,10000,"The target is attacked with a peculiar ray. This may also leave the target confused.",6,0,0,PSYCHIC
 711,TR12,TR12,TR12s,4,4000,"The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",6,0,0,AGILITY
-712,TR13,TR13,TR13s,4,2000,"The user takes a deep breath and focuses so that critical hits land more easily.",6,0,0,FOCUSENERGY
+712,TR13,TR13,TR13s,4,2000,"This move’s type and power change depending on the terrain at the time the move is used.",6,0,0,TERRAINPULSE
 713,TR14,TR14,TR14s,4,2000,"The user waggles a finger and stimulates its brain into randomly using nearly any move.",6,0,0,METRONOME
 714,TR15,TR15,TR15s,4,16000,"The target is attacked with an intense blast of all-consuming fire. This may also burn the target.",6,0,0,FIREBLAST
-715,TR16,TR16,TR16s,4,6000,"	Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",6,0,0,GRASSYGLIDE
+715,TR16,TR16,TR16s,4,6000,"Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",6,0,0,GRASSYGLIDE
 716,TR17,TR17,TR17s,4,4000,"The user temporarily empties its mind to forget its concerns. This sharply raises the user's Sp. Def stat.",6,0,0,AMNESIA
 717,TR18,TR18,TR18s,4,6000,"The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",6,0,0,LEECHLIFE
 718,TR19,TR19,TR19s,4,4000,"The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",6,0,0,TRIATTACK
@@ -743,7 +743,7 @@
 722,TR23,TR23,TR23s,4,4000,"The user throws scorching sand at the target to attack. This may also leave the target with a burn.",6,0,0,SCORCHINGSANDS
 723,TR24,TR24,TR24s,4,16000,"The user rampages and attacks for two to three turns. The user then becomes confused.",6,0,0,OUTRAGE
 724,TR25,TR25,TR25s,4,6000,"The user materializes an odd psychic wave to attack the target. This attack does physical damage.",6,0,0,PSYSHOCK
-725,TR26,TR26,TR26s,4,2000,"The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",6,0,0,ENDURE
+725,TR26,TR26,TR26s,4,2000,"Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",6,0,0,SPIKECANNON
 726,TR27,TR27,TR27s,4,4000,"While it is asleep, the user randomly uses one of the moves it knows.",6,0,0,SLEEPTALK
 727,TR28,TR28,TR28s,4,16000,"Using its tough and impressive horn, the user rams into the target with no letup.",6,0,0,MEGAHORN
 728,TR29,TR29,TR29s,4,4000,"The user switches places with a party Pokémon in waiting and passes along any stat changes.",6,0,0,BATONPASS
@@ -762,7 +762,7 @@
 741,TR42,TR42,TR42s,4,10000,"The user lets loose a horribly echoing shout with the power to inflict damage.",6,0,0,HYPERVOICE
 742,TR43,TR43,TR43s,4,16000,"The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",6,0,0,OVERHEAT
 743,TR44,TR44,TR44s,4,4000,"The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",6,0,0,COSMICPOWER
-744,TR45,TR45,TR45s,4,10000,"The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy.",6,0,0,MUDDYWATER
+744,TR45,TR45,TR45s,4,10000,"The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",6,0,0,MUDDYWATER
 745,TR46,TR46,TR46s,4,4000,"The user hardens its body's surface like iron, sharply raising its Defense stat.",6,0,0,IRONDEFENSE
 746,TR47,TR47,TR47s,4,6000,"The user slashes the target with huge sharp claws.",6,0,0,DRAGONCLAW
 747,TR48,TR48,TR48s,4,4000,"The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",6,0,0,BULKUP
@@ -777,7 +777,7 @@
 756,TR57,TR57,TR57s,4,6000,"The target is stabbed with a tentacle, arm, or the like steeped in poison. May also poison the target.",6,0,0,POISONJAB
 757,TR58,TR58,TR58s,4,6000,"The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",6,0,0,DARKPULSE
 758,TR59,TR59,TR59s,4,6000,"The user slams a barrage of hard-shelled seeds down on the target from above.",6,0,0,SEEDBOMB
-759,TR60,TR60,TR60s,4,6000,"The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",6,0,0,XSCISSOR
+759,TR60,TR60,TR60s,4,6000,"The user slashes at the foe by crossing its claws like a pair of scissors. Critical hits land more easily.",6,0,0,XSCISSOR
 760,TR61,TR61,TR61s,4,10000,"The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat.",6,0,0,BUGBUZZ
 761,TR62,TR62,TR62s,4,6000,"The target is attacked with a shock wave generated by the user's gaping mouth.",6,0,0,DRAGONPULSE
 762,TR63,TR63,TR63s,4,6000,"The user attacks with a ray of light that sparkles as if it were made of gemstones.",6,0,0,POWERGEM

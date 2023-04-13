@@ -2,7 +2,7 @@
 # New animation to incorporate the HM animation for Following Pokemon
 #-------------------------------------------------------------------------------
 alias __followingpkmn__pbHiddenMoveAnimation pbHiddenMoveAnimation unless defined?(__followingpkmn__pbHiddenMoveAnimation)
-def pbHiddenMoveAnimation(pokemon,followAnim = true)
+def pbHiddenMoveAnimation(pokemon,followAnim = false)
   ret = __followingpkmn__pbHiddenMoveAnimation(pokemon)
   if ret && followAnim && FollowingPkmn.active? && pokemon == $Trainer.first_able_pokemon
     pbTurnTowardEvent(FollowingPkmn.get, $game_player)

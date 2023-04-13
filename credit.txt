@@ -21,3 +21,9 @@ Hidden Ability Capsule script:
 
 Panorama Graphics: Various stock images I edited
 Palm Tree Tiles: ThePurplest on RC
+Elio and Selene trainer sprites: Beliot419
+
+Hidden Power Checker script:
+	King_Waluigi
+	Maruno
+	ThatWelshOne_
