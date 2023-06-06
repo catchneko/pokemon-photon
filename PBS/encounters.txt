@@ -556,3 +556,65 @@ Land,18
     10,PINSIR,42,45
     10,GASTRODON_1,42,45
     5,CASTFORM,42,45
+#-------------------------------
+[194] # Ultra Space
+Land,18
+    15,ROSELIA,35,45
+    15,SWADLOON,35,45
+    15,PIKACHU,35,45
+    12,EEVEE,35,45
+    12,SERVINE,35,45
+    10,CORVISQUIRE,35,45
+    7,VENOMOTH,40,50
+    7,VIKAVOLT,40,50
+    7,TROPIUS,40,50
+#-------------------------------
+[195] # Ultra Space
+Cave,4
+    15,GRAVELER,35,45
+    15,BOLDORE,35,45
+    12,NOSEPASS,35,45
+    12,BRAIXEN,35,45
+    10,NIDORINA,35,45
+    10,NIDORINO,35,45
+    7,STEELIX,40,50
+    7,CROBAT,40,50
+    7,NOIVERN,40,50
+    5,POIPOLE,35,45
+#-------------------------------
+[196] # Ultra Space
+Water,4
+    15,LOMBRE,35,45
+    15,SHELLOS_1,35,45
+    15,FRILLISH,35,45
+    12,PRINPLUP,35,45
+    12,PELIPPER,35,45
+    10,MARSHTOMP,35,45
+    7,GYARADOS,40,50
+    7,KINGDRA,40,50
+    7,WHISCASH,40,50
+#-------------------------------
+[198] # Route 21
+Land,18
+    22,RUFFLET,42,45
+    22,VULLABY,42,45
+    18,GLIGAR,42,45
+    12,URSARING,44,49
+    12,DONPHAN,44,49
+    10,BOUFFALANT,44,49
+    4,KIRLIA_2,38,43
+#-------------------------------
+[200] # Linking Cave
+Cave,4
+    30,GOLBAT,37,43
+    20,SABLEYE,36,40
+    20,MAWILE,36,40
+    15,ABSOL,38,43
+    15,GLALIE,39,43
+GoodRod
+    55,MAGIKARP_1,15
+    45,WAILMER,15
+SuperRod
+    55,WAILMER,35
+    35,FEEBAS,35
+    10,LAPRAS,35

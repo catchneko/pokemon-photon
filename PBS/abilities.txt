@@ -222,7 +222,7 @@
 220,SOULHEART,Soul-Heart,"Boosts Sp. Atk each time a Pokémon faints."
 221,TANGLINGHAIR,Tangling Hair,"Contact with it lowers the attacker's Speed."
 222,RECEIVER,Receiver,"Copies the Ability of a defeated ally."
-223,POWEROFALCHEMY,Power of Alchemy,"Copies the Ability of a defeated ally."
+223,POWEROFALCHEMY,Alchemy Power,"Copies the Ability of a defeated ally."
 224,BEASTBOOST,Beast Boost,"Boosts its best stat each time it deals a KO."
 225,RKSSYSTEM,RKS System,"Its type matches the memory disc it holds."
 226,ELECTRICSURGE,Electric Surge,"Turns the ground into Electric Terrain."

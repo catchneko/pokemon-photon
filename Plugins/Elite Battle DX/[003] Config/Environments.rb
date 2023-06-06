@@ -342,6 +342,34 @@ module EnvironmentEBDX
   ULTRASPACE = {
     "backdrop" => "UltraSpace"
   }
+   #-----------------------------------------------------------------------------
+  ULTRASPACEGRASS = {
+    "backdrop" => "FieldUltra", "trees" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [108,117,118,126,126,128,136,136,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
+    }
+  }
+   #-----------------------------------------------------------------------------
+  ULTRASPACEGRASS2 = {
+    "backdrop" => "FieldUltra", "trees" => {
+      :elements => 9, :bitmap => "treeD", :colorize => "slight",
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [108,117,118,126,126,128,136,136,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
+    },
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    }
+  }
   #-----------------------------------------------------------------------------
   MAGMA = {
     "backdrop" => "Cave", "img001" => {

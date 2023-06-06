@@ -73,3 +73,6 @@ VictoryTheme     = VictoryTeamPlasma.ogg
 #-------------------------------
 [NEOAETHER_Q]
 VictoryTheme     = VictoryTeamPlasma.ogg
+#-------------------------------
+[PHOEBEAETHER]
+VictoryTheme     = VictoryTeamPlasma.ogg

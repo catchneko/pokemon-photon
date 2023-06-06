@@ -861,6 +861,7 @@ MapPosition = 0,18,8
 # Stark Bay
 Outdoor = true
 ShowArea = true
+MapPosition = 0,23,14
 #-------------------------------
 [152]
 # Route 16
@@ -930,21 +931,37 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,23,9
 #-------------------------------
+[165]
+# Draconis Poké Center
+MapPosition = 0,24,9
+#-------------------------------
+[166]
+# Draconis Village
+MapPosition = 0,24,9
+#-------------------------------
+[167]
+# Draconis Gym
+MapPosition = 0,24,9
+#-------------------------------
 [168]
 # Team Beastman Base
 ShowArea = true
+MapPosition = 0,24,9
 #-------------------------------
 [169]
 # Team Beastman Base
 ShowArea = true
+MapPosition = 0,24,9
 #-------------------------------
 [170]
 # Team Beastman Base
 ShowArea = true
+MapPosition = 0,24,9
 #-------------------------------
 [171]
 # Team Beastman Base
 ShowArea = true
+MapPosition = 0,24,9
 #-------------------------------
 [172]
 # Draconis Cave
@@ -954,6 +971,15 @@ MapPosition = 0,24,9
 [173]
 # Draconis Cave
 ShowArea = true
+MapPosition = 0,24,9
+#-------------------------------
+[174]
+# Argentum Caldera
+MapPosition = 0,18,8
+#-------------------------------
+[175]
+# Argentum Caldera
+MapPosition = 0,18,8
 #-------------------------------
 [176]
 # Route 18
@@ -977,6 +1003,14 @@ HealingSpot = 178,8,25
 Weather = Snow,70
 MapPosition = 0,23,7
 #-------------------------------
+[179]
+# Luna Mine
+MapPosition = 0,8,10
+#-------------------------------
+[180]
+# Lavenn Forest
+MapPosition = 0,15,3
+#-------------------------------
 [181]
 # Frostpeak Poké Center
 MapPosition = 0,23,7
@@ -990,6 +1024,10 @@ MapPosition = 0,23,7
 Weather = Snow,100
 MapPosition = 0,23,7
 #-------------------------------
+[184]
+# Route 9
+MapPosition = 0,8,13
+#-------------------------------
 [185]
 # Route 20
 Outdoor = true
@@ -1002,14 +1040,74 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,29,6
 #-------------------------------
+[187]
+# Frostpeak Town
+MapPosition = 0,23,7
+#-------------------------------
 [188]
 # Ultra Space Wilds
 Outdoor = false
 ShowArea = true
+MapPosition = 0,8,10
 WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[189]
+# Luna Mine
+MapPosition = 0,8,10
+#-------------------------------
+[190]
+# Azure Base
+MapPosition = 0,11,5
 #-------------------------------
 [191]
 # Altar of the Stars
 Outdoor = true
 ShowArea = true
 MapPosition = 0,24,3
+#-------------------------------
+[192]
+# Cave of Verity
+MapPosition = 0,9,2
+#-------------------------------
+[193]
+# Cave of Valor
+MapPosition = 0,16,13
+#-------------------------------
+[194]
+# Ultra Space
+ShowArea = true
+MapPosition = 0,24,3
+WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[195]
+# Ultra Space
+MapPosition = 0,24,3
+WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[196]
+# Ultra Space
+MapPosition = 0,24,3
+WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[197]
+# Ultra Space
+MapPosition = 0,24,3
+WildBattleBGM = Area Zero Wild Pokemon.ogg
+#-------------------------------
+[198]
+# Route 21
+Outdoor = true
+ShowArea = true
+MapPosition = 0,21,5
+#-------------------------------
+[199]
+# Cave of Acuity
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,5
+#-------------------------------
+[200]
+# Linking Cave
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,5

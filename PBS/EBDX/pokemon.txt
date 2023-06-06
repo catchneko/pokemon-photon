@@ -3848,10 +3848,10 @@ BattlerPlayerY          = 60
 BattlerEnemyX           = -1
 #-------------------------------
 [PETILIL]
-BattlerEnemyY           = 37
+BattlerEnemyY           = 55
 BattlerAltitude         = 0
 BattlerPlayerX          = 9
-BattlerPlayerY          = 45
+BattlerPlayerY          = 58
 BattlerEnemyX           = 3
 #-------------------------------
 [LILLIGANT]

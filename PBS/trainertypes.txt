@@ -103,4 +103,6 @@
 100,ELIO,Pokémon Trainer,100,Battle! Alola Trainer.ogg,,,Male,,
 101,SELENE,Pokémon Trainer,100,Battle! Alola Trainer.ogg,,,Female,,
 102,PHOEBEAETHER,Neo Aether,100,Battle! VS Moebius.ogg,,,Female,,
+103,VETERAN_M,Veteran,100,,,,Male,,
+104,VETERAN_F,Veteran,100,,,,Female,,
 120,BECCACAT,Elite Trainer,100,Battle Champion Iris.ogg,,,Female,,

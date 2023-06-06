@@ -447,3 +447,141 @@ Alpha 0.8.0
 - X-Scissor now has a high critical hit rate
 - Hidden Power now becomes physical/special depending on the user's higher offensive stat
 ```
+```
+Alpha 0.9.0
+- Continued the main story, all the way up to just before Victory Road
+- Added new locations: Ultra Space, Route 21, Linking Cave, Cave of Acuity
+- Replaced many trainer sprites with Gen 4-5 style versions (they look better)
+- Added Pokédex completion rewards (check from Player's PC -> Pokédex Evaluation)
+- Added Mystery Gift code "yumcandy", giving the player 900 Rare Candies (can be repeated)
+- Added the Dragon Scale, Prism Scale, and Razor Fang to the shop in Girit Town
+- Changed the price of Repels from P$350 to P$150
+- Changed the price of Super Repels from P$500 to P$300
+- Changed the price of Max Repels from P$700 to P$375
+- Added some NPCs to the Pokémon Centers in Maple Town and Eridhe Town, that inform the player of the type changes, and the Light type matchups
+- Added proper location metadata for every map
+- Fixed some stair tile issues on Stark Beach
+- Fixed the unfinished path tiles on Route 14
+- Fixed a mapping error in Azure Lake
+- Fixed a minor error where Kurisu would teleport back a few tiles in a cutscene on Route 9
+- Changed the dialogue of a bunch of the Faypoint Gym trainers because they all just said the same shit before
+- Changed the appearance of the stat screen slightly
+- Changed Power of Alchemy's name to Alchemy Power (it does the same thing it just fits in the Ability box now)
+- Changed Rotom-Fan's special move from Air Slash to Hurricane
+- Fixed a bug where Petilil's sprite was floating in battle
+- Fixed a small error involving Dugtrio-Alola's menu sprite animation
+- Fixed an error where the Rock Smash HM used a red item ball instead of a yellow one
+- Added some more rocks to Route 14 (mostly on inaccessible areas) to make the area look better visually
+- Changed Koffing and Weezing's Pokédex entries to not mention Galar
+- Changed TM24 from Snore to Aerial Ace
+- Changed TM31 from Attract to Facade
+- Changed TM39 from Facade to Chilling Air
+- Changed Psychic Norman's Clefable to a Clefairy
+- Changed Psychic Jaylee's Jellicent to a Frillish
+- Set Lass Alice's Pokémon's levels to 16/16/16, and replaced Sylveon's Disarming Voice with Covet
+- Defined Hex Maniac Alice's Sylveon's Ability as Pixilate as intended
+- Changed Rival Kurisu (Keystone Pass)'s Dragalge's Ability from Adaptability to Corrosion
+- Changed Gym Leader Arnon's Chewtle to a Wingull
+- Changed Partner!Amber's team to Hattrem/Sliggoo/Mimikyu
+- Fixed follower sprites for the following Pokémon:
+	- Roggenrola/Boldore
+	- Audino
+	- Leavanny
+	- Solosis/Duosion/Reuniclus
+	- Klink/Klang/Klinklang
+	- Klink-Prism/Klang-Prism/Klinklang-Prism
+- Added revised level up movesets for the following Pokémon:
+	- Elgyem/Beheeyem
+	- Koffing/Weezing
+	- Vanillite-Prism/Vanillish-Prism/Vanilluxe-Prism
+	- Squirtle-Prism/Wartortle-Prism/Blastoise-Prism
+	- Magby/Magmar/Magmortar
+	- Turtonator
+	- Rufflet/Braviary
+	- Elekid/Electabuzz/Electivire
+	- Swablu/Altaria
+	- Bagon/Shelgon/Salamence
+	- Sandygast/Palossand
+	- Minior
+	- Slugma-Prism/Magcargo-Prism
+	- Slugma/Magcargo
+	- Fomantis/Lurantis
+	- Klink-Prism/Klang-Prism/Klinklang-Prism
+	- Sentret/Furret
+	- Drampa
+	- Weedle/Kakuna/Beedrill
+	- Porygon/Porygon2/Porygon-Z
+	- Grimer-Alola/Muk-Alola
+	- Lunatone-Prism/Solrock-Prism
+	- Sinistea-Prism/Polteageist-Prism
+	- Snorunt/Glalie/Froslass
+	- Rockruff/Lycanroc
+	- Pidgey/Pidgeotto/Pidgeot
+	- Jangmo-o/Hakamo-o/Kommo-o
+	- Skarmory
+	- Rotom
+	- Axew/Fraxure/Haxorus
+	- Pawniard/Bisharp
+	- Zorua/Zoroark
+	- Zorua-Hisui/Zoroark-Hisui
+	- Cyndaquil-Prism/Quilava-Prism/Typhlosion-Prism
+	- Darumaka-Galar/Darmanitan-Galar
+	- Cubchoo/Beartic-Prism
+	- Absol
+- Fixed the revised level up movesets for the following Pokémon:
+	- Snivy/Servine/Serperior
+	- Fennekin/Braixen/Delphox
+	- Piplup/Prinplup/Empoleon
+	- Rattata-Alola/Raticate-Alola
+	- Grubbin/Charjabug/Vikavolt
+	- Rookidee/Corvisquire/Corviknight
+	- Roselia/Roserade
+- Sandygast evolves into Palossand at Lv37 (was Lv42)
+- Budew evolves into Roselia at Lv15 (was Friendship)
+- Added proper Pokédex data for Prism Outpost Slugma and Magcargo
+- Added proper Pokédex data for Prism Outpost Klink, Klang, and Klinklang
+- Changed Mr. Mime-Galar's base stats from 50/65/65/90/90/100 to 50/65/65/80/90/85
+- Changed Venomoth's base stats from 70/65/60/110/80/95 to 70/65/65/100/80/95
+- Changed Beheeyem's base stats from 75/75/75/125/95/40 to 75/55/85/125/105/40
+- Changed Magcargo's base stats from 60/50/120/90/80/30 to 65/60/130/105/80/30
+- Changed Magcargo-Prism's base stats from 70/50/140/90/110/30 to 65/50/140/85/100/30
+- Changed Magcargo-Shattered's base stats from 70/90/50/130/50/100 to 65/80/50/130/50/95
+- Changed Bronzor's base stats from 57/24/86/24/86/23 to 57/49/86/44/86/23
+- Changed Mareanie's base stats from 50/53/62/43/52/45 to 50/53/77/43/72/45
+- Changed Sandygast's base stats from 55/55/80/70/45/15 to 65/55/80/70/55/15
+- Changed Fomantis's base stats from 55/65/40/50/40/35 to 55/75/55/60/55/35
+- Changed Cubchoo's base stats from 55/70/40/60/40/40 to 55/70/60/60/60/40
+- Changed Beartic-Prism's base stats from 95/130/80/70/80/50 to 90/130/95/60/80/50
+- Changed Porygon-Z's base stats from 85/80/70/135/75/90 to 85/80/75/135/80/95
+- Changed Pidgeotto's base stats from 63/60/55/55/50/81 to 63/60/55/65/50/82
+- Changed Pidgeot's base stats from 83/80/75/85/70/111 to 83/90/75/95/70/112
+- Changed Mega Pidgeot's base stats from 83/85/80/135/80/126 to 83/95/80/135/80/127
+- Changed Elgyem/Beheeyem's abilities to Analytic/Synchronize/(HA) Psychic Surge
+- Changed Koffing/Weezing's hidden ability to Flare Boost
+- Changed Vanillite-Prism/Vanillish-Prism/Vanilluxe-Prism's hidden ability to Flame Body
+- Changed Slugma/Magcargo's abilities to Evaporation/Flame Body/(HA) Weak Armor
+- Changed Buneary-Prism/Lopunny-Prism's hidden ability to Misty Surge
+- Changed Mega Steelix-Prism's ability to Evaporation
+- Changed Porygon-Z's hidden ability to Adaptability
+- Changed Sinistea-Prism/Polteageist-Prism's abilities to Poison Touch/Liquid Ooze/(HA) Cursed Body
+- Changed Pidgeotto/Pidgeot's abilities to Keen Eye/Reckless/(HA) Gale Wings
+- Changed Rotom-Mow's abilities to Levitate/Grassy Surge
+- Changed Rotom-Frost's abilities to Levitate/Refrigerate
+- Changed Axew/Fraxure/Haxorus's abilities to Sheer Force/Mold Breaker
+- Changed Typhlosion-Prism's abilities to Slush Rush/Frostbite/(HA) Snow Force
+- Changed Beartic-Prism's hidden ability to Guts
+- Sandshrew-Alola, Sandslash-Alola, Vulpix-Alola, Ninetales-Alola, Seel, Dewgong, Shellder, Cloyster, Horsea, Seadra, Kingdra, Starmie, Smoochum, Jynx, Lapras, Vaporeon, Glaceon, Articuno, Articuno-Galar, Dragonair, Dragonite, Mew, Cyndaquil-Prism, Quilava-Prism, Typhlosion-Prism, Slowbro, Slowbro-Galar, Slowking, Slowking-Galar, Sneasel, Weavile, Swinub, Piloswine, Mamoswine, Corsola-Galar, Cursola, Delibird, Suicune, Wingull, Pelipper, Wailmer, Wailord, Milotic, Snorunt, Glalie, Froslass, Spheal, Sealeo, Walrein, Regice, Piplup, Prinplup, Empoleon, Finneon-Prism, Lumineon-Prism, Snover, Abomasnow, Darumaka-Galar, Darmanitan-Galar, Tirtouga, Carracosta, Vanillite, Vanillish, Vanilluxe, Frillish, Jellicent, Cubchoo, Beartic, Cryogonal, Kyurem, Amaura, Aurorus, Bergmite, Avalugg, Crabominable, Mr. Mime-Galar, Mr. Rime, Snom, Frosmoth, Eiscue, Arctozolt, Arctovish, Glastrier, Clayrex-IceRider, Zorua-Hisui, and Zoroark-Hisui can now learn Chilling Air
+- Snivy, Servine, and Serperior can now learn Grassy Terrain through TM (it was locked to egg moves before)
+- Geodude, Graveler, and Golem (and their Alolan forms) can now learn Body Press through TM
+- Wingull can now learn Whirlpool and Surf
+- Elgyem and Beheeyem can now learn Icicle Spear and Dragon Dance (because it's TM51 and TR51 lol)
+- Turtonator can now learn Earth Power, Sludge Bomb, and Gyro Ball
+- Rufflet and Braviary can now learn Strength
+- Lycanroc (all forms) can now learn Ice Fang
+- Lycanroc-Midnight can now learn Ice Punch
+- Pidgey, Pidgeotto, and Pidgeot can now learn Dual Wingbeat, Reflect, Swift, Acrobatics, Hyper Voice, Nasty Plot, Thunder, and Electro Ball
+- Any Pokémon that could learn Aerial Ace pre-gen 8 can now learn it through TM again
+- Fury Attack is now 20 BP and 90% accuracy
+- Fury Swipes is now 25 BP and 85% accuracy
+- Fly is now 100% accuracy
+```

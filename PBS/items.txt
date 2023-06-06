@@ -1,8 +1,8 @@
 # See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-1,REPEL,Repel,Repels,1,350,"An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",2,0,0
-2,SUPERREPEL,Super Repel,Super Repels,1,500,"An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",2,0,0
-3,MAXREPEL,Max Repel,Max Repels,1,700,"An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",2,0,0
+1,REPEL,Repel,Repels,1,150,"An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",2,0,0
+2,SUPERREPEL,Super Repel,Super Repels,1,300,"An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",2,0,0
+3,MAXREPEL,Max Repel,Max Repels,1,375,"An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",2,0,0
 4,BLACKFLUTE,Black Flute,Black Flutes,1,20,"A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.",2,0,0
 5,WHITEFLUTE,White Flute,White Flutes,1,20,"A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.",2,0,0
 6,HONEY,Honey,Honey,1,900,"A sweet honey with an aroma that attracts wild Pokémon when used in grass, caves or on special trees.",2,0,0
@@ -314,14 +314,14 @@
 309,TM21,TM21,TM21s,4,2500,"The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.",3,0,0,REST
 310,TM22,TM22,TM22s,4,2500,"Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.",3,0,0,ROCKSLIDE
 311,TM23,TM23,TM23s,4,2500,"The user attacks and steals the target's item simultaneously. It can't steal if the user holds an item.",3,0,0,THIEF
-312,TM24,TM24,TM24s,4,2500,"This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",3,0,0,SNORE
+312,TM24,TM24,TM24s,4,2500,"The user confounds the target with speed, then slashes. This attack never misses.",3,0,0,AERIALACE
 313,TM25,TM25,TM25s,4,2500,"Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",3,0,0,PROTECT
 314,TM26,TM26,TM26s,4,2500,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
 315,TM27,TM27,TM27s,4,2500,"The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",3,0,0,ICYWIND
 316,TM28,TM28,TM28s,4,12500,"A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",3,0,0,GIGADRAIN
 317,TM29,TM29,TM29s,4,2500,"The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat.",3,0,0,CHARM
 318,TM30,TM30,TM30s,4,2500,"The target is hit with wings of steel. This may also raise the user's Defense stat.",3,0,0,STEELWING
-319,TM31,TM31,TM31s,4,2500,"If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",3,0,0,ATTRACT
+319,TM31,TM31,TM31s,4,2500,"This attack move doubles its power if the user is poisoned, burned, or paralyzed.",3,0,0,FACADE
 320,TM32,TM32,TM32s,4,2500,"A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",3,0,0,SANDSTORM
 321,TM33,TM33,TM33s,4,2500,"The user summons a heavy rain that falls for five turns, powering up Water-type moves.",3,0,0,RAINDANCE
 322,TM34,TM34,TM34s,4,2500,"The user intensifies the sun for five turns, powering up Fire-type moves.",3,0,0,SUNNYDAY
@@ -329,7 +329,7 @@
 324,TM36,TM36,TM36s,4,2500,"The user traps the target in a violent swirling whirlpool for four to five turns.",3,0,0,WHIRLPOOL
 325,TM37,TM37,TM37s,4,2500,"The user gets all party Pokémon to attack the target. The more party Pokémon, the more hits it deals.",3,0,0,BEATUP
 326,TM38,TM38,TM38s,4,2500,"The user shoots a sinister flame at the target to inflict a burn.",3,0,0,WILLOWISP
-327,TM39,TM39,TM39s,4,2500,"This attack move doubles its power if the user is poisoned, burned, or paralyzed.",3,0,0,FACADE
+327,TM39,TM39,TM39s,4,2500,"The user chills the air around the target to inflict freeze.",3,0,0,CHILLINGAIR
 328,TM40,TM40,TM40s,4,2500,"Star-shaped rays are shot at opposing Pokémon. This attack never misses.",3,0,0,SWIFT
 329,TM41,TM41,TM41s,4,2500,"This full-power attack grows more powerful the more the user likes its Trainer.",3,0,0,RETURN
 330,TM42,TM42,TM42s,4,2500,"This attack move's power is doubled if the user has been hurt by the opponent in the same turn.",3,0,0,REVENGE
