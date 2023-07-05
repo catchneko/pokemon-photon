@@ -585,3 +585,107 @@ Alpha 0.9.0
 - Fury Swipes is now 25 BP and 85% accuracy
 - Fly is now 100% accuracy
 ```
+```
+Beta 0.10.0
+- Fixed an error with the Audino trainer in Azure Base
+- Fixed an error in which Exeggcute would not evolve into Alolan Exeggutor
+- Fixed an error during Arnon's sidequest where he still appears in the Gym
+- Remastered some more sprites, including Amber's VS sprite and the Neo Aether grunts
+- Added proper looping for more music tracks
+	- Ballonlea (Lavenn Forest, Faypoint Town theme)
+	- Bone-Dry Dunes (Route 13 theme)
+	- Evolution theme
+	- Battle! Gladion (Phoebe battle theme 1)
+	- Battle! Team Star Grunt (Team Beastman Grunt battle theme)
+	- Battle! VS Moebius (Phoebe battle theme 2)
+	- Black Tower (Team Beastman Base theme)
+	- Castelia City Gym x Tartarus (Faypoint Gym theme)
+	- Colony 6 Future (Route 11-12 theme)
+	- Colony 9 (Route 6-7, Maple Town, Girit Town theme)
+	- Death Match With Torna (Amie battle theme)
+	- Deep Dark Galaxy (Azure Shipyard theme)
+	- Epic Story (Bonfire Island theme)
+	- Forest of the Nopon (Route 16, Draconis Village theme)
+	- Gormott (Route 2-3, Azure Base, Azure Lake theme)
+	- Incoming! (Hellshadow battle theme)
+	- Kingdom of Uraya (Route 4 theme)
+	- Lentimas Town (Eridhe Town theme)
+	- Melty Molten Galaxy (Argentum Caldera theme)
+	- Mor Ardain (Route 15, Stark Beach, Stark Bay theme)
+	- Relic Castle (Ancient Ruins theme)
+	- Reversal Mountain White 2 (Keystone Pass theme)
+	- Route 8 (Route 8-10 theme)
+	- Route 12 Spring/Summer (Route 17 theme)
+	- Spirit Crucible Elpys (The Crucible theme)
+	- Strange House (Abandoned House theme)
+	- Tephra Cave (Luna Mine theme)
+	- The Road to Reversal Mountain (Route 14 theme)
+	- Urayan Tunnels (Draconis Cave theme)
+	- Valak Mountain Night (Frostpeak Town theme)
+	- Waterfall Cave (Waterside Cavern theme)
+- Added Pokédex data for the Prism-Clauncher and Prism-Ralts lines
+- Added Dylan's Gym Leader sidequest, making the Beedrillite obtainable
+- Added a new area to Eridhe Town, though it's not currently accessible
+- Made the Audinite obtainable (talk to Beauty Joyce in the Azure Base Pokémon Center after having battled her 5+ times)
+- Changed Gym Leader Arnon's Shellos's Icy Wind to Whirlpool
+- Changed some map names in Azure Base
+- Added some more trees to Route 4 to make it feel less empty
+- Added a new shop in Eridhe Town selling some more held/evo items
+- Reduced the opacity of the overlay graphic in Luna Mine
+- Changed Route 2's encounters:
+	- Rattata-Alola (25%)
+	- Budew (25%)
+	- Grubbin (20%)
+	- Rookidee (15%)
+	- Pichu (15%)
+- Changed Route 3's encounters:
+	- Budew (25%)
+	- Shellos (25%)
+	- Nincada (20%)
+	- Geodude (15%)
+	- Litleo (10%)
+	- Pikachu (10%)
+- Added revised level up movesets for the following Pokémon:
+	- Spheal/Sealeo/Walrein
+	- Wailmer/Wailord
+	- Ralts-Prism/Kirlia-Prism/Gardevoir-Prism/Gallade-Prism
+	- Rhyhorn/Rhydon/Rhyperior
+	- Scyther/Scizor
+	- Pinsir
+	- Pincurchin
+	- Pyukumuku
+	- Happiny/Chansey/Blissey
+	- Seel/Dewgong
+	- Slowpoke-Galar/Slowbro-Galar/Slowking-Galar
+	- Exeggcute/Exeggutor-Alola
+	- Tropius
+	- Gligar/Gliscor
+	- Teddiursa/Ursaring
+	- Bouffalant
+	- Lapras
+	- Feebas/Milotic
+	- Nihilego
+	- Buzzwole
+	- Pheromosa
+	- Xurkitree
+	- Celesteela
+	- Kartana
+	- Guzzlord
+	- Stakataka
+	- Blacephalon
+	- Cosmog/Cosmoem/Solgaleo/Lunala
+	- Necrozma
+	- Poipole/Naganadel
+	- Uxie-Prism/Mesprit-Prism/Azelf-Prism
+	- Giratina
+	- Arceus
+- Changed Tropius's base stats from 99/68/83/72/87/51 to 109/78/83/82/87/51
+- Spheal, Sealeo, and Walrein can now learn Amnesia and Bulk Up
+- Pincurchin can now learn Wild Charge, Sludge Bomb, and Energy Ball
+- Seel and Dewgong can now learn Icicle Spear, Breaking Swipe, Bulk Up, Superpower, Dragon Pulse, and Liquidation
+- Tropius can now learn Dual Wingbeat
+- Gligar and Gliscor can now learn Dual Wingbeat
+- Celesteela can now learn Hurricane
+- Submission is now 100 BP and 100% accuracy
+- Wild Charge now has a 10% chance to paralyze the target, and its recoil was changed to 1/3
+```

@@ -59,7 +59,7 @@ Pokemon = BIDOOF,10
 [LEADER_Arnon,Arnon]
 LoseText = "Not bad. Not bad at all."
 Pokemon = SHELLOS,13
-    Moves = WATERGUN,MUDSLAP,HARDEN,ICYWIND
+    Moves = WATERGUN,MUDSLAP,HARDEN,WHIRLPOOL
     Item = ORANBERRY
     EV = 30,0,0,0,10,30
     AbilityIndex = 0
@@ -251,7 +251,6 @@ Pokemon = NINJASK,19
     Moves = DOUBLETEAM,FURYCUTTER,SANDATTACK,FURYSWIPES
 #-------------------------------
 [LEADER_Dylan,Dylan]
-Items = SUPERPOTION,SUPERPOTION
 LoseText = "WHAT?! My bugs! My army of bugs!"
 Pokemon = CHARJABUG,21
     Moves = ACROBATICS,SPARK,UTURN,BITE
@@ -2402,6 +2401,17 @@ Pokemon = JOLTEON,60
 Pokemon = GOLEM,60
     Moves = EARTHQUAKE,ROCKBLAST,STEALTHROCK,SUPERPOWER
     AbilityIndex = 0
+#-------------------------------
+[LEADER_Dylan,Dylan,1]
+LoseText = "Woah! You beat my bugs again!"
+Pokemon = VIKAVOLT,50
+    Moves = AIRSLASH,BUGBUZZ,DISCHARGE,ENERGYBALL
+Pokemon = VENOMOTH,50
+    AbilityIndex = 2
+    Moves = PSYCHIC,SIGNALBEAM,AIRSLASH,SLUDGEBOMB
+Pokemon = BEEDRILL,52
+    Item = BEEDRILLITE
+    Moves = DRILLRUN,POISONJAB,XSCISSOR,AGILITY
 #-------------------------------
 [BECCACAT,test]
 LoseText = "Fuck you!"

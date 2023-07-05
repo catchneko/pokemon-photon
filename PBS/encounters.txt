@@ -16,11 +16,11 @@ SuperRod
 #-------------------------------
 [077] # Route 2
 Land,18
-    25,GRUBBIN,3,5
     25,RATTATA_1,3,5
-    25,ROOKIDEE,3,5
-    15,BUDEW,4,5
-    10,PICHU,4,5
+    25,BUDEW,4,5
+    20,GRUBBIN,3,5
+    15,ROOKIDEE,3,5
+    15,PICHU,4,5
 GoodRod
     55,TYMPOLE,15
     45,FRILLISH,15
@@ -32,9 +32,9 @@ SuperRod
 [078] # Route 3
 Land,18
     25,BUDEW,4,6
-    20,GEODUDE,4,6
-    20,SHELLOS,4,6
-    15,NINCADA,4,5
+    25,SHELLOS,4,6
+    20,NINCADA,4,5
+    15,GEODUDE,4,6
     10,LITLEO,3,5
     10,PIKACHU,4,6
 #-------------------------------
