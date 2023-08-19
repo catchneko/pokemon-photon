@@ -767,3 +767,7 @@ Beta 0.11.0
 - Photon Geyser, Ancient Power, Ominous Wind, and Silver Wind are now 10 PP
 - Triple Kick is now 15 BP
 ```
+```
+Alpha 0.11.1
+- Fixed an issue involving the Lake Trio sidequest
+```
