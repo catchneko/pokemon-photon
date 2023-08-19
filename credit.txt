@@ -22,6 +22,7 @@ Hidden Ability Capsule script:
 Panorama Graphics: Various stock images I edited
 Palm Tree Tiles: ThePurplest on RC
 Elio and Selene trainer sprites: Beliot419
+Cythia overworld sprite: aveontrainer on DA
 
 Hidden Power Checker script:
 	King_Waluigi

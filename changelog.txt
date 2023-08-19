@@ -689,3 +689,81 @@ Beta 0.10.0
 - Submission is now 100 BP and 100% accuracy
 - Wild Charge now has a 10% chance to paralyze the target, and its recoil was changed to 1/3
 ```
+```
+Beta 0.11.0
+# In the game's folder, I added some more resources, including a text document detailing Pokémon, move, and item changes, and visual guides to Hidden Power type
+- Rewrote a *lot* of cutscenes to improve the story, add foreshadowing that was sorely lacking before, and tie the early game and late game together better
+- Expanded the Zygarde cutscene
+	- If you're updating the game after having already obtained Zygarde, just enable Debug mode (either through the computer in Kurisu's house or by running the game through RPG Maker XP) and turn on Switch 157 to get rid of the random grunt on Route 11
+- Added more Aether Burst fights:
+	- Pidgeotto (Intriguing Stone sidequest)
+- Upped the base money rate of nearly every trainer type
+- Added some rocks to Bonfire Island to prevent the player from skipping the Kurisu fight
+- Added Focus Sash to the Eridhe Town held item shop
+- Added a sidequest chain currently lasting through the first half of the game (start it by talking to a Youngster in Azure Base)
+- Added the Lake Trio sidequest, accessible after the events at the Altar of the Stars
+- Added Shiny icons for every Pokémon
+- Added a sign to Mr. Hyper's house
+- Changed the item descriptions of the various Bottle Caps to better describe what they do
+- Changed the price of the Ice Stone to match the other evo stones (P$5000 -> P$2100)
+- Fixed the tile errors on Routes 13, 14, 16, and 17
+- Fixed an error where Aether Burst Skorupi used its base form's sprites
+- Fixed an error where the Fisherman on Stark Beach used Aroma Lady Marigold's team by mistake
+- Fixed a collision error for one of the trees in Lavenn Forest, and moved a mushroom to better open the path during the Mimikyu sidequest
+- Fixed an error where the Draconis Gym could be challenged before defeating Kurisu on Route 17, making his fight skippable when it shouldn't be
+- Fixed an issue in the Draconis Gym where Mitsuki would challenge the player again if talked to after defeating her
+- Fixed an issue in the Draconis Gym where the game could softlock after beating Mitsuki
+- Fixed an issue where a late-game Phoebe fight would crash the game if you had taken the Moon Path
+- Fixed a bug where some events on Route 20 could become misplaced
+- Fixed a mapping issue on Route 20 leading to a cutscene being able to be skipped and triggered at the wrong time
+- Fixed a minor issue in which Asher and Mimikyu would appear at Azure Lake when they shouldn't
+- Fixed an issue where Z-Moves had no animations
+- Changed the evo method of every single Pokémon that evolves by trade that I didn't already fix (not all of these are obtainable in-game but this is future-proofing for the postgame/special challenge runs)
+	- Poliwhirl -> Politoed: Level up holding King's Rock
+	- Kadabra -> Alakazam: Level 37
+	- Machoke -> Machamp: Level 37
+	- Slowpoke -> Slowking: Level up holding King's Rock
+	- Haunter -> Gengar: Level 37
+	- Rhydon -> Rhyperior: Level up holding Protector
+	- Scyther -> Scizor: Level up holding Metal Coat
+	- Feebas -> Milotic: Level up holding Prism Scale
+	- Dusclops -> Dusknoir: Level up holding Reaper Cloth
+	- Clamperl -> Huntail: Level up holding Deep Sea Tooth
+	- Clamperl -> Gorebyss: Level up holding Deep Sea Scale
+	- Gurdurr -> Conkeldurr: Level 37
+	- Karrablast -> Escavalier: Level up with Shelmet or Accelgor in party
+	- Shelmet -> Accelgor: Level up with Karrablast or Escavalier in party
+	- Spritzee -> Aromatisse: Level up holding Sachet
+	- Swirlix -> Slurpuff: Level up holding Whipped Dream
+	- Phantump -> Trevenant: Level 34
+	- Pumpkaboo -> Gourgeist: Level 34
+  Because of this, Rhyperior, Scizor, and Milotic are now obtainable in-game
+- Changed the evo method of some other Pokémon as well:
+	- Sinistea-Prism -> Polteageist-Prism: Use Dusk Stone
+	- Doublade -> Aegislash: Level 50 (teehee :3)
+- Changed the catch rates of Uxie, Mesprit, Azelf, and Giratina from 3 to 30 (you're welcome)
+- Removed the Beastman grunt blocking the Route 5 exit to Luna Mine
+- Changed the Stark Beach cutscene with Helia and Neo Aether to not trigger until you've returned the duck
+- The player is no longer locked out of Route 14 and Aurum Desert between beating Jack/the Neo Aether grunts and entering The Crucible.
+- Changed the moveset of the boss Steelix in the Crucible (Dragon Tail -> Breaking Swipe) due to issues with Dragon Tail's properties
+- Changed the battle theme of the Route 14 Neo Aether grunts to "A Formidable Enemy" like the other grunts
+- Changed Wild Charge's description to be more accurate to the changes made
+- Changed how breeding regional forms works; it will always inherit the mother's form unless the mother is of the base form and the regional father holds an Everstone
+- Moved Pichu's Volt Tackle from Lv24 to Lv30
+- Changed Budew's SpAtk (65 -> 55)
+- Changed Breloom's Speed (80 -> 70) (no more 80 speed Spore, Big Stall loses again!)
+- Changed Primeape's Attack (115 -> 105) and Speed (105 -> 95)
+- Changed Wailmer's Attack (50 -> 65) and SpAtk (70 -> 65)
+- Changed Wailord's Attack (70 -> 85) and SpAtk (90 -> 85)
+- Changed Ultra Necrozma's Defense (97 -> 107) and SpDef (97 -> 107)
+- Fixed whatever the fuck was going on with Vikavolt's stat spread
+	- Was 70/70/90/130/70/75, is now 77/70/90/145/75/43
+- Changed Umbreon's abilities to Synchronize/Prankster
+- Changed Necrozma-DuskMane's abilities to Prism Armor/Full Metal Body
+- Changed Necrozma-DawnWings's abilities to Prism Armor/Shadow Shield
+- Pay Day's payout is now 12x the user's level instead of 5x
+- Piplup, Prinplup, and Empoleon can now learn Flip Turn
+- Mankey, Primeape, Seel, Dewgong, Minccino, Cinccino, Aipom, Ambipom, Buneary-Prism, Lopunny-Prism, Happiny, Chansey, Blissey, Sentret, Furret, Teddiursa, and Ursaring can now learn Pay Day
+- Photon Geyser, Ancient Power, Ominous Wind, and Silver Wind are now 10 PP
+- Triple Kick is now 15 BP
+```

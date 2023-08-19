@@ -2413,6 +2413,35 @@ Pokemon = BEEDRILL,52
     Item = BEEDRILLITE
     Moves = DRILLRUN,POISONJAB,XSCISSOR,AGILITY
 #-------------------------------
+[POKEMANIAC,Todd]
+LoseText = "Ah! I failed, Boss!"
+Pokemon = NIDORINO,24
+Pokemon = DREDNAW,24
+#-------------------------------
+[POKEMANIAC,Stanley]
+LoseText = "Argh!"
+Pokemon = FARFETCHD,25
+    Form = 1
+Pokemon = BOLDORE,25
+#-------------------------------
+[WILDMON,Zygarde]
+LoseText = ""
+Pokemon = ZYGARDE,30
+    AbilityIndex = 0
+    Form = 1
+    Moves = DRAGONBREATH,CRUNCH,GLARE,BULLDOZE
+    IV = 31,31,31,31,31,31
+    EV = 80,80,80,80,80,80
+#-------------------------------
+[NEOAETHER_Q,???,2]
+LoseText = "..."
+Pokemon = SKORUPI,32
+    Form = 99
+Pokemon = LARVESTA,32
+    Form = 99
+Pokemon = OCTILLERY,32
+    Form = 99
+#-------------------------------
 [BECCACAT,test]
 LoseText = "Fuck you!"
 Pokemon = PIKACHU,10

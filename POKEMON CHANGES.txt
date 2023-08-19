@@ -1,0 +1,1491 @@
+Her ass was NOT COOKING!
+These changes are compared to vanilla Pokémon
+====================================
+===   Attribute Changes ============
+====================================
+
+Serperior
+    SpD 95 -> 100 (+5)
+    Spe 113 -> 115 (+2)
+    BST 528 -> 535 (+7)
+
+Fennekin
+     HA | Magician -> Magic Guard
+
+Braixen
+     HA | Magician -> Magic Guard
+
+Delphox
+    SpA 114 -> 115 (+1)
+    BST 534 -> 535 (+1)
+
+     HA | Magician -> Magic Guard
+(If you can't tell I was trying to standardize all starters to 535 BST)
+
+Empoleon
+    Atk 86 -> 101 (+15)
+    SpA 111 -> 101 (-10)
+    BST 530 -> 535 (+5)
+
+Rattata (Alola)
+    Evolution into Raticate (Alola): Lv.20 (Night) -> Lv.20 (Any time)
+
+Raticate (Alola)
+    Atk 71 -> 81 (+10)
+    Def 70 -> 80 (+10)
+    SpD 80 -> 90 (+10)
+    Spe 77 -> 81 (+4)
+    BST 413 -> 447 (+34)
+
+Geodude
+     HA | Sand Veil -> Solid Rock
+
+Graveler
+     HA | Sand Veil -> Solid Rock
+
+     Evolution into Golem: Trade -> Lv.37
+
+Graveler (Alola)
+     Evolution into Golem (Alola): Trade -> Lv.37
+
+Golem
+     HA | Sand Veil -> Solid Rock
+
+Budew
+    Def 35 -> 40 (+5)
+    SpA 50 -> 55 (+5)
+    BST 280 -> 290 (+10)
+
+    Evolution into Roselia: Friendship (Day) -> Lv.15 (Any time)
+
+Pichu
+    SpA 35 -> 45 (+10)
+    Spe 60 -> 65 (+5)
+    BST 205 -> 220 (+15)
+
+Pikachu
+    SpA 50 -> 65 (+15)
+    BST 320 -> 335 (+15)
+
+    Evolution into Raichu (Alola): Thunder Stone -> Big Malasada
+
+Raichu
+     HP 60 -> 70 (+10)
+    SpA 90 -> 95 (+5)
+    Spe 110 -> 115 (+5)
+    BST 485 -> 505 (+20)
+
+    Ab2 | N/A -> Electric Surge
+
+Raichu (Alola)
+     HP 60 -> 70 (+10)
+    SpA 95 -> 100 (+5)
+    Spe 110 -> 115 (+5)
+    BST 485 -> 505 (+20)
+
+Litleo
+    Ab1 | Rivalry -> Competitive
+    Ab2 | Unnerve -> Intimidate
+
+Pyroar
+    Ab1 | Rivalry -> Competitive
+    Ab2 | Unnerve -> Intimidate
+
+Ninjask
+     HP 61 -> 66 (+5)
+    Atk 90 -> 100 (+10)
+    SpD 50 -> 60 (+10)
+    BST 456 -> 481 (+25)
+
+Shedinja
+    Atk 90 -> 110 (+20)
+    SpA 35 -> 75 (+45)
+    Spe 40 -> 90 (+50)
+    BST 236 -> 351 (+115)
+
+Primeape
+    Def 60 -> 70 (+10)
+    SpD 70 -> 80 (+10)
+    BST 455 -> 475 (+20)
+
+Wingull
+     HP 40 -> 45 (+5)
+    SpA 55 -> 60 (+5)
+    BST 270 -> 280 (+10)
+
+Pelipper
+     HP 60 -> 70 (+10)
+    Def 100 -> 105 (+5)
+    SpD 70 -> 85 (+15)
+    BST 440 -> 470 (+30)
+
+Palpitoad
+     HP 75 -> 80 (+5)
+    Atk 65 -> 68 (+3)
+    Def 55 -> 60 (+5)
+    SpD 55 -> 60 (+5)
+    BST 384 -> 402 (+18)
+
+Bibarel
+     HP 79 -> 89 (+10)
+    Def 60 -> 65 (+5)
+    SpD 60 -> 70 (+10)
+    BST 410 -> 435 (+25)
+
+Leavanny
+    Atk 103 -> 108 (+5)
+    Def 80 -> 75 (-5)
+    SpD 80 -> 70 (-10)
+    Spe 92 -> 102 (+10)
+    BST 500 -> 500 (±0)
+(WE LOVE MINMAXING!!!!!!!!!!)
+
+Breloom
+    Def 80 -> 85 (+5)
+    SpD 60 -> 65 (+5)
+    BST 460 -> 470 (+10)
+
+Munchlax
+    Evolution into Snorlax: Friendship -> Lv.30
+
+Mr. Mime (Galar)
+    SpA 90 -> 80 (-10)
+    Spe 100 -> 85 (-15)
+    BST 460 -> 435 (-25)
+
+Mr. Rime
+    Atk 85 -> 70 (-15)
+    Spe 70 -> 85 (+15)
+    BST 520 -> 520 (±0)
+
+Eevee
+    Evolution into Espeon: Friendship (Day) -> Sun Stone (Any time)
+    Evolution into Umbreon: Friendship (Night) -> Moon Stone (Any time)
+    Evolution into Sylveon: High affection + Fairy-type move -> Shiny Stone
+
+Vaporeon
+    Ab2 | N/A -> Swift Swim
+
+Jolteon
+    Ab2 | N/A -> Static
+
+Flareon
+    Def 60 -> 65 (+5)
+    SpA 95 -> 60 (-35)
+    Spe 65 -> 95 (+30)
+    BST 525 -> 525 (±0)
+
+    Ab2 | N/A -> Defiant
+(yeah yeah minmaxing bad :nerd:)
+
+Espeon
+    Ab2 | N/A -> Magic Guard
+
+Umbreon
+    Ab2 | N/A -> Prankster
+
+Leafeon
+    Ab2 | N/A -> Technician
+
+Glaceon
+    Ab2 | N/A -> Slush Rush
+
+Sylveon
+    Ab2 | N/A -> Serene Grace
+
+Zubat
+    Atk 45 -> 55 (+10)
+    SpD 40 -> 45 (+10)
+    Spe 55 -> 65 (+10)
+    BST 245 -> 275 (+30)
+
+Noibat
+     HP 40 -> 50 (+10)
+    Atk 30 -> 55 (+25)
+    Def 35 -> 45 (+10)
+    SpA 45 -> 60 (+15)
+    SpD 40 -> 55 (+40)
+    Spe 55 -> 75 (+20)
+    BST 245 -> 340 (+95)
+
+    Evolution into Noivern: Lv.48 -> Lv.35
+(Bro deserves it)
+
+Noivern
+    SpA 97 -> 107 (+10)
+    BST 535 -> 545 (+10)
+
+Diglett (Alola)
+     HP 10 -> 15 (+5)
+    Atk 55 -> 70 (+15)
+    BST 265 -> 285 (+20)
+
+Dugtrio (Alola)
+     HP 35 -> 45 (+10)
+    Atk 100 -> 110 (+10)
+    SpD 70 -> 85 (+15)
+    Spe 110 -> 120 (+10)
+    BST 425 -> 470 (+45)
+
+Aron
+    Evolution into Lairon: Lv.32 -> Lv.27
+
+Lairon
+    Evolution into Aggron: Lv.42 -> Lv.40
+
+Mega Aggron
+    Atk 140 -> 135 (-5)
+    Def 230 -> 220 (-10)
+    BST 630 -> 615 (-15)
+(Megas no longer follow the +100 BST rule in an attempt to balance them)
+
+Cleffa
+     HP 50 -> 55 (+5)
+    SpA 45 -> 50 (+5)
+    Spe 15 -> 20 (+5)
+    BST 218 -> 233 (+15)
+
+Riolu
+    SpA 35 -> 55 (+20)
+    Spe 60 -> 65 (+5)
+    BST 285 -> 310 (+25)
+
+    Evolution into Lucario: Friendship (Day) -> Lv.30 (Any time)
+
+Mega Lucario
+    Atk 145 -> 130 (-15)
+    SpA 140 -> 130 (-10)
+    Spe 112 -> 107 (-5)
+    BST 625 -> 595 (-30)
+
+Mareep
+    Ab2 | N/A -> Fluffy
+     HA | Plus -> Mold Breaker
+
+Flaffy
+    Ab2 | N/A -> Fluffy
+     HA | Plus -> Mold Breaker
+
+Ampharos
+    Ab2 | N/A -> Fluffy
+     HA | Plus -> Mold Breaker
+
+Mega Ampharos
+    SpA 165 -> 155 (-10)
+    BST 610 -> 600 (-10)
+
+Farfetch'd (Galar)
+    Evolution into Sirfetch'd: Get 3 critical hits in 1 battle -> Lv. while knowing Swords Dance
+
+Minccino
+    Ab1 | Cute Charm -> Skill Link
+     HA | Skill Link -> Pickup
+
+Cinccino
+    Ab1 | Cute Charm -> Skill Link
+     HA | Skill Link -> Fur Coat
+
+Skorupi
+    Evolution into Drapion: Lv.40 -> Lv.34
+
+Venonat
+     HA | Run Away -> Sixth Sense
+
+    Evolution into Venomoth: Lv.31 -> Lv.28
+(Sixth Sense is a new ability that boosts Psychic-type moves by 50%, it's like Psychic Steelworker)
+
+Venomoth
+    SpA 90 -> 100 (+10)
+    SpD 75 -> 80 (+5)
+    Spe 90 -> 95 (+5)
+    BST 450 -> 470 (+20)
+
+    Ab1 | Shield Dust -> Wonder Skin
+     HA | Wonder Skin -> Sixth Sense
+
+Frillish
+    Evolution into Jellicent: Lv.40 -> Lv.32
+
+Skrelp
+    Def 60 -> 65 (+5)
+    SpA 60 -> 65 (+5)
+    SpD 60 -> 80 (+20)
+    BST 320 -> 350 (+30)
+
+    Ab1 | Poison Point -> Adaptability
+    Ab2 | Poison Touch -> Swift Swim
+     HA | Adaptability -> Corrosion
+
+    Evolution into Dragalge: Lv.48 -> Lv.36
+
+Dragalge
+    SpA 97 -> 107 (+10)
+    BST 494 -> 504 (+10)
+
+    Ab1 | Poison Point -> Adaptability
+    Ab2 | Poison Touch -> Swift Swim
+     HA | Adaptability -> Corrosion
+
+Aipom
+    Ab1 | Run Away -> Technician
+
+Ambipom
+     HP 75 -> 80 (+5)
+    Atk 100 -> 107 (+7)
+    Spe 115 -> 118 (+3)
+    BST 482 -> 497 (+15)
+
+Meditite
+    Evolution into Medicham: Lv.37 -> Lv.33
+
+Mega Medicham
+    Atk 100 -> 90 (-10)
+    BST 510 -> 500 (-10)
+
+Mega Audino
+    Ab1 | Healer -> Regenerator
+
+Boldore
+    Evolution into Gigalith: Trade -> Lv.37
+
+Mienfoo
+    Evolution into Mienshao (Prism): N/A -> Lv.34
+
+Gabite
+    Def 65 -> 75 (+10)
+    BST 410 -> 420 (+10)
+(All midstage pseudo-legendaries were standardized to either 420 or 450, depending on evo level)
+
+Mega Garchomp
+    Atk 170 -> 165 (-5)
+    Def 115 -> 110 (-5)
+    SpA 120 -> 100 (-20)
+    SpD 95 -> 90 (-5)
+    Spe 92 -> 102 (+10)
+    BST 700 -> 675 (-25)
+(teehee :3)
+
+Onix
+     HP 35 -> 55 (+20)
+    Atk 45 -> 65 (+20)
+    Def 160 -> 130 (-30)
+    SpD 45 -> 65 (+20)
+    BST 385 -> 415 (+30)
+
+    Evolution into Steelix: Trade holding Metal Coat -> Lv. holding Metal Coat
+    Evolution into Steelix (Prism): N/A -> Lv. holding Magma Coat
+
+Mega Steelix
+    Atk 125 -> 120 (-5)
+    Def 230 -> 220 (-10)
+    BST 610 -> 595 (-15)
+
+Nosepass
+    Evolution into Probopass: Lv. in magnetic area -> Thunder Stone
+
+Probopass
+     HA | Sand Force -> Levitate
+
+Solosis
+    Evolution into Duosion: Lv.32 -> Lv.26
+
+Duosion
+    Evolution into Reuniclus: Lv.41 -> Lv.38
+
+Mega Gyarados
+    Atk 155 -> 145 (-10)
+    Def 109 -> 104 (-5)
+    SpD 130 -> 125 (-5)
+    BST 640 -> 620 (-20)
+
+Horsea
+    Evolution into Seadra: Lv.32 -> Lv.28
+
+Seadra
+    Evolution into Kingdra: Trade holding Dragon Scale -> Lv. holding Dragon Scale
+
+Castform (Sunny, Rainy, and Snowy forms)
+    Def 70 -> 80 (+10)
+    SpA 70 -> 95 (+25)
+    SpD 70 -> 80 (+10)
+    Spe 70 -> 95 (+25)
+    BST 420 -> 490 (+70)
+
+Lileep
+    Ab2 | N/A -> Life Roots
+
+    Evolution into Cradily: Lv.40 -> Lv.30
+(Life Roots is a new ability that causes draining moves and Ingrain to restore 30% more HP, think Big Root in ability form)
+
+Cradily
+    Ab2 | N/A -> Life Roots
+
+Amaura
+    Evolution into Aurorus: Lv.39 (Night) -> Lv.30 (Any time)
+
+Aurorus
+    Atk 77 -> 59 (-18)
+    Def 72 -> 80 (+8)
+    SpA 99 -> 106 (+7)
+    SpD 92 -> 106 (+14)
+    Spe 58 -> 51 (-7)
+    BST 521 -> 525 (+4)
+
+Tirtouga
+    Evolution into Carracosta: Lv.37 -> Lv.30
+
+Archen
+    Atk 112 -> 74 (-38)
+    SpA 74 -> 71 (-3)
+    BST 401 -> 360 (-41)
+
+    Ab1 | Defeatist -> Inner Focus
+    Ab2 | N/A -> Berserk
+
+    Evolution into Archeops: Lv.37 -> Lv.33
+
+Archeops
+    Atk 140 -> 110 (-30)
+    SpA 112 -> 105 (-7)
+    BST 567 -> 530 (-37)
+
+    Ab1 | Defeatist -> Inner Focus
+    Ab2 | N/A -> Berserk
+(I wasn't sure how to balance Defeatist so I just got rid of it, shame Archeops's BST reference had to go :( )
+
+Omanyte
+    Evolution into Omastar: Lv.40 -> Lv.30
+
+Whiscash
+    Atk 78 -> 83 (+5)
+    Def 73 -> 78 (+5)
+    SpA 76 -> 81 (+5)
+    SpD 71 -> 76 (+5)
+    BST 468 -> 488 (+20)
+
+Sableye
+    Atk 75 -> 100 (+25)
+    Def 75 -> 95 (+20)
+    SpA 65 -> 70 (+5)
+    SpD 65 -> 85 (+20)
+    BST 380 -> 450 (+70)
+
+    Ab1 | Keen Eye -> Prankster
+     HA | Prankster -> Keen Eye
+
+Mega Sableye
+    Atk 85 -> 100 (+15)
+    Def 125 -> 130 (+5)
+    SpA 85 -> 95 (+10)
+    SpD 115 -> 120 (+5)
+    BST 480 -> 515 (+35)
+
+Mawile
+     HP 50 -> 60 (+10)
+    Atk 85 -> 105 (+20)
+    Def 85 -> 95 (+10)
+    SpD 55 -> 65 (+10)
+    Spe 50 -> 70 (+20)
+    BST 380 -> 450 (+70)
+
+    Ab1 | Hyper Cutter -> Sheer Force
+     HA | Sheer Force -> Versatility
+(Versatility is a new ability that powers up non-STAB moves by 20% (this does not remove STAB))
+
+Mega Mawile
+     HP 50 -> 60 (+10)
+    Atk 105 -> 85 (-20)
+    Def 125 -> 135 (+10)
+    SpA 55 -> 65 (+10)
+    SpD 95 -> 110 (+15)
+    Spe 50 -> 60 (+10)
+    BST 480 -> 515 (+35)
+(Yeah I just swapped base and Mega Mawile's Attack stats, Huge Power go brrr)
+
+Bronzor
+    Atk 24 -> 49 (+25)
+    SpA 22 -> 44 (+20)
+    BST 300 -> 345 (+45)
+
+Bronzong
+     HA | Heavy Metal -> Drizzle
+
+Ribombee
+    Def 60 -> 65 (+5)
+    SpD 70 -> 85 (+15)
+    BST 464 -> 484 (+20)
+
+Wishiwashi (Solo)
+     HP 45 -> 50 (+5)
+    Atk 20 -> 30 (+10)
+    Def 20 -> 40 (+20)
+    SpA 25 -> 35 (+10)
+    SpD 25 -> 45 (+20)
+    BST 175 -> 240 (+65)
+
+Wishiwashi (School)
+     HP 45 -> 50 (+5)
+    BST 620 -> 625 (+5)
+
+Doublade
+    Evolution into Aegislash: Dusk Stone -> Lv.50
+(Certified RadRed moment)
+
+Ditto
+     HP 48 -> 60 (+12)
+    Atk 48 -> 60 (+12)
+    Def 48 -> 60 (+12)
+    SpA 48 -> 60 (+12)
+    SpD 48 -> 60 (+12)
+    Spe 48 -> 60 (+12)
+    BST 288 -> 360 (+72)
+
+Sceptile
+    Atk 85 -> 105 (+20)
+    SpA 105 -> 85 (-20)
+    BST 530 -> 530 (±0)
+
+    Ab1 | Overgrow -> Unburden
+     HA | Unburden -> Technician
+
+Mega Sceptile
+    Atk 110 -> 130 (+20)
+    SpA 145 -> 110 (-35)
+    Spe 145 -> 140 (-5)
+    BST 630 -> 610 (-20)
+
+    Ab1 | Lightning Rod -> Technician
+(have fun lol)
+
+Morelull
+    Ab1 | Illuminate -> Rain Dish
+     HA | Rain Dish -> Life Roots
+
+Shiinotic
+     HP 60 -> 65 (+5)
+    Def 80 -> 85 (+5)
+    SpA 90 -> 100 (+10)
+    SpD 100 -> 125 (+25)
+    BST 405 -> 450 (+45)
+
+    Ab1 | Illuminate -> Rain Dish
+     HA | Rain Dish -> Life Roots
+
+Foongus
+    Evolution into Amoonguss: Lv.39 -> Lv.30
+
+Goomy
+    Atk 50 -> 42 (-8)
+    Def 35 -> 43 (+8)
+    BST 300 -> 300 (±0)
+
+    Ab1 | Sap Sipper -> Gooey
+     HA | Gooey -> Regenerator
+
+    Evolution into Sliggoo: Lv.40 -> Lv.30
+
+Sliggoo
+    Atk 75 -> 63 (-12)
+    Def 53 -> 65 (+12)
+    SpA 83 -> 82 (-1)
+    SpD 113 -> 112 (-1)
+    BST 452 -> 450 (-2)
+
+    Ab1 | Sap Sipper -> Gooey
+     HA | Gooey -> Regenerator
+
+    Evolution into Goodra: Lv.50 (overworld rain) -> Lv.50 (any weather)
+(I rounded up/down selectively to keep the 1.5x Goomy's stats thing going while standardizing the BST of pseudo midstages)
+
+Goodra
+    Atk 100 -> 84 (-16)
+    Def 70 -> 86 (+16)
+    BST 600 -> 600 (±0)
+
+    Ab1 | Sap Sipper -> Gooey
+     HA | Gooey -> Regenerator
+(nope no bias here nuh uh i definitely didn't give it recover and giga drain too oops hehe)
+
+Hatenna
+    Evolution into Hattrem: Lv.32 -> Lv.28
+
+Hattrem
+    Evolution into Hatterene: Lv.42 -> Lv.38
+
+Froakie
+    Ab1 | Torrent -> Protean
+     HA | Protean -> N/A
+
+Frogadier
+    Ab1 | Torrent -> Protean
+     HA | Protean -> N/A
+
+Greninja
+    Ab1 | Torrent -> Protean
+     HA | Protean -> N/A
+(I get the feeling this wasn't a good idea but you were all gonna run Protean Greninja the second Ability Patches were available anyway)
+
+Gothita
+    Evolution into Gothorita: Lv.32 -> Lv.26
+
+Gothorita
+    Evolution into Gothitelle: Lv.41 -> Lv.38
+
+Tynamo
+    Ab2 | N/A -> Swift Swim
+     HA | N/A -> Static
+
+    Evolution into Eelektrik: Lv.39 -> Lv.25
+
+Eelektrik
+    SpD 70 -> 75 (+5)
+    Spe 40 -> 45 (+5)
+    BST 405 -> 415 (+10)
+
+    Ab2 | N/A -> Swift Swim
+     HA | N/A -> Versatility
+
+Eelektross
+    SpD 80 -> 85 (+5)
+    Spe 50 -> 55 (+5)
+    BST 515 -> 525 (+10)
+
+    Ab2 | N/A -> Swift Swim
+     HA | N/A -> Versatility
+
+Cursola
+    Atk 95 -> 70 (-25)
+    Def 50 -> 75 (+25)
+    BST 510 -> 510 (±0)
+
+Mareanie
+    Def 62 -> 77 (+15)
+    SpD 52 -> 72 (+20)
+    BST 305 -> 340 (+35)
+
+Toxapex
+    Def 152 -> 147 (-5)
+    SpD 142 -> 137 (-5)
+    BST 515 -> 505 (-10)
+(Big Stall:tm: cries in the corner)
+
+Joltik
+    SpA 57 -> 67 (+10)
+    Spe 65 -> 78 (+13)
+    BST 319 -> 342 (+23)
+
+Galvantula
+    SpA 97 -> 107 (+10)
+    Spe 108 -> 123 (+15)
+    BST 472 -> 497 (+25)
+
+Marowak (Alola)
+     HP 60 -> 75 (+15)
+    Def 110 -> 125 (+15)
+    SpD 80 -> 85 (+5)
+    BST 425 -> 460 (+35)
+
+Druddigon
+     HP 77 -> 87 (+10)
+    Def 90 -> 105 (+15)
+    BST 485 -> 510 (+25)
+
+Shuppet
+    Def 35 -> 55 (+20)
+    SpD 33 -> 53 (+20)
+    BST 295 -> 335 (+40)
+
+Banette
+    Def 65 -> 75 (+10)
+    SpD 63 -> 68 (+5)
+    Spe 65 -> 80 (+15)
+    BST 455 -> 485 (+30)
+
+Mega Banette
+    Atk 165 -> 150 (-15)
+    Def 75 -> 90 (+15)
+    SpA 93 -> 83 (-10)
+    SpD 83 -> 93 (+10)
+    Spe 75 -> 85 (+10)
+    BST 555 -> 565 (+10)
+
+    TYPE CHANGE: Ghost -> Ghost/Normal
+
+Vullaby
+    Evolution into Mandibuzz: Lv.54 -> Lv.34
+
+Larvesta
+    SpA 50 -> 75 (+25)
+    SpD 55 -> 75 (+25)
+    BST 360 -> 405 (+45)
+
+    Evolution into Volcarona: Lv.59 -> Lv.45
+
+Vibrava
+     HP 50 -> 65 (+15)
+    Atk 70 -> 80 (+10)
+    Def 50 -> 65 (+15)
+    SpA 50 -> 80 (+30)
+    SpD 50 -> 65 (+15)
+    Spe 70 -> 80 (+10)
+    BST 340 -> 435 (+95)
+
+    Ab2 | N/A -> Sand Stream
+     HA | N/A -> Tinted Lens
+
+Flygon
+    SpA 80 -> 100 (+20)
+    BST 520 -> 540 (+20)
+
+    Ab2 | N/A -> Sand Stream
+     HA | N/A -> Tinted Lens
+
+Golett
+    Atk 74 -> 79 (+5)
+    Def 50 -> 60 (+10)
+    SpD 50 -> 55 (+5)
+    BST 303 -> 323 (+20)
+
+    Evolution into Golurk: Lv.43 -> Lv.35
+
+Golurk
+    Atk 124 -> 130 (+6)
+    Def 80 -> 100 (+20)
+    SpD 80 -> 85 (+5)
+    BST 483 -> 514 (+31)
+
+Blaziken
+    Ab1 | Blaze -> Sheer Force
+
+Mega Blaziken
+    Atk 160 -> 150 (-10)
+    SpA 130 -> 120 (-10)
+    BST 630 -> 610 (-20)
+
+Beldum
+    Ab2 | N/A -> No Guard
+     HA | Light Metal -> Magnet Pull
+
+Metang
+    Ab2 | N/A -> No Guard
+     HA | Light Metal -> Iron Fist
+
+Metagross
+    Ab2 | N/A -> No Guard
+     HA | Light Metal -> Iron Fist
+(Fun fact: Metagross's vanilla HA, Light Metal, is basically useless because it's too heavy for the reduction to do anything but hinder it lol)
+
+Mega Metagross
+    Atk 145 -> 135 (-10)
+    SpA 105 -> 100 (-5)
+    Spe 110 -> 100 (-10)
+    BST 700 -> 675 (-25)
+
+Swampert
+    Ab1 | Torrent -> Water Absorb
+     HA | Damp -> Swift Swim
+(At one point I considered giving base Swampert Drizzle. That idea lasted for about 5 seconds until I realized that letting it set its own rain before Mega-ing into Swift Swim would be the most profoundly stupid and broken thing I had ever done)
+
+Mega Swampert
+    Atk 150 -> 140 (-10)
+    Def 110 -> 105 (-5)
+    SpD 110 -> 105 (-5)
+    BST 635 -> 615 (-20)
+
+Yamask (Galar)
+    Evolution into Runerigus: Take 49 HP damage and go to a specific spot on the map -> Take 49 HP damage
+(Certified "what where you finking game feak..." moment)
+
+Deino
+    Ab2 | N/A -> Intimidate
+     HA | N/A -> Merciless
+
+    Evolution into Zweilous: Lv.50 -> Lv.30
+
+Zweilous
+    SpA 65 -> 75 (+10)
+    Spe 58 -> 78 (+20)
+    BST 420 -> 450 (+30)
+
+    Ab2 | N/A -> Intimidate
+     HA | N/A -> Merciless
+
+    Evolution into Hydreigon: Lv.64 -> Lv.55
+
+Hydreigon
+    Atk 105 -> 90 (-15)
+    SpA 125 -> 130 (+5)
+    Spe 98 -> 108 (+10)
+    BST 600 -> 600 (±0)
+
+    Ab2 | N/A -> Intimidate
+     HA | N/A -> Merciless
+(Critdreigon is still real!!!!!!!!)
+
+Xatu
+    SpD 70 -> 85 (+15)
+    Spe 95 -> 115 (+20)
+    BST 470 -> 505 (+35)
+
+Elgyem
+    Ab1 | Telepathy -> Analytic
+     HA | Analytic -> Psychic Surge
+
+    Evolution into Beheeyem: Lv.42 -> Lv.36
+
+Beheeyem
+    Atk 75 -> 55 (-20)
+    Def 75 -> 85 (+10)
+    SpD 95 -> 105 (+10)
+    BST 485 -> 485 (±0)
+
+    Ab1 | Telepathy -> Analytic
+     HA | Analytic -> Psychic Surge
+
+Koffing
+     HA | Stench -> Flare Boost
+
+Weezing
+     HA | Stench -> Flare Boost
+
+Magby
+    Evolution into Magmar: Lv.30 -> Lv.20
+
+Magmar
+    Evolution into Magmortar: Trade holding Magmarizer -> Lv. holding Magmarizer
+
+Magmortar
+    Def 67 -> 77 (+10)
+    BST 540 -> 550 (+10)
+
+    Ab2 | N/A -> Mega Launcher
+
+Turtonator
+    Def 135 -> 145 (+10)
+    SpA 91 -> 101 (+10)
+    BST 485 -> 505 (+20)
+
+Rufflet
+    Evolution into Braviary: Lv.54 -> Lv.34
+
+Elekid
+    Evolution into Electabuzz: Lv.30 -> Lv.20
+
+Electabuzz
+    Evolution into Electivire: Trade holding Electirizer -> Lv. holding Electirizer
+
+Electivire
+    Def 67 -> 77 (+10)
+    BST 540 -> 550 (+10)
+
+    Ab2 | N/A -> Iron Fist
+(My Wild Charge buff did more for this mon than either of those things above did)
+
+Mega Altaria
+    Atk 110 -> 85 (-25)
+    Def 110 -> 95 (-15)
+    SpA 110 -> 135 (+25)
+    SpD 105 -> 120 (+15)
+    BST 590 -> 590 (±0)
+
+Shelgon
+     HP 65 -> 75 (+10)
+    SpA 60 -> 65 (+5)
+    SpD 50 -> 65 (+15)
+    BST 420 -> 450 (+30)
+
+Mega Salamence
+    Atk 145 -> 140 (-5)
+    Def 130 -> 120 (-10)
+    SpA 120 -> 110 (-10)
+    BST 700 -> 675 (-25)
+
+Sandygast
+     HP 55 -> 65 (+10)
+    SpD 45 -> 55 (+10)
+    BST 320 -> 340 (+20)
+
+    Evolution into Palossand: Lv.42 -> Lv.37
+
+Minior (Meteor)
+    Def 100 -> 120 (+20)
+    SpD 100 -> 120 (+20)
+    BST 440 -> 480 (+40)
+
+Minior (Core)
+    Atk 100 -> 110 (+10)
+    SpA 100 -> 110 (+10)
+    Spe 120 -> 130 (+10)
+    BST 500 -> 530 (+30)
+
+Slugma
+     HP 40 -> 50 (+10)
+    Def 40 -> 50 (+10)
+    SpD 40 -> 60 (+20)
+    BST 250 -> 290 (+40)
+
+    Ab1 | Magma Armor -> Evaporation
+
+    Evolution into Magcargo: Lv38 -> Lv32
+(Evaporation is a new ability that makes the Pokémon immune to Water-type moves, and raises SpDef if one is used; it's functionally similar to Storm Drain)
+
+Magcargo
+     HP 60 -> 65 (+5)
+    Atk 50 -> 60 (+10)
+    Def 120 -> 130 (+10)
+    SpA 90 -> 105 (+15)
+    BST 430 -> 470 (+40)
+
+    Ab1 | Magma Armor -> Evaporation
+
+Fomantis
+     HP 40 -> 55 (+15)
+    Atk 55 -> 75 (+20)
+    Def 35 -> 55 (+20)
+    SpA 50 -> 60 (+10)
+    SpD 35 -> 55 (+20)
+    BST 250 -> 335 (+85)
+
+Lurantis
+     HP 70 -> 80 (+10)
+    Atk 105 -> 120 (+15)
+    Def 90 -> 95 (+5)
+    SpD 90 -> 95 (+5)
+    BST 480 -> 515 (+35)
+
+Sentret
+     HP 35 -> 55 (+15)
+    Atk 46 -> 61 (+15)
+    SpA 35 -> 45 (+10)
+    Spe 20 -> 40 (+20)
+    BST 215 -> 275 (+60)
+
+    Ab1 | Run Away -> Versatility
+     HA | Frisk -> Fur Coat
+
+Furret
+     HP 85 -> 100 (+15)
+    Atk 76 -> 86 (+10)
+    SpA 45 -> 70 (+25)
+    Spe 90 -> 105 (+15)
+    BST 415 -> 480 (+65)
+
+    Ab1 | Run Away -> Versatility
+     HA | Frisk -> Fur Coat
+
+Kakuna
+     HP 45 -> 50 (+5)
+    Atk 25 -> 30 (+5)
+    Def 50 -> 65 (+15)
+    BST 205 -> 230 (+25)
+
+Beedrill
+    Atk 90 -> 110 (+20)
+    SpD 80 -> 90 (+10)
+    Spe 75 -> 85 (+10)
+    BST 395 -> 435 (+40)
+
+Mega Beedrill
+    Atk 150 -> 155 (+5)
+    Def 40 -> 50 (+10)
+    SpD 80 -> 105 (+25)
+    Spe 145 -> 140 (-5)
+    BST 495 -> 530 (+35)
+
+Porygon
+    Ab1 | Trace -> Versatility
+
+    Evolution into Porygon2: Trade holding Up-Grade -> Lv. holding Up-Grade
+
+Porygon2
+    Ab1 | Trace -> Versatility
+
+    Evolution into Porygon-Z: Trade holding Dubious Disc -> Lv. holding Dubious Disc
+
+Porygon-Z
+    Def 70 -> 75 (+5)
+    SpD 75 -> 80 (+5)
+    Spe 90 -> 95 (+5)
+    BST 535 -> 550 (+15)
+
+    Ab1 | Adaptability -> Versatility
+     HA | Analytic -> Adaptability
+
+Snorunt
+    Ab1 | Inner Focus -> Frostbite
+(Frostbite is a new ability that gives the Pokémon a 30% chance to freeze the attacker on contact. It's a freeze equivalent of Flame Body, Static, and Poison Point)
+
+Glalie
+    Atk 80 -> 105 (+25)
+    SpA 80 -> 105 (+25)
+    Spe 80 -> 75 (-5)
+    BST 480 -> 525 (+45)
+
+    Ab1 | Inner Focus -> Frostbite
+
+Mega Glalie
+    Atk 120 -> 130 (+10)
+    SpA 120 -> 130 (+10)
+    Spe 100 -> 105 (+5)
+    BST 580 -> 605 (+25)
+
+Froslass
+    Atk 80 -> 100 (+20)
+    SpA 80 -> 105 (+25)
+    BST 480 -> 525 (+45)
+
+    Ab1 | Snow Cloak -> Frostbite
+
+Rockruff
+    Evolution into Lycanroc (Dusk): Lv.25 (Dusk + Special Own Tempo form) -> Lv.25 (Dusk, any form)
+
+Pidgeotto
+    SpA 50 -> 65 (+15)
+    Spe 71 -> 82 (+11)
+    BST 349 -> 375 (+26)
+
+    Ab2 | Tangled Feet -> Reckless
+     HA | Big Pecks -> Gale Wings
+
+Pidgeot
+    Atk 80 -> 90 (+10)
+    SpA 70 -> 95 (+25)
+    Spe 101 -> 112 (+11)
+    BST 479 -> 525 (+46)
+
+    Ab2 | Tangled Feet -> Reckless
+     HA | Big Pecks -> Gale Wings
+(Staraptor and Talonflame called and said they want their abilities back. Staraptor and Talonflame aren't in the dex, though, so I told them no.)
+
+Mega Pidgeot
+    Atk 80 -> 105 (+25)
+    Spe 121 -> 127 (+6)
+    BST 579 -> 610 (+31)
+
+Hakamo-o
+    Atk 75 -> 80 (+5)
+    SpA 65 -> 75 (+10)
+    SpD 70 -> 85 (+15)
+    BST 420 -> 450 (+30)
+
+Rotom (Base)
+    Ab2 | N/A -> Volt Absorb
+
+Rotom (Wash)
+    Ab2 | N/A -> Water Absorb
+
+Rotom (Heat)
+    Ab2 | N/A -> Flash Fire
+
+Rotom (Mow)
+    Ab2 | N/A -> Grassy Surge
+
+Rotom (Frost)
+    Ab2 | N/A -> Refrigerate
+
+Rotom (Fan)
+    Ab2 | N/A -> Aerilate
+(I've also changed Fan Rotom's special move from Air Slash to Hurricane)
+
+Axew
+    Def 60 -> 70 (+10)
+    SpD 40 -> 50 (+10)
+    BST 320 -> 340 (+20)
+
+    Ab1 | Rivalry -> Sheer Force
+
+Fraxure
+    Def 70 -> 80 (+10)
+    SpD 50 -> 65 (+15)
+    BST 410 -> 435 (+25)
+
+    Ab1 | Rivalry -> Sheer Force
+
+Haxorus
+    Def 90 -> 100 (+10)
+    SpD 70 -> 85 (+15)
+    BST 540 -> 565 (+25)
+
+    Ab1 | Rivalry -> Sheer Force
+(This is balanced by the fact that Haxorus doesn't have many moves to use Sheer Force with)
+
+Pawniard
+    Def 70 -> 80 (+10)
+    SpD 40 -> 55 (+15)
+    Spe 60 -> 65 (+5)
+    BST 340 -> 370 (+30)
+
+    Evolution into Bisharp: Lv.52 -> Lv.38
+
+Bisharp
+    Spe 70 -> 85 (+15)
+    BST 490 -> 510 (+15)
+
+Cubchoo
+    Def 40 -> 60 (+20)
+    SpD 40 -> 60 (+20)
+    BST 305 -> 345 (+40)
+
+Absol
+    SpD 60 -> 70 (+10)
+    Spe 75 -> 95 (+20)
+    BST 465 -> 495 (+30)
+
+Mega Absol
+    SpD 60 -> 70 (+10)
+    Spe 115 -> 135 (+20)
+    BST 565 -> 595 (+30)
+
+Wailmer
+    Atk 70 -> 65 (-5)
+    Def 35 -> 55 (+20)
+    SpA 70 -> 65 (-5)
+    SpD 35 -> 55 (+20)
+    BST 400 -> 430 (+30)
+
+Wailord
+    Atk 90 -> 85 (-5)
+    Def 45 -> 65 (+20)
+    SpA 90 -> 85 (-5)
+    SpD 45 -> 65 (+20)
+    BST 500 -> 530 (+30)
+
+Rhydon
+    Evolution into Rhyperior: Trade holding Protector -> Lv. holding Protector
+
+Scyther
+    Evolution into Scizor: Trade holding Metal Coat -> Lv. holding Metal Coat
+
+Pincurchin
+     HP 48 -> 58 (+10)
+    Def 95 -> 100 (+5)
+    SpD 85 -> 95 (+10)
+    BST 435 -> 460 (+25)
+
+Pyukumuku
+     HP 55 -> 65 (+10)
+    Def 130 -> 150 (+20)
+    SpD 130 -> 150 (+20)
+    BST 410 -> 460 (+50)
+
+Dewgong
+     HP 90 -> 100 (+10)
+    SpA 70 -> 75 (+5)
+    SpD 95 -> 105 (+10)
+    BST 475 -> 500 (+25)
+
+Tropius
+     HP 99 -> 109 (+10)
+    Atk 68 -> 78 (+10)
+    SpA 72 -> 82 (+10)
+    BST 460 -> 490 (+30)
+
+Feebas
+    Evolution into Milotic: Trade holding Prism Scale or Lv. with high Beauty stat -> Lv. holding Prism Scale
+
+Silvally
+     HP 95 -> 100 (+5)
+    Atk 95 -> 100 (+5)
+    Def 95 -> 100 (+5)
+    SpA 95 -> 100 (+5)
+    SpD 95 -> 100 (+5)
+    Spe 95 -> 100 (+5)
+    BST 570 -> 600 (+30)
+
+Cosmog
+    TYPE CHANGE: Psychic -> Light
+
+Cosmoem
+    TYPE CHANGE: Psychic -> Light
+
+    Evolution into Solgaleo: Lv.53 in Pokémon Sun/Ultra Sun/Sword -> Lv.53 with Solrock (Prism) in party
+    Evolution into Lunala: Lv.53 in Pokémon Moon/Ultra Moon/Shield -> Lv.53 with Lunatone (Prism) in party
+(Note: due to how the evolutions are coded in-game, if you have both P-Solrock and P-Lunatone in your party, Cosmoem's evolution into Solgaleo will take priority, regardless of party arrangement)
+
+Solgaleo
+    TYPE CHANGE: Psychic/Steel -> Light/Steel
+
+Lunala
+    TYPE CHANGE: Psychic/Ghost -> Light/Ghost
+
+Necrozma (Base)
+    TYPE CHANGE: Psychic -> Light/Psychic
+
+Necrozma (Dusk Mane)
+    Ab2 | N/A -> Full Metal Body
+
+    TYPE CHANGE: Psychic/Steel -> Light/Steel
+
+Necrozma (Dawn Wings)
+    Ab2 | N/A -> Shadow Shield
+
+    TYPE CHANGE: Psychic/Ghost -> Light/Ghost
+
+Ultra Necrozma
+    Def 97 -> 107 (+10)
+    SpD 97 -> 107 (+10)
+    BST 754 -> 774 (+20)
+
+    TYPE CHANGE: Psychic/Dragon -> Light/Dragon
+
+Naganadel
+    SpA 127 -> 137 (+10)
+    Spe 121 -> 137 (+16)
+    BST 540 -> 566 (+26)
+
+====================================
+===   Move Changes =================
+====================================
+
+Absorb
+    BP 20 -> 30 (+10)
+
+Mega Drain
+    BP 40 -> 50 (+10)
+
+Giga Drain
+    PP 10 -> 15 (+5)
+
+Wild Charge
+    BP 90 -> 120 (+30)
+    Effects:
+        +10% Paralysis Chance
+        Recoil changed from 1/4 to 1/3
+
+Octazooka
+    BP 65 -> 70 (+5)
+    Acc 85% -> 95% (+5%)
+    PP 10 -> 15 (+5)
+
+Fire Fang
+    BP 65 -> 70 (+5)
+
+Thunder Fang
+    BP 65 -> 70 (+5)
+
+Ice Fang
+    BP 65 -> 70 (+5)
+
+Poison Fang
+    BP 50 -> 65 (+15)
+
+Water Shuriken
+    BP 15 -> 20 (+5)
+    BP 20 -> 25 (+5) (when used by Ash-Greninja)
+
+Comet Punch
+    BP 18 -> 20 (+2)
+    Acc 85% -> 90% (+5%)
+
+    TYPE CHANGE: Normal -> Fairy
+
+Rock Smash
+    BP 40 -> 60 (+20)
+
+Triple Kick
+    BP 10 -> 15 (+5)
+    PP 10 -> 15 (+5)
+(This effectively makes its base power 15 at 1 hit, 45 at 2 hits, and 90 at 3 hits)
+
+Mega Punch
+    BP 80 -> 85 (+5)
+    PP 85% -> 95% (+10%)
+
+Fishious Rend
+    BP 85 -> 70 (-15)
+    Effects:
+        Damage multiplier for going first changed from 2x -> 1.5x
+
+Bolt Beak
+    BP 85 -> 70 (-15)
+    Effects:
+        Damage multiplier for going first changed from 2x -> 1.5x
+
+Spike Cannon
+    BP 20 -> 25 (+5)
+
+    TYPE CHANGE: Normal -> Steel
+
+Poison Sting
+    BP 15 -> 25 (+10)
+
+Strength
+    Effects:
+        +15% chance to raise user's Attack
+
+Focus Blast
+    Acc 70% -> 75% (+5%)
+(Focus Miss Slightly Less Often)
+
+Iron Tail
+    Acc 75% -> 85% (+10%)
+
+Dragon Rush
+    Acc 75% -> 85% (+10%)
+
+Photon Geyser
+    PP 5 -> 10 (+5)
+
+    TYPE CHANGE: Psychic -> Light
+
+Prismatic Laser
+    TYPE CHANGE: Psychic -> Light
+
+Light That Burns The Sky
+    TYPE CHANGE: Psychic -> Light
+
+Rock Slide
+    Acc 90% -> 100% (+10%)
+
+Shadow Claw
+    BP 70 -> 80 (+10)
+
+Psycho Cut
+    BP 70 -> 80 (+10)
+
+Night Slash
+    BP 70 -> 80 (+10)
+
+Cross Poison
+    BP 70 -> 80 (+10)
+
+Rock Throw
+    Acc 90% -> 100% (+10%)
+
+Volt Tackle
+    BP 120 -> 140 (+20)
+
+Play Nice
+    Effects:
+        Lowers target's SpAtk by one stage instead of Attack
+
+Covet
+    TYPE CHANGE: Normal -> Fairy
+
+Play Rough
+    Acc 90% -> 100% (+10%)
+
+Misty Explosion
+    BP 100 -> 150 (+50)
+    Effects:
+        Power boost on Misty Terrain increased from 1.5x -> 2x
+
+Disarming Voice
+    BP 40 -> 60 (+20)
+
+Payback
+    BP 50 -> 60 (+10)
+    Effects:
+        Priority changed 0 -> -4
+        Now requires the user to be hit with a damaging move that turn to trigger the power boost
+
+Scald
+    Effects:
+        Burn chance reduced from 30% -> 15%
+
+Bounce
+    BP 85 -> 100 (+15)
+    Acc 85% -> 90% (+5%)
+    Effects:
+        Paralysis chance reduced from 30% -> 10%
+
+Inferno
+    BP 100 -> 120 (+20)
+
+Dynamic Punch
+    BP 100 -> 120 (+20)
+(The intention was for these two moves to match Zap Cannon)
+
+Smog
+    Effects:
+        Poison chance increased from 40% -> 100%
+
+Bone Club
+    BP 65 -> 60 (-5)
+    Acc 85% -> 100% (+15%)
+
+Drill Run
+    Acc 95% -> 100% (+5%)
+    PP 10 -> 15 (+5)
+
+X-Scissor
+    Effects:
+        Now has high critical hit ratio
+
+Hidden Power
+    TYPE CHANGE: Normal -> ??? (this is purely for display reasons and does not affect gameplay)
+    Effects:
+        Now becomes Physical or Special depending on the user's higher offensive stat (was previously always Special)
+
+Fury Attack
+    BP 15 -> 20 (+5)
+    Acc 85% -> 90% (+5%)
+
+Fury Swipes
+    BP 18 -> 25 (+7)
+    Acc 80% -> 85% (+5%)
+
+Fly
+    Acc 95% -> 100% (+5%)
+
+Submission
+    BP 80 -> 100 (+20)
+    Acc 80% -> 100% (+20%)
+
+Ancient Power
+    PP 5 -> 10 (+5)
+
+Ominous Wind
+    PP 5 -> 10 (+5)
+
+Silver Wind
+    PP 5 -> 10 (+5)
+
+====================================
+===   Ability Changes ==============
+====================================
+(Note: this only lists changes to effects of abilities themselves, changes to which abilities are on which Pokémon are listed in the Pokémon Attributes section)
+
+Stall
+    In addition to deprioritizing moves, gives a 20% power boost against targets that have already moved
+
+Keen Eye
+    In addition to preventing accuracy loss, +1 accuracy is given on switch-in
+
+Merciless
+    Instead of guaranteeing critical hits if the target is poisoned, it increases critical hit rate by 2 stages if the target is burned, paralyzed, poisoned, frozen, or asleep
+
+Corrosion
+    In addition to allowing the user to give the Poisoned status to Steel- and Poison-type Pokémon, the user's Poison-type attacks now deal 1x damage to the Steel type, bypassing its immunity
+
+Rivalry
+    Removes the downside, the user now deals 1x damage to Pokémon of a different gender instead of 0.75x
+
+=============
+New Abilities
+=============
+
+Frostbite
+    If the ability bearer is hit by a contact move, there is a 30% chance the attacker will become Frozen
+
+Evaporation
+    Grants immunity to Water-type moves, and raises SpDef by 1 stage if one is used
+
+Meltdown
+    Changes Prism Outpost Magcargo from Shell Form to Shattered Form if it goes below 50% HP
+
+Ultra Blaster
+    Powers up beam moves by 50%
+(Moves affected by this ability are: Charge Beam, Ice Beam, Aurora Beam, Bubble Beam, Solar Beam, Hyper Beam, Signal Beam, Psybeam, Tri Attack, Techno Blast, Fleur Cannon, Light of Ruin, Moongeist Beam, Meteor Beam, Steel Beam, Origin Pulse, Dynamax Cannon, and Eternabeam)
+
+Versatility
+    Powers up moves of a different type from the user by 20%
+
+Snow Force
+    Ice-type moves gain a 50% boost during Hail
+
+Sixth Sense
+    Powers up Psychic-type moves by 50%
+
+Life Roots
+    Draining moves and Ingrain/Aqua Ring heal the user for 30% more HP

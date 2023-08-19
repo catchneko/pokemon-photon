@@ -473,15 +473,15 @@ MapPosition = 0,11,5
 Environment = ForestGrass
 #-------------------------------
 [082]
-# AB Poké Center
+# Azure Poké Center
 MapPosition = 0,11,5
 #-------------------------------
 [083]
-# AB Mart
+# Azure Mart
 MapPosition = 0,11,5
 #-------------------------------
 [084]
-# AB Gym
+# Azure Gym
 MapPosition = 0,11,5
 #-------------------------------
 [085]
@@ -1111,3 +1111,9 @@ MapPosition = 0,21,5
 Outdoor = false
 ShowArea = true
 MapPosition = 0,21,5
+#-------------------------------
+[202]
+# Distortion Space
+Outdoor = false
+ShowArea = true
+MapPosition = 0,24,3

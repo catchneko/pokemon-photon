@@ -533,7 +533,7 @@
 524,OVALCHARM,Oval Charm,Oval Charms,8,0,"An oval charm said to increase the chance of Eggs being found at the Day Care.",0,0,6
 525,SHINYCHARM,Shiny Charm,Shiny Charms,8,0,"A shiny charm said to increase the chance of finding a Shiny Pokémon.",0,0,6
 #-------------------------------
-526,ICESTONE,Ice Stone,Ice Stones,1,5000,"A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",1,0,7
+526,ICESTONE,Ice Stone,Ice Stones,1,2100,"A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",1,0,7
 527,JAWFOSSIL,Jaw Fossil,Jaw Fossils,1,1000,"A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.",0,0,8
 528,SAILFOSSIL,Sail Fossil,Sail Fossils,1,1000,"A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.",0,0,8
 529,REDNECTAR,Red Nectar,Red Nectars,1,300,"A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.",1,0,0
@@ -648,8 +648,8 @@
 633,MEGARING,Mega Ring,Mega Rings,8,0,"This ring contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve.",0,0,6
 634,ZYGARDECUBE,Zygarde Cube,Zygarde Cubes,8,0,"An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms.",5,0,6
 #-------------------------------
-635,BOTTLECAP,Bottle Cap,Bottle Caps,1,5000,"A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.",0,0,0
-636,GOLDBOTTLECAP,Gold Bottle Cap,Gold Bottle Caps,1,10000,"A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one.",0,0,0
+635,BOTTLECAP,Bottle Cap,Bottle Caps,1,5000,"A beautiful bottle cap that gives off a silver gleam. Sets a Pokémon's IV to 31 during Hyper Training.",0,0,0
+636,GOLDBOTTLECAP,Gold Bottle Cap,Gold Bottle Caps,1,10000,"A beautiful bottle cap that gives off a golden gleam. Sets all of a Pokémon's IVs to 31 during Hyper Training.",0,0,0
 637,LONELYMINT,Lonely Mint,Lonely Mints,1,500,"When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.",1,0,0
 638,ADAMANTMINT,Adamant Mint,Adamant Mints,1,500,"When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.",1,0,0
 639,NAUGHTYMINT,Naughty Mint,Naughty Mints,1,500,"When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.",1,0,0
@@ -803,7 +803,7 @@
 782,TR83,TR83,TR83s,4,4000,"The user teleports using a strange power and switches places with one of its allies.",6,0,0,ALLYSWITCH
 783,TR84,TR84,TR84s,4,6000,"The user shoots boiling hot water at its target. This may also leave the target with a burn.",6,0,0,SCALD
 784,TR85,TR85,TR85s,4,2000,"The user is roused, and its Attack and Sp. Atk stats increase.",6,0,0,WORKUP
-785,TR86,TR86,TR86s,4,10000,"The user shrouds itself in electricity and smashes into its foe. This also damages the user a little.",6,0,0,WILDCHARGE
+785,TR86,TR86,TR86s,4,10000,"The user shrouds itself in electricity and smashes into its foe. The user also takes damage and may paralyze the target.",6,0,0,WILDCHARGE
 786,TR87,TR87,TR87s,4,6000,"The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",6,0,0,DRILLRUN
 787,TR88,TR88,TR88s,4,6000,"The user slams its target with its flame-covered body. Power increases the more the user outweighs the foe.",6,0,0,HEATCRASH
 788,TR89,TR89,TR89s,4,16000,"The user attacks by wrapping its opponent in a fierce wind. This may also confuse the target.",6,0,0,HURRICANE
@@ -840,13 +840,14 @@
 819,DREDNAWITE,Drednawite,Drednawites,1,0,"One of a variety of mysterious Mega Stones. Have Drednaw hold it, and it will be able to G-Mega Evolve.",0,0,12
 820,HATTERENITE,Hatterenite,Hatterenites,1,0,"One of a variety of mysterious Mega Stones. Have Hatterene hold it, and it will be able to G-Mega Evolve.",0,0,12
 821,BEASTMANCARD,Beastman Card,Beastman Cards,8,0,"A card key that opens up the bottom floor of the Team Beastman base.",0,0,6
-822,COPPERBOTTLECAP,Copper Bottle Cap,Copper Bottle Caps,1,5000,"A pretty good bottle cap that gives off a faint shine. Some people are happy to receive one.",0,0,0
-823,RUSTYBOTTLECAP,Rusty Bottle Cap,Rusty Bottle Caps,1,100,"A crappy bottle cap that's covered in rust. It appears to be junk, but someone may like it.",0,0,0
+822,COPPERBOTTLECAP,Copper Bottle Cap,Copper Bottle Caps,1,5000,"A pretty good bottle cap that gives off a faint shine. Sets a Pokémon's IV to 30 during Hyper Training.",0,0,0
+823,RUSTYBOTTLECAP,Rusty Bottle Cap,Rusty Bottle Caps,1,100,"A crappy bottle cap that's covered in rust. Sets a Pokémon's IV to 0 during Hyper Training.",0,0,0
 824,CHILLORB,Chill Orb,Chill Orbs,1,4000,"An item to be held by a Pokémon. It is a bizarre orb that inflicts freeze on the holder in battle.",0,0,0
 825,GARDEVOIRITEP,Gardevoirite P,Gardevoirites P,1,0,"One of a variety of mysterious Mega Stones. Have Prism-Gardevoir hold it, and it will be able to Mega Evolve.",0,0,12
 826,GALLADITEP,Galladite P,Galladites P,1,0,"One of a variety of mysterious Mega Stones. Have Prism-Gallade hold it, and it will be able to Mega Evolve.",0,0,12
 827,SUNFLUTE,Sun Flute,Sun Flutes,8,0,"It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the sun.",0,0,6
 828,MOONFLUTE,Moon Flute,Moon Flutes,8,0,"It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the moon.",0,0,6
+829,INTRIGUINGSTONE,Intriguing Stone,Intriguing Stones,8,0,"A rather curious stone that might appear to be valuable to some. It's all in the eye of the beholder.",0,0,6
 #-------------------------------
 # Z-Rings/Dynamax Band
 #-------------------------------
