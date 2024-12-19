@@ -137,7 +137,7 @@ class PokemonDataBox < SpriteWrapper
       elsif @battler.isSpecies?(:GROUDON)
         imagePos.push(["Graphics/Pictures/Battle/icon_primal_Groudon",@spriteBaseX+specialX,4])
       end
-    elsif @battler.ultra?
+    elsif (@battler.ultra? || @battler.form >= 99)
       imagePos.push(["Graphics/Pictures/Battle/icon_ultra",@spriteBaseX+specialX+2,4])
     elsif @battler.dynamax?
       imagePos.push(["Graphics/Pictures/Battle/icon_dynamax",@spriteBaseX+specialX,4])

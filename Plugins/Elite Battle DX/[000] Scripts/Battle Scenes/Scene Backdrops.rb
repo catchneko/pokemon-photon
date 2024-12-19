@@ -61,28 +61,28 @@ module EliteBattle
     try = EliteBattle.get_map_data(:BACKDROP)
     data = try.clone if !try.nil?
     # applies room data for specific environment if defined
-    unless [0, 1].include?(environ)
-      try = EliteBattle.get_data(environ, :Environment, :BACKDROP)
-      data = try.clone if !try.nil?
-    end
+#    unless [0, 1].include?(environ)
+#      try = EliteBattle.get_data(environ, :Environment, :BACKDROP)
+#      data = try.clone if !try.nil?
+#    end
     # check for fails
-    data = {} if data.nil?
+     data = {} if data.nil?
     # applies additional terrain data
-    try = EliteBattle.get_data(terrain, :TerrainTag, :BACKDROP)
-    if !try.nil?
-      for key in try.keys
-        data[key] = try[key]
-      end
-    end
+     try = EliteBattle.get_data(terrain, :TerrainTag, :BACKDROP)
+     if !try.nil?
+       for key in try.keys
+         data[key] = try[key]
+       end
+     end
     # applies conditional environment/terrain data
-    processes = EliteBattle.get(:procData)
-    for key in processes.keys
-      if key.call(terrain, environ)
-        for k in processes[key][:BACKDROP].keys
-          data[k] = processes[key][:BACKDROP][k]
-        end
-      end
-    end
+#    processes = EliteBattle.get(:procData)
+#    for key in processes.keys
+#      if key.call(terrain, environ)
+#        for k in processes[key][:BACKDROP].keys
+#          data[k] = processes[key][:BACKDROP][k]
+#        end
+#      end
+#    end
     # pushes trees up a little to accomodate base
     if data.has_key?("trees", "base")
       data["trees"][:y] = [108,117,118,122,122,127,127,128,132]
@@ -149,7 +149,7 @@ class BattleSceneRoom
     # draws base
     @baseBmp = nil
     # draws elements from data block (prority added to predefined modules)
-    for key in ["backdrop", "base", "water", "spinningLights", "outdoor", "sky", "trees", "tallGrass", "spinLights",
+    for key in ["backdrop", "base", "water", "spinningLights", "outdoor", "sky", "trees", "tallGrass", "rocks", "spinLights",
                "lightsA", "lightsB", "lightsC", "vacuum", "bubbles"] # to sort the order
       next if !@data.has_key?(key)
       case key
@@ -168,6 +168,8 @@ class BattleSceneRoom
         self.drawTrees
       when "tallGrass" # adds array of tall grass to scene
         self.drawGrass
+	  when "rocks"
+		self.drawRocks
       when "spinLights" # adds PWT styled spinning base lights
         self.drawSpinLights
       when "lightsA" # adds PWT styled stage lights
@@ -582,6 +584,26 @@ class BattleSceneRoom
       color = data.has_key?(:colorize) ? data[:colorize] : true
       self.setColor(@sprites["bg"], @sprites["grass#{i}"], color) if color
       @sprites["grass#{i}"].memorize_bitmap
+    end; bmp.dispose
+  end
+  def drawRocks(data = @data["rocks"])
+    return if !data.has_key?(:elements)
+    bmp = data.has_key?(:bitmap) ? data[:bitmap] : "rockBig"
+    bmp = pbBitmap("Graphics/EBDX/Battlebacks/elements/#{bmp}")
+    for i in 0...data[:elements]
+      @sprites["rock#{i}"] = Sprite.new(@viewport)
+      x0 = data.has_key?(:mirror) && data[:mirror][i] ? bmp.width : 0
+      x1 = data.has_key?(:mirror) && data[:mirror][i] ? -bmp.width : bmp.width
+      @sprites["rock#{i}"].bitmap = Bitmap.new(bmp.width,bmp.height)
+      @sprites["rock#{i}"].bitmap.stretch_blt(bmp.rect,bmp,Rect.new(x0,0,x1,bmp.height))
+      @sprites["rock#{i}"].bottom!
+      @sprites["rock#{i}"].ex = data.has_key?(:x) ? data[:x][i] : 0
+      @sprites["rock#{i}"].ey = data.has_key?(:y) ? data[:y][i] : 0
+      @sprites["rock#{i}"].z = data[:z][i] if data.has_key?(:z)
+      @sprites["rock#{i}"].param = data.has_key?(:zoom) ? data[:zoom][i] : 1
+      color = data.has_key?(:colorize) ? data[:colorize] : true
+      self.setColor(@sprites["bg"], @sprites["rock#{i}"], color) if color
+      @sprites["rock#{i}"].memorize_bitmap
     end; bmp.dispose
   end
   #-----------------------------------------------------------------------------

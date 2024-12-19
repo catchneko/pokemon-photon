@@ -215,7 +215,7 @@ if Settings::EBDX_COMPAT
         @sprites["mega"].bitmap.clear
         @sprites["mega"].bitmap = nil
       end
-      if @battler.ultra?
+      if (@battler.ultra? || @battler.form >= 99 || (@battler.isSpecies?(:NECROZMA) && @battler.form >= 3)) # That last bit was added so the icon shows up in the Ultra Necrozma fight
         @sprites["ultra"].bitmap = @ultraBmp.clone
       elsif @sprites["ultra"].bitmap
         @sprites["ultra"].bitmap.clear

@@ -310,9 +310,9 @@ if Settings::EBDX_COMPAT
         @button["#{i}"].bitmap.blt(198, 0, @buttonBitmap, Rect.new(198, type*74, 198, 74))
         @button["#{i}"].bitmap.blt(65, 46, @catBitmap, Rect.new(0, category*22, 38, 22))
         @button["#{i}"].bitmap.blt(3, 46, @typeBitmap, Rect.new(0, type*22, 72, 22))
-        baseColor = @buttonBitmap.get_pixel(5, 32 + (type*74)).darken(0.4)
+        baseColor = @buttonBitmap.get_pixel(9, 32 + (type*74))
         pbSetSmallFont(@button["#{i}"].bitmap)
-        pbDrawOutlineText(@button["#{i}"].bitmap, 198, 10, 196, 42,"#{short_name}", Color.white, baseColor, 1)
+        pbDrawOutlineText(@button["#{i}"].bitmap, 198, 10, 196, 42,"#{short_name}", Color.white, Color.new(0,0,0,32), 1)
         if movedata.zMove?
           actualpp = 1
           totalpp  = 1
@@ -322,12 +322,12 @@ if Settings::EBDX_COMPAT
         totalpp  = 5 if @battler.effects[PBEffects::Transform]
         else
           actualpp = @moves[i].pp
-          totalpp  = (status_zmove) ? 1 : (@battler.effects[PBEffects::Transform]) ? 5 : movedata.total_pp
+          totalpp  = (status_zmove) ? 1 : ((@battler.effects[PBEffects::Transform]) ? 5 : @moves[i].total_pp)
         end 
         pp = "#{actualpp}/#{totalpp}"
-        pbDrawOutlineText(@button["#{i}"].bitmap, 0, 48, 191, 26, pp, Color.white, baseColor, 2)
+        pbDrawOutlineText(@button["#{i}"].bitmap, 0, 48, 191, 26, pp, Color.white, baseColor.darken(0.4), 2)
         pbSetSystemFont(@button["#{i}"].bitmap)
-        text = [[short_name, 99, 4, 2, baseColor, Color.new(0, 0, 0, 24)]]
+        text = [[short_name, 99, 4, 2, Color.white, Color.new(0, 0, 0, 24)]]
         pbDrawTextPositions(@button["#{i}"].bitmap, text)
         @button["#{i}"].src_rect.set(198, 0, 198, 74)
         @button["#{i}"].ox = @button["#{i}"].src_rect.width/2

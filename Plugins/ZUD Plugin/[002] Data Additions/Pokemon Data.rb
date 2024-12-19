@@ -158,7 +158,7 @@ class Pokemon
   
   def calcHP(base, level, iv, ev)
     return 1 if base == 1  # For Shedinja
-    return ((((base *2 + iv + (ev / 4)) * level / 100).floor + level + 10) * dynamaxBoost).ceil
+	return ((((base *2 + iv + (ev / 4)) * level / 100).floor + level + 10) * dynamaxBoost).ceil
   end
   
   def calc_stats

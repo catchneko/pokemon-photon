@@ -692,7 +692,7 @@ Beta 0.10.0
 ```
 Beta 0.11.0
 # In the game's folder, I added some more resources, including a text document detailing Pokémon, move, and item changes, and visual guides to Hidden Power type
-- Rewrote a *lot* of cutscenes to improve the story, add foreshadowing that was sorely lacking before, and tie the early game and late game together better
+- Rewrote many cutscenes to improve the overall pacing of the story
 - Expanded the Zygarde cutscene
 	- If you're updating the game after having already obtained Zygarde, just enable Debug mode (either through the computer in Kurisu's house or by running the game through RPG Maker XP) and turn on Switch 157 to get rid of the random grunt on Route 11
 - Added more Aether Burst fights:
@@ -766,8 +766,218 @@ Beta 0.11.0
 - Mankey, Primeape, Seel, Dewgong, Minccino, Cinccino, Aipom, Ambipom, Buneary-Prism, Lopunny-Prism, Happiny, Chansey, Blissey, Sentret, Furret, Teddiursa, and Ursaring can now learn Pay Day
 - Photon Geyser, Ancient Power, Ominous Wind, and Silver Wind are now 10 PP
 - Triple Kick is now 15 BP
-```
-```
-Alpha 0.11.1
+
+Beta 0.11.1
 - Fixed an issue involving the Lake Trio sidequest
+```
+```
+Beta 0.12.0
+
+## GENERAL GAME CHANGES
+- The game now has a new, custom icon
+- As stated below, game performance should be increased and lag should be lessened due to me getting rid of some unnecessary events that kept activating every frame
+
+## ADDITIONS
+- The main story is now complete
+- Added Gym Leader sidequests for Helia and Jack
+- Added the rest of the Intriguing Stone sidequest
+- Added optional level caps, which can be turned on/off in Options; they disable EXP gain for mons at or above the level of the next Gym Leader's ace Pokémon
+	- The level caps are 14/23/28/32/39/47/55/61 for the Gyms, 74 for the Elite 4, and 76 for the Champion
+- Added an setting to Options to be able to force the time to be daytime/nighttime
+- Added speedup (wow!) (Press Q to cycle between speeds)
+- Added three new passwords
+	- "evlesstrainer": Sets all NPC Trainer EV spreads to 0/0/0/0/0/0 ("EVless Trainer mode")
+	- "evlessplayer": Disables EV gain for the player's Pokémon ("EVless Player mode")
+	- "trueevless": Enables both EVless Trainer and EVless Player mode
+- Added password computers to every Pokémon Center
+- Added cries for G-Mega Snorlax, Drednaw, and Hatterene
+- Added availability for the Aggronite, Lucarionite, Steelixite P, Snorlaxite, Glalitite, Absolite, Houndoominite, Garchompite, Ampharosite, Banettite, Pinsirite, Sceptilite, Blazikenite, Swampertite, and Pidgeotite
+- Added the Eeveelution sidequest to Route 16, making Ace Trainer Evie fightable
+- Added a new icon to the Pokémon summary menu that shows the current friendship level
+- Added an extra flavor message to the Hidden Power checker if the player shows her a Light-type Hidden Power mon for the first time
+
+## BUG/ERROR FIXES
+- Fixed a bug where certain healing items would heal the wrong amount when used in battle
+- Moves affected by PP Up now display the correct maximum PP during battle
+- Fixed an issue where the icons representing stat changes were improperly positioned in Double Battles
+- Fixed the Bug Catcher sidequest to actually work lol (it now properly checks for a Super Potion in your bag instead of a Dawn Stone)
+- Fixed more bugs involving the Lake Trio sidequest, including Cynthia randomly vanishing due to bad eventing and the Distortion Space part not triggering if Mesprit is completed third
+	- Additionally, Uxie no longer locks the player in the Cave of Acuity if the trial hasn't been completed yet (I know this frustrated some people because the questions are kind of bullshit)
+- Fixed bugs related to wiping against certain Boss Pokémon
+- Fixed a tile error on Route 14 that I overlooked last update
+- Fixed a minor error when using the yumcandy password before having beaten Gym 1 where a false error message would display after using the code
+- Fixed a minor event error on Route 16 involving the Youngster in front of the bush
+- Fixed an error where Kurisu and Amie would remain in the Beastman Base even after they should have left
+- Finally added some rocks to Route 20 so the player can't just surf all the way out to the void lol
+- Fixed an issue that occurs if the player blacks out in Lavenn Forest while partnered with Amber, or in Argentum Caldera while partnered with Kurisu
+- Fixed a weird quirk in some cutscenes and transitions, in which the screen fades to white instead of black
+- Fixed an issue where Dive could not be forgotten outside of the move deleter due to being an unused HM move
+- Fixed a typo in Photon Geyser's move description
+- Fixed an issue where the item ball on Route 8 containing TM40 would not show up
+- Fixed an error where refusing to take Zygarde with you would lead to the entire cutscene involving it repeating
+- Fixed an issue where the game would crash if you fought the plot-mandated Neo Aether grunts on Route 14 with only one Pokémon in your party
+- Fixed some broken cutscenes on Route 20
+
+## SPRITE/VISUAL CHANGES
+- Gave the protagonists updated designs and new sprites to reflect that
+- Updated the town map to a nicer-looking one
+- Updated the battle UI to look nicer too
+- Replaced some of the character VS portraits with custom-drawn versions
+- Added updated (and properly sized) battle sprites for the Swimmers, Crush Girl, Mitsuki, Amie, and Noel
+- Fixed some inconsistencies with battle backgrounds, and added some new, more fitting ones to certain areas
+	- This, as a consequence, should increase game performance, due to me having removed a bunch of events that lagged the game
+- Improved overworld follower sprites for Vanilluxe, Larvesta, Chewtle, Goomy, and Sliggoo
+- Added overworld follower sprites for Prism-Beartic, Prism-Ralts, Prism-Kirlia, Prism-Gardevoir, and Prism-Gallade
+- Properly aligned the menu icons for some Pokémon, fixing a minor visual bug
+- Improved the sprites and design of Prism Outpost Gyarados
+
+## POKEMON ATTRIBUTE CHANGES
+- Prism Outpost Magikarp and Gyarados now have a chance to hold a Dragon Scale in the wild
+- Changed the evo levels of a few Pokémon:
+	- Rufflet -> Braviary:		Lv34 -> 41
+	- Vullaby -> Mandibuzz: 	Lv34 -> 41
+	- Foongus -> Amoonguss: 	Lv30 -> 34
+	- Golett -> Golurk:		Lv35 -> 38
+	- Archen -> Archeops:		Lv33 -> 37
+	- Klink -> Klang:		Lv32 -> 36
+	- Klang -> Klinklang:		Lv42 -> 46
+- Changed Ninjask's Attack (100 -> 95)
+- Changed Shedinja's Speed (90 -> 70)
+- Changed Leavanny's Attack (108 -> 103), Defense (75 -> 80), SpDef (70 -> 80), and Speed (102 -> 92)
+	- This puts it back in line with its vanilla stats
+- Changed Flareon's HP (75 -> 65) and SpDef (100 -> 110)
+	- This was supposed to have been fixed a while ago
+- Changed Hattrem's Attack (40 -> 65)
+- Changed Hydreigon's Attack (90 -> 100) and Speed (108 -> 98) (the changes I had initially made were a bit too much so I'm returning it slightly closer to normal)
+- Changed Mawile's Attack (105 -> 95) and SpDef (65 -> 75)
+- Changed Mega Mawile's Attack (85 -> 95) and Defense (135 -> 125)
+- Changed Sableye's HP (50 -> 55), Attack (100 -> 90), and SpAtk (70 -> 75)
+- Changed Mega Sableye's HP (50 -> 55) and Attack (100 -> 95)
+- Changed Archen's Attack (74 -> 112) and SpAtk (71 -> 74)
+- Changed Archeops's Attack (110 -> 130) and SpAtk (105 -> 122)
+	- 567 BST Archeops is back !!
+- Changed Noibat's base EXP yield (49 -> 79)
+- Changed Archen and Archeops's Abilities to Defeatist / (HA) Berserk
+- Changed Litleo and Pyroar's abilities to Moxie / Intimidate / (HA) Competitive
+- Changed Skrelp and Dragalge's abilities to Corrosion / Swift Swim / (HA) Adaptability
+- Any Pokémon that can learn Flame Charge in mainline can learn it again
+- Any Pokémon that can learn Dragon Tail in mainline can learn it again, in addition to Snivy and Servine
+- Any Pokémon that can learn Charge Beam in mainline can learn it again, in addition to Magmortar, Nosepass, Probopass, Froslass, Solosis, Duosion, Reuniclus, Braixen, Delphox, Sliggoo, Goodra, Silvally, Yamper, Boltund, Hatenna, Hattrem, Hatterene, Corsola-Galar, Cursola, Dracozolt, Arctozolt, Zigzagoon-Galar, Linoone-Galar, Obstagoon, and Tapu Koko
+- Servine and Serperior can now learn Cross Poison and Grassy Glide
+- Archen and Archeops can now learn Power Gem
+- Serperior now learns Scale Shot and Curse at Level 1 instead of Cross Poison (It can still learn Cross Poison through TM)
+- Tropius now learns Stuff Cheeks at level 1
+- Flareon now learns Flame Charge upon evolving instead of Ember
+- Reorganized Munchlax and Snorlax's level up movesets
+- Reorganized Mankey and Primeape's level up movesets
+- Reorganized Litleo and Pyroar's level up movesets
+- Sentret, Furret, Electabuzz, Electivire, Banette, and Goodra can now learn Drain Punch
+- Mienfoo, Mienshao, and Mienshao-Prism can now learn Rock Smash
+- Flareon can now learn Blaze Kick
+- Pidgeot can now learn Focus Blast
+- Porygon-Z no longer learns Boomburst (wtf was I thinking giving it that???)
+- Leafeon now learns Fury Cutter at level 25, replacing Swift (which it still gets through TM)
+- Onix, Steelix, and Prism-Steelix now learn Earthquake at level 50, replacing Stone Edge (which they still get through TM)
+- Leafeon can now learn Tail Slap, U-Turn, Pin Missile, and Grassy Terrain
+
+## MOVE/ABILITY/ITEM ATTRIBUTE CHANGES
+- Buffed the Shell Bell to heal 1/6 of damage dealt instead of 1/8
+- Changed Big Root's price from P$4000 -> P$3000
+- Changed Leftovers' price from P$4000 -> P$6000
+- Changed Focus Band's price from P$4000 -> P$2000
+- Changed Max Revive's price from P$4000 -> P$5000
+- Reduced the prices of many consumable items
+- Changed TM37 from Beat Up to Roost
+- Changed TM71 from Wonder Room to Flame Charge
+- Changed TM72 from Magic Room to Dragon Tail
+- Changed TM82 from Electroweb to Charge Beam
+- Grassy Glide is now 60 BP
+- Air Slash is now 80 BP
+- Volt Tackle is now 130 BP
+- Meteor Beam is now 100% accurate
+- Payback has been reverted to its vanilla effect, but with BP increased to 60
+- Nerfed Transistor to boost Electric-type moves by 1.3 instead of 1.5, like how it is in Gen 9
+
+## OTHER BATTLE CHANGES
+- Overhauled the EV spreads, movesets, etc of many trainers
+- Certain trainers now keep their Pokemon in different kinds of balls (this is visual and doesn't affect gameplay)
+- Changed some trainers' Pokémon, mostly to improve variety or change some mons to fit better:
+	- Bug Catcher Noah's Sewaddle -> Swadloon (Maple Gym fight)
+	- Bug Catcher Noah's Nincada -> Corphish-Prism (Maple Gym fight)
+	- Ace Trainer Petra's Swadloon -> Cottonee
+	- Lass Amy's Horsea -> Minccino
+	- Black Belt Chuck's Mankey -> Gible (one of them)
+	- Black Belt Chuck's Marshtomp -> Gabite (Adv. Team)
+	- PokéManiac Andrew's Eevee -> Goomy
+	- PokéManiac Andrew's Sliggoo -> Gothorita
+	- PokéManiac Andrew's Altaria -> Gothorita (Adv. Team)
+	- Picnicker Blaise's Cubone -> Lombre-Prism
+	- Team Beastman Grunt's Servine -> Flaaffy (Waterside Cavern)
+	- Hiker Craig's Graveler -> Lileep
+	- Swimmer Harold's Wingull -> Pelipper (one of them)
+	- Camper Nick's Golbat -> Skorupi
+	- Pokémon Ranger Isabel's Grovyle -> Tangela
+	- Psychic Georgia's Gothorita -> Xatu
+	- PokéManiac Eugene's Xatu -> Runerigus
+	- Pokémon Ranger Johanna's Octillery-Prism -> Altaria
+	- Pokémon Ranger Johanna's Mienshao-Prism -> Electabuzz
+	- Lass Sierra's Doublade -> Eelektrik
+	- PokéManiac Davis's Dodrio -> Clawitzer-Prism
+	- Fisherman Frankie's Marshtomp -> Lombre
+	- Youngster Max's Boldore -> Beedrill
+	- Youngster Max's Clawitzer-Prism -> Aggron
+	- Channeler Matilda's Espeon -> Hatterene
+	- Phoebe's Doublade -> Aegislash (Third battle)
+	- Ace Trainer Casey's Dracozolt -> Sliggoo
+	- Ace Trainer Casey's Noivern -> Dracovish
+	- Gym Leader Mitsuki's Kingdra -> Drampa
+	- Team Beastman Grunt's Riolu -> Lucario (Team Beastman Base)
+	- Hiker Greg's Nosepass -> Fraxure
+	- Pokémon Ranger Brielle's Crawdaunt-Prism -> Rhydon
+	- Pokémon Ranger Brielle's Medicham -> Slowbro-Galar
+	- Pokémon Ranger Brielle's Fraxure -> Pinsir
+- Every Channeler in the Crucible has had their team's levels decreased by 2
+- Mitsuki's Gym Battle is now Doubles
+- Light type moves are no longer resisted by Dragon
+- Light type no longer resists Fighting
+
+## MAP/EVENT CHANGES
+- Re-did the cutscene in Luna Mine B1F involving talking to Jade, and changed a lot of dialogue elsewhere to account for the slight story improvements
+- Improved a lot of cutscenes and dialogue in general
+- Slightly adjusted a puzzle in the Team Beastman base to better accomodate colorblind players
+- Changed the gift Castform event in Girit Town to give the player the weather TMs first without forcing them to take the Castform, since Rain Dance is very important for Helia's Gym and I don't want to screw over any challenge run players who can't use/don't want Castform
+- Added a new Berry salesman in Girit Town that sells the EV reducing and pinch-HP restoring berries, while the salesman on Route 16 now sells the stat-raising pinch berries (which were previously unobtainable)
+- Added an NPC in Azure Base that gives the player Oran Berries, to help make Arnon less of a gamble for people who didn't pick Snivy or find a Budew
+- Added some new locations, including the Desert Cave and Sol Isles
+- Updated the layout of Route 11
+- There is now a chance to rain in Lavenn Forest
+	- Sliggoo's evolution into Goodra is still a constant Lv50, even though there is now a location with overworld rain, because I don't want it to be annoying
+- Changed the layout of the Faypoint Gym's final section slightly (the path right before Amber) because it was a pain to navigate
+- Added the Blunder Policy and Eject Pack to the shop in Eridhe Town
+- Added the Big Root to the Training Cave item shop
+- Added the Big Malasada to the stall in Girit Town that sells vitamins
+- Stark Bay actually has wild encounters now
+- Added the static Galarian Slowpoke encounters to Route 20 that I meant to add before but forgot (lol)
+- Changed the layout of Eridhe Town slightly to make it look better, and added some NPCs to liven up the area
+- Changed Route 1 and the surrounding areas to look a bit nicer
+- Added a bunch more items to the overworld, particularly in later areas
+- Changed Route 21's music to something different that felt more fitting
+- Also changed the music used for the Mt. Titan areas (CrashSite A, Kurisu's House, Route 1) to something else so no more stupid balls default Essentials music
+- Changed the wild encounter tables of quite a few areas, to increase Pokémon variety or to raise the wild Pokémon levels
+- Made Gentleman Marwood on Route 11 rematchable (he also hands out an Ultra Ball now when you beat him for the first time)
+- Helia's Prism-Gyarados in the Stark Beach cutscene is replaced by Blaziken
+- Rotom in the Abandoned House is now able to be re-battled if not caught by leaving and re-entering the house
+- Changed some eventing for a cutscene in Eridhe Town to account for the fact that the player might use Fly to immediately return to town after getting the Rubber Psyduck (for... some reason)
+
+## MISC CHANGES
+- Pokémon now play properly pitched-down cries in battle upon fainting
+- Replaced Ultra Necrozma's cry with a version that is louder and less compressed
+- Changed follower Pokémon item drops (no more evo stones, added Timer Ball)
+- Added the jingle for obtaining a TM, so that should play properly
+- Changed the name of one of the trainers in Argentum Caldera because I had accidentally given two trainers the same name just spelled slightly differently lol
+- Gave a few trainers post-battle victory dialogue that didn't have any before because I'm stupid and forgot to give them any lol
+- The plot Zygarde is now unable to be released
+- Removed Escape Ropes from PokéMarts and the follower Pokémon item pool because they don't do anything
+- Replaced the Escape Rope with Sitrus Berries in the Pickup item pool (otherwise it is identical to the items and probabilities found in ORAS)
+- Fixed the map metadata for every map, hopefully making the player icons properly display on the Town Map
 ```

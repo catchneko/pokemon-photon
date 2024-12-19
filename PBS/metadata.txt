@@ -6,7 +6,7 @@ WildBattleBGM = Battle! (Wild Pokémon).ogg
 TrainerBattleBGM = Battle! (Trainer Battle).ogg
 WildVictoryME = Battle victory wild.ogg
 TrainerVictoryME = Battle victory trainer.ogg
-SurfBGM = Surfing.mid
+SurfBGM = Surf.ogg
 BicycleBGM = Bicycle.mid
 PlayerA = POKEMONTRAINER_Red,trainer_POKEMONTRAINER_Red,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_fish_offset
 PlayerB = POKEMONTRAINER_Leaf,trainer_POKEMONTRAINER_Leaf,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
@@ -119,7 +119,6 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,3,7
-Environment = Cave
 #-------------------------------
 [023]
 # Lerucean Town
@@ -175,7 +174,6 @@ ShowArea = false
 Bicycle = true
 MapPosition = 0,4,7
 BattleBack = 
-Environment = Cave
 #-------------------------------
 [033]
 # Kurisu's House
@@ -240,7 +238,6 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,5,7
-Environment = Cave
 #-------------------------------
 [043]
 # Titan's Foot Village
@@ -248,7 +245,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,6,7
-Environment = ForestGrass
+MapSize = 1,11
 #-------------------------------
 [044]
 # Route 6
@@ -278,7 +275,6 @@ Weather = Rain,0
 MapPosition = 0,15,10
 BattleBack = rocky
 MapSize = 2,11
-Environment = Rock
 #-------------------------------
 [048]
 # TFV Poké Center
@@ -446,15 +442,15 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,6,5
 SnapEdges = false
-Environment = ForestGrass
+MapSize = 1,11
 #-------------------------------
 [078]
 # Route 3
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,8,5
-Environment = ForestGrass
+MapPosition = 0,7,5
+MapSize = 4,1111
 #-------------------------------
 [079]
 # Azure Lake
@@ -462,7 +458,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,9,3
-Environment = Grass
+MapSize = 1,11
 #-------------------------------
 [081]
 # Azure Base
@@ -470,7 +466,6 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,11,5
-Environment = ForestGrass
 #-------------------------------
 [082]
 # Azure Poké Center
@@ -490,15 +485,15 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,11,6
-Environment = Forest
+MapSize = 1,11
 #-------------------------------
 [086]
 # Route 4
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,11,8
-Environment = ForestGrass
+MapPosition = 0,10,8
+MapSize = 2,11
 #-------------------------------
 [087]
 # Luna Mine Entrance
@@ -513,7 +508,6 @@ Outdoor = false
 ShowArea = true
 Bicycle = false
 MapPosition = 0,9,8
-Environment = Cave
 #-------------------------------
 [089]
 # Luna Mine Entrance
@@ -524,7 +518,8 @@ MapPosition = 0,9,8
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,7,10
+MapPosition = 0,6,9
+MapSize = 2,1011
 #-------------------------------
 [091]
 # Route 6
@@ -532,7 +527,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,12,8
-Environment = Grass
+MapSize = 2,11
 #-------------------------------
 [092]
 # Maple Town
@@ -541,7 +536,7 @@ ShowArea = true
 Bicycle = true
 HealingSpot = 92,15,13
 MapPosition = 0,14,8
-Environment = ForestGrass
+MapSize = 1,11
 #-------------------------------
 [093]
 # Maple Poké Center
@@ -566,15 +561,15 @@ MapPosition = 0,14,8
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,16,8
+MapPosition = 0,15,8
 #-------------------------------
 [098]
 # Route 7
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,13,11
-Environment = ForestGrass
+MapPosition = 0,13,10
+MapSize = 2,0111
 #-------------------------------
 [099]
 # Girit Town
@@ -582,15 +577,16 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 99,26,18
-MapPosition = 0,11,12
+MapPosition = 0,11,11
+MapSize = 2,1111
 #-------------------------------
 [100]
 # Girit Poké Center
-MapPosition = 0,11,12
+MapPosition = 0,12,11
 #-------------------------------
 [101]
 # Girit Mart
-MapPosition = 0,11,12
+MapPosition = 0,12,11
 #-------------------------------
 [102]
 # Route 8
@@ -598,6 +594,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,8,11
+MapSize = 2,1011
 #-------------------------------
 [104]
 # Luna Mine
@@ -614,6 +611,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,8,13
+MapSize = 2,11
 #-------------------------------
 [107]
 # Route 10
@@ -621,6 +619,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,8,15
+MapSize = 2,11
 #-------------------------------
 [108]
 # Bonfire Island
@@ -628,6 +627,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,10,15
+MapSize = 2,11
 #-------------------------------
 [109]
 # Bonfire Poké Center
@@ -635,7 +635,7 @@ MapPosition = 0,10,15
 #-------------------------------
 [110]
 # Girit Town
-MapPosition = 0,11,12
+MapPosition = 0,11,11
 #-------------------------------
 [111]
 # Bonfire Gym
@@ -643,7 +643,7 @@ MapPosition = 0,10,15
 #-------------------------------
 [112]
 # Girit Town
-MapPosition = 0,11,12
+MapPosition = 0,11,11
 #-------------------------------
 [113]
 # Bonfire Mart
@@ -651,7 +651,7 @@ MapPosition = 0,10,15
 #-------------------------------
 [114]
 # Girit Town
-MapPosition = 0,11,12
+MapPosition = 0,11,11
 #-------------------------------
 [115]
 # Pokémon Day Care
@@ -674,7 +674,6 @@ Outdoor = false
 ShowArea = true
 Bicycle = false
 MapPosition = 0,11,14
-Environment = Cave
 #-------------------------------
 [120]
 # Girit Gym
@@ -685,21 +684,25 @@ MapPosition = 0,11,12
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,13,6
+MapPosition = 0,13,5
+MapSize = 1,111
 #-------------------------------
 [122]
 # Route 12
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,13,4
+MapPosition = 0,13,3
+MapSize = 1,11
 #-------------------------------
 [123]
 # Lavenn Forest
 Outdoor = true
 ShowArea = true
 Bicycle = false
-MapPosition = 0,15,3
+Weather = Rain,20
+MapPosition = 0,14,3
+MapSize = 2,11
 #-------------------------------
 [124]
 # Azure Lake
@@ -754,6 +757,7 @@ Outdoor = false
 ShowArea = true
 Bicycle = false
 MapPosition = 0,14,12
+MapSize = 2,1011
 #-------------------------------
 [133]
 # Keystone Pass
@@ -761,13 +765,15 @@ Outdoor = false
 ShowArea = true
 Bicycle = false
 MapPosition = 0,14,12
+MapSize = 2,1011
 #-------------------------------
 [134]
 # Route 13
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,13
+MapPosition = 0,16,13
+MapSize = 2,11
 #-------------------------------
 [136]
 # Eridhe Town
@@ -775,6 +781,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,18,13
+MapSize = 2,1111
 #-------------------------------
 [137]
 # Route 14
@@ -782,7 +789,8 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Sandstorm,70
-MapPosition = 0,18,11
+MapPosition = 0,19,10
+MapSize = 1,111
 #-------------------------------
 [138]
 # Eridhe Poké Center
@@ -808,66 +816,71 @@ MapPosition = 0,18,13
 #-------------------------------
 [142]
 # Eridhe Mart
-MapPosition = 0,18,13
+MapPosition = 0,18,14
 #-------------------------------
 [143]
 # Eridhe Gym
 Outdoor = false
 ShowArea = true
-MapPosition = 0,18,13
+MapPosition = 0,19,13
 #-------------------------------
 [144]
 # Zygarde Research Lab
-MapPosition = 0,18,13
+MapPosition = 0,19,13
 #-------------------------------
 [145]
 # Aurum Desert
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,50
-MapPosition = 0,17,11
+MapPosition = 0,18,11
 #-------------------------------
 [146]
 # Ancient Ruins
 Outdoor = false
 ShowArea = true
-MapPosition = 0,17,10
+MapPosition = 0,17,11
 #-------------------------------
 [147]
 # Route 15
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,13
+MapPosition = 0,20,14
+MapSize = 1,11
 #-------------------------------
 [148]
 # Route 15
 Outdoor = true
 ShowArea = true
-MapPosition = 0,20,13
+MapPosition = 0,20,12
+MapSize = 3,111
 #-------------------------------
 [149]
 # Stark Beach
 Outdoor = true
 ShowArea = true
-MapPosition = 0,21,14
+MapPosition = 0,22,13
 #-------------------------------
 [150]
 # Argentum Caldera
 Outdoor = false
 ShowArea = true
-MapPosition = 0,18,8
+MapPosition = 0,19,8
+MapSize = 3,111100
 #-------------------------------
 [151]
 # Stark Bay
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,14
+MapPosition = 0,22,14
+MapSize = 3,111
 #-------------------------------
 [152]
 # Route 16
 Outdoor = true
 ShowArea = true
-MapPosition = 0,24,12
+MapPosition = 0,24,10
+MapSize = 1,1111
 #-------------------------------
 [153]
 # Crucible Entrance
@@ -906,17 +919,20 @@ MapPosition = 0,24,11
 [160]
 # Argentum Caldera
 ShowArea = true
-MapPosition = 0,18,8
+MapPosition = 0,19,8
+MapSize = 3,111100
 #-------------------------------
 [161]
 # Argentum Caldera
 MapPosition = 0,19,8
+MapSize = 3,111100
 #-------------------------------
 [162]
 # Route 17
 Outdoor = true
 ShowArea = true
-MapPosition = 0,21,9
+MapPosition = 0,22,8
+MapSize = 3,111
 #-------------------------------
 [163]
 # Draconis Village
@@ -929,7 +945,7 @@ MapPosition = 0,24,9
 # Route 17
 Outdoor = true
 ShowArea = true
-MapPosition = 0,23,9
+MapPosition = 0,25,8
 #-------------------------------
 [165]
 # Draconis Poké Center
@@ -966,27 +982,30 @@ MapPosition = 0,24,9
 [172]
 # Draconis Cave
 ShowArea = true
-MapPosition = 0,24,9
+MapPosition = 0,23,9
 #-------------------------------
 [173]
 # Draconis Cave
 ShowArea = true
-MapPosition = 0,24,9
+MapPosition = 0,23,9
 #-------------------------------
 [174]
 # Argentum Caldera
-MapPosition = 0,18,8
+MapPosition = 0,19,8
+MapSize = 3,111100
 #-------------------------------
 [175]
 # Argentum Caldera
-MapPosition = 0,18,8
+MapPosition = 0,19,8
+MapSize = 3,111100
 #-------------------------------
 [176]
 # Route 18
 Outdoor = true
 ShowArea = true
 Weather = Snow,50
-MapPosition = 0,18,6
+MapPosition = 0,19,6
+MapSize = 1,11
 #-------------------------------
 [177]
 # Route 19
@@ -994,6 +1013,7 @@ Outdoor = true
 ShowArea = true
 Weather = Snow,50
 MapPosition = 0,20,6
+MapSize = 3,111
 #-------------------------------
 [178]
 # Frostpeak Town
@@ -1001,7 +1021,8 @@ Outdoor = true
 ShowArea = true
 HealingSpot = 178,8,25
 Weather = Snow,70
-MapPosition = 0,23,7
+MapPosition = 0,23,6
+MapSize = 2,11
 #-------------------------------
 [179]
 # Luna Mine
@@ -1013,16 +1034,16 @@ MapPosition = 0,15,3
 #-------------------------------
 [181]
 # Frostpeak Poké Center
-MapPosition = 0,23,7
+MapPosition = 0,23,6
 #-------------------------------
 [182]
 # Frostpeak Mart
-MapPosition = 0,23,7
+MapPosition = 0,23,6
 #-------------------------------
 [183]
 # Frostpeak Gym
 Weather = Snow,100
-MapPosition = 0,23,7
+MapPosition = 0,23,6
 #-------------------------------
 [184]
 # Route 9
@@ -1032,17 +1053,18 @@ MapPosition = 0,8,13
 # Route 20
 Outdoor = true
 ShowArea = true
-MapPosition = 0,24,5
+MapPosition = 0,24,4
+MapSize = 1,11
 #-------------------------------
 [186]
 # Exeggutor Island
 Outdoor = true
 ShowArea = true
-MapPosition = 0,29,6
+MapPosition = 0,28,4
 #-------------------------------
 [187]
 # Frostpeak Town
-MapPosition = 0,23,7
+MapPosition = 0,23,6
 #-------------------------------
 [188]
 # Ultra Space Wilds
@@ -1067,7 +1089,7 @@ MapPosition = 0,24,3
 #-------------------------------
 [192]
 # Cave of Verity
-MapPosition = 0,9,2
+MapPosition = 0,9,3
 #-------------------------------
 [193]
 # Cave of Valor
@@ -1075,45 +1097,278 @@ MapPosition = 0,16,13
 #-------------------------------
 [194]
 # Ultra Space
+Outdoor = false
 ShowArea = true
-MapPosition = 0,24,3
+MapPosition = 0,23,3
 WildBattleBGM = Area Zero Wild Pokemon.ogg
 #-------------------------------
 [195]
 # Ultra Space
-MapPosition = 0,24,3
+Outdoor = false
+ShowArea = true
+MapPosition = 0,23,3
 WildBattleBGM = Area Zero Wild Pokemon.ogg
 #-------------------------------
 [196]
 # Ultra Space
-MapPosition = 0,24,3
+Outdoor = false
+ShowArea = true
+MapPosition = 0,23,3
 WildBattleBGM = Area Zero Wild Pokemon.ogg
 #-------------------------------
 [197]
 # Ultra Space
-MapPosition = 0,24,3
+Outdoor = false
+ShowArea = true
+MapPosition = 0,23,3
 WildBattleBGM = Area Zero Wild Pokemon.ogg
 #-------------------------------
 [198]
 # Route 21
 Outdoor = true
 ShowArea = true
-MapPosition = 0,21,5
+MapPosition = 0,21,3
+MapSize = 2,11
 #-------------------------------
 [199]
 # Cave of Acuity
 Outdoor = false
 ShowArea = true
-MapPosition = 0,21,5
+MapPosition = 0,22,3
 #-------------------------------
 [200]
 # Linking Cave
 Outdoor = false
 ShowArea = true
-MapPosition = 0,21,5
+MapPosition = 0,20,3
+MapSize = 1,111
+#-------------------------------
+[201]
+# Desert Cave
+ShowArea = true
+MapPosition = 0,18,13
 #-------------------------------
 [202]
 # Distortion Space
 Outdoor = false
 ShowArea = true
 MapPosition = 0,24,3
+#-------------------------------
+[203]
+# Desert Cave
+ShowArea = true
+MapPosition = 0,18,13
+#-------------------------------
+[204]
+# Desert Cave
+ShowArea = true
+MapPosition = 0,18,13
+#-------------------------------
+[205]
+# Badge Check Gate
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+#-------------------------------
+[206]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[207]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[208]
+# Victory Road
+Outdoor = true
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[209]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[210]
+# Victory Road
+Outdoor = true
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[211]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[212]
+# Victory Road
+Outdoor = true
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[213]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[214]
+# Sol Isles
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Sun,40
+MapPosition = 0,25,17
+WildBattleBGM = Time of Battle.ogg
+#-------------------------------
+[215]
+# Sol Isles
+Outdoor = false
+MapPosition = 0,25,17
+#-------------------------------
+[216]
+# Gemstone Tunnel
+Outdoor = false
+ShowArea = true
+MapPosition = 0,25,17
+WildBattleBGM = Time of Battle.ogg
+#-------------------------------
+[217]
+# Battle Tower
+Outdoor = true
+MapPosition = 0,29,2
+#-------------------------------
+[218]
+# Alohil Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,25,17
+#-------------------------------
+[219]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[220]
+# Victory Road
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,2
+TrainerBattleBGM = Battle! (Battle Subway Trainer).ogg
+#-------------------------------
+[221]
+# Pokémon League
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,21,1
+#-------------------------------
+[222]
+# Pokémon League
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[223]
+# Pokémon League
+Outdoor = false
+ShowArea = false
+MapPosition = 0,21,1
+#-------------------------------
+[224]
+# Spectral Chamber
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[225]
+# Basic Chamber
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[226]
+# Soaring Chamber
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[227]
+# Martial Chamber
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[228]
+# Pokémon League
+Outdoor = false
+MapPosition = 0,21,1
+#-------------------------------
+[230]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[231]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[232]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[233]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[235]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[236]
+# Neo Aether Paradise
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[237]
+# Neo Aether Paradise - Apex
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1
+#-------------------------------
+[238]
+# Pokémon League
+Outdoor = false
+MapPosition = 0,21,1
+#-------------------------------
+[239]
+# Champion Chamber
+Outdoor = false
+ShowArea = true
+MapPosition = 0,21,1

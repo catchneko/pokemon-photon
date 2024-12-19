@@ -84,24 +84,26 @@ Raichu (Alola)
     BST 485 -> 505 (+20)
 
 Litleo
-    Ab1 | Rivalry -> Competitive
+    Ab1 | Rivalry -> Moxie
     Ab2 | Unnerve -> Intimidate
+     HA | Moxie -> Competitive
 
 Pyroar
-    Ab1 | Rivalry -> Competitive
+    Ab1 | Rivalry -> Moxie
     Ab2 | Unnerve -> Intimidate
+     HA | Moxie -> Competitive
 
 Ninjask
      HP 61 -> 66 (+5)
-    Atk 90 -> 100 (+10)
+    Atk 90 -> 95 (+5)
     SpD 50 -> 60 (+10)
-    BST 456 -> 481 (+25)
+    BST 456 -> 476 (+20)
 
 Shedinja
     Atk 90 -> 110 (+20)
     SpA 35 -> 75 (+45)
-    Spe 40 -> 90 (+50)
-    BST 236 -> 351 (+115)
+    Spe 40 -> 70 (+30)
+    BST 236 -> 331 (+95)
 
 Primeape
     Def 60 -> 70 (+10)
@@ -131,14 +133,6 @@ Bibarel
     Def 60 -> 65 (+5)
     SpD 60 -> 70 (+10)
     BST 410 -> 435 (+25)
-
-Leavanny
-    Atk 103 -> 108 (+5)
-    Def 80 -> 75 (-5)
-    SpD 80 -> 70 (-10)
-    Spe 92 -> 102 (+10)
-    BST 500 -> 500 (±0)
-(WE LOVE MINMAXING!!!!!!!!!!)
 
 Breloom
     Def 80 -> 85 (+5)
@@ -170,13 +164,7 @@ Jolteon
     Ab2 | N/A -> Static
 
 Flareon
-    Def 60 -> 65 (+5)
-    SpA 95 -> 60 (-35)
-    Spe 65 -> 95 (+30)
-    BST 525 -> 525 (±0)
-
     Ab2 | N/A -> Defiant
-(yeah yeah minmaxing bad :nerd:)
 
 Espeon
     Ab2 | N/A -> Magic Guard
@@ -204,7 +192,7 @@ Noibat
     Atk 30 -> 55 (+25)
     Def 35 -> 45 (+10)
     SpA 45 -> 60 (+15)
-    SpD 40 -> 55 (+40)
+    SpD 40 -> 55 (+15)
     Spe 55 -> 75 (+20)
     BST 245 -> 340 (+95)
 
@@ -312,9 +300,8 @@ Skrelp
     SpD 60 -> 80 (+20)
     BST 320 -> 350 (+30)
 
-    Ab1 | Poison Point -> Adaptability
+    Ab1 | Poison Point -> Corrosion
     Ab2 | Poison Touch -> Swift Swim
-     HA | Adaptability -> Corrosion
 
     Evolution into Dragalge: Lv.48 -> Lv.36
 
@@ -322,9 +309,8 @@ Dragalge
     SpA 97 -> 107 (+10)
     BST 494 -> 504 (+10)
 
-    Ab1 | Poison Point -> Adaptability
+    Ab1 | Poison Point -> Corrosion
     Ab2 | Poison Touch -> Swift Swim
-     HA | Adaptability -> Corrosion
 
 Aipom
     Ab1 | Run Away -> Technician
@@ -434,24 +420,12 @@ Aurorus
 Tirtouga
     Evolution into Carracosta: Lv.37 -> Lv.30
 
-Archen
-    Atk 112 -> 74 (-38)
-    SpA 74 -> 71 (-3)
-    BST 401 -> 360 (-41)
-
-    Ab1 | Defeatist -> Inner Focus
-    Ab2 | N/A -> Berserk
-
-    Evolution into Archeops: Lv.37 -> Lv.33
-
 Archeops
-    Atk 140 -> 110 (-30)
-    SpA 112 -> 105 (-7)
-    BST 567 -> 530 (-37)
+    Atk 140 -> 130 (-10)
+    SpA 112 -> 122 (+10)
+    BST 567 -> 567 (±0)
 
-    Ab1 | Defeatist -> Inner Focus
-    Ab2 | N/A -> Berserk
-(I wasn't sure how to balance Defeatist so I just got rid of it, shame Archeops's BST reference had to go :( )
+    HA | N/A -> Berserk
 
 Omanyte
     Evolution into Omastar: Lv.40 -> Lv.30
@@ -464,9 +438,10 @@ Whiscash
     BST 468 -> 488 (+20)
 
 Sableye
-    Atk 75 -> 100 (+25)
+     HP 50 -> 55 (+5)
+    Atk 75 -> 90 (+15)
     Def 75 -> 95 (+20)
-    SpA 65 -> 70 (+5)
+    SpA 65 -> 75 (+10)
     SpD 65 -> 85 (+20)
     BST 380 -> 450 (+70)
 
@@ -474,7 +449,8 @@ Sableye
      HA | Prankster -> Keen Eye
 
 Mega Sableye
-    Atk 85 -> 100 (+15)
+     HP 50 -> 55 (+5)
+    Atk 85 -> 95 (+10)
     Def 125 -> 130 (+5)
     SpA 85 -> 95 (+10)
     SpD 115 -> 120 (+5)
@@ -482,9 +458,9 @@ Mega Sableye
 
 Mawile
      HP 50 -> 60 (+10)
-    Atk 85 -> 105 (+20)
+    Atk 85 -> 95 (+10)
     Def 85 -> 95 (+10)
-    SpD 55 -> 65 (+10)
+    SpD 55 -> 75 (+20)
     Spe 50 -> 70 (+20)
     BST 380 -> 450 (+70)
 
@@ -494,13 +470,11 @@ Mawile
 
 Mega Mawile
      HP 50 -> 60 (+10)
-    Atk 105 -> 85 (-20)
-    Def 125 -> 135 (+10)
+    Atk 105 -> 95 (-10)
     SpA 55 -> 65 (+10)
     SpD 95 -> 110 (+15)
     Spe 50 -> 60 (+10)
     BST 480 -> 515 (+35)
-(Yeah I just swapped base and Mega Mawile's Attack stats, Huge Power go brrr)
 
 Bronzor
     Atk 24 -> 49 (+25)
@@ -529,7 +503,7 @@ Wishiwashi (School)
 
 Doublade
     Evolution into Aegislash: Dusk Stone -> Lv.50
-(Certified RadRed moment)
+(Certified RadRed Corviknight moment)
 
 Ditto
      HP 48 -> 60 (+12)
@@ -610,6 +584,9 @@ Hatenna
     Evolution into Hattrem: Lv.32 -> Lv.28
 
 Hattrem
+    Atk 40 -> 65 (+25)
+    BST 370 -> 395 (+25)
+
     Evolution into Hatterene: Lv.42 -> Lv.38
 
 Froakie
@@ -712,7 +689,7 @@ Mega Banette
     TYPE CHANGE: Ghost -> Ghost/Normal
 
 Vullaby
-    Evolution into Mandibuzz: Lv.54 -> Lv.34
+    Evolution into Mandibuzz: Lv.54 -> Lv.41
 
 Larvesta
     SpA 50 -> 75 (+25)
@@ -813,9 +790,8 @@ Zweilous
     Evolution into Hydreigon: Lv.64 -> Lv.55
 
 Hydreigon
-    Atk 105 -> 90 (-15)
+    Atk 105 -> 100 (-5)
     SpA 125 -> 130 (+5)
-    Spe 98 -> 108 (+10)
     BST 600 -> 600 (±0)
 
     Ab2 | N/A -> Intimidate
@@ -866,7 +842,7 @@ Turtonator
     BST 485 -> 505 (+20)
 
 Rufflet
-    Evolution into Braviary: Lv.54 -> Lv.34
+    Evolution into Braviary: Lv.54 -> Lv.41
 
 Elekid
     Evolution into Electabuzz: Lv.30 -> Lv.20
@@ -1271,7 +1247,7 @@ Poison Fang
 
 Water Shuriken
     BP 15 -> 20 (+5)
-    BP 20 -> 25 (+5) (when used by Ash-Greninja)
+    BP 20 -> 25 (+5) (when used by Greninja-Bond)
 
 Comet Punch
     BP 18 -> 20 (+2)
@@ -1353,7 +1329,7 @@ Rock Throw
     Acc 90% -> 100% (+10%)
 
 Volt Tackle
-    BP 120 -> 140 (+20)
+    BP 120 -> 130 (+10)
 
 Play Nice
     Effects:
@@ -1375,9 +1351,6 @@ Disarming Voice
 
 Payback
     BP 50 -> 60 (+10)
-    Effects:
-        Priority changed 0 -> -4
-        Now requires the user to be hit with a damaging move that turn to trigger the power boost
 
 Scald
     Effects:
@@ -1441,6 +1414,9 @@ Ominous Wind
 Silver Wind
     PP 5 -> 10 (+5)
 
+Air Slash
+    BP 75 -> 80 (+5)
+
 ====================================
 ===   Ability Changes ==============
 ====================================
@@ -1461,31 +1437,42 @@ Corrosion
 Rivalry
     Removes the downside, the user now deals 1x damage to Pokémon of a different gender instead of 0.75x
 
+Transistor
+    Boosts Electric-type move damage by 1.3x instead of 1.5x
+
 =============
 New Abilities
 =============
 
 Frostbite
     If the ability bearer is hit by a contact move, there is a 30% chance the attacker will become Frozen
+    # Given to: Snorunt, Glalie, Froslass, Cyndaquil-Prism, Quilava-Prism, Typhlosion-Prism, Gallade-Prism, Uxie-Prism
 
 Evaporation
     Grants immunity to Water-type moves, and raises SpDef by 1 stage if one is used
+    # Given to: Steelix-Prism, Steelix-Prism-Mega, Vanillite-Prism, Vanillish-Prism, Vanilluxe-Prism, Slugma, Magcargo
 
 Meltdown
     Changes Prism Outpost Magcargo from Shell Form to Shattered Form if it goes below 50% HP
+    # Given to: Magcargo-Prism
 
 Ultra Blaster
     Powers up beam moves by 50%
+    # Given to: Clauncher-Prism, Clawitzer-Prism
 (Moves affected by this ability are: Charge Beam, Ice Beam, Aurora Beam, Bubble Beam, Solar Beam, Hyper Beam, Signal Beam, Psybeam, Tri Attack, Techno Blast, Fleur Cannon, Light of Ruin, Moongeist Beam, Meteor Beam, Steel Beam, Origin Pulse, Dynamax Cannon, and Eternabeam)
 
 Versatility
     Powers up moves of a different type from the user by 20%
+    # Given to: Mawile, Eelektrik, Eelektross, Sentret, Furret, Porygon, Porygon2, Porygon-Z
 
 Snow Force
     Ice-type moves gain a 50% boost during Hail
+    # Given to: Typhlosion-Prism, Beartic-Prism, Gallade-Prism-Mega
 
 Sixth Sense
     Powers up Psychic-type moves by 50%
+    # Given to: Venonat, Venomoth
 
 Life Roots
     Draining moves and Ingrain/Aqua Ring heal the user for 30% more HP
+    # Given to: Lileep, Cradily, Morelull, Shiinotic

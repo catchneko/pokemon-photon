@@ -62,6 +62,22 @@ VictoryTheme     = victorygymleader.ogg
 BattleVS         = integratedVS
 VictoryTheme     = victorygymleader.ogg
 #-------------------------------
+[ELITEFOUR_Elizabeth]
+BattleVS         = integratedVS
+VictoryTheme     = victorygymleader.ogg
+#-------------------------------
+[ELITEFOUR_Joey]
+BattleVS         = integratedVS
+VictoryTheme     = victorygymleader.ogg
+#-------------------------------
+[ELITEFOUR_Adam]
+BattleVS         = integratedVS
+VictoryTheme     = victorygymleader.ogg
+#-------------------------------
+[ELITEFOUR_Lilian]
+BattleVS         = integratedVS
+VictoryTheme     = victorygymleader.ogg
+#-------------------------------
 [BEASTMAN_admin_HS]
 VictoryTheme     = VictoryTeamPlasma.ogg
 #-------------------------------
@@ -76,3 +92,11 @@ VictoryTheme     = VictoryTeamPlasma.ogg
 #-------------------------------
 [PHOEBEAETHER]
 VictoryTheme     = VictoryTeamPlasma.ogg
+#-------------------------------
+[PHOEBEAETHER2]
+VictoryTheme     = Battle! Vs. Moebius Interlink End (Sad).ogg
+Ace		 = 10
+#-------------------------------
+[CHAMPION]
+BattleVS         = integratedVS
+VictoryTheme     = Results Display Screen.ogg

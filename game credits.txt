@@ -1,0 +1,264 @@
+==============================
+====POKéMON PHOTON CREDITS====
+==============================
+If something is made by you and you don't want me to use it, or if something made by someone who isn't me isn't listed here,
+please contact me so I can remove it from the game/add it to the credits.
+
+Lead Dev: catchneko
+
+Resource Credits:
+==Pokémon Essentials==
+	Pokémon Essentials was created by:
+		Flameguru
+		Poccil (Peter O.)
+		Maruno
+	MKXP-z by:
+		Roza
+		Based on MKXP by Ancurio et al.
+	With contributions from:
+		AvatarMonkeyKirby, Marin, Boushy, MiDas Mike
+		Brother1440, Near Fantastica, FL., PinkMan
+		Genzai Kawakami, Popper, Golisopod User, Rataime
+		help-14, Savordez, IceGod64, SoundSpawn
+		Jacob O. Wobbrock, the__end, KitsuneKouta, Venom12
+		Lisa Anthony, Wachunga, Luka S.J.
+		and everyone else who helped out
+
+	RPG Maker XP by:
+		Enterbrain
+		
+==Elite Battle DX==
+	Sprites:
+		GameFreak | Original sprites from B/W/2 games
+		Pokecheck.org | Ripping the sprites from B2/W2 roms
+		PinkCatDragon | GIF to PNG conversion
+		Tebited15, WolfPP, Issei Hyoudou, Nasasu, luckygirl88 | B/W styled trainer Red/Leaf sprites
+		WolfPP | B/W styled trainer Leaf sprite
+		Spriters-Resource (redblueyellow), Damien, WolfPP | Gen 5 ball sprites
+
+	Sound Effects:
+		GameFreak | Original sound effects from B/W/2 games
+		BadSamaritan | Ripping the sound effects
+
+	Other:
+		Luka S.J. | Elite Battle: DX
+		Pokémon Essentials | Base system
+		Maruno, Marin, Golisopod User | General help, support, and bouncing off ideas
+		PinkCatDragon | GIF to PNG conversion
+		
+==Generation 8 Project==
+    Battler Sprites:
+        Gen 1-5 Pokemon Sprites - veekun
+        Gen 6 Pokemon Sprites - All Contributors To Smogon X/Y Sprite Project
+        Gen 7 Pokemon Sprites - All Contributors To Smogon Sun/Moon Sprite Project
+        Gen 8 Pokemon Sprites - All Contributors To Smogon Sword/Shield Sprite Project
+    Overworld Sprites
+        Gen 6 Pokemon Overworlds - princess-pheonix, LunarDusk, Wolfang62, TintjeMadelintje101, piphybuilder88
+        Gen 7 Pokemon Overworlds - Larry Turbo, princess-pheonix
+        Gen 8 Pokemon Overworlds - SageDeoxys, Wolfang62
+        Gen 1-5 Pokemon Overworlds - MissingLukey, help-14, Kymoyonian, cSc-A7X, 2and2makes5, Pokegirl4ever, Fernandojl, Silver-Skies, TyranitarDark, Getsuei-H, Kid1513, Milomilotic11, Kyt666, kdiamo11, Chocosrawlooid, Syledude, Gallanty, Gizamimi-Pichu, 2and2makes5, Zyon17,LarryTurbo, spritesstealer
+    Icon Sprites
+        Gen 1-6 Pokemon Icon Sprites - Alaguesia
+        Gen 7 Pokemon Icon Sprites - Marin, MapleBranchWing, Contributors to the DS Styled Gen 7+ Repository
+        Gen 8 Icon Sprites - Larry Turbo, Leparagon
+    Cry Credits:
+        Gen 1-6 Pokemon Cries - Rhyden
+        Gen 7 Pokemon Cries - Marin, Rhyden
+        Gen 8 Pokemon Cries - Zeak6464
+    PBS Credits:
+        Golisopod User, Zerokid, TheToxic, HM100, KyureJL, ErwanBeurier
+    Script Credits:
+        EBS Bitmap Wrapper - Luka S.J.
+        Gen 8 Scripts - Golisopod User, Maruno, Vendily, TheToxic, HM100, Aioross, WolfPP, MFilice, lolface, KyureJL, DarrylBD99, Turn20Negate, TheKandinavian, ErwanBeurier
+    Compilation of Resources:
+        Golisopod User, UberDunsparce
+    Porting to v19:
+        Golisopod User, Maruno
+
+==ZUD Plugin==
+	-Z-Move Credits-
+		Base Script (v16.2): Marcello
+		Additional Credits (v16.2): Zumi, Ice Cream Sand Witch, Amethyst, Jan, Sardines, Inuki
+		Adaptation to Essentials v18.1: StCooler
+		Adaptation to Essentials v19.1: Lucidious89
+
+	-Ultra Burst Credits-
+		Base Script (v17.2): WolfPP
+		Adaptation to Essentials v18.1: Lucidious89, StCooler
+		Adaptation to Essentials v19.1: Lucidious89
+
+	-Dynamax Credits-
+		Original Tutorial (v17.2): Fauno
+		Adaptation to Essentials v18.1: Lucidious89, StCooler
+		Adaptation to Essentials v19.1: Lucidious89
+
+	-Max Raid Credits-
+		Original Scripts (v17.2): Lucidious89
+		Adaptation to Essentials v18.1: Lucidious89, StCooler
+		Adaptation to Essentials v19.1: Lucidious89
+
+	-Dynamax Adventures Credits-
+		Original Scripts (v19.1): Lucidious89
+
+	-Graphic Credits-
+		Official Item/Pokemon Icons: Game Freak
+		Gigantamax Pokemon Sprites: Contributors to Smogon's Sword/Shield Sprite Project
+
+	-Audio Credits-
+		All audio files: Game Freak
+		
+==Other Plugins==
+	Following Pokémon EX:
+		Golisopod User, Help-14, zingzags, Rayd12smitty, Venom12, mej71, PurpleZaffre, Akizakura16, Thundaga, Armin (Fairies Resource Pack), Maruno
+	
+    EV/IV in Summary Plugin:
+		Deoxysprime
+	
+    Fossil Revive: 
+		GT-Baka
+	
+    Hyper Training:
+		Jonas930
+	
+    Luka's Scripting Utilities:
+		Luka S.J.
+		
+    Multiple Save v19:
+		bo4p5687
+		
+    19.1 Hotfixes:
+		Maruno
+
+	EBDX Stat Boost Overlay:
+		Phantombass,Luka S.J.,GameFreak,Pokecheck.org,PinkCatDragon,Tebited15, WolfPP, Issei Hyoudou, Nasasu, luckygirl88 ,WolfPP,Spriters-Resource (redblueyellow), Damien, WolfPP,BadSamaritan,Maruno, Marin, Golisopod User
+		
+	Hidden Power Checker:
+		King_Waluigi,Maruno,ThatWelshOne_
+		
+	Better Speed Up:
+		Marin for the original script, Phantombass for updating to 19.1
+		
+	Voltseon's A-Star Pathfinding:
+		Voltseon, Golisopod User
+		
+	Mantyke Evolution Script:
+		Vendily
+		
+	Hidden Ability Capsule:
+		Kirik - For the edits into making this code.
+		Marin - For getting parts of the code to function correctly.
+		Maruno - Debug code for ability index
+		AiurJordan - Adapt to v19.1
+		ThatWelshOne_ - Helpful in debugging this script.
+
+==Augmented Reborn Animations==
+	Project lead by StCooler.
+	Contributors: StCooler, DarryBD99, WolfPP, ardicoozer, riddlemeree.
+	Thanks to the Reborn team for letting people use their resources. You are awesome.
+	Thanks to BellBlitzKing for his Pokemon Sound Effects Pack: Gen 1 to Gen 7 - All Attacks SFX.
+	
+==Misc. Graphics Credits==
+	Official Sprites/Tiles:
+		GameFreak
+		
+	Forest Overlay Graphic (used on Route 4):
+		Lolw3e932
+	
+	Ultra Wormhole:
+		Clara-Dragon
+		
+	Cynthia Overworld Sprite:
+		aveontrainer
+		
+	Elio & Selene Battle Sprites:
+		Beliot419
+		
+	Palm Tree Tiles:
+		ThePurplest
+		
+	Panorama Graphics:
+		Various stock images
+		
+==Music Credits==
+	"A Formidable Enemy" - Xenoblade Chronicles 3
+	"Aether Paradise Labs" - Pokémon Sun/Moon
+	"Alola Region Theme" - Pokémon Sun/Moon 
+	"Ancient Poni Path" - Pokémon Sun/Moon 
+	"Battle! Wild Pokémon (Area Zero)" - Pokémon Scarlet/Violet
+	"Ballonlea" - Pokémon Sword/Shield
+	"Battle! (Battle Subway Trainer)" - Pokémon Black/White
+	"Battle! (Solgaleo/Lunala)" - Pokémon Sun/Moon
+	"Battle! (Elite Four)" - Pokémon Black/White
+	"Battle! (Lorekeeper Zinnia)" - Super Smash Bros. Ultimate / Pokémon Omega Ruby/Alpha Sapphire
+	"Battle! (Trainer Battle)" - Pokémon Black/White
+	"Battle! (Wild Pokémon)" - Pokémon Black 2/White 2
+	"Battle! (Alola Trainer)" - Super Smash Bros. Ultimate / Pokémon Sun/Moon
+	"Battle! (Giratina)" - Pokémon Platinum
+	"Battle! (Gladion)" [GaMetal] - Jonny Atma / Pokémon Sun/Moon
+	"Battle! (Team Star Grunt)" - Pokémon Scarlet/Violet
+	"Battle! (Ultra Necrozma)" [GaMetal] - Jonny Atma / Pokémon Ultra Sun/Ultra Moon
+	"Battle! (Uxie/Mesprit/Azelf)" - Pokémon Diamond/Pearl
+	"Battle! VS Moebius" - Xenoblade Chronicles 3
+	"Battle! VS Moebius Interlink" - Xenoblade Chronicles 3
+	"Battle! (Gym Leader)" - Pokémon Black 2/White 2
+	"Black Tower" - Pokémon Black 2/White 2
+	"Bone-Dry Dunes" - Mario Kart 8
+	"Bringer of Chaos! Ultimate" - Xenoblade Chronicles 2
+	"Castelia City Gym" - Pokémon Black 2/White 2
+	"Tartarus_0d04" - Persona 3
+	"Colony 6 - Future" - Xenoblade Chronicles: Definitive Edition
+	"Colony 9" + "Colony 9 (Night)" - Xenoblade Chronicles: Definitive Edition
+	"Congratulations on Entering the Hall of Fame!" - Pokémon X/Y
+	"Counterattack" - Xenoblade Chronicles 2
+	"Death Match With Torna" - Xenoblade Chronicles 2
+	"Deep Dark Galaxy" - Super Mario Galaxy
+	"Dragonspiral Tower Top Floor" - Pokémon Black/White 
+	"Embracing One's Duty" - Pokémon Black/White 
+	"Epic Story" - Mario & Luigi: Paper Jam 
+	"Forest of The Nopon" + "Forest of The Nopon (Night)" - Xenoblade Chronicles: Definitive Edition
+	"Freezeflame Galaxy (Ice)" - Super Mario Galaxy 
+	"Gormott" + "Gormott (Night)" - Xenoblade Chronicles 2
+	"Gym Theme" - Pokémon Black/White 
+	"In The Refugee Camp" - Xenoblade Chronicles 
+	"Incoming!" - Xenoblade Chronicles 2
+	"Kingdom of Uraya" + "Kingdom of Uraya (Night)" - Xenoblade Chronicles 2
+	"Lake Cave" - Pokémon Diamond/Pearl
+	"Lentimas Town" - Pokémon Black 2/White 2
+	"Linking Cave" - Pokémon HeartGold/SoulSilver
+	"Lusamine's Theme" - Pokémon Sun/Moon
+	"Melty Molten Galaxy" - Super Mario Galaxy 
+	"Mor Ardain - Roaming the Wastes -" + "Mor Ardain (Night)" - Xenoblade Chronicles 2
+	"Poké Mart" - Pokémon HeartGold/SoulSilver
+	"Pokémon Center" - Pokémon Black/White
+	"Press Start" - Pokémon Platinum
+	"Relic Castle" - Pokémon Black/White
+	"Results Display Screen" - Super Smash Bros. Brawl
+	"Reversal Mountain (White)" - Pokémon White 2
+	"Rival's Theme" - Pokémon Black 2/White 2
+	"Route 12 (Spring/Summer)" - Pokémon Black/White
+	"Route 216 (Day)" + "Route 216 (Night)" - Pokémon Diamond/Pearl
+	"Route 22 (Autumn/Winter)" - Pokémon Black 2/White 2
+	"Route 8" - Pokémon X/Y
+	"Sorrow" - Xenoblade Chronicles 
+	"Spirit Crucible Elpys" - Xenoblade Chronicles 2
+	"Strange House" - Pokémon Black 2/White 2
+	"Team Plasma Returns" - Pokémon Black 2/White 2
+	"Tephra Cave" - Xenoblade Chronicles: Definitive Edition
+	"The Pokémon League" - Pokémon Black/White
+	"The Road to Reversal Mountain" - Pokémon Black 2/White 2
+	"The Summit of Mt. Lanakila" - Pokémon Sun/Moon
+	"Time to Fight! (Bionis' Shoulder)" - Xenoblade Chronicles: Future Connected
+	"To The Altar..." - Pokémon Sun/Moon
+	"Ultra Space Wilds" - Pokémon Ultra Sun/Ultra Moon
+	"Unsettling Atmosphere" - Pokémon Sun/Moon
+	"Urayan Tunnels" - Xenoblade Chronicles 3
+	"Valak Mountain (Night)" - Xenoblade Chronicles: Definitive Edition
+	"Victory Lies Before You!" - Pokémon Black 2/White 2
+	"Victory Road" - Pokémon Black/White
+	"Victory! (Gym Leader)" - Pokémon Black/White 
+	"Victory! (Team Plasma)" - Pokémon Black/White
+	"Waterfall Cave" - Pokémon Mystery Dungeon: Explorers of Sky
+	"With the Stars and Us - Piano Version" - Persona 5
+	"You Will Recall Our Names" - Xenoblade Chronicles 2
+	"Surf" - Pokémon Black/White
+	"Ending - Onward to Our Own Futures" - Pokémon Black/White

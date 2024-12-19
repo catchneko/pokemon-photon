@@ -30,7 +30,11 @@ class PokeBattle_Battle
     # get array of opponents
     foes = wildBattle? ? pbParty(1) : @opponent
     # Wild battlers
-    memb = []; text = wildBattle? ? "Oh! A wild " : "You are challenged by "
+	if $game_switches[225]
+		memb = []; text = "Ultra "
+	else
+		memb = []; text = wildBattle? ? (EliteBattle.get(:setBoss) ? "A strong-looking " : "Oh! A wild ") : "You are challenged by "
+	end
     foes.each_with_index do |foe, i|
       memb.push(wildBattle? ? foe.name : foe.full_name)
       text += ", " if i > 0 && i < foes.length - 1

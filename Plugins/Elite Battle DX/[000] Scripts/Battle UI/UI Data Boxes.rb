@@ -55,7 +55,7 @@ class DataBoxEBDX  <  SpriteWrapper
     tbmp = pbBitmap(@path + @baseBitmap)
     # set XY positions
     @defX = @playerpoke ? @viewport.width - tbmp.width : 0
-    @defY = @playerpoke ? @viewport.height - 130 : 52
+    @defY = @playerpoke ? @viewport.height - 152 : 30
     tbmp.dispose
     # compiles default positioning data for databox
     @data = {
@@ -227,8 +227,8 @@ class DataBoxEBDX  <  SpriteWrapper
   #-----------------------------------------------------------------------------
   def defX
     x = @defX
-    x += (@battler.index/2)*8 if @playerpoke
-    x += (@battle.pbParty(1).length - 1 - @battler.index/2)*8 - (@battle.pbParty(1).length - 1)*8 if !@playerpoke
+#    x += (@battler.index/2)*8 if @playerpoke
+#    x += (@battle.pbParty(1).length - 1 - @battler.index/2)*8 - (@battle.pbParty(1).length - 1)*8 if !@playerpoke
     return x
   end
   #-----------------------------------------------------------------------------
@@ -236,8 +236,8 @@ class DataBoxEBDX  <  SpriteWrapper
   #-----------------------------------------------------------------------------
   def defY
     y = @defY
-    y -= 50*((2-@battler.index)/2) - 64 + (48*(@battle.pbMaxSize(0) - 1))  + (@expandDouble && @battler.index == 0 ? 20 : 0) if @playerpoke && @battle.pbMaxSize(0) > 1
-    y += 50*(@battler.index/2) - 16 if !@playerpoke && @battle.pbMaxSize(1) > 1
+    y -= 60*((2-@battler.index)/2) - 64 + (48*(@battle.pbMaxSize(0) - 1))  + (@expandDouble && @battler.index == 0 ? 20 : 10) if @playerpoke && @battle.pbMaxSize(0) > 1
+    y += 60*(@battler.index/2) - 16 if !@playerpoke && @battle.pbMaxSize(1) > 1
     return y
   end
   #-----------------------------------------------------------------------------
@@ -300,8 +300,8 @@ class DataBoxEBDX  <  SpriteWrapper
     @sprites["caught"] = Sprite.new(@viewport)
     @sprites["caught"].bitmap = pbBitmap(@path + "battleBoxOwned") if !@playerpoke && @battler.owned? && !@scene.battle.opponent
     @sprites["caught"].z = @sprites["container"].z
-    @sprites["caught"].ex = @sprites["container"].ex - 18
-    @sprites["caught"].ey = @sprites["container"].ey - 2
+    @sprites["caught"].ex = @sprites["container"].ex
+    @sprites["caught"].ey = @sprites["container"].ey + 12
 
     @sprites["textHP"] = Sprite.new(@viewport)
     @sprites["textHP"].bitmap = Bitmap.new(@sprites["container"].bitmap.width, @sprites["base"].bitmap.height + 8)

@@ -28,6 +28,13 @@ def pbCheckHiddenPower(textColor=0)
     pkmn = pbGetPokemon(1)
     type, power = pbHiddenPower(pkmn)
     typeName = GameData::Type.get(type).real_name
-    pbMessage(_INTL("\\c[#{textColor}]This Pokémon's Hidden Power type is #{typeName}!"))
+	if typeName == "Light" && !$game_switches[171]
+		pbMessage(_INTL("\\c[#{textColor}]Oh? That's strange..."))
+		pbMessage(_INTL("\\c[#{textColor}]Your Pokémon's Hidden Power type is one I haven't seen before."))
+		pbMessage(_INTL("\\c[#{textColor}]It seems to be... Light-type? What could that be?"))
+		$game_switches[171] = true
+	else
+		pbMessage(_INTL("\\c[#{textColor}]This Pokémon's Hidden Power type is #{typeName}!"))
+	end
   end
 end

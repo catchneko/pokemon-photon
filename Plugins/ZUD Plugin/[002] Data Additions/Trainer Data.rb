@@ -69,9 +69,17 @@ module GameData
             pkmn.iv[s.id] = [pkmn_data[:level] / 2, Pokemon::IV_STAT_LIMIT].min
           end
           if pkmn_data[:ev]
-            pkmn.ev[s.id] = pkmn_data[:ev][s.id]
+			if $game_switches[223] # EVless Trainer mode
+				pkmn.ev[s.id] = 0
+			else
+				pkmn.ev[s.id] = pkmn_data[:ev][s.id]
+			end
           else
-            pkmn.ev[s.id] = [pkmn_data[:level] * 3 / 2, Pokemon::EV_LIMIT / 6].min
+		  	if $game_switches[223] # EVless Trainer mode
+				pkmn.ev[s.id] = 0
+			else
+				pkmn.ev[s.id] = [pkmn_data[:level] * 3 / 2, Pokemon::EV_LIMIT / 6].min
+			end
           end
         end
         pkmn.happiness = pkmn_data[:happiness] if pkmn_data[:happiness]
@@ -91,7 +99,7 @@ module GameData
           pkmn.gmaxfactor = false
           pkmn.acepkmn = false
         end
-        pkmn.poke_ball = pbBallTypeToItem(pkmn_data[:poke_ball]).id if pkmn_data[:poke_ball]
+        pkmn.poke_ball = pkmn_data[:poke_ball] if pkmn_data[:poke_ball]
         pkmn.calc_stats
       end
       return trainer

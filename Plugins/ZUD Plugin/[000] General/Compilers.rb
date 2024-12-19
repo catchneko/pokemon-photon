@@ -473,9 +473,9 @@ module Compiler
             next if s.pbs_order < 0
             ev_total += (property_value[s.pbs_order] || property_value[0])
           end
-          if ev_total > Pokemon::EV_LIMIT
-            raise _INTL("Total EVs are greater than allowed ({1}).\r\n{2}", Pokemon::EV_LIMIT, FileLineData.linereport)
-          end
+          #if ev_total > Pokemon::EV_LIMIT
+            #raise _INTL("Total EVs are greater than allowed ({1}).\r\n{2}", Pokemon::EV_LIMIT, FileLineData.linereport)
+          #end
         when "Happiness"
           if property_value > 255
             raise _INTL("Bad happiness: {1} (must be 0-255).\r\n{2}", property_value, FileLineData.linereport)

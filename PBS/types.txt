@@ -110,7 +110,7 @@ Name = Dragon
 InternalName = DRAGON
 IsSpecialType = true
 Weaknesses = ICE,DRAGON,FAIRY
-Resistances = FIRE,WATER,GRASS,ELECTRIC,LIGHT
+Resistances = FIRE,WATER,GRASS,ELECTRIC
 #-------------------------------
 [17]
 Name = Dark
@@ -133,5 +133,5 @@ Name = Light
 InternalName = LIGHT
 IsSpecialType = true
 Weaknesses = GHOST,POISON,DRAGON
-Resistances = ELECTRIC,FIGHTING,FIRE,STEEL
+Resistances = ELECTRIC,FIRE,STEEL
 Immunities = DARK

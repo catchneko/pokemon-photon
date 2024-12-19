@@ -230,7 +230,7 @@ class FightWindowEBDX
       @button["#{i}"].bitmap.blt(198, 0, @buttonBitmap, Rect.new(198, type*74, 198, 74))
       @button["#{i}"].bitmap.blt(65, 46, @catBitmap, Rect.new(0, category*22, 38, 22))
       @button["#{i}"].bitmap.blt(3, 46, @typeBitmap, Rect.new(0, type*22, 72, 22))
-      baseColor = @buttonBitmap.get_pixel(5, 32 + (type*74)).darken(0.4)
+      baseColor = @buttonBitmap.get_pixel(9, 9 + (type*74))
       pbSetSmallFont(@button["#{i}"].bitmap)
       pbDrawOutlineText(@button["#{i}"].bitmap, 198, 10, 196, 42,"#{movedata.real_name}", Color.white, baseColor, 1)
       pp = "#{@moves[i].pp}/#{movedata.total_pp}"

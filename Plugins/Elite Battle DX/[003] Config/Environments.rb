@@ -23,6 +23,59 @@ module EnvironmentEBDX
       :scrolling => true, :speed => 0.5, :direction => 1,
       :bitmap => "fog",
       :oy => 0, :z => 4, :flat => true
+    },
+    "rocks" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [100,110,112,121,122,125,134,135,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
+    }
+  }
+   #-----------------------------------------------------------------------------
+  CAVEVICTORY = {
+    "backdrop" => "CaveVictory", "img001" => {
+      :scrolling => true, :speed => 2, :direction => -1,
+      :bitmap => "decor006",
+      :oy => 0, :z => 3, :flat => true, :opacity => 155
+    }, "img002" => {
+      :scrolling => true, :speed => 1, :direction => 1,
+      :bitmap => "decor009",
+      :oy => 0, :z => 3, :flat => true, :opacity => 96
+    }, "img003" => {
+      :scrolling => true, :speed => 0.5, :direction => 1,
+      :bitmap => "fog",
+      :oy => 0, :z => 4, :flat => true
+    },
+    "rocks" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [100,110,112,121,122,125,134,135,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
+    }
+  }
+    #-----------------------------------------------------------------------------
+  CAVEVICTORYICE = {
+    "backdrop" => "CaveIce", "img001" => {
+      :scrolling => true, :speed => 2, :direction => -1,
+      :bitmap => "decor006",
+      :oy => 0, :z => 3, :flat => true, :opacity => 155
+    }, "img002" => {
+      :scrolling => true, :speed => 1, :direction => 1,
+      :bitmap => "decor009",
+      :oy => 0, :z => 3, :flat => true, :opacity => 96
+    }, "img003" => {
+      :scrolling => true, :speed => 0.5, :direction => 1,
+      :bitmap => "fog",
+      :oy => 0, :z => 4, :flat => true
+    },
+    "rocks" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [100,110,112,121,122,125,134,135,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
     }
   }
    #-----------------------------------------------------------------------------
@@ -55,6 +108,13 @@ module EnvironmentEBDX
       :scrolling => true, :speed => 0.5, :direction => 1,
       :bitmap => "fog",
       :oy => 0, :z => 4, :flat => true
+    },
+    "rocks" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [100,110,112,121,122,125,134,135,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
     }
   }
 #-----------------------------------------------------------------------------
@@ -87,6 +147,13 @@ module EnvironmentEBDX
       :scrolling => true, :speed => 0.5, :direction => 1,
       :bitmap => "fog",
       :oy => 0, :z => 4, :flat => true
+    },
+    "rocks" => {
+      :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [100,110,112,121,122,125,134,135,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
     }
   }
   #-----------------------------------------------------------------------------
@@ -124,7 +191,36 @@ module EnvironmentEBDX
       :y => [132,132,144,118,112,118,110,110],
       :zoom => [1,1,1.1,0.9,0.8,0.85,0.75,0.75],
       :z => [2,2,2,1,1,1,1,1],
-    }, "outdoor" => false
+    }, "outdoor" => false,
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    }
+  }
+    #-----------------------------------------------------------------------------
+  FORESTD = {
+    "backdrop" => "Forest3", "lightsC" => true, "img001" => {
+      :bitmap => "forestShade", :z => 1, :flat => true,
+      :oy => 0, :y => 94, :sheet => true, :frames => 2, :speed => 16
+    }, "trees" => {
+      :bitmap => "treePine", :colorize => false, :elements => 8,
+      :x => [92,248,300,40,138,216,274,318],
+      :y => [132,132,144,118,112,118,110,110],
+      :zoom => [1,1,1.1,0.9,0.8,0.85,0.75,0.75],
+      :z => [2,2,2,1,1,1,1,1],
+    }, "outdoor" => false,
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    }
   }
   #-----------------------------------------------------------------------------
   FOREST2 = {
@@ -137,20 +233,43 @@ module EnvironmentEBDX
       :y => [132,132,144,118,112,118,110,110],
       :zoom => [1,1,1.1,0.9,0.8,0.85,0.75,0.75],
       :z => [2,2,2,1,1,1,1,1],
-    }, "outdoor" => true
+    }, "outdoor" => true,
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    }
   }
     #-----------------------------------------------------------------------------
   FOREST3 = {
     "backdrop" => "Forest3", "lightsC" => true, "img001" => {
       :bitmap => "forestShade", :z => 1, :flat => true,
       :oy => 0, :y => 94, :sheet => true, :frames => 2, :speed => 16
-    }, "trees" => {
-      :bitmap => "tree", :colorize => false, :elements => 8,
-      :x => [92,248,300,40,138,216,274,318],
+    }, "rocks" => { # set as rocks so they don't blow in the wind
+      :bitmap => "treeBig", :colorize => false, :elements => 7,
+      :x => [92,248,300,40,138,196,274,318],
       :y => [132,132,144,118,112,118,110,110],
       :zoom => [1,1,1.1,0.9,0.8,0.85,0.75,0.75],
       :z => [2,2,2,1,1,1,1,1],
-    }, "outdoor" => true
+      :mirror => [false,true,false,true,false,true,false,false]
+    }, "outdoor" => true,
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    },
+	"img001" => { :bitmap => "glowMushroom", :x => 105, :y => 135, :z => 3, :zoom => 0.55, },
+	"img002" => { :bitmap => "glowMushroom2", :x => 135, :y => 115, :z => 3, :zoom => 0.45, },
+	"img003" => { :bitmap => "glowMushroom", :x => 275, :y => 145, :z => 3, :zoom => 0.5, },
+	"img004" => { :bitmap => "glowMushroom2", :x => 185, :y => 125, :z => 3, :zoom => 0.5, },
+	"img005" => { :bitmap => "glowMushroom3", :x => 55, :y => 135, :z => 3, :zoom => 0.45, },
+	"img006" => { :bitmap => "glowMushroom3", :x => 225, :y => 145, :z => 3, :zoom => 0.35, :mirror => true }
   }
   #-----------------------------------------------------------------------------
   INDOOR = {
@@ -173,9 +292,38 @@ module EnvironmentEBDX
     }, "lightsA" => true, "outdoor" => false
   }
   #-----------------------------------------------------------------------------
+  INDOOR3 = {
+    "backdrop" => "DanceFloor", "outdoor" => false
+  }
+  #-----------------------------------------------------------------------------
+  SHIPYARD = {
+    "backdrop" => "DanceFloor", "img001" => {
+      :bitmap => "decor006",
+      :oy => 0, :z => 1, :flat => true, :scrolling => true, :speed => 0.5
+    }, "lightsA" => true, "outdoor" => false
+  }
+  #-----------------------------------------------------------------------------
   OUTDOOR = {
     "backdrop" => "Field", "sky" => true, "trees" => {
       :elements => 9,
+      :x => [150,271,78,288,176,42,118,348,321],
+      :y => [108,117,118,126,126,128,136,136,145],
+      :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,false,true,true,true,false,false,true,false]
+    },
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
+    }
+  }
+  #-----------------------------------------------------------------------------
+  BEACH = {
+    "backdrop" => "Field", "sky" => true, "trees" => {
+      :elements => 9, :bitmap => "treePalm",
       :x => [150,271,78,288,176,42,118,348,321],
       :y => [108,117,118,126,126,128,136,136,145],
       :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
@@ -215,6 +363,19 @@ module EnvironmentEBDX
       :mirror => [false,true,true,true,false,false,true,false]
     }, "img001" => {
       :bitmap => "mountainC",
+      :x => 192, :y => 107
+    }
+  }
+  #-----------------------------------------------------------------------------
+  MOUNTAINT = {
+    "backdrop" => "MountainT", "sky" => true, "trees" => {
+      :elements => 8, :bitmap => "treeC", :colorize => "slight",
+      :x => [271,78,288,176,42,118,348,321],
+      :y => [117,118,122,122,127,127,128,132],
+      :zoom => [0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
+      :mirror => [false,true,true,true,false,false,true,false]
+    }, "img001" => {
+      :bitmap => "mountainB",
       :x => 192, :y => 107
     }
   }
@@ -278,34 +439,25 @@ module EnvironmentEBDX
   }
   #-----------------------------------------------------------------------------
   CHAMPION = {
-    "backdrop" => "Champion",
+    "backdrop" => "Crucible",
     "lightsA" => true,
     "img001" => {
       :scrolling => true, :vertical => true, :speed => 1,
-      :bitmap => "decor003",
+      :bitmap => "decor003d",
       :oy => 180, :y => 90, :z => 1, :flat => true
     }, "img002" => {
-      :bitmap => "decor004",
-      :oy => 100, :y => 98, :z => 2, :flat => false
-    }, "img003" => {
       :scrolling => true, :speed => 16,
       :bitmap => "decor005",
       :oy => 0, :y => 4, :z => 4, :flat => true
-    }, "img004" => {
+    }, "img003" => {
       :scrolling => true, :speed => 16, :direction => -1,
       :bitmap => "decor006",
       :oy => 0, :z => 4, :flat => true
-    }, "img005" => {
+    }, "img004" => {
       :scrolling => true, :speed => 0.5,
-      :bitmap => "base001",
+      :bitmap => "base001c",
       :oy => 0, :y => 122, :z => 1, :flat => true
-    }, "img006" => {
-      :bitmap => "pillars001",
-      :y => 128, :x => 144, :z => 3
-    }, "img007" => {
-      :bitmap => "pillars002",
-      :y => 192, :x => 144, :z => 18
-    },
+    }
   }
   #-----------------------------------------------------------------------------
   STAGE = {
@@ -350,6 +502,14 @@ module EnvironmentEBDX
       :y => [108,117,118,126,126,128,136,136,145],
       :zoom => [0.44,0.44,0.59,0.59,0.59,0.64,0.85,0.7,1],
       :mirror => [false,false,true,true,true,false,false,true,false]
+    },
+	"tallGrass" => {
+      :elements => 7,
+      :x => [124,274,204,62,248,275,182],
+      :y => [160,140,140,185,246,174,170],
+      :z => [2,1,2,17,27,17,17],
+      :zoom => [0.7,0.35,0.5,1,1.5,0.7,1],
+      :mirror => [false,true,false,true,false,true,false]
     }
   }
    #-----------------------------------------------------------------------------
@@ -421,7 +581,59 @@ module EnvironmentEBDX
   }
     #-----------------------------------------------------------------------------
   GYM = {
-    "backdrop" => "Net", "sky" => false
+	"backdrop" => "Net"
+  }
+  
+  GYM1 = {
+	"backdrop" => "NetWater"
+  }
+  
+  GYM2 = {
+	"backdrop" => "NetBug"
+  }
+  
+  GYM3 = {
+	"backdrop" => "NetFire"
+  }
+  
+  GYM4 = {
+	"backdrop" => "NetRock"
+  }
+  
+  GYM5 = {
+	"backdrop" => "NetFairy"
+  }
+
+  GYM6 = {
+	"backdrop" => "NetGrass"
+  }
+  
+  GYM7 = {
+	"backdrop" => "NetDragon"
+  }
+  
+  GYM8 = {
+	"backdrop" => "NetIce"
+  }
+  
+  E4_1 = {
+	"backdrop" => "NetGhost"
+  }
+  
+  E4_2 = {
+	"backdrop" => "NetNormal"
+  }
+  
+  E4_3 = {
+	"backdrop" => "NetFlying"
+  }
+  
+  E4_4 = {
+	"backdrop" => "NetFighting"
+  }
+  
+  NEOAETHER = {
+	"backdrop" => "NeoAether"
   }
 end
 #===============================================================================

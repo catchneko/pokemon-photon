@@ -131,13 +131,13 @@ class PokeBattle_Scene
         # last Pokemon is sent out
         elsif key.include?("last") || key.include?("afterLast") || key.include?("beforeLast")
           lin = key.include?("Opp") ? 1 : 0
-          if @battle.pbParty(lin).length > 1 && @battle.pbAbleCount(lin) == 1
-            pbTrainerSpeak(@battle.midspeech[index][key], nil, index)
-            @battle.midspeech[index][key] = nil
-            @battle.midspeech[index].delete(key)
-            handled = true; ret = true
-            next
-          end
+		  if @battle.pbParty(lin).length > 1 && @battle.pbAbleCount(lin) == 1
+			pbTrainerSpeak(@battle.midspeech[index][key], nil, index)
+			@battle.midspeech[index][key] = nil
+			@battle.midspeech[index].delete(key)
+			handled = true; ret = true
+		    next
+		  end
         # any other specified dialogue popups
         else
           pbTrainerSpeak(@battle.midspeech[index][key], nil, index)
@@ -340,7 +340,7 @@ class PokeBattle_AI
     # get opponent info
     opponent = @battle.pbGetOwnerFromBattlerIndex(idxBattler)
     selAce = EliteBattle.get_trainer_data(opponent.trainer_type, :ACE, opponent) if !opponent.nil?
-    selAce = nil if !selAce.is_a?(Numeric) || selAce < 1 || selAce > 6
+    selAce = nil if !selAce.is_a?(Numeric) || selAce < 1 || selAce > 12
     # loop through possible selections
     enemies.each do |i|
       pkmn = party[i]

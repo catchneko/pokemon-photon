@@ -24,6 +24,13 @@ def playBattlerCry(battler)
   pbSEPlay(cry)
 end
 #-------------------------------------------------------------------------------
+def playBattlerCryFaint(battler)
+  pokemon = battler.displayPokemon
+  pokemon = :BIDOOF if GameData::Species.exists?(:BIDOOF) && defined?(firstApr?) && firstApr?
+  cry = GameData::Species.cry_filename_from_pokemon(pokemon)
+  pbSEPlay(cry,100,80)
+end
+#-------------------------------------------------------------------------------
 def shinyBattler?(battler)
   return battler.shiny? || battler.superShiny?
 end

@@ -7,98 +7,98 @@ class DataBoxEBDX  <  SpriteWrapper
       @sprites["boost1"].bitmap = nil
       @sprites["boost1"].z = 1
       @sprites["boost1"].ex = @playerpoke ? 176 : -5
-      @sprites["boost1"].ey = @playerpoke ? -136 : 27
+      @sprites["boost1"].ey = @playerpoke ? -136 : 58
       @sprites["boost1"].visible = false
 
       @sprites["boost2"] = Sprite.new(@viewport)
       @sprites["boost2"].bitmap = nil
       @sprites["boost2"].z = 1
       @sprites["boost2"].ex = @playerpoke ? 176 : -5
-      @sprites["boost2"].ey = @playerpoke ? -120 : 43
+      @sprites["boost2"].ey = @playerpoke ? -120 : 74
       @sprites["boost2"].visible = false
 
       @sprites["boost3"] = Sprite.new(@viewport)
       @sprites["boost3"].bitmap = nil
       @sprites["boost3"].z = 1
       @sprites["boost3"].ex = @playerpoke ? 176 : -5
-      @sprites["boost3"].ey = @playerpoke ? -104 : 59
+      @sprites["boost3"].ey = @playerpoke ? -104 : 90
       @sprites["boost3"].visible = false
 
       @sprites["boost4"] = Sprite.new(@viewport)
       @sprites["boost4"].bitmap = nil
       @sprites["boost4"].z = 1
       @sprites["boost4"].ex = @playerpoke ? 176 : -5
-      @sprites["boost4"].ey = @playerpoke ? -88 : 75
+      @sprites["boost4"].ey = @playerpoke ? -88 : 106
       @sprites["boost4"].visible = false
 
       @sprites["boost5"] = Sprite.new(@viewport)
       @sprites["boost5"].bitmap = nil
       @sprites["boost5"].z = 1
       @sprites["boost5"].ex = @playerpoke ? 176 : -5
-      @sprites["boost5"].ey = @playerpoke ? -72 : 91
+      @sprites["boost5"].ey = @playerpoke ? -72 : 122
       @sprites["boost5"].visible = false
 
       @sprites["boost6"] = Sprite.new(@viewport)
       @sprites["boost6"].bitmap = nil
       @sprites["boost6"].z = 1
       @sprites["boost6"].ex = @playerpoke ? 176 : -5
-      @sprites["boost6"].ey = @playerpoke ? -56 : 107
+      @sprites["boost6"].ey = @playerpoke ? -56 : 138
       @sprites["boost6"].visible = false
 
       @sprites["boost7"] = Sprite.new(@viewport)
       @sprites["boost7"].bitmap = nil
       @sprites["boost7"].z = 1
       @sprites["boost7"].ex = @playerpoke ? 176 : -5
-      @sprites["boost7"].ey = @playerpoke ? -40 : 123
+      @sprites["boost7"].ey = @playerpoke ? -40 : 154
       @sprites["boost7"].visible = false
     else
       @sprites["boost1"] = Sprite.new(@viewport)
       @sprites["boost1"].bitmap = nil
       @sprites["boost1"].z = 1
-      @sprites["boost1"].ex = @playerpoke ? -106 : 242
-      @sprites["boost1"].ey = -32
+      @sprites["boost1"].ex = @playerpoke ? -90 : 212
+      @sprites["boost1"].ey = 0
       @sprites["boost1"].visible = false
 
       @sprites["boost2"] = Sprite.new(@viewport)
       @sprites["boost2"].bitmap = nil
       @sprites["boost2"].z = 1
-      @sprites["boost2"].ex = @playerpoke ? -106 : 242
-      @sprites["boost2"].ey = -16
+      @sprites["boost2"].ex = @playerpoke ? -42 : 260
+      @sprites["boost2"].ey = 0
       @sprites["boost2"].visible = false
 
       @sprites["boost3"] = Sprite.new(@viewport)
       @sprites["boost3"].bitmap = nil
       @sprites["boost3"].z = 1
-      @sprites["boost3"].ex = @playerpoke ? -106 : 242
-      @sprites["boost3"].ey =0
+      @sprites["boost3"].ex = @playerpoke ? -124 : 196
+      @sprites["boost3"].ey = 16
       @sprites["boost3"].visible = false
 
       @sprites["boost4"] = Sprite.new(@viewport)
       @sprites["boost4"].bitmap = nil
       @sprites["boost4"].z = 1
-      @sprites["boost4"].ex = @playerpoke ? -106 : 282
-      @sprites["boost4"].ey = -32
+      @sprites["boost4"].ex = @playerpoke ? -76 : 244
+      @sprites["boost4"].ey = 16
       @sprites["boost4"].visible = false
 
       @sprites["boost5"] = Sprite.new(@viewport)
       @sprites["boost5"].bitmap = nil
       @sprites["boost5"].z = 1
-      @sprites["boost5"].ex = @playerpoke ? -66 : 282
-      @sprites["boost5"].ey = -16
+      @sprites["boost5"].ex = @playerpoke ? -28 : 292
+      @sprites["boost5"].ey = 16
       @sprites["boost5"].visible = false
 
       @sprites["boost6"] = Sprite.new(@viewport)
       @sprites["boost6"].bitmap = nil
       @sprites["boost6"].z = 1
-      @sprites["boost6"].ex = @playerpoke ? -66 : 282
-      @sprites["boost6"].ey = 0
+      @sprites["boost6"].ex = @playerpoke ? -96 : 208
+      @sprites["boost6"].ey = 32
       @sprites["boost6"].visible = false
 
       @sprites["boost7"] = Sprite.new(@viewport)
       @sprites["boost7"].bitmap = nil
       @sprites["boost7"].z = 1
-      @sprites["boost7"].ex = @playerpoke ? -66 : 322
-      @sprites["boost7"].ey = -32
+      @sprites["boost7"].ex = @playerpoke ? -48 : 256
+      @sprites["boost7"].ey = 32
       @sprites["boost7"].visible = false
     end
   end

@@ -1,60 +1,82 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+
+# Note: IVs and EVs follow the format of HP/Atk/Def/Speed/SpAtk/SpDef
 #-------------------------------
 [KURISU,Kurisu]
 LoseText = "...Admittedly, I'm not that good of a battler."
 Pokemon = GIBLE,5
     Gender = female
     Moves = TACKLE
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [YOUNGSTER,Joey]
 LoseText = "Oh... I'm out of Pokémon that can fight."
 Pokemon = RATTATA,5
     Form = 1
     Item = ORANBERRY
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [LASS,Susie]
 LoseText = "Wow, you're really strong!"
 Pokemon = GRUBBIN,5
+    EV = 0,0,0,0,0,0
 Pokemon = GEODUDE,6
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [CAMPER,Steven]
 LoseText = "Ack!"
 Pokemon = ROOKIDEE,6
+    EV = 6,6,6,6,6,6
 Pokemon = LITLEO,5
+    EV = 5,5,5,5,5,5
 Pokemon = SHELLOS,6
+    EV = 6,6,6,6,6,6
 #-------------------------------
 [PICNICKER,Lisa]
 LoseText = "The bomb Pokémon..."
 Pokemon = RATTATA,6
     Form = 1
+    EV = 6,6,6,6,6,6
 Pokemon = BUDEW,7
+    EV = 7,7,7,7,7,7
 #-------------------------------
 [YOUNGSTER,Jimmy]
 LoseText = "What's that look for?"
 Pokemon = MANKEY,7
+    EV = 0,0,0,0,0,0
 Pokemon = NINCADA,7
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt]
 LoseText = "Oh noes! O_O"
 Pokemon = PICHU,8
     Moves = THUNDERSHOCK,TAILWHIP,PLAYNICE
+    EV = 0,0,0,0,0,0
 Pokemon = EEVEE,8
     Moves = TACKLE,GROWL,TAILWHIP
     AbilityIndex = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [FISHERMAN,Joseph]
 LoseText = "Lost it!"
 Pokemon = TYMPOLE,8
+    EV = 8,8,8,8,8,8
+    Ball = LUREBALL
 Pokemon = WINGULL,9
+    EV = 9,9,9,9,9,9
+    Ball = LUREBALL
 #-------------------------------
 [SAILOR,Marcus]
 LoseText = "Darn!"
 Pokemon = CHEWTLE,10
+    EV = 10,10,10,10,10,10
 #-------------------------------
 [SAILOR,Charles]
 LoseText = "Defeated!"
 Pokemon = WINGULL,9
+    EV = 9,9,9,9,9,9
 Pokemon = BIDOOF,10
+    EV = 10,10,10,10,10,10
 #-------------------------------
 [LEADER_Arnon,Arnon]
 LoseText = "Not bad. Not bad at all."
@@ -62,139 +84,208 @@ Pokemon = SHELLOS,13
     Moves = WATERGUN,MUDSLAP,HARDEN,WHIRLPOOL
     Item = ORANBERRY
     EV = 30,0,0,0,10,30
+    IV = 9,9,9,9,9,9
     AbilityIndex = 0
+    Ball = DIVEBALL
 Pokemon = WINGULL,13
     Moves = WATERGUN,WINGATTACK,QUICKATTACK,WHIRLPOOL
     Item = ORANBERRY
     EV = 0,0,0,10,30,30
+    IV = 9,9,9,9,9,9
+    Ball = DIVEBALL
     AbilityIndex = 0
 Pokemon = BIBAREL,14
     Moves = TACKLE,WATERGUN,DEFENSECURL,WHIRLPOOL
     Item = MYSTICWATER
     EV = 0,10,30,0,30,0
+    IV = 9,9,9,9,9,9
     AbilityIndex = 0
+    Ball = DIVEBALL
 #-------------------------------
 [BUGCATCHER,Brett]
 LoseText = "Ack!"
 Pokemon = NINCADA,10
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = SEWADDLE,10
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Justin]
 LoseText = "Now I've lost on top of that..."
 Pokemon = GRUBBIN,10
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = SHROOMISH,10
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [PICNICKER,Liz]
 LoseText = "That was fun!"
 Pokemon = BIDOOF,11
+    EV = 11,11,11,11,11,11
 Pokemon = MANKEY,11
+    EV = 11,11,11,11,11,11
 Pokemon = TYMPOLE,11
+    EV = 11,11,11,11,11,11
 #-------------------------------
 [POKEMANIAC,Jeff]
 LoseText = "Worst job ever."
 Pokemon = PIKACHU,12
+    EV = 12,12,12,12,12,12
 Pokemon = PIKACHU,12
+    EV = 12,12,12,12,12,12
 #-------------------------------
 [YOUNGSTER,Timmy]
 LoseText = "It was these dang shorts! They're why I lost!"
 Pokemon = BIDOOF,11
+    EV = 0,0,0,0,0,0
 Pokemon = SEWADDLE,11
+    EV = 0,0,0,0,0,0
 Pokemon = PIKIPEK,12
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [LASS,Molly]
 LoseText = "Aw, why'd you beat him up?"
 Pokemon = MIMEJR,12
     Gender = male
+    EV = 0,0,0,0,0,0
 Pokemon = CLEFAIRY,12
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [LASS,Sarah]
 LoseText = "It's even distracted me!"
 Pokemon = CHEWTLE,13
+    EV = 0,0,0,0,0,0
 Pokemon = ROSELIA,12
+    Moves = GROWTH,POISONSTING,ABSORB,STUNSPORE
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [CAMPER,Jackson]
 LoseText = "Great!"
 Pokemon = PIKACHU,13
+    Moves = GROWL,THUNDERSHOCK,QUICKATTACK,THUNDERWAVE
+    EV = 13,13,13,13,13,13
 Pokemon = DIGLETT,13
     Form = 1
+    Moves = METALCLAW,GROWL,ASTONISH,MUDSLAP
+    EV = 13,13,13,13,13,13
 Pokemon = NOIBAT,13
+    EV = 13,13,13,13,13,13
 #-------------------------------
 [KURISU,Kurisu,1]
-LoseText = "..."
+LoseText = "Ah, so you beat me again. Looks like I still need to improve..."
 Pokemon = NINCADA,16
     Moves = BUGBITE,SCRATCH,HARDEN,ABSORB
     Item = PASSHOBERRY
-    EV = 0,20,50,20,0,0
+    AbilityIndex = 0
+    IV = 12,12,12,12,12,12
+    EV = 0,50,50,30,0,0
 Pokemon = ARON,15
     Moves = METALCLAW,ROCKTOMB,HARDEN,ROAR
-    EV = 20,20,50,0,0,0
+    IV = 12,12,12,12,12,12
+    EV = 50,30,50,0,0,0
+    AbilityIndex = 0
 Pokemon = GIBLE,16
     Gender = female
     Moves = DRAGONBREATH,SANDTOMB,TACKLE,SANDATTACK
-    EV = 20,50,0,20,0,0
+    IV = 12,12,12,12,12,12
+    EV = 50,50,0,30,0,0
+    AbilityIndex = 0
 #-------------------------------
 [BEASTGRUNT_f,Grunt]
 LoseText = "QnQ..."
 Pokemon = EEVEE,13
+    EV = 0,0,0,0,0,0
 Pokemon = FENNEKIN,13
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt,1]
 LoseText = "*whimper*"
 Pokemon = SNIVY,13
+    EV = 0,0,0,0,0,0
 Pokemon = RIOLU,13
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,1]
 LoseText = "*nuzzles ur- wait what?? no nuzzles??"
 Pokemon = LITLEO,13
+    EV = 0,0,0,0,0,0
 Pokemon = PIPLUP,13
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt,2]
 LoseText = "bad!!!"
 Pokemon = RATTATA,14
     Form = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,2]
 LoseText = "ack! you meany!"
 Pokemon = BUNEARY,14
     Form = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,3]
 LoseText = "omg no!!!"
 Pokemon = RATTATA,14
     Form = 1
+    EV = 0,0,0,0,0,0
 Pokemon = RIOLU,15
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTMAN_admin_HS,Hellshadow]
 LoseText = "HOW DARE YOU!!!!"
 Pokemon = HOUNDOUR,16
+    Moves = EMBER,HOWL,SMOG,BITE
+    IV = 12,12,12,12,12,12
+    Ball = DUSKBALL
 Pokemon = UMBREON,16
     Moves = BITE,QUICKATTACK,SANDATTACK,BABYDOLLEYES
+    IV = 12,12,12,12,12,12
+    Ball = DUSKBALL
 #-------------------------------
 [HIKER,Dan]
 LoseText = "I don't even mind losing in this weather!"
 Pokemon = GEODUDE,14
+    EV = 14,14,14,14,14,14
 Pokemon = ARON,14
+    EV = 14,14,14,14,14,14
 Pokemon = FARFETCHD,14
     Form = 1
+    EV = 14,14,14,14,14,14
 #-------------------------------
 [BUGCATCHER,Aidan]
 LoseText = "Augh!"
 Pokemon = GRUBBIN,15
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = DEWPIDER,16
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Noah]
 LoseText = "No!"
 Pokemon = SEWADDLE,16
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = NINCADA,16
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Joshua]
 LoseText = "Oh no!"
 Pokemon = NINJASK,17
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [PICNICKER,Abigail]
 LoseText = "That was a good battle!"
 Pokemon = FLAAFFY,16
+    Moves = THUNDERWAVE,THUNDERSHOCK,COTTONSPORE,TACKLE
+    EV = 16,16,16,16,16,16
 Pokemon = BIBAREL,16
+    EV = 16,16,16,16,16,16
 #-------------------------------
 [ACETRAINER_M,Eli]
 LoseText = "Defeated!"
@@ -202,217 +293,273 @@ Pokemon = MRMIME,18
     Form = 1
     Moves = ICESHARD,CONFUSION,ICYWIND,REFLECT
     Item = OCCABERRY
-    EV = 0,0,0,20,20,50
+    AbilityIndex = 0
 #-------------------------------
 [TWINS,Lil & Sal]
 LoseText = "Oh no! Oh no!"
 Pokemon = SHROOMISH,17
     Moves = TACKLE,STUNSPORE,MEGADRAIN,POISONPOWDER
+    EV = 0,0,0,0,0,0
 Pokemon = CLEFAIRY,17
     Moves = DISARMINGVOICE,STOREDPOWER,MINIMIZE,LIFEDEW
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [CAMPER,Luigi]
 LoseText = "Mama mia!"
 Pokemon = DIGLETT,17
     Form = 1
-Pokemon = TRUMBEAK,17
-Pokemon = SERVINE,18
+    Moves = GROWL,ASTONISH,METALCLAW,MAGNITUDE
+    EV = 17,17,17,17,17,17
+Pokemon = TRUMBEAK,16
+    EV = 16,16,16,16,16,16
+Pokemon = SERVINE,17
+    Moves = WRAP,GROWTH,TWISTER,VINEWHIP
+    EV = 17,17,17,17,17,17
 #-------------------------------
-[LASS,Alice]
-LoseText = "My, you're powerful!"
+[HEXMANIAC,Alice]
+LoseText = "My, you're powerful! I hope we meet again..."
 Pokemon = MISDREAVUS,16
     Moves = SHADOWSNEAK,CONFUSION,SPITE,CONFUSERAY
+    Ball = DUSKBALL
 Pokemon = SYLVEON,16
     Moves = COVET,SWIFT,SANDATTACK
+    Ball = DUSKBALL
 Pokemon = BRAIXEN,16
     Moves = HYPNOSIS,FIRESPIN,EMBER,PSYBEAM
+    Ball = DUSKBALL
 #-------------------------------
 [BUGCATCHER,Aidan,1]
 LoseText = "Augh!"
 Pokemon = CHARJABUG,19
     Moves = VISEGRIP,BUGBITE,BITE,SPARK
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = DEWPIDER,19
     Moves = WATERGUN,INFESTATION,BITE,AQUARING
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Noah,1]
 LoseText = "No!"
-Pokemon = SEWADDLE,19
+Pokemon = SWADLOON,19
     Moves = BUGBITE,RAZORLEAF,STRUGGLEBUG,STRINGSHOT
-Pokemon = NINCADA,19
-    Moves = ABSORB,MUDSLAP,BUGBITE,HARDEN
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
+Pokemon = CORPHISH,18
+    Moves = VISEGRIP,BRUTALSWING,BUGBITE
+    Form = 1
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = VENONAT,18
     Moves = PSYBEAM,POISONPOWDER,STRUGGLEBUG,DISABLE
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [BUGCATCHER,Joshua,1]
 LoseText = "Oh no!"
 Pokemon = SKORUPI,19
     Moves = PINMISSILE,KNOCKOFF,POISONFANG,ACUPRESSURE
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 Pokemon = NINJASK,19
     Moves = DOUBLETEAM,FURYCUTTER,SANDATTACK,FURYSWIPES
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
 #-------------------------------
 [LEADER_Dylan,Dylan]
 LoseText = "WHAT?! My bugs! My army of bugs!"
 Pokemon = CHARJABUG,21
     Moves = ACROBATICS,SPARK,UTURN,BITE
     Item = MAGNET
-    EV = 0,50,20,0,0,20
+    IV = 15,15,15,15,15,15
+    EV = 0,60,60,0,0,35
     AbilityIndex = 0
+    Ball = NETBALL
 Pokemon = SHEDINJA,21
     Moves = SHADOWSNEAK,PROTECT,TOXIC,UTURN
     Item = FOCUSSASH
+    IV = 15,15,15,15,15,15
     EV = 0,80,0,80,0,0
     AbilityIndex = 0
+    Ball = NETBALL
 Pokemon = DEWPIDER,22
     Moves = BUBBLEBEAM,BUGBITE,BITE,AQUARING
     Item = EVIOLITE
-    EV = 0,0,50,0,20,20
+    EV = 0,35,60,0,0,60
+    IV = 15,15,15,15,15,15
     AbilityIndex = 0
+    Ball = NETBALL
 Pokemon = VENOMOTH,23
-    Moves = BUGBITE,WHIRLWIND,PSYBEAM,TOXIC
+    Moves = UTURN,WHIRLWIND,PSYBEAM,TOXIC
     Item = CHARTIBERRY
-    EV = 0,20,0,20,50,0
+    EV = 0,60,0,35,60,0
+    IV = 15,15,15,15,15,15
     AbilityIndex = 1
+    Ball = NETBALL
 #-------------------------------
 [BEAUTY,Joyce]
 LoseText = "That was a good battle!"
 Pokemon = AUDINO,5
+    EV = 5,5,5,5,5,5
+    Ball = LUXURYBALL
 Pokemon = AUDINO,5
+    EV = 5,5,5,5,5,5
+    Ball = LUXURYBALL
 #-------------------------------
 [YOUNGSTER,Connor]
-LoseText = "*CHUK!*"
+LoseText = "Augh!"
 Pokemon = LITLEO,18
+    Moves = WORKUP,FIREFANG,ECHOEDVOICE
+    EV = 0,0,0,0,0,0
 Pokemon = CORVISQUIRE,18
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [PSYCHIC_M,Louis]
 LoseText = "I couldn't forsee this!"
 Pokemon = MIMEJR,19
+    EV = 19,19,19,19,19,19
 Pokemon = MISDREAVUS,18
-#-------------------------------
-[LEADER_Arnon,Arnon,1]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = "..."
-Pokemon = GASTRODON,75
-Pokemon = DREDNAW,75
-Pokemon = KINGDRA,75
-Pokemon = JELLICENT,76
-Pokemon = VAPOREON,76
-Pokemon = BIBAREL,77
-#-------------------------------
-[LEADER_Dylan,Dylan,1]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = "..."
-Pokemon = SHEDINJA,75
-Pokemon = SCIZOR,75
-Pokemon = ARAQUANID,75
-Pokemon = VIKAVOLT,76
-Pokemon = HERACROSS,76
-Pokemon = VENOMOTH,77
-#-------------------------------
-[KURISU,Kurisu,99]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = "..."
-Pokemon = GRENINJA,75
-Pokemon = TANGROWTH,75
-Pokemon = NAGANADEL,75
-Pokemon = VANILLUXE,76
-    Form = 1
-    Moves = ROCKSLIDE,FLAMETHROWER,IRONDEFENSE,POWERGEM
-Pokemon = GARCHOMP,77
-Pokemon = METAGROSS,76
-    Item = METAGROSSITE
+    EV = 18,18,18,18,18,18
 #-------------------------------
 [HIKER,Rob]
 LoseText = "Whoops!"
 Pokemon = ARON,19
+    EV = 19,19,19,19,19,19
 Pokemon = ROGGENROLA,19
+    EV = 19,19,19,19,19,19
 #-------------------------------
 [CAMPER,Will]
 LoseText = "Come on, round 2!"
 Pokemon = MEDITITE,19
+    EV = 19,19,19,19,19,19
 Pokemon = CHESPIN,19
     Form = 1
+    EV = 19,19,19,19,19,19
 Pokemon = CORPHISH,19
     Form = 1
+    EV = 19,19,19,19,19,19
 #-------------------------------
 [BIRDKEEPER,Smith]
 LoseText = "Crash landed!"
 Pokemon = WINGULL,19
+    EV = 19,19,19,19,19,19
 Pokemon = ROOKIDEE,19
+    EV = 19,19,19,19,19,19
 Pokemon = TRUMBEAK,19
+    EV = 19,19,19,19,19,19
 #-------------------------------
 [ACETRAINER_F,Petra]
 LoseText = "Oh, I've lost."
 Pokemon = SIZZLIPEDE,20
-    Item = CHARTIBERRY
+    Item = CHARCOAL
     Nature = ADAMANT
-    EV = 0,70,30,0,0,30
-Pokemon = SWADLOON,20
-    Item = COBABERRY
-    Nature = RELAXED
-    EV = 0,30,70,0,0,70
+    Moves = BITE,FLAMECHARGE,BUGBITE
+    AbilityIndex = 1
+Pokemon = COTTONEE,20
+    Item = MIRACLESEED
+    Nature = TIMID
+    AbilityIndex = 0
+    Moves = MEGADRAIN,DRAININGKISS,STUNSPORE,LEECHSEED
 Pokemon = PRINPLUP,21
     Moves = METALCLAW,BUBBLEBEAM,CHARM,PECK
     Item = MYSTICWATER
     Nature = MILD
-    EV = 0,30,0,0,70,30
+    AbilityIndex = 0
 #-------------------------------
 [HIKER,Frank]
 LoseText = "Stones are AWESOME! ...So how did I lose?"
 Pokemon = ONIX,20
+    EV = 20,20,20,20,20,20
 Pokemon = NOSEPASS,20
+    EV = 20,20,20,20,20,20
 #-------------------------------
 [BLACKBELT,Ty]
 LoseText = "We will smash even the mightiest of rocks!"
 Pokemon = RIOLU,20
     Moves = ROCKSMASH,COUNTER,WORKUP,METALCLAW
+    EV = 20,20,20,20,20,20
 Pokemon = FARFETCHD,20
     Form = 1
     Moves = ROCKSMASH,BRUTALSWING,FURYCUTTER,LEER
+    EV = 20,20,20,20,20,20
 Pokemon = MIENFOO,21
     Moves = ROCKSMASH,FAKEOUT,MEGAPUNCH,DETECT
+    EV = 21,21,21,21,21,21
 #-------------------------------
 [LASS,Amy]
 LoseText = "Oops!"
-Pokemon = HORSEA,21
+Pokemon = MINCCINO,21
+    EV = 0,0,0,0,0,0
 Pokemon = NIDORINA,21
+    EV = 0,0,0,0,0,0
 Pokemon = AUDINO,19
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [GENTLEMAN,Cornforth]
 LoseText = "Hrm..."
 Pokemon = MUNCHLAX,22
+    EV = 22,22,22,22,22,22
+    Ball = LUXURYBALL
 Pokemon = NIDORINO,22
+    EV = 22,22,22,22,22,22
+    Ball = LUXURYBALL
 #-------------------------------
 [PSYCHIC_F,Nora]
 LoseText = "My foresight was wrong!"
 Pokemon = SOLOSIS,22
+    IV = 11,11,10,10,10,10
+    EV = 22,22,22,22,22,22
 Pokemon = ESPEON,20
+    EV = 20,20,20,20,20,20
+    Moves = CONFUSION,SANDATTACK,BABYDOLLEYES,QUICKATTACK
 Pokemon = MRMIME,20
     Form = 1
+    EV = 20,20,20,20,20,20
+    Moves = ROLEPLAY,CONFUSION,ICYWIND
 #-------------------------------
 [FISHERMAN,Eric]
 LoseText = "Ack! Time to go fishing again!"
 Pokemon = SKRELP,20
+    EV = 20,20,20,20,20,20
+    Ball = LUREBALL
 Pokemon = HORSEA,20
+    EV = 20,20,20,20,20,20
+    Ball = LUREBALL
 Pokemon = TYMPOLE,20
+    EV = 20,20,20,20,20,20
+    Ball = LUREBALL
 Pokemon = MAGIKARP,23
     Form = 1
+    EV = 23,23,23,23,23,23
+    Ball = LUREBALL
 #-------------------------------
 [PICNICKER,Blaise]
 LoseText = "Burned out!"
 Pokemon = LITLEO,24
+    EV = 24,24,24,24,24,24
+    Moves = FIREFANG,NOBLEROAR,SNARL,TAKEDOWN
 Pokemon = BRAIXEN,24
-Pokemon = CUBONE,25
+    EV = 24,24,24,24,24,24
+Pokemon = LOMBRE,24
+    Form = 1
+    Moves = MEGADRAIN,FLAIL,INCINERATE
+    EV = 24,24,24,24,24,24
 #-------------------------------
 [BLACKBELT,Kaen]
 LoseText = "You've bested me!"
 Pokemon = VANILLITE,25
     Form = 1
+    EV = 25,25,25,25,25,25
 Pokemon = GRAVELER,25
+    EV = 25,25,25,25,25,25
+    Moves = BULLDOZE,SMACKDOWN,FLAMETHROWER
 #-------------------------------
 [CAMPER,Tony]
 LoseText = "Like... like temperature hot, I mean! Um..."
 Pokemon = SIZZLIPEDE,25
+    EV = 25,25,25,25,25,25
 Pokemon = HOUNDOUR,25
+    EV = 25,25,25,25,25,25
 #-------------------------------
 [ACETRAINER_M,David]
 LoseText = "Scorched!"
@@ -420,13 +567,11 @@ Pokemon = VULPIX,26
     Moves = CONFUSERAY,WILLOWISP,DISABLE,INCINERATE
     Item = HEATROCK
     Nature = TIMID
-    EV = 0,0,0,70,30,30
     AbilityIndex = 2
 Pokemon = FLAREON,26
-    Moves = FIREFANG,QUICKATTACK,SANDATTACK,TAKEDOWN
+    Moves = INCINERATE,QUICKATTACK,SANDATTACK,TAKEDOWN
     Item = CHARCOAL
     Nature = GENTLE
-    EV = 30,30,0,0,0,70
     AbilityIndex = 0
 #-------------------------------
 [LEADER_Helia,Helia]
@@ -434,29 +579,37 @@ LoseText = "Wow, now that was an intense battle!"
 Pokemon = NINETALES,27
     Moves = FLAMEBURST,CONFUSERAY,HYPNOSIS,EXTRASENSORY
     Item = HEATROCK
-    Nature = TIMID
-    EV = 0,0,0,70,30,30
+    Nature = HASTY
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,80,50,80
     AbilityIndex = 2
+    Ball = QUICKBALL
 Pokemon = LUDICOLO,27
     Form = 1
-    Moves = MEGADRAIN,SUNNYDAY,INCINERATE,MUDSHOT
-    Item = CHARCOAL
-    Nature = MODEST
-    EV = 0,0,0,70,30,30
+    Moves = RAZORLEAF,SUNNYDAY,INCINERATE,MUDSHOT
+    Item = SITRUSBERRY
+    Nature = MILD
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,80,50,50
     AbilityIndex = 0
+    Ball = QUICKBALL
 Pokemon = VANILLISH,28
     Form = 1
-    Moves = TAUNT,REFLECT,INCINERATE,POWERGEM
+    Moves = TAUNT,REFLECT,INCINERATE,ROCKBLAST
     Item = EVIOLITE
     Nature = RELAXED
-    EV = 0,0,70,0,30,30
+    IV = 20,20,20,20,20,20
+    EV = 0,0,80,0,80,50
     AbilityIndex = 1
+    Ball = QUICKBALL
 Pokemon = HOUNDOOM,28
     Moves = THUNDERFANG,FIREFANG,SOLARBEAM,FEINTATTACK
-    Item = ASSAULTVEST
+    Item = POWERHERB
     Nature = LONELY
-    EV = 0,70,0,30,30,0
+    IV = 20,20,20,20,20,20
+    EV = 0,80,0,50,80,0
     AbilityIndex = 0
+    Ball = QUICKBALL
 #-------------------------------
 [KURISU2,Kurisu]
 LoseText = "You're getting good at this!"
@@ -464,136 +617,292 @@ Pokemon = SKRELP,27
     Moves = POISONTAIL,DRAGONTAIL,WATERPULSE,ICYWIND
     Item = EVIOLITE
     Nature = QUIET
-    EV = 45,45,0,0,100,0
-    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 50,0,0,0,80,80
+    AbilityIndex = 0
+    Ball = GREATBALL
 Pokemon = NINJASK,27
     Moves = AERIALACE,FEINTATTACK,BUGBITE,METALCLAW
-    Item = CHARTIBERRY
+    Item = FOCUSSASH
     Nature = ADAMANT
-    EV = 45,100,0,45,0,0
+    IV = 20,20,20,20,20,20
+    EV = 80,80,0,50,0,0
     AbilityIndex = 0
 Pokemon = LAIRON,28
     Moves = METALCLAW,TAKEDOWN,ROCKTOMB,REVERSAL
-    Item = FOCUSSASH
+    Item = MUSCLEBAND
     Nature = RELAXED
-    EV = 45,45,100,0,0,0
+    IV = 20,20,20,20,20,20
+    EV = 50,80,80,0,0,0
     AbilityIndex = 1
 Pokemon = GABITE,28
     Gender = female
-    Moves = DUALCHOP,AERIALACE,FURYCUTTER,BULLDOZE
-    Item = MUSCLEBAND
+    Moves = DRAGONTAIL,AERIALACE,FURYCUTTER,BULLDOZE
+    Item = YACHEBERRY
     Nature = ADAMANT
-    EV = 45,45,0,100,0,0
-    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 50,80,0,80,0,0
+    AbilityIndex = 0
 #-------------------------------
 [BLACKBELT,Chuck]
 LoseText = "My roaring fist - stopped!"
 Pokemon = MANKEY,20
-Pokemon = MANKEY,20
+    EV = 0,60,0,0,0,0
+    AbilityIndex = 0
+    Moves = SCRATCH,LOWKICK,BEATUP
+Pokemon = GIBLE,20
+    EV = 0,60,0,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,SANDTOMB,DRAGONBREATH
 Pokemon = BRELOOM,20
+    EV = 0,60,0,0,0,0
+    AbilityIndex = 1
+    Moves = TACKLE,MEGADRAIN,ROCKSMASH
 #-------------------------------
 [HIKER,Jerome]
 LoseText = "My solid defenses - crumbled!"
 Pokemon = NINCADA,20
+    EV = 0,0,60,0,0,0
+    AbilityIndex = 0
+    Moves = SCRATCH,MEGADRAIN,BUGBITE
 Pokemon = OMANYTE,20
+    EV = 0,0,60,0,0,0
+    AbilityIndex = 0
+    Moves = BIND,ANCIENTPOWER,WATERGUN
 Pokemon = GRAVELER,20
+    EV = 0,0,60,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,ROCKTHROW,MAGNITUDE
 #-------------------------------
 [PSYCHIC_F,Paula]
 LoseText = "My mind's eye - blinded!"
 Pokemon = MAREEP,20
+    EV = 0,0,0,0,60,0
+    AbilityIndex = 2
+    Moves = TACKLE,THUNDERSHOCK,COTTONSPORE
 Pokemon = HORSEA,20
+    EV = 0,0,0,0,60,0
+    AbilityIndex = 0
+    Moves = WATERGUN,TWISTER,FOCUSENERGY
 Pokemon = ESPEON,20
+    EV = 0,0,0,0,60,0
+    AbilityIndex = 1
+    Moves = CONFUSION,QUICKATTACK,SWIFT
 #-------------------------------
 [POKEMANIAC,Andrew]
 LoseText = "My ironclad will - broken!"
 Pokemon = VENONAT,20
-Pokemon = EEVEE,20
-Pokemon = SLIGGOO,20
+    EV = 0,0,0,0,0,60
+    AbilityIndex = 0
+    Moves = TACKLE,STRUGGLEBUG,CONFUSION
+Pokemon = GOOMY,20
+    EV = 0,0,0,0,0,60
+    AbilityIndex = 1
+    Moves = WATERGUN,DRAGONBREATH,MEGADRAIN
+Pokemon = GOTHORITA,20
+    EV = 0,0,0,0,0,60
+    AbilityIndex = 0
+    Moves = CONFUSION,POUND,CHARM
 #-------------------------------
 [YOUNGSTER,Wade]
 LoseText = "My blistering speed - outmatched!"
 Pokemon = VULPIX,20
+    EV = 0,0,0,60,0,0
+    AbilityIndex = 0
+    Moves = EMBER,QUICKATTACK,HEX
 Pokemon = MEDITITE,20
+    IV = 10,11,10,10,11,11
+    EV = 0,0,0,60,0,0
+    AbilityIndex = 0
+    Moves = CONFUSION,FORCEPALM,HIDDENPOWER
 Pokemon = GOLBAT,20
+    EV = 0,0,0,60,0,0
+    AbilityIndex = 0
+    Moves = BITE,WINGATTACK,POISONFANG
 #-------------------------------
 [PICNICKER,Hikari]
 LoseText = "I wish the health bar ticked down faster..."
 Pokemon = CASTFORM,20
+    EV = 60,0,0,0,0,0
+    AbilityIndex = 0
+    Moves = EMBER,WATERGUN,POWDERSNOW
 Pokemon = MUNCHLAX,20
+    EV = 60,0,0,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,ROLLOUT,BITE
 Pokemon = CLEFAIRY,20
+    EV = 60,0,0,0,0,0
+    AbilityIndex = 1
+    Moves = COMETPUNCH,COSMICPOWER,STOREDPOWER
 #-------------------------------
 [BLACKBELT,Chuck,1]
 LoseText = "My roaring fist - stopped!"
 Pokemon = BRELOOM,40
+    EV = 0,120,0,0,0,0
+    AbilityIndex = 1
+    Moves = TACKLE,MEGADRAIN,ROCKSMASH
 Pokemon = PRIMEAPE,40
-Pokemon = MARSHTOMP,40
+    EV = 0,120,0,0,0,0
+    AbilityIndex = 0
+    Moves = SCRATCH,LOWKICK,BEATUP
+Pokemon = GABITE,40
+    EV = 0,120,0,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,SANDTOMB,DRAGONBREATH
 Pokemon = DODRIO,40
+    EV = 0,120,0,0,0,0
+    AbilityIndex = 0
+    Moves = DOUBLEHIT,PURSUIT,PLUCK
 Pokemon = NIDOKING,40
+    EV = 0,120,0,0,0,0
+    AbilityIndex = 1
+    Moves = DOUBLEKICK,HORNATTACK,POISONFANG
 #-------------------------------
 [HIKER,Jerome,1]
 LoseText = "My solid defenses - crumbled!"
 Pokemon = GRAVELER,40
+    EV = 0,0,120,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,ROCKTHROW,MAGNITUDE
 Pokemon = MAGCARGO,40
+    EV = 0,0,120,0,0,0
+    AbilityIndex = 0
+    Moves = EMBER,ROCKTHROW,CLEARSMOG
 Pokemon = SKARMORY,40
+    EV = 0,0,120,0,0,0
+    AbilityIndex = 0
+    Moves = METALCLAW,SLASH,WINGATTACK
 Pokemon = WEEZING,40
+    EV = 0,0,120,0,0,0
+    AbilityIndex = 0
+    Moves = DOUBLEHIT,SLUDGE,PAYBACK
 Pokemon = AGGRON,40
+    EV = 0,0,120,0,0,0
+    AbilityIndex = 1
+    Moves = HEADBUTT,METALCLAW,ROCKTOMB
 #-------------------------------
 [PSYCHIC_F,Paula,1]
 LoseText = "My mind's eye - blinded!"
 Pokemon = ESPEON,40
+    EV = 0,0,0,0,120,0
+    AbilityIndex = 1
+    Moves = CONFUSION,QUICKATTACK,SWIFT
 Pokemon = PORYGON2,40
+    EV = 0,0,0,0,120,0
+    AbilityIndex = 0
+    Moves = THUNDERSHOCK,PSYBEAM,SWIFT
 Pokemon = ROSELIA,40
+    EV = 0,0,0,0,120,0
+    AbilityIndex = 0
+    Moves = MAGICALLEAF,GROWTH,WORRYSEED
 Pokemon = GLACEON,40
+    EV = 0,0,0,0,120,0
+    AbilityIndex = 0
+    Moves = ICYWIND,SWIFT,MIRRORSHOT
 Pokemon = REUNICLUS,40
+    EV = 0,0,0,0,120,0
+    AbilityIndex = 0
+    Moves = CONFUSION,CHARGEBEAM,HIDDENPOWER
 #-------------------------------
 [POKEMANIAC,Andrew,1]
 LoseText = "My ironclad will - broken!"
 Pokemon = SLIGGOO,40
+    EV = 0,0,0,0,0,120
+    AbilityIndex = 1
+    Moves = WATERGUN,DRAGONBREATH,MEGADRAIN
 Pokemon = UMBREON,40
-Pokemon = ALTARIA,40
+    EV = 0,0,0,0,0,120
+    AbilityIndex = 2
+    Moves = FEINTATTACK,CONFUSERAY,SWIFT
+Pokemon = GOTHORITA,40
+    EV = 0,0,0,0,0,120
+    AbilityIndex = 0
+    Moves = CONFUSION,POUND,CHARM
 Pokemon = CRADILY,40
+    EV = 0,0,0,0,0,120
+    AbilityIndex = 0
+    Moves = ANCIENTPOWER,MEGADRAIN,ACIDSPRAY
 Pokemon = BLASTOISE,40
     Form = 2
+    EV = 0,0,0,0,0,120
+    AbilityIndex = 0
+    Moves = INCINERATE,RAPIDSPIN,BITE
 #-------------------------------
 [YOUNGSTER,Wade,1]
 LoseText = "My blistering speed - outmatched!"
 Pokemon = GOLBAT,40
+    EV = 0,0,0,120,0,0
+    AbilityIndex = 0
+    Moves = BITE,WINGATTACK,POISONFANG
 Pokemon = STARMIE,40
+    EV = 0,0,0,120,0,0
+    AbilityIndex = 0
+    Moves = SWIFT,PSYBEAM,BUBBLEBEAM
 Pokemon = ELECTABUZZ,40
+    EV = 0,0,0,120,0,0
+    AbilityIndex = 0
+    Moves = SHOCKWAVE,SWIFT,LOWKICK
 Pokemon = FURRET,40
+    EV = 0,0,0,120,0,0
+    AbilityIndex = 0
+    Moves = QUICKATTACK,COVET,POWERUPPUNCH
 Pokemon = PIDGEOT,40
+    EV = 0,0,0,120,0,0
+    AbilityIndex = 0
+    Moves = AERIALACE,QUICKATTACK,STEELWING
 #-------------------------------
 [PICNICKER,Hikari,1]
 LoseText = "I wish the health bar ticked down faster..."
 Pokemon = CLEFAIRY,40
+    EV = 120,0,0,0,0,0
+    AbilityIndex = 1
+    Moves = COMETPUNCH,COSMICPOWER,STOREDPOWER
 Pokemon = VAPOREON,40
+    EV = 120,0,0,0,0,0
+    AbilityIndex = 0
+    Moves = WATERPULSE,SWIFT,AURORABEAM
 Pokemon = SNORLAX,40
+    EV = 120,0,0,0,0,0
+    AbilityIndex = 0
+    Moves = TACKLE,ROLLOUT,BITE
 Pokemon = GLALIE,40
+    EV = 120,0,0,0,0,0
+    AbilityIndex = 1
+    Moves = HEADBUTT,ICEFANG,BITE
 Pokemon = SEISMITOAD,40
+    EV = 120,0,0,0,0,0
+    AbilityIndex = 0
+    Moves = BUBBLEBEAM,ACID,MUDSHOT
 #-------------------------------
 [HIKER,Brent]
 LoseText = "Smashed!"
 Pokemon = BOLDORE,26
+    EV = 26,26,26,26,26,26
 Pokemon = ONIX,26
+    EV = 26,26,26,26,26,26
 #-------------------------------
 [BEASTGRUNT_m,Grunt,3]
 LoseText = "i got beaten qnq"
 Pokemon = RATICATE,25
     Form = 1
     Moves = BITE,TAKEDOWN,QUICKATTACK
-    EV = 15,15,15,15,15,15
+    EV = 0,0,0,0,0,0
     AbilityIndex = 2
 #-------------------------------
 [BEASTGRUNT_f,Grunt,4]
 LoseText = "team beastman's blasting off again!!"
 Pokemon = VULPIX,25
     Form = 1
-Pokemon = SERVINE,25
+    EV = 0,0,0,0,0,0
+Pokemon = FLAAFFY,25
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt,4]
 LoseText = "our double strategy failed!"
 Pokemon = STUFFUL,25
+    EV = 0,0,0,0,0,0
 Pokemon = NIDORINO,25
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [ACETRAINER_M,Gino]
 LoseText = "..."
@@ -601,25 +910,21 @@ Pokemon = MAWILE,26
     Moves = FEINTATTACK,THUNDERFANG,DRAININGKISS,TAUNT
     Item = QUICKCLAW
     Nature = LAX
-    EV = 0,70,30,0,30,0
     AbilityIndex = 1
 Pokemon = SKORUPI,26
     Moves = BUGBITE,AERIALACE,FEINTATTACK,POISONTAIL
     Item = POISONBARB
     Nature = ADAMANT
-    EV = 0,30,70,0,0,30
     AbilityIndex = 0
 Pokemon = MAROWAK,26
     Form = 1
     Moves = BULLDOZE,FLAMECHARGE,WILLOWISP,LOWKICK
     Nature = IMPISH
-    EV = 0,30,70,0,0,30
     AbilityIndex = 0
 Pokemon = ROSELIA,26
-    Moves = GROWTH,MAGICALLEAF,STUNSPORE,VENOSHOCK
+    Moves = GROWTH,MAGICALLEAF,TOXICSPIKES,VENOSHOCK
     Item = MIRACLESEED
     Nature = GENTLE
-    EV = 0,0,0,30,30,70
     AbilityIndex = 1
 #-------------------------------
 [PHOEBE,Phoebe]
@@ -628,56 +933,83 @@ Pokemon = HONEDGE,29
     Moves = SHADOWSNEAK,FURYCUTTER,AERIALACE,PSYCHOCUT
     Item = EVIOLITE
     Nature = IMPISH
-    EV = 45,100,100,0,0,0
+    IV = 21,21,21,21,21,21
+    EV = 50,80,80,0,0,0
     AbilityIndex = 0
+    Ball = ULTRABALL
 Pokemon = PORYGON,29
     Moves = CHARGEBEAM,PSYBEAM,RECOVER,SWIFT
     Item = SILKSCARF
     Nature = MODEST
-    EV = 0,0,45,0,100,45
+    IV = 21,21,21,21,21,21
+    EV = 0,0,50,0,80,80
     AbilityIndex = 1
+    Ball = ULTRABALL
 Pokemon = NOIBAT,30
     Moves = WHIRLWIND,ACROBATICS,RAZORWIND,STEELWING
     Item = FLYINGGEM
     Nature = HASTY
-    EV = 0,120,0,50,120,0
+    IV = 21,21,21,21,21,21
+    EV = 0,80,0,50,80,0
     AbilityIndex = 1
+    Ball = ULTRABALL
 Pokemon = LUCARIO,30
     Moves = BONERUSH,DUALCHOP,FORCEPALM,ROCKTOMB
-    Item = ASSAULTVEST
+    Item = EXPERTBELT
     Nature = HASTY
-    EV = 45,45,0,100,0,0
+    IV = 21,21,21,21,21,21
+    EV = 50,80,0,80,0,0
     AbilityIndex = 1
+    Ball = ULTRABALL
 #-------------------------------
 [BEASTGRUNT_f,Grunt,5]
 LoseText = "it looks more like she's beating him up though.."
 Pokemon = BUNEARY,26
     Form = 1
+    EV = 0,0,0,0,0,0
 Pokemon = GOLBAT,26
+    EV = 0,0,0,0,0,0
+    Moves = WINGATTACK,POISONFANG,CONFUSERAY
 #-------------------------------
 [HIKER,Craig]
 LoseText = "I've been beaten!"
 Pokemon = NOSEPASS,27
+    EV = 27,27,27,27,27,27
 Pokemon = LAIRON,27
-Pokemon = GRAVELER,27
+    EV = 27,27,27,27,27,27
+    Moves = ROAR,TAKEDOWN,METALCLAW,ROCKTOMB
+Pokemon = LILEEP,27
+    EV = 27,27,27,27,27,27
 #-------------------------------
 [PICNICKER,Roxy]
 LoseText = "I didn't mean it literally!"
 Pokemon = BOLDORE,28
+    EV = 28,28,28,28,28,28
 Pokemon = SABLEYE,28
+    EV = 28,28,28,28,28,28
 #-------------------------------
 [POKEMONRANGER_M,Flint]
 LoseText = "You clearly raise your Pokémon excellently!"
 Pokemon = NOIBAT,29
+    EV = 29,29,29,29,29,29
 Pokemon = AMAURA,29
+    EV = 29,29,29,29,29,29
 Pokemon = DUGTRIO,29
     Form = 1
+    EV = 29,29,29,29,29,29
 #-------------------------------
 [HIKER,Mason]
 LoseText = "It's this really cool color too, and... huh?"
 Pokemon = MAWILE,29
+    EV = 29,29,29,29,29,29
+    Moves = METALCLAW,COVET,SUCKERPUNCH
 Pokemon = TIRTOUGA,29
+    EV = 29,29,29,29,29,29
+    Moves = ANCIENTPOWER,BITE,FLIPTURN,CURSE
 Pokemon = ARCHEN,30
+    IV = 14,14,14,14,14,14
+    EV = 30,30,30,30,30,30
+    Moves = PLUCK,ROCKTHROW,SCARYFACE,UTURN
 #-------------------------------
 [ACETRAINER_F,Emilia]
 LoseText = "Wait, that wasn't how it was supposed to go!"
@@ -685,18 +1017,18 @@ Pokemon = GOLBAT,30
     Moves = POISONFANG,TAILWIND,BITE,WINGATTACK
     Item = MAGOBERRY
     Nature = JOLLY
-    EV = 30,30,0,70,0,0
+    EV = 45,45,45,45,45,45
     AbilityIndex = 0
 Pokemon = DRACOZOLT,30
     Moves = ANCIENTPOWER,BOLTBEAK,DRAGONTAIL,BRUTALSWING
     Nature = BRAVE
-    EV = 30,30,70,0,0,0
+    EV = 45,45,45,45,45,45
     AbilityIndex = 0
 Pokemon = PROBOPASS,30
-    Moves = EARTHPOWER,FLASHCANNON,POWERGEM,IRONDEFENSE
+    Moves = EARTHPOWER,IRONHEAD,ROCKSLIDE,IRONDEFENSE
     Item = AIRBALLOON
     Nature = SASSY
-    EV = 30,0,30,0,0,70
+    EV = 45,45,45,45,45,45
     AbilityIndex = 0
 #-------------------------------
 [LEADER_Jade,Jade]
@@ -706,84 +1038,131 @@ Pokemon = STEELIX,30
     Item = ASSAULTVEST
     Nature = RELAXED
     EV = 45,45,100,0,0,0
+    IV = 22,22,22,22,22,22
     AbilityIndex = 2
+    Ball = HEAVYBALL
 Pokemon = AURORUS,30
     Moves = FREEZEDRY,ANCIENTPOWER,THUNDERWAVE,CHARGEBEAM
     Item = CHOPLEBERRY
     Nature = MODEST
     EV = 100,0,0,0,45,45
+    IV = 22,22,22,22,22,22
     AbilityIndex = 0
+    Ball = HEAVYBALL
 Pokemon = CRADILY,31
     Moves = ANCIENTPOWER,INGRAIN,GIGADRAIN,REST
     Item = LUMBERRY
     Nature = SASSY
     EV = 45,0,0,0,45,100
+    IV = 22,22,22,22,22,22
     AbilityIndex = 2
+    Ball = HEAVYBALL
 Pokemon = DRACOVISH,32
     Moves = FISHIOUSREND,ICEFANG,PSYCHICFANGS,ROCKBLAST
     Item = LIECHIBERRY
     Nature = RELAXED
     EV = 45,45,100,0,0,0
+    IV = 22,22,22,22,22,22
     AbilityIndex = 1
+    Ball = HEAVYBALL
 #-------------------------------
 [SWIMMER_M,Harold]
 LoseText = "I can't win when I'm tired!"
 Pokemon = WINGULL,29
-Pokemon = WINGULL,29
+    EV = 29,29,29,29,29,29
+Pokemon = PELIPPER,29
+    EV = 29,29,29,29,29,29
+    Moves = SWALLOW,STOCKPILE,WATERPULSE,DUALWINGBEAT
 #-------------------------------
 [SWIMMER_F,Debra]
 LoseText = "I can swim, but battling's a different story..."
 Pokemon = HORSEA,28
+    EV = 28,28,28,28,28,28
 Pokemon = PALPITOAD,28
+    EV = 28,28,28,28,28,28
 Pokemon = FRILLISH,28
+    EV = 28,28,28,28,28,28
 #-------------------------------
 [SWIMMER_M,Gilbert]
 LoseText = "Uwah!"
 Pokemon = SKRELP,29
+    EV = 29,29,29,29,29,29
 Pokemon = STARYU,29
+    EV = 29,29,29,29,29,29
 #-------------------------------
 [SWIMMER_M,Stan]
 LoseText = "Oops..."
 Pokemon = BARBOACH,27
+    EV = 27,27,27,27,27,27
 Pokemon = MUDKIP,27
+    EV = 27,27,27,27,27,27
 Pokemon = MANTYKE,27
+    EV = 27,27,27,27,27,27
 Pokemon = REMORAID,27
+    EV = 27,27,27,27,27,27
     Form = 1
 #-------------------------------
 [FISHERMAN,Kamil]
 LoseText = "My fish!"
 Pokemon = SKRELP,29
+    EV = 29,29,29,29,29,29
+    Ball = LUREBALL
 Pokemon = SEADRA,29
+    EV = 29,29,29,29,29,29
+    Ball = LUREBALL
 Pokemon = WISHIWASHI,29
+    EV = 29,29,29,29,29,29
+    Ball = LUREBALL
 #-------------------------------
 [GENTLEMAN,Marwood]
 LoseText = "Dear heavens!"
 Pokemon = BEWEAR,30
+    EV = 30,30,30,30,30,30
+    Moves = LOWSWEEP,FLAIL,BULKUP,PAYBACK
+    Ball = LUXURYBALL
 Pokemon = CORVISQUIRE,31
+    EV = 31,31,31,31,31,31
+    Ball = LUXURYBALL
 #-------------------------------
 [POKEMANIAC,Hadrien]
 LoseText = "AAAUGH! These didn't cut it!"
 Pokemon = WOBBUFFET,31
+    EV = 31,31,31,31,31,31
 Pokemon = NIDORINA,31
+    EV = 31,31,31,31,31,31
+    Moves = DOUBLEKICK,BITE,POISONFANG,TOXICSPIKES
 Pokemon = VAPOREON,31
+    EV = 31,31,31,31,31,31
 #-------------------------------
 [POKEMONRANGER_F,Desi]
 LoseText = "Make sure you're taking care of your Pokémon."
 Pokemon = WHIMSICOTT,31
+    EV = 31,31,31,31,31,31
 Pokemon = FROGADIER,31
+    EV = 31,31,31,31,31,31
 Pokemon = SLIGGOO,32
+    EV = 32,32,32,32,32,32
+    Moves = WATERPULSE,MEGADRAIN,DRAGONBREATH,ACIDARMOR
 #-------------------------------
 [POKEMONRANGER_M,Abel]
 LoseText = "Stay safe."
 Pokemon = LILLIGANT,31
+    EV = 31,31,31,31,31,31
 Pokemon = BRONZOR,31
+    EV = 31,31,31,31,31,31
 Pokemon = HATTREM,32
+    EV = 32,32,32,32,32,32
 #-------------------------------
 [AROMALADY,Violet]
 LoseText = "Pardon me, I was so distracted by the flowers I forgot we were battling!"
 Pokemon = ROSELIA,31
+    EV = 31,31,31,31,31,31
 Pokemon = SWADLOON,31
+    EV = 31,31,31,31,31,31
+    Moves = RAZORLEAF,BUGBITE,FLAIL
 Pokemon = RIBOMBEE,32
+    EV = 32,32,32,32,32,32
+    Moves = STRUGGLEBUG,MEGADRAIN,DRAININGKISS
 #-------------------------------
 [AMBER,Amber]
 LoseText = "..."
@@ -793,132 +1172,170 @@ Pokemon = HATTREM,35
     Nature = SASSY
     EV = 0,0,50,0,120,50
     AbilityIndex = 2
+    Ball = DREAMBALL
 Pokemon = SLIGGOO,35
     Moves = DRAGONBREATH,RECOVER,SLUDGEBOMB,FLAMETHROWER
     Item = EVIOLITE
     Nature = MODEST
     EV = 50,0,0,0,50,120
+    Ball = DREAMBALL
     AbilityIndex = 0
 Pokemon = MIMIKYU,35
     Moves = LEECHLIFE,SHADOWSNEAK,HONECLAWS,PLAYROUGH
     Item = EXPERTBELT
     Nature = ADAMANT
     EV = 0,50,0,120,0,50
+    Ball = DREAMBALL
 #-------------------------------
 [SAILOR,Jefrey]
 LoseText = "Back to the grind..."
 Pokemon = GASTRODON,32
+    EV = 32,32,32,32,32,32
 Pokemon = OCTILLERY,32
+    EV = 32,32,32,32,32,32
     Form = 1
 #-------------------------------
 [SAILOR,Marcus,1]
 LoseText = "Keep at it, kid!"
 Pokemon = FRILLISH,31
+    EV = 31,31,31,31,31,31
 Pokemon = PRIMEAPE,31
-Pokemon = DREDNAW,32
+    EV = 31,31,31,31,31,31
+Pokemon = DREDNAW,31
+    EV = 31,31,31,31,31,31
 #-------------------------------
 [POKEMANIAC,Edward]
 LoseText = "AUGH!"
 Pokemon = CORSOLA,33
     Form = 1
+    EV = 33,33,33,33,33,33
 Pokemon = VIKAVOLT,33
+    EV = 33,33,33,33,33,33
+    Moves = CRUNCH,XSCISSOR,CHARGEBEAM
 Pokemon = AMBIPOM,33
+    EV = 33,33,33,33,33,33
 #-------------------------------
 [CAMPER,Nick]
 LoseText = "Help!"
 Pokemon = SABLEYE,32
-Pokemon = GOLBAT,32
+    EV = 32,32,32,32,32,32
+Pokemon = SKORUPI,32
+    EV = 32,32,32,32,32,32
 #-------------------------------
 [POKEMONRANGER_F,Isabel]
 LoseText = "Watch your step!"
-Pokemon = GROVYLE,33
+Pokemon = TANGELA,33
+    EV = 33,33,33,33,33,33
+    Moves = KNOCKOFF,MEGADRAIN,TICKLE,ANCIENTPOWER
 Pokemon = DODRIO,33
+    EV = 33,33,33,33,33,33
+    Moves = PLUCK,DOUBLEHIT,BULLDOZE,AGILITY
 #-------------------------------
 [YOUNGSTER,Michael]
 LoseText = "Fail!"
 Pokemon = PALPITOAD,32
+    EV = 0,0,0,0,0,0
 Pokemon = CRAWDAUNT,32
     Form = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [AROMALADY,Cheryl]
 LoseText = "Oh my!"
 Pokemon = SHIINOTIC,33
+    EV = 33,33,33,33,33,33
 Pokemon = AMOONGUSS,33
+    EV = 33,33,33,33,33,33
 #-------------------------------
 [ACETRAINER_M,Nate]
-LoseText = "Great work!"
+LoseText = "You're impressive, huh?"
 Pokemon = GOTHORITA,34
     Moves = LIGHTSCREEN,PSYSHOCK,SIGNALBEAM,CALMMIND
     Item = LIGHTCLAY
     Nature = MODEST
-    EV = 0,0,35,0,35,80
 Pokemon = KINGDRA,34
     Moves = RAINDANCE,AURORABEAM,SCALD,YAWN
-    Nature = TIMID
-    EV = 0,0,35,80,35,0
+    Nature = HASTY
 Pokemon = MIENSHAO,35
     Form = 1
     Moves = AIRSLASH,BRUTALSWING,FLYINGPRESS,BLAZEKICK
     Item = MAGOBERRY
     Nature = LONELY
-    EV = 0,35,0,35,80,0
 #-------------------------------
 [ACETRAINER_F,Melissa]
-LoseText = "Eep! Who's that next to you?"
+LoseText = "Eep!"
 Pokemon = DUOSION,34
     Moves = REFLECT,PSYSHOCK,FLASHCANNON,ACIDARMOR
     Item = LIGHTCLAY
     Nature = SASSY
-    EV = 35,0,0,0,80,35
 Pokemon = ARAQUANID,34
     Moves = BUBBLEBEAM,XSCISSOR,FROSTBREATH,HEADBUTT
     Nature = BRAVE
-    EV = 0,35,0,0,35,80
 Pokemon = EELEKTROSS,35
     Moves = ICEFANG,THUNDERFANG,THROATCHOP,CRUSHCLAW
-    Item = MUSCLEBAND
+    Item = MAGNET
     Nature = BRAVE
-    EV = 35,35,80,0,0,0
 #-------------------------------
 [FISHERMAN,Gus]
 LoseText = "Augh, I lost one!"
 Pokemon = BARBOACH,32
+    EV = 32,32,32,32,32,32
+    Ball = LUREBALL
 Pokemon = BARBOACH,33
+    EV = 33,33,33,33,33,33
+    Ball = LUREBALL
 Pokemon = WHISCASH,34
+    EV = 34,34,34,34,34,34
+    Ball = LUREBALL
 #-------------------------------
 [LASS,Audrey]
 LoseText = "Eek!"
 Pokemon = CORSOLA,35
     Form = 1
+    EV = 0,0,0,0,0,0
 Pokemon = SHIINOTIC,35
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [PSYCHIC_M,Norman]
 LoseText = "Wait, you have power too?!"
 Pokemon = GOTHORITA,35
+    EV = 35,35,35,35,35,35
 Pokemon = CLEFAIRY,35
+    EV = 35,35,35,35,35,35
+    Moves = DAZZLINGGLEAM,COSMICPOWER,STOREDPOWER
 Pokemon = MEDICHAM,35
+    EV = 35,35,35,35,35,35
 #-------------------------------
 [LASS,Emma]
-LoseText = "Great job!"
+LoseText = "Your battle skill is a bit otherworldly too, isn't it?"
 Pokemon = HATTREM,36
+    EV = 0,0,0,0,0,0
 Pokemon = RIBOMBEE,36
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [HIKER,Bill]
 LoseText = "OMIGOD THERE'S NO FLOOR!!"
 Pokemon = SABLEYE,35
+    EV = 35,35,35,35,35,35
 Pokemon = DHELMISE,35
+    EV = 35,35,35,35,35,35
 #-------------------------------
 [PSYCHIC_F,Jaylee]
 LoseText = "I couldn't predict your moves!"
 Pokemon = FRILLISH,35
+    EV = 35,35,35,35,35,35
 Pokemon = LOPUNNY,35
     Form = 1
+    EV = 35,35,35,35,35,35
 Pokemon = DUOSION,36
+    EV = 36,36,36,36,36,36
+    Moves = HIDDENPOWER,PSYSHOCK,CHARM
 #-------------------------------
 [LASS,Kendall]
 LoseText = "Looks like I've been defeated..."
 Pokemon = WHIMSICOTT,36
+    EV = 0,0,0,0,0,0
 Pokemon = MIMIKYU,36
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [ACETRAINER_F,Jessica]
 LoseText = "I suppose you did..."
@@ -926,82 +1343,98 @@ Pokemon = CLEFABLE,37
     Moves = CALMMIND,HYPERVOICE,DAZZLINGGLEAM,LIGHTSCREEN
     Item = LEFTOVERS
     Nature = CALM
-    EV = 35,0,0,0,35,80
 Pokemon = DOUBLADE,37
     Moves = SHADOWSNEAK,AERIALACE,BRUTALSWING,GYROBALL
     Item = SPELLTAG
     Nature = BRAVE
-    EV = 35,35,80,0,0,0
 Pokemon = MRMIME,37
     Form = 1
     Moves = AVALANCHE,DAZZLINGGLEAM,PSYCHICTERRAIN,EXPANDINGFORCE
     Item = PSYCHICSEED
     Nature = GENTLE
-    EV = 0,0,0,35,35,80
 #-------------------------------
-[HEXMANIAC,Alice]
+[HEXMANIAC,Alice,1]
 LoseText = "It seems I underestimated you..."
 Pokemon = MISMAGIUS,37
     Moves = DAZZLINGGLEAM,HEX,WILLOWISP,MYSTICALFIRE
     Item = PETAYABERRY
     Nature = TIMID
-    EV = 0,0,0,35,80,35
+    AbilityIndex = 0
+    Ball = DUSKBALL
 Pokemon = BRAIXEN,37
     Moves = CALMMIND,SIGNALBEAM,PSYSHOCK,MYSTICALFIRE
     Item = CHARCOAL
     Nature = HASTY
-    EV = 0,0,0,35,80,35
+    AbilityIndex = 2
+    Ball = DUSKBALL
 Pokemon = SYLVEON,37
     Moves = QUICKATTACK,WISH,PSYSHOCK,REFLECT
     Item = APICOTBERRY
     Nature = GENTLE
-    EV = 80,80,0,0,0,35
     AbilityIndex = 2
+    Ball = DUSKBALL
 #-------------------------------
 [LEADER_Amber,Amber]
 LoseText = "Ah~ It feels great to go all out like this!"
 Pokemon = SHIINOTIC,37
-    Moves = DAZZLINGGLEAM,GIGADRAIN,LEECHSEED,SLUDGEBOMB
-    Item = BIGROOT
+    Moves = DAZZLINGGLEAM,GIGADRAIN,LEECHSEED,THUNDERWAVE
+    Item = KEBIABERRY
     Nature = SASSY
-    EV = 0,0,50,0,50,120
-    AbilityIndex = 1
+    EV = 0,0,60,0,110,110
+    IV = 27,27,27,27,27,27
+    AbilityIndex = 2
+    Ball = DREAMBALL
 Pokemon = SLIGGOO,37
     Moves = DRAGONBREATH,RECOVER,SLUDGEBOMB,FLAMETHROWER
     Item = EVIOLITE
-    Nature = MODEST
-    EV = 50,0,0,0,50,120
+    Nature = BOLD
+    EV = 110,0,0,0,60,110
+    IV = 27,27,27,27,27,27
     AbilityIndex = 0
+    Ball = DREAMBALL
 Pokemon = GOTHITELLE,38
     Moves = CALMMIND,FOULPLAY,PSYSHOCK,DAZZLINGGLEAM
     Item = TWISTEDSPOON
-    Nature = MODEST
-    EV = 0,0,50,0,50,120
+    Nature = CALM
+    EV = 60,0,0,0,110,110
+    IV = 27,27,27,27,27,27
     AbilityIndex = 1
+    Ball = DREAMBALL
 Pokemon = MIMIKYU,38
     Moves = LEECHLIFE,SHADOWSNEAK,HONECLAWS,PLAYROUGH
     Item = EXPERTBELT
     Nature = ADAMANT
-    EV = 0,50,0,120,0,50
+    EV = 0,60,0,110,0,110
+    IV = 27,27,27,27,27,27
     AbilityIndex = 0
+    Ball = DREAMBALL
 Pokemon = HATTERENE,39
     Moves = CALMMIND,DAZZLINGGLEAM,MYSTICALFIRE,PSYSHOCK
-    Item = WISEGLASSES
+    Item = PINKSCARF
     Nature = SASSY
-    EV = 0,0,50,0,120,50
+    EV = 0,0,60,0,110,110
+    IV = 27,27,27,27,27,27
     AbilityIndex = 2
+    Ball = DREAMBALL
 #-------------------------------
 [HIKER,Dominic]
 LoseText = "Ouch! Looks like you're fired up too!"
 Pokemon = ONIX,35
+    EV = 35,35,35,35,35,35
 Pokemon = NOIVERN,35
+    EV = 35,35,35,35,35,35
 #-------------------------------
 [POKEMONRANGER_M,Cameron]
 LoseText = "Maybe it helped you win."
 Pokemon = GRAVELER,35
     Form = 1
+    EV = 35,35,35,35,35,35
 Pokemon = LEAFEON,35
+    EV = 35,35,35,35,35,35
+    Moves = RAZORLEAF,AERIALACE,SWORDSDANCE,HIDDENPOWER
+    IV = 17,17,17,17,16,16
 Pokemon = PYROAR,36
+    EV = 36,36,36,36,36,36
 #-------------------------------
 [KURISU2,Kurisu,1]
 LoseText = "We both have five badges, and yet..."
@@ -1009,56 +1442,76 @@ Pokemon = DRAGALGE,38
     Moves = FOCUSBLAST,DRAGONBREATH,VENOSHOCK,TOXIC
     Item = BLACKSLUDGE
     Nature = QUIET
-    EV = 0,0,60,0,60,140
-    AbilityIndex = 2
+    EV = 0,0,110,0,60,110
+    IV = 28,28,28,28,28,28
+    AbilityIndex = 0
+    Ball = GREATBALL
 Pokemon = TANGROWTH,38
     Moves = ANCIENTPOWER,GIGADRAIN,POISONJAB,REFLECT
-    Item = EXPERTBELT
+    Item = EJECTBUTTON
     Nature = RELAXED
-    EV = 0,60,60,0,140,0
+    EV = 0,60,110,0,110,0
+    IV = 28,28,28,28,28,28
     AbilityIndex = 2
+    Ball = GREATBALL
 Pokemon = NINJASK,38
-    Moves = ACROBATICS,METALCLAW,UTURN,ROOST
+    Moves = ACROBATICS,METALCLAW,XSCISSOR,BATONPASS
     Item = FLYINGGEM
     Nature = LONELY
-    EV = 60,140,0,60,0,0
+    EV = 60,110,0,110,0,0
+    IV = 28,28,28,28,28,28
     AbilityIndex = 0
 Pokemon = LAIRON,39
     Moves = DOUBLEEDGE,IRONHEAD,ROCKSLIDE,EARTHQUAKE
     Item = EVIOLITE
     Nature = IMPISH
-    EV = 60,140,60,0,0,0
+    EV = 60,110,110,0,0,0
+    IV = 28,28,28,28,28,28
     AbilityIndex = 1
 Pokemon = ZYGARDE,40
     Form = 1
     Moves = DRAGONTAIL,ZENHEADBUTT,THOUSANDARROWS,STONEEDGE
     Item = ASSAULTVEST
     Nature = JOLLY
-    EV = 0,60,0,140,0,60
+    EV = 0,60,0,110,0,110
+    IV = 28,28,28,28,28,28
     AbilityIndex = 0
+    Ball = GREATBALL
 #-------------------------------
 [BLACKBELT,Gerard]
 LoseText = "We! Have! Been! Defeated!"
 Pokemon = DRUDDIGON,36
+    EV = 36,36,36,36,36,36
 Pokemon = MEDICHAM,36
+    EV = 36,36,36,36,36,36
 #-------------------------------
 [GENTLEMAN,Thornbury]
 LoseText = "Dear heavens! It appears my Pokémon team has been bested!"
 Pokemon = RELICANTH,36
+    EV = 36,36,36,36,36,36
+    Ball = LUXURYBALL
 Pokemon = DRAPION,36
+    EV = 36,36,36,36,36,36
+    Ball = LUXURYBALL
 #-------------------------------
 [POKEMANIAC,Lester]
 LoseText = "What do you want, a battle?"
 Pokemon = BEHEEYEM,36
+    EV = 36,36,36,36,36,36
 Pokemon = ARCTOZOLT,36
+    EV = 36,36,36,36,36,36
 Pokemon = TOXAPEX,37
+    EV = 37,37,37,37,37,37
 #-------------------------------
 [PICNICKER,Jane]
 LoseText = "Wait, now what if a wild Pokémon shows up?!"
 Pokemon = NIDOQUEEN,36
-    Moves = VENOSHOCK,DOUBLEKICK,STRENGTH
+    Moves = POISONFANG,DOUBLEKICK,STRENGTH
+    EV = 36,36,36,36,36,36
 Pokemon = VULLABY,36
+    EV = 36,36,36,36,36,36
 Pokemon = CENTISKORCH,36
+    EV = 36,36,36,36,36,36
 #-------------------------------
 [ACETRAINER_M,Milo]
 LoseText = "Damn, what's YOUR win streak like?!"
@@ -1066,67 +1519,82 @@ Pokemon = PELIPPER,37
     Moves = WEATHERBALL,PROTECT,SEEDBOMB,TAILWIND
     Item = LEFTOVERS
     Nature = BOLD
-    EV = 40,0,95,0,0,40
     AbilityIndex = 1
 Pokemon = STEELIX,37
     Form = 2
     Moves = FIREFANG,CRUNCH,DIG,STEALTHROCK
-    Item = EXPERTBELT
+    Item = WEAKNESSPOLICY
     Nature = BRAVE
-    EV = 0,40,95,0,0,40
+    AbilityIndex = 2
 Pokemon = AMPHAROS,38
     Moves = DRAGONPULSE,SIGNALBEAM,DISCHARGE,COUNTER
     Item = MAGNET
     Nature = MODEST
-    EV = 40,0,95,0,40,0
+    AbilityIndex = 1
 Pokemon = GOLEM,38
     Moves = BRICKBREAK,THUNDERPUNCH,EARTHQUAKE,STONEEDGE
-    Item = ASSAULTVEST
+    Item = MUSCLEBAND
     Nature = BRAVE
-    EV = 40,20,75,0,0,40
+    AbilityIndex = 1
 #-------------------------------
 [PHOEBE,Phoebe,1]
 LoseText = "I see."
 Pokemon = DOUBLADE,40
     Moves = GYROBALL,NIGHTSLASH,PSYCHOCUT,SHADOWSNEAK
     Item = GHOSTGEM
-    Nature = RELAXED
-    EV = 60,140,60,0,0,0
+    Nature = IMPISH
+    EV = 60,110,110,0,0,0
+    IV = 30,30,30,30,30,30
     AbilityIndex = 0
+    Ball = ULTRABALL
 Pokemon = PORYGON2,40
     Moves = DISCHARGE,ICEBEAM,PSYSHOCK,TRIATTACK
     Item = ASSAULTVEST
-    Nature = MODEST
-    EV = 60,0,0,0,60,140
-    AbilityIndex = 0
+    Nature = QUIET
+    EV = 0,0,60,0,110,110
+    IV = 30,30,30,30,30,30
+    AbilityIndex = 2
+    Ball = ULTRABALL
 Pokemon = LUCARIO,41
     Moves = POWERUPPUNCH,BULLETPUNCH,BLAZEKICK,CRUNCH
     Item = EXPERTBELT
-    Nature = LONELY
-    EV = 60,140,0,60,0,0
-    AbilityIndex = 0
+    Nature = HASTY
+    EV = 60,110,0,110,0,0
+    IV = 30,30,30,30,30,30
+    AbilityIndex = 1
+    Ball = ULTRABALL
 Pokemon = NOIVERN,40
     Moves = BOOMBURST,DARKPULSE,DRAGONPULSE,AIRSLASH
     Item = FLYINGGEM
     Nature = TIMID
-    EV = 60,0,0,140,60,0
+    EV = 110,0,0,110,60,0
+    IV = 30,30,30,30,30,30
     AbilityIndex = 1
+    Ball = ULTRABALL
 Pokemon = BANETTE,42
     Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
     Item = BANETTITE
     Nature = LONELY
-    EV = 60,140,0,0,0,60
+    EV = 110,110,0,0,0,60
+    IV = 30,30,30,30,30,30
+    Ball = ULTRABALL
 #-------------------------------
 [HIKER,Mario]
 LoseText = "Mama mia!"
 Pokemon = BOLDORE,38
+    EV = 38,38,38,38,38,38
 Pokemon = PROBOPASS,38
+    EV = 38,38,38,38,38,38
 #-------------------------------
 [PSYCHIC_F,Georgia]
 LoseText = "Wait, let me guess, it was the Base Set Charizard!"
-Pokemon = GOTHORITA,37
+Pokemon = XATU,37
+    EV = 37,37,37,37,37,37
+    Moves = COSMICPOWER,STOREDPOWER,AIRCUTTER
 Pokemon = HATTREM,37
+    EV = 37,37,37,37,37,37
 Pokemon = BRONZONG,37
+    EV = 37,37,37,37,37,37
 #-------------------------------
 [BLACKBELT,Henry]
 LoseText = "I guess I was wrong about that."
@@ -1138,98 +1606,149 @@ Pokemon = QUILLADIN,38
 LoseText = "..."
 Pokemon = DUOSION,40
     Form = 99
+    EV = 40,40,40,40,40,40
+    Moves = PSYSHOCK,RAYOFLIGHT,FLASHCANNON
+    Ball = BEASTBALL
 #-------------------------------
 [NEOAETHER_Q,???,1]
 LoseText = "..."
 Pokemon = CLEFAIRY,40
     Form = 99
+    EV = 40,40,40,40,40,40
+    Moves = DAZZLINGGLEAM,RAYOFLIGHT,PSYCHIC
+    Ball = BEASTBALL
+#-------------------------------
+[NEOAETHER_Q,???,3]
+LoseText = "..."
+Pokemon = CLEFAIRY,40
+    Form = 99
+    EV = 40,40,40,40,40,40
+    Moves = DAZZLINGGLEAM,RAYOFLIGHT,PSYCHIC
+    Ball = BEASTBALL
+Pokemon = DUOSION,40
+    Form = 99
+    EV = 40,40,40,40,40,40
+    Moves = PSYSHOCK,RAYOFLIGHT,FLASHCANNON
+    Ball = BEASTBALL
 #-------------------------------
 [YOUNGSTER,Spencer]
 LoseText = "Ack! We lost!"
 Pokemon = PRIMEAPE,39
+    EV = 0,0,0,0,0,0
 Pokemon = RATICATE,39
     Form = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [POKEMONRANGER_F,Esme]
 LoseText = "You've bested me!"
 Pokemon = VIBRAVA,40
+    EV = 40,40,40,40,40,40
 Pokemon = MARACTUS,40
+    EV = 40,40,40,40,40,40
 Pokemon = DRUDDIGON,40
+    EV = 40,40,40,40,40,40
 #-------------------------------
 [CAMPER,Mateo]
 LoseText = "Wow!"
 Pokemon = NIDORINO,39
+    EV = 39,39,39,39,39,39
+    Moves = POISONJAB,DOUBLEKICK,TOXICSPIKES
 Pokemon = SABLEYE,39
+    EV = 39,39,39,39,39,39
 Pokemon = COMBUSKEN,39
+    EV = 39,39,39,39,39,39
 #-------------------------------
 [BIRDKEEPER,Kenneth]
 LoseText = "We've crash-landed!"
 Pokemon = CORVIKNIGHT,41
+    EV = 41,41,41,41,41,41
 Pokemon = MANDIBUZZ,41
+    EV = 41,41,41,41,41,41
 #-------------------------------
 [POKEMANIAC,Eugene]
 LoseText = "What are you?!"
 Pokemon = SIRFETCHD,42
+    EV = 42,42,42,42,42,42
 Pokemon = ZWEILOUS,42
-Pokemon = XATU,42
+    EV = 42,42,42,42,42,42
+Pokemon = RUNERIGUS,42
+    EV = 42,42,42,42,42,42
 #-------------------------------
 [GENTLEMAN,Humphrey]
 LoseText = "Kids these days... no respect for their elders!"
 Pokemon = MAGMAR,42
+    EV = 42,42,42,42,42,42
+    Ball = LUXURYBALL
 Pokemon = JOLTEON,42
+    EV = 42,42,42,42,42,42
+    Ball = LUXURYBALL
 #-------------------------------
 [PSYCHIC_M,Alan]
 LoseText = "My foresight needs a bit of work..."
 Pokemon = METANG,42
+    EV = 42,42,42,42,42,42
 Pokemon = BEHEEYEM,42
+    EV = 42,42,42,42,42,42
+    Moves = PSYBEAM,CHARGEBEAM,SIGNALBEAM,PSYCHICTERRAIN
 #-------------------------------
 [LASS,Gabriela]
 LoseText = "I changed my mind, I don't like Double Battles anymore."
 Pokemon = PRINPLUP,41
+    EV = 0,0,0,0,0,0
 Pokemon = DONPHAN,41
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [POKEMONRANGER_M,Harvey]
 LoseText = "Too strong!"
 Pokemon = KLANG,43
     Form = 1
+    EV = 43,43,43,43,43,43
 Pokemon = LEAFEON,43
+    EV = 43,43,43,43,43,43
 #-------------------------------
 [POKEMONRANGER_F,Reyna]
 LoseText = "I guess we'll never know."
 Pokemon = WHIMSICOTT,43
+    EV = 43,43,43,43,43,43
 Pokemon = LILLIGANT,43
+    EV = 43,43,43,43,43,43
 #-------------------------------
 [POKEMONRANGER_M,Finlay]
 LoseText = "Quack."
 Pokemon = SERVINE,43
+    EV = 43,43,43,43,43,43
 Pokemon = CRADILY,43
+    Moves = ANCIENTPOWER,ENERGYBALL,BRINE
+    EV = 43,43,43,43,43,43
 Pokemon = DHELMISE,43
+    EV = 43,43,43,43,43,43
+    Moves = GIGADRAIN,SHADOWCLAW,ANCHORSHOT
 #-------------------------------
 [POKEMANIAC,Jael]
 LoseText = "Um, what am I supposed to say when I lose?"
 Pokemon = AMOONGUSS,44
+    EV = 44,44,44,44,44,44
 Pokemon = TANGROWTH,44
+    EV = 44,44,44,44,44,44
 Pokemon = BRELOOM,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [ACETRAINER_F,Erin]
 LoseText = "If you wanna get anywhere in life, you've gotta push forward!"
 Pokemon = PELIPPER,45
-    Moves = SCALD,AIRSLASH,ICEBEAM,RAINDANCE
+    Moves = SCALD,AIRSLASH,ICEBEAM,ROOST
     Item = DAMPROCK
     Nature = CALM
-    EV = 40,0,95,0,40,0
-    AbilityIndex = 2
+    AbilityIndex = 1
 Pokemon = SHIINOTIC,45
     Moves = DAZZLINGGLEAM,GIGADRAIN,STRENGTHSAP,SUBSTITUTE
     Item = LEFTOVERS
     Nature = CALM
-    EV = 40,0,0,0,40,95
     AbilityIndex = 0
 Pokemon = SERPERIOR,45
     Moves = AQUATAIL,LIGHTSCREEN,LEAFBLADE,COIL
     Item = AGUAVBERRY
     Nature = IMPISH
-    EV = 40,95,0,40,0,0
     AbilityIndex = 0
 #-------------------------------
 [LEADER_Jack,Jack]
@@ -1238,206 +1757,297 @@ Pokemon = BRONZONG,45
     Moves = HEAVYSLAM,EXTRASENSORY,RAINDANCE,GRASSKNOT
     Item = DAMPROCK
     Nature = QUIET
-    EV = 0,0,60,0,60,140
+    EV = 0,0,130,0,75,130
     AbilityIndex = 2
+    Ball = QUICKBALL
 Pokemon = DHELMISE,45
     Moves = ANCHORSHOT,BRICKBREAK,POWERWHIP,SHADOWCLAW
     Item = WIKIBERRY
     Nature = RELAXED
-    EV = 60,60,140,0,0,0
+    EV = 75,130,130,0,0,0
     AbilityIndex = 0
+    Ball = QUICKBALL
 Pokemon = KLINKLANG,46
     Form = 1
     Moves = RAINDANCE,ROCKSLIDE,POWERWHIP,SHIFTGEAR
     Item = LEFTOVERS
     Nature = RELAXED
-    EV = 0,60,60,0,0,140
+    EV = 0,75,130,0,0,130
     AbilityIndex = 1
+    Ball = QUICKBALL
 Pokemon = LUDICOLO,46
     Moves = BLIZZARD,GIGADRAIN,RAINDANCE,WEATHERBALL
     Item = DAMPROCK
     Nature = MODEST
-    EV = 60,0,0,0,140,60
+    EV = 75,0,0,0,130,130
     AbilityIndex = 0
+    Ball = QUICKBALL
 Pokemon = SCEPTILE,47
     Moves = DUALCHOP,BULLETSEED,ROCKTOMB,POWERUPPUNCH
     Item = SCEPTILITE
     Nature = LONELY
-    EV = 0,60,0,140,0,60
+    EV = 0,75,0,130,0,130
     AbilityIndex = 0
 #-------------------------------
 [AROMALADY,Marigold]
 LoseText = "I guess I still have a ways to go..."
 Pokemon = TANGELA,44
+    EV = 44,44,44,44,44,44
 Pokemon = MARACTUS,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [LASS,Sierra]
 LoseText = "Didn't you think so too?"
-Pokemon = DOUBLADE,42
+Pokemon = EELEKTRIK,43
+    EV = 0,0,0,0,0,0
 Pokemon = MARSHTOMP,43
+    EV = 0,0,0,0,0,0
 Pokemon = WEEZING,43
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [POKEMANIAC,Davis]
 LoseText = "Ack! I've been beaten!"
 Pokemon = GROVYLE,44
+    EV = 44,44,44,44,44,44
 Pokemon = STARMIE,44
-    Moves = SURF,PSYSHOCK,ICEBEAM,CONFUSERAY
-Pokemon = DODRIO,45
+    EV = 44,44,44,44,44,44
+Pokemon = CLAWITZER,44
+    Form = 1
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [BLACKBELT,Quinn]
 LoseText = "Crumbled!"
 Pokemon = LAIRON,44
+    EV = 44,44,44,44,44,44
 Pokemon = BLAZIKEN,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [POKEMONRANGER_F,Johanna]
 LoseText = "I just remembered I'm scared of heights..."
 Pokemon = WHISCASH,45
-Pokemon = OCTILLERY,45
-    Form = 1
-Pokemon = MIENSHAO,45
-    Form = 1
+    EV = 45,45,45,45,45,45
+Pokemon = ALTARIA,45
+    EV = 45,45,45,45,45,45
+Pokemon = ELECTABUZZ,45
+    EV = 45,45,45,45,45,45
 #-------------------------------
 [SWIMMER_M,Talon]
 LoseText = "Well, okay. Guess I lost."
 Pokemon = OMANYTE,44
+    EV = 44,44,44,44,44,44
 Pokemon = MANTINE,44
     Form = 1
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [SWIMMER_F,Kianah]
 LoseText = "Gulp!"
 Pokemon = TIRTOUGA,44
+    EV = 44,44,44,44,44,44
 Pokemon = SEISMITOAD,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [FISHERMAN,Frankie]
 LoseText = "Looks like nothing's biting..."
 Pokemon = FRILLISH,45
-Pokemon = MARSHTOMP,45
+    EV = 45,45,45,45,45,45
+    Ball = LUREBALL
+Pokemon = LOMBRE,45
+    EV = 45,45,45,45,45,45
+    Ball = LUREBALL
 Pokemon = GYARADOS,45
+    EV = 45,45,45,45,45,45
+    Ball = LUREBALL
 #-------------------------------
 [HELIA,Helia]
 LoseText = "..."
+Pokemon = BLAZIKEN,47
+    AbilityIndex = 0
+    Moves = ACROBATICS,BLAZEKICK,BRICKBREAK,POISONJAB
+    Item = FLYINGGEM
+    EV = 80,130,0,130,0,0
 Pokemon = GYARADOS,47
     Form = 1
     Moves = HURRICANE,FLAMETHROWER,DRAGONPULSE,DARKPULSE
     Item = ASSAULTVEST
-    Nature = MODEST
-    EV = 80,0,0,0,170,80
-Pokemon = BLAZIKEN,47
-    Moves = ACROBATICS,BLAZEKICK,BRICKBREAK,POISONJAB
-    Item = FLYINGGEM
-    Nature = LONELY
-    EV = 80,170,0,80,0,0
+    EV = 80,0,0,0,130,130
+    Ball = QUICKBALL
 Pokemon = LUDICOLO,48
     Form = 1
+    AbilityIndex = 0
     Moves = GIGADRAIN,EARTHPOWER,FLAMETHROWER,FAKEOUT
     Item = EXPERTBELT
-    Nature = GENTLE
-    EV = 80,0,0,0,170,80
+    EV = 80,0,0,0,130,130
+    Ball = QUICKBALL
 Pokemon = HOUNDOOM,48
+    AbilityIndex = 1
     Moves = BODYSLAM,CRUNCH,FLAMETHROWER,SHADOWBALL
     Item = LIFEORB
-    Nature = HASTY
-    EV = 80,120,0,0,130,0
+    EV = 80,130,0,0,130,0
+    Ball = QUICKBALL
+#-------------------------------
+[HELIA,Helia,1]
+LoseText = "..."
+Pokemon = BLAZIKEN,50
+    Item = BLAZIKENITE
+    AbilityIndex = 0
+    Moves = BRAVEBIRD,BLAZEKICK,BRICKBREAK,POISONJAB
+    EV = 80,130,0,130,0,0
+Pokemon = HOUNDOOM,50
+    Item = LIFEORB
+    AbilityIndex = 1
+    Moves = BODYSLAM,CRUNCH,FLAMETHROWER,SHADOWBALL
+    EV = 80,130,0,0,130,0
+    Ball = QUICKBALL
+Pokemon = NINETALES,48
+    Item = HEATROCK
+    AbilityIndex = 2
+    Moves = EXTRASENSORY,SOLARBEAM,CONFUSERAY,FIREBLAST
+    EV = 0,0,0,130,80,130
+    Ball = QUICKBALL
+Pokemon = LUDICOLO,48
+    Form = 1
+    AbilityIndex = 0
+    Moves = GIGADRAIN,EARTHPOWER,FLAMETHROWER,FAKEOUT
+    Item = EXPERTBELT
+    EV = 80,0,0,0,130,130
+    Ball = QUICKBALL
+Pokemon = GYARADOS,48
+    Form = 1
+    Moves = HURRICANE,FLAMETHROWER,DRAGONPULSE,DARKPULSE
+    Item = ASSAULTVEST
+    EV = 80,0,0,0,130,130
+    Ball = QUICKBALL
+Pokemon = MAROWAK,48
+    Form = 1
+    AbilityIndex = 2
+    Item = THICKCLUB
+    Moves = FLAREBLITZ,SHADOWBONE,STOMPINGTANTRUM,SWORDSDANCE
+    EV = 130,130,80,0,0,0
+    Ball = QUICKBALL
 #-------------------------------
 [NEOAETHER_M,Member]
 LoseText = "..."
 Pokemon = ELECTIVIRE,50
     Form = 99
     Moves = THUNDERPUNCH,BRICKBREAK,PHOTONICRUSH,ICEPUNCH
+    EV = 50,50,50,50,50,50
+    Ball = BEASTBALL
 Pokemon = MAGMORTAR,50
     Form = 99
     Moves = FLAMETHROWER,SOLARBEAM,RAYOFLIGHT,PSYCHIC
+    EV = 50,50,50,50,50,50
+    Ball = BEASTBALL
 #-------------------------------
 [BIRDKEEPER,Rodney]
 LoseText = "I uh... didn't expect to lose."
 Pokemon = TOUCANNON,46
+    EV = 46,46,46,46,46,46
 Pokemon = BRAVIARY,46
+    EV = 46,46,46,46,46,46
 #-------------------------------
 [POKEMONRANGER_M,Hunter]
 LoseText = "Don't tell me you're expecting to go IN there?!"
 Pokemon = FURRET,46
+    EV = 46,46,46,46,46,46
 Pokemon = TURTONATOR,46
+    EV = 46,46,46,46,46,46
 Pokemon = DRAMPA,46
+    EV = 46,46,46,46,46,46
 #-------------------------------
 [YOUNGSTER,Max]
 LoseText = "Woah! So cool!"
-Pokemon = BOLDORE,45
+Pokemon = BEEDRILL,45
+    EV = 0,0,0,0,0,0
 Pokemon = LURANTIS,45
-Pokemon = CLAWITZER,45
-    Form = 1
+    EV = 0,0,0,0,0,0
+Pokemon = AGGRON,45
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [ACETRAINER_F,Evie]
-LoseText = "..."
+LoseText = "Ah! No! My Eevees!"
 Pokemon = VAPOREON,44
     Moves = SURF,ICEBEAM,HYPERVOICE,ACIDARMOR
     Item = MYSTICWATER
     Nature = MODEST
-    EV = 115,0,0,0,55,55
 Pokemon = JOLTEON,44
     Moves = AGILITY,DISCHARGE,SHADOWBALL,SIGNALBEAM
     Item = MAGNET
     Nature = MILD
-    EV = 0,0,0,115,55,55
 Pokemon = FLAREON,44
     Moves = FIREFANG,IRONTAIL,BODYSLAM,WILDCHARGE
     Item = CHARCOAL
     Nature = GENTLE
-    EV = 0,115,0,55,0,55
 Pokemon = ESPEON,44
     Moves = DAZZLINGGLEAM,PSYCHIC,SHADOWBALL,HYPERVOICE
     Item = TWISTEDSPOON
     Nature = TIMID
-    EV = 0,0,0,55,115,55
 Pokemon = UMBREON,44
     Moves = CRUNCH,CURSE,MOONLIGHT,TOXIC
     Item = BLACKGLASSES
     Nature = CAREFUL
-    EV = 55,0,55,0,0,115
-Pokemon = EEVEE,49
+Pokemon = EEVEE,52
     Moves = QUICKATTACK,IRONTAIL,BATONPASS,SUBSTITUTE
     Item = EVIOLITE
     Nature = JOLLY
-    EV = 70,70,0,170,0,0
 #-------------------------------
 [CHANELLER,Edith]
 LoseText = "Yes... interesting."
-Pokemon = SABLEYE,46
-Pokemon = MAWILE,46
+Pokemon = SABLEYE,44
+    EV = 44,44,44,44,44,44
+Pokemon = MAWILE,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [CHANELLER,Laura]
 LoseText = "You possess great power."
-Pokemon = BRONZOR,45
-Pokemon = BRONZONG,45
-Pokemon = MEDICHAM,46
+Pokemon = BRONZOR,43
+    EV = 43,43,43,43,43,43
+Pokemon = BRONZONG,43
+    EV = 43,43,43,43,43,43
+Pokemon = MEDICHAM,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [CHANELLER,Giana]
 LoseText = "Such strength!"
-Pokemon = LAIRON,45
-Pokemon = METANG,45
-Pokemon = LUCARIO,46
+Pokemon = LAIRON,43
+    EV = 43,43,43,43,43,43
+Pokemon = METANG,43
+    EV = 43,43,43,43,43,43
+Pokemon = LUCARIO,44
+    EV = 44,44,44,44,44,44
+    Moves = AURASPHERE,METEORMASH,CALMMIND
 #-------------------------------
 [CHANELLER,Georgina]
 LoseText = "..."
-Pokemon = BRONZONG,47
-Pokemon = BEEDRILL,47
+Pokemon = BRONZONG,45
+    EV = 45,45,45,45,45,45
+Pokemon = BEEDRILL,45
+    EV = 45,45,45,45,45,45
 #-------------------------------
 [CHANELLER,Yesenia]
 LoseText = "My synergy... interrupted!"
-Pokemon = SCEPTILE,46
-Pokemon = BLAZIKEN,46
-Pokemon = SWAMPERT,46
+Pokemon = SCEPTILE,44
+    EV = 44,44,44,44,44,44
+Pokemon = BLAZIKEN,44
+    EV = 44,44,44,44,44,44
+Pokemon = SWAMPERT,44
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [CHANELLER,Matilda]
 LoseText = "..."
-Pokemon = ESPEON,47
-Pokemon = GYARADOS,47
+Pokemon = HATTERENE,44
+    EV = 44,44,44,44,44,44
+Pokemon = GYARADOS,44
     Form = 1
+    EV = 44,44,44,44,44,44
 #-------------------------------
 [CHANELLER,Helen]
 LoseText = "..."
-Pokemon = WHISCASH,47
-Pokemon = ALTARIA,47
-Pokemon = AGGRON,47
+Pokemon = WHISCASH,45
+    EV = 45,45,45,45,45,45
+Pokemon = ALTARIA,45
+    EV = 45,45,45,45,45,45
+Pokemon = AGGRON,45
+    EV = 45,45,45,45,45,45
 #-------------------------------
 [HELLSHADOW,Hellshadow]
 LoseText = "IMPOSSIBLE!!"
@@ -1445,40 +2055,54 @@ Pokemon = NIDOKING,50
     Moves = DRAGONTAIL,DRILLRUN,FIREPUNCH,POISONJAB
     Item = EXPERTBELT
     Nature = LONELY
-    EV = 55,115,0,0,0,55
+    EV = 60,115,0,0,0,115
+    IV = 31,31,31,31,31,31
     AbilityIndex = 2
+    Ball = DUSKBALL
 Pokemon = TYPHLOSION,50
     Form = 1
-    Moves = ICEBEAM,DARKPULSE,DRAGONPULSE,EARTHPOWER
+    Moves = ICEBEAM,DARKPULSE,CHILLINGAIR,EARTHPOWER
     Item = CHOPLEBERRY
-    Nature = TIMID
-    EV = 55,0,0,115,55,0
+    Nature = GENTLE
+    EV = 115,0,0,115,60,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 1
+    Ball = DUSKBALL
 Pokemon = HOUNDOOM,51
     Moves = CRUNCH,FIREFANG,THUNDERFANG,WILLOWISP
     Item = MUSCLEBAND
     Nature = LONELY
-    EV = 55,115,0,55,0,0
+    EV = 60,115,0,115,0,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 1
+    Ball = DUSKBALL
 Pokemon = UMBREON,52
     Moves = MOONLIGHT,SUBSTITUTE,DARKPULSE,PSYCHIC
     Item = LEFTOVERS
     Nature = BOLD
-    EV = 55,0,55,0,0,115
-    AbilityIndex = 0
+    EV = 60,0,115,0,0,115
+    IV = 31,31,31,31,31,31
+    AbilityIndex = 1
+    Ball = DUSKBALL
 #-------------------------------
 [CHANELLER,Yamileth]
 LoseText = "..."
-Pokemon = AUDINO,48
-Pokemon = KLANG,48
+Pokemon = AUDINO,46
+    EV = 46,46,46,46,46,46
+Pokemon = KLANG,46
     Form = 1
-Pokemon = AMPHAROS,48
+    EV = 46,46,46,46,46,46
+Pokemon = AMPHAROS,46
+    EV = 46,46,46,46,46,46
 #-------------------------------
 [CHANELLER,Martha]
 LoseText = "..."
-Pokemon = XATU,48
-Pokemon = HOUNDOOM,48
-Pokemon = GLALIE,48
+Pokemon = XATU,46
+    EV = 46,46,46,46,46,46
+Pokemon = HOUNDOOM,46
+    EV = 46,46,46,46,46,46
+Pokemon = GLALIE,46
+    EV = 46,46,46,46,46,46
 #-------------------------------
 [KURISU2,Kurisu,2]
 LoseText = "..."
@@ -1492,22 +2116,26 @@ Pokemon = GRENINJA,50
     Item = SITRUSBERRY
     Nature = HASTY
     EV = 0,0,0,170,80,80
+    Ball = DUSKBALL
 Pokemon = VANILLUXE,51
     Form = 1
     Moves = EARTHPOWER,FLAMETHROWER,POWERGEM,LIGHTSCREEN
     Item = LEFTOVERS
     Nature = BOLD
     EV = 0,0,170,0,80,80
+    Ball = QUICKBALL
 Pokemon = TANGROWTH,51
     Moves = GIGADRAIN,FOCUSBLAST,ANCIENTPOWER,REFLECT
     Item = EJECTBUTTON
     Nature = MODEST
     EV = 80,0,170,0,80,0
+    Ball = GREATBALL
 Pokemon = DRAGALGE,52
     Moves = DRAGONPULSE,SCALD,SLUDGEBOMB,THUNDERBOLT
     Item = BLACKSLUDGE
     Nature = SASSY
     EV = 0,0,80,0,80,170
+    Ball = GREATBALL
 Pokemon = ZYGARDE,52
     AbilityIndex = 0
     Form = 1
@@ -1515,23 +2143,30 @@ Pokemon = ZYGARDE,52
     Item = MUSCLEBAND
     Nature = ADAMANT
     EV = 0,170,0,80,0,80
+    Ball = GREATBALL
 #-------------------------------
 [GUITARIST,Hendrix]
 LoseText = "Wait, my amp isn't even plugged in!"
 Pokemon = ELECTABUZZ,48
+    EV = 48,48,48,48,48,48
 Pokemon = RAICHU,48
     Form = 1
+    EV = 48,48,48,48,48,48
 #-------------------------------
 [LASS,Kyla]
 LoseText = "Ack! I'm gonna fall in the lava!"
 Pokemon = CLEFABLE,48
+    EV = 0,0,0,0,0,0
 Pokemon = NINETALES,48
+    EV = 0,0,0,0,0,0
     Form = 1
 #-------------------------------
 [YOUNGSTER,Rhys]
-LoseText = "Oh, man! Lost!"
+LoseText = "Oh, man! I lost!"
 Pokemon = GABITE,48
+    EV = 0,0,0,0,0,0
 Pokemon = ZWEILOUS,48
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [ACETRAINER_F,Estella]
 LoseText = "Looks like you beat us."
@@ -1542,74 +2177,100 @@ Pokemon = GOTHITELLE,50
 [ACETRAINER_F,Kiki]
 Pokemon = MEDICHAM,55
     Item = MEDICHAMITE
+    AbilityIndex = 0
+    Moves = ZENHEADBUTT,DRAINPUNCH,ICEPUNCH,BULKUP
 #-------------------------------
 [CAMPER,Blake]
 LoseText = "Dang it!"
 Pokemon = MAGCARGO,48
+    EV = 48,48,48,48,48,48
 Pokemon = LOMBRE,48
+    EV = 48,48,48,48,48,48
 Pokemon = GYARADOS,48
+    EV = 48,48,48,48,48,48
 #-------------------------------
-[PICNICKER,Rayna]
+[PICNICKER,Megan]
 LoseText = "Yours are better!"
 Pokemon = MAGCARGO,48
     Form = 1
+    EV = 48,48,48,48,48,48
 Pokemon = LOMBRE,48
     Form = 1
+    EV = 48,48,48,48,48,48
 Pokemon = GYARADOS,48
     Form = 1
+    EV = 48,48,48,48,48,48
 #-------------------------------
 [PHOEBE2,Phoebe]
 LoseText = "It appears I underestimated you two..."
 Pokemon = LUCARIO,52
-    Moves = DRAINPUNCH,METEORMASH,BLAZEKICK,EXTREMESPEED
+    Moves = POWERUPPUNCH,METEORMASH,BLAZEKICK,EXTREMESPEED
     Item = EXPERTBELT
-    Nature = LONELY
-    EV = 70,170,0,70,0,0
-    AbilityIndex = 0
-Pokemon = DOUBLADE,51
-    Moves = GYROBALL,NIGHTSLASH,SWORDSDANCE,SHADOWSNEAK
+    Nature = HASTY
+    EV = 90,155,0,155,0,0
+    IV = 31,31,31,31,31,31
+    AbilityIndex = 1
+    Ball = ULTRABALL
+Pokemon = AEGISLASH,51
+    Moves = GYROBALL,SHADOWSNEAK,NIGHTSLASH,KINGSSHIELD
     Item = GHOSTGEM
-    Nature = RELAXED
-    EV = 70,170,70,0,0,0
+    Nature = IMPISH
+    EV = 90,155,155,0,0,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = ULTRABALL
 Pokemon = PORYGON2,51
     Moves = DISCHARGE,ICEBEAM,PSYSHOCK,TRIATTACK
-    Item = ASSAULTVEST
-    Nature = MODEST
-    EV = 70,0,0,0,70,170
-    AbilityIndex = 0
+    Item = EVIOLITE
+    Nature = QUIET
+    EV = 0,0,90,0,155,155
+    IV = 31,31,31,31,31,31
+    AbilityIndex = 2
+    Ball = ULTRABALL
 Pokemon = NOIVERN,51
     Moves = BOOMBURST,DARKPULSE,DRAGONPULSE,AIRSLASH
     Item = FLYINGGEM
     Nature = TIMID
-    EV = 70,0,0,170,70,0
+    EV = 155,0,0,155,90,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 1
+    Ball = ULTRABALL
 Pokemon = BANETTE,52
     Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
     Item = BANETTITE
     Nature = LONELY
-    EV = 70,170,0,0,0,70
+    EV = 155,155,0,0,0,90
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = ULTRABALL
 Pokemon = NECROZMA,53
     Moves = PSYSHOCK,PHOTONGEYSER,POWERGEM,FLASHCANNON
     Nature = RELAXED
-    EV = 170,0,70,0,70,0
+    EV = 155,0,155,0,90,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = BEASTBALL
 #-------------------------------
 [HIKER,Forrest]
 LoseText = "What a great battle!"
 Pokemon = DUGTRIO,49
     Form = 1
+    EV = 49,49,49,49,49,49
 Pokemon = HAKAMOO,49
+    Moves = DRAGONCLAW,SKYUPPERCUT,ROCKSLIDE
+    EV = 49,49,49,49,49,49
 #-------------------------------
 [POKEMONRANGER_F,Jude]
 LoseText = "Awooooo!"
 Pokemon = LYCANROC,48
     Form = 0
+    EV = 48,48,48,48,48,48
 Pokemon = LYCANROC,48
     Form = 1
+    EV = 48,48,48,48,48,48
 Pokemon = LYCANROC,48
     Form = 2
+    EV = 48,48,48,48,48,48
 #-------------------------------
 [ACETRAINER_M,Peter]
 LoseText = "Defeated..."
@@ -1617,19 +2278,16 @@ Pokemon = SERPERIOR,50
     Moves = DRAGONPULSE,GIGADRAIN,GLARE,LEAFSTORM
     Item = SITRUSBERRY
     Nature = MODEST
-    EV = 0,0,65,140,0,65
     AbilityIndex = 2
 Pokemon = DELPHOX,50
     Moves = CALMMIND,FLAMETHROWER,PSYSHOCK,GRASSKNOT
     Item = WIKIBERRY
     Nature = TIMID
-    EV = 0,0,0,65,140,65
     AbilityIndex = 2
 Pokemon = EMPOLEON,50
     Moves = EARTHQUAKE,DRILLPECK,AVALANCHE,LIQUIDATION
     Item = ASSAULTVEST
     Nature = BRAVE
-    EV = 65,65,0,0,0,140
     AbilityIndex = 2
 #-------------------------------
 [KURISU3,Kurisu]
@@ -1637,39 +2295,51 @@ LoseText = "I lost, but... it feels different from before."
 Pokemon = DRAGALGE,53
     Moves = DRAGONPULSE,SCALD,SLUDGEBOMB,THUNDERBOLT
     Item = BLACKSLUDGE
-    Nature = SASSY
-    EV = 0,0,70,0,70,170
+    Nature = QUIET
+    EV = 0,0,155,0,90,155
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = GREATBALL
 Pokemon = GRENINJA,52
-    Moves = DARKPULSE,SCALD,SPIKES,SUBSTITUTE
+    Moves = DARKPULSE,SURF,SPIKES,SUBSTITUTE
     Item = SITRUSBERRY
     Nature = HASTY
-    EV = 0,0,0,170,70,70
+    EV = 0,0,0,155,155,90
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = DUSKBALL
 Pokemon = VANILLUXE,52
     Form = 1
     Moves = EARTHPOWER,FLAMETHROWER,POWERGEM,LIGHTSCREEN
     Item = LEFTOVERS
     Nature = BOLD
-    EV = 0,0,170,0,70,70
+    EV = 0,0,155,0,90,155
+    IV = 31,31,31,31,31,31
     AbilityIndex = 0
+    Ball = QUICKBALL
 Pokemon = TANGROWTH,52
-    Moves = GIGADRAIN,FOCUSBLAST,ANCIENTPOWER,REFLECT
+    Moves = GIGADRAIN,FOCUSBLAST,ROCKSLIDE,REFLECT
     Item = EJECTBUTTON
-    Nature = MODEST
-    EV = 70,0,170,0,70,0
+    Nature = RELAXED
+    EV = 0,90,155,0,155,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 2
+    Ball = GREATBALL
 Pokemon = METAGROSS,53
-    Moves = METEORMASH,EARTHQUAKE,HAMMERARM,PSYCHOCUT
+    Moves = METEORMASH,PSYCHIC,IRONDEFENSE,HAMMERARM
     Item = IAPAPABERRY
     Nature = BRAVE
-    EV = 70,70,160,0,0,0
+    EV = 155,90,155,0,0,0
+    IV = 31,31,31,31,31,31
     AbilityIndex = 1
+    Ball = TIMERBALL
 Pokemon = GARCHOMP,54
     Moves = DUALCHOP,FIREFANG,SANDSTORM,STONEEDGE
     Item = GARCHOMPITE
-    Nature = NAIVE
-    EV = 70,80,0,50,0,60
+    Nature = RELAXED
+    Gender = female
+    EV = 155,90,155,0,0,0
+    IV = 31,31,31,31,31,31
 #-------------------------------
 [HIKER,Bill,1]
 LoseText = "Aw man... I didn't stand a chance."
@@ -1681,87 +2351,100 @@ Pokemon = FROSLASS,47
 [BLACKBELT,Ryu]
 LoseText = "I didn't eat enough pizza!"
 Pokemon = FRAXURE,51
+    EV = 51,51,51,51,51,51
+    Moves = DRAGONCLAW,CRUNCH,DRAGONDANCE
 Pokemon = SHELGON,51
+    EV = 51,51,51,51,51,51
 #-------------------------------
 [CRUSHGIRL,Linda]
 LoseText = "We've gotta train more!"
 Pokemon = HAKAMOO,51
+    EV = 51,51,51,51,51,51
+    Moves = DRAGONCLAW,ZENHEADBUTT,SKYUPPERCUT
 Pokemon = TURTONATOR,51
+    EV = 51,51,51,51,51,51
 #-------------------------------
-[ACETRAINER_F,Stephanie]
+[ACETRAINER_F,Zoey]
 LoseText = "Waah! We got stomped!"
 Pokemon = DRUDDIGON,53
     Item = MUSCLEBAND
     Moves = CRUNCH,BODYSLAM,DRAGONCLAW,FIREFANG
     AbilityIndex = 1
     Nature = IMPISH
-    EV = 0,100,70,0,0,70
 Pokemon = FLYGON,53
     Item = WISEGLASSES
     Moves = AIRSLASH,BUGBUZZ,DRAGONPULSE,EARTHPOWER
     AbilityIndex = 2
     Nature = TIMID
-    EV = 0,0,0,70,100,70
 #-------------------------------
 [ACETRAINER_M,Casey]
 LoseText = "Our teamwork..."
-Pokemon = DRACOZOLT,52
-    Item = WIDELENS
-    Moves = BOLTBEAK,ROCKBLAST,LOWKICK,DRAGONCLAW
-    AbilityIndex = 1
-    Nature = ADAMANT
-    EV = 70,100,70,0,0,0
+Pokemon = SLIGGOO,52
+    Item = LEFTOVERS
+    Moves = DRAGONPULSE,GIGADRAIN,SLUDGEWAVE,TOXIC
+    AbilityIndex = 2
+    Nature = SASSY
 Pokemon = ZWEILOUS,52
     Item = LIFEORB
     Moves = CRUNCH,WORKUP,FIREFANG,OUTRAGE
     AbilityIndex = 2
     Nature = ADAMANT
-    EV = 0,100,100,0,0,70
-Pokemon = NOIVERN,52
-    Item = YACHEBERRY
-    Moves = DEFOG,DUALWINGBEAT,DRAGONPULSE,STEELWING
-    AbilityIndex = 1
-    Nature = HASTY
-    EV = 0,75,0,100,75,0
+Pokemon = DRACOVISH,52
+    Item = QUICKCLAW
+    Moves = FISHIOUSREND,SANDSTORM,DRAGONRUSH,ROCKTOMB
+    AbilityIndex = 2
+    Nature = IMPISH
 #-------------------------------
 [LEADER_Mitsuki,Mitsuki]
-LoseText = ""
+LoseText = "So... it's over. In the end, your combination outdid ours. So be it, a loss is a loss."
 Pokemon = MAWILE,54
     Item = LIFEORB
     Moves = IRONHEAD,STONEEDGE,PLAYROUGH,SUCKERPUNCH
-    AbilityIndex = 1
+    AbilityIndex = 0
     Nature = ADAMANT
-    EV = 0,90,170,90,0,0
-Pokemon = KINGDRA,54
-    Item = EXPERTBELT
-    Moves = DRAGONPULSE,HYDROPUMP,FLASHCANNON,ICEBEAM
-    AbilityIndex = 1
-    Nature = CALM
-    EV = 0,0,80,0,160,80
+    EV = 0,170,170,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = DRAMPA,54
+    Item = PETAYABERRY
+    Moves = DRAGONPULSE,LIGHTSCREEN,HYPERVOICE,FLAMETHROWER
+    AbilityIndex = 0
+    EV = 170,0,0,0,170,100
+    IV = 31,31,31,31,31,31
+    Nature = SASSY
+    Ball = ULTRABALL
 Pokemon = DRAGALGE,53
     Item = LEFTOVERS
-    Moves = SLUDGEBOMB,SHADOWBALL,TOXICSPIKES,DRAGONTAIL
-    AbilityIndex = 2
+    Moves = VENOSHOCK,SHADOWBALL,TOXIC,DRAGONTAIL
+    AbilityIndex = 0
+    EV = 100,0,170,0,0,170
+    IV = 31,31,31,31,31,31
     Nature = SASSY
-    EV = 0,0,80,0,80,160
+    Ball = ULTRABALL
 Pokemon = KOMMOO,53
     Item = ROCKYHELMET
     Moves = BRICKBREAK,CLANGINGSCALES,IRONHEAD,BOOMBURST
     AbilityIndex = 0
+    EV = 0,170,100,0,170,0
+    IV = 31,31,31,31,31,31
     Nature = BRAVE
-    EV = 0,80,60,0,80,110
+    Ball = ULTRABALL
 Pokemon = ALTARIA,55
     Item = ALTARIANITE
     Moves = CALMMIND,HYPERVOICE,DRAGONPULSE,HURRICANE
     AbilityIndex = 0
-    Nature = SASSY
-    EV = 55,0,65,0,85,75
+    EV = 0,0,170,0,100,170
+    IV = 31,31,31,31,31,31
+    Nature = QUIET
+    Ball = ULTRABALL
 #-------------------------------
 [BEASTGRUNT_m,Grunt,5]
 LoseText = "*whimper*"
 Pokemon = RATICATE,46
     Form = 1
+    EV = 0,0,0,0,0,0
 Pokemon = MINCCINO,48
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,6]
 LoseText = "Did I do it??"
@@ -1789,61 +2472,92 @@ Pokemon = NOIBAT,45
 [BEASTGRUNT_m,Grunt,6]
 LoseText = "Oh?"
 Pokemon = BRAIXEN,46
+    EV = 0,0,0,0,0,0
 Pokemon = SERVINE,46
+    EV = 0,0,0,0,0,0
 Pokemon = PRINPLUP,46
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,7]
 LoseText = "You pass!"
 Pokemon = LOPUNNY,45
     Form = 1
+    EV = 0,0,0,0,0,0
 Pokemon = GOLBAT,47
+    EV = 0,0,0,0,0,0
+    Moves = POISONFANG,ACROBATICS,FEINTATTACK
 #-------------------------------
 [BEASTGRUNT_m,Grunt,7]
 LoseText = "Oh noes! O_O"
 Pokemon = RAICHU,46
+    EV = 0,0,0,0,0,0
 Pokemon = GLACEON,46
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,8]
 LoseText = "Um.."
 Pokemon = ROCKRUFF,46
+    EV = 0,0,0,0,0,0
 Pokemon = BEWEAR,45
+    EV = 0,0,0,0,0,0
 Pokemon = NIDORINA,46
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt,8]
 LoseText = "Wah!"
 Pokemon = NIDORINO,47
+    EV = 0,0,0,0,0,0
 Pokemon = VULPIX,47
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,9]
 LoseText = "I'm not. I'm just hungry."
 Pokemon = MINCCINO,46
-Pokemon = RIOLU,46
+    EV = 0,0,0,0,0,0
+Pokemon = LUCARIO,46
+    EV = 0,0,0,0,0,0
+    Moves = FORCEPALM,METALCLAW,BONERUSH
 Pokemon = VULPIX,46
     Form = 1
+    EV = 0,0,0,0,0,0
+    Moves = ICEBEAM,SHADOWBALL,EXTRASENSORY
 #-------------------------------
 [BEASTGRUNT_m,Grunt,9]
 LoseText = "Was I intimidating enough?"
 Pokemon = QUILAVA,46
+    EV = 0,0,0,0,0,0
     Form = 1
 Pokemon = ZORUA,46
+    EV = 0,0,0,0,0,0
 Pokemon = BUNEARY,46
     Form = 1
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_f,Grunt,10]
 LoseText = "LET'S GO SHROOMISH!"
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 Pokemon = SHROOMISH,42
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BEASTGRUNT_m,Grunt,10]
 LoseText = "Ack! You beat me!"
 Pokemon = FLAREON,50
+    EV = 0,0,0,0,0,0
 Pokemon = PYROAR,50
+    EV = 0,0,0,0,0,0
 Pokemon = BEWEAR,50
+    EV = 0,0,0,0,0,0
 Pokemon = NIDOQUEEN,50
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [HELLSHADOW,Hellshadow,1]
 LoseText = "I..."
@@ -1852,150 +2566,194 @@ Pokemon = NIDOKING,54
     Item = EXPERTBELT
     Nature = LONELY
     AbilityIndex = 2
-    EV = 60,125,0,0,0,60
+    EV = 70,125,0,0,0,125
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
 Pokemon = LYCANROC,54
     Form = 1
     Moves = BULKUP,CLOSECOMBAT,PLAYROUGH,STONEEDGE
     Item = IAPAPABERRY
     Nature = ADAMANT
     AbilityIndex = 0
-    EV = 0,60,60,125,0,0
-Pokemon = TYPHLOSION,55
-    Form = 1
-    Moves = ICEBEAM,DARKPULSE,HAIL,EARTHPOWER
-    Item = CHOPLEBERRY
-    Nature = TIMID
-    AbilityIndex = 1
-    EV = 60,0,0,125,60,0
+    EV = 0,125,125,70,0,0
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
 Pokemon = HOUNDOOM,55
     Moves = CRUNCH,FIREFANG,THUNDERFANG,WILLOWISP
     Item = BLACKGLASSES
     Nature = LONELY
-    AbilityIndex = 0
-    EV = 60,125,0,60,0,0
+    AbilityIndex = 1
+    EV = 70,125,0,125,0,0
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
+Pokemon = TYPHLOSION,55
+    Form = 1
+    Moves = ICEBEAM,DARKPULSE,HAIL,EARTHPOWER
+    Item = CHOPLEBERRY
+    Nature = GENTLE
+    AbilityIndex = 1
+    EV = 125,0,0,125,70,0
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
 Pokemon = UMBREON,56
     Moves = CURSE,SUBSTITUTE,DARKPULSE,BATONPASS
     Item = LEFTOVERS
     Nature = BOLD
-    AbilityIndex = 0
-    EV = 60,0,60,0,0,125
+    AbilityIndex = 1
+    EV = 70,0,125,0,0,125
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
 Pokemon = GLALIE,56
     Moves = AVALANCHE,LIGHTSCREEN,HAIL,WEATHERBALL
     Item = ROCKYHELMET
     Nature = BRAVE
     AbilityIndex = 1
-    EV = 0,125,60,0,125,0
+    EV = 70,0,125,0,0,125
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
 #-------------------------------
 [BEASTMANLEADER,Amie]
 LoseText = "Those seven badges of yours... they weren't earned for nothing."
 Pokemon = DELPHOX,56
     Moves = CALMMIND,MYSTICALFIRE,PSYSHOCK,WILLOWISP
     Item = WISEGLASSES
-    Nature = TIMID
+    Nature = MILD
     AbilityIndex = 2
-    EV = 0,0,0,80,140,80
+    EV = 0,0,0,170,170,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = LYCANROC,56
     Form = 2
-    Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,IRONHEAD
-    Item = ASSAULTVEST
-    Nature = ADAMANT
+    Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,ICEFANG
+    Item = AIRBALLOON
+    Nature = NAUGHTY
     AbilityIndex = 0
-    EV = 80,80,0,140,0,0
+    EV = 170,170,0,100,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = ZOROARK,57
-    Moves = DARKPULSE,FLAMETHROWER,HYPERVOICE,EXTRASENSORY
+    Moves = DARKPULSE,FLAMETHROWER,GRASSKNOT,EXTRASENSORY
     Item = CHOICESCARF
     Nature = MILD
     AbilityIndex = 0
-    EV = 0,0,0,140,80,80
+    EV = 0,0,0,170,170,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = NINETALES,57
     Form = 1
     Moves = AURORAVEIL,DAZZLINGGLEAM,WEATHERBALL,HIDDENPOWER
     Item = ICYROCK
     Nature = HASTY
     AbilityIndex = 2
-    EV = 0,0,0,80,140,80
+    EV = 0,0,0,100,170,170
     IV = 31,31,31,31,31,30
+    Ball = ULTRABALL
 Pokemon = ZERAORA,58
-    Moves = ACROBATICS,BLAZEKICK,PLASMAFISTS,ICEPUNCH
+    Moves = ACROBATICS,AURASPHERE,PLASMAFISTS,WORKUP
     Nature = HASTY
     AbilityIndex = 0
-    EV = 80,80,0,90,0,50
+    EV = 0,170,0,100,170,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 #-------------------------------
 [HIKER,Stefan]
 LoseText = "Oof!"
 Pokemon = BOLDORE,50
+    EV = 50,50,50,50,50,50
 Pokemon = GABITE,50
+    EV = 50,50,50,50,50,50
 Pokemon = AURORUS,50
+    EV = 50,50,50,50,50,50
 #-------------------------------
 [NEOAETHER_F,Member]
 LoseText = "Target evaded me."
 Pokemon = BISHARP,52
+    EV = 52,52,52,52,52,52
+    Ball = BEASTBALL
 Pokemon = ELECTABUZZ,52
     Form = 99
+    EV = 52,52,52,52,52,52
+    Moves = RAYOFLIGHT,DISCHARGE,BRICKBREAK
+    Ball = BEASTBALL
 Pokemon = ESPEON,52
+    EV = 52,52,52,52,52,52
+    Ball = BEASTBALL
 #-------------------------------
 [NEOAETHER_M,Member,1]
 LoseText = "I failed to stop them."
 Pokemon = KLANG,52
     Form = 1
+    EV = 52,52,52,52,52,52
+    Ball = BEASTBALL
 Pokemon = BOLDORE,52
     Form = 99
+    EV = 52,52,52,52,52,52
+    Moves = PHOTONICRUSH,ROCKSLIDE,BULLDOZE
+    Ball = BEASTBALL
 Pokemon = DRAPION,52
+    EV = 52,52,52,52,52,52
+    Ball = BEASTBALL
 #-------------------------------
 [NEOAETHER_F,Member,1]
-LoseText = "Forgive me!"
+LoseText = "Forgive me, leader!"
 Pokemon = TYPENULL,53
+    EV = 53,53,53,53,53,53
+    Ball = BEASTBALL
 Pokemon = CROBAT,53
+    EV = 53,53,53,53,53,53
+    Moves = CROSSPOISON,AERIALACE,CRUNCH
+    Ball = BEASTBALL
 #-------------------------------
 [HIKER,Greg]
 LoseText = "Crumbled to dust!"
-Pokemon = NOSEPASS,50
+Pokemon = FRAXURE,50
+    EV = 50,50,50,50,50,50
 Pokemon = BRONZONG,50
+    EV = 50,50,50,50,50,50
 Pokemon = OMASTAR,50
+    EV = 50,50,50,50,50,50
 #-------------------------------
 [POKEMANIAC,Orville]
 LoseText = "Were their Pokémon glowing?"
 Pokemon = WARTORTLE,51
     Form = 2
+    EV = 51,51,51,51,51,51
 Pokemon = DONPHAN,51
+    EV = 51,51,51,51,51,51
 Pokemon = SNORLAX,52
+    EV = 52,52,52,52,52,52
 #-------------------------------
 [ACETRAINER_F,Gracie]
-LoseText = "Great work!"
-Pokemon = CHESNAUGHT,50
+LoseText = "You did pretty well to have kept up with me!"
+Pokemon = CHESNAUGHT,52
     Form = 1
     Item = SOFTSAND
-    Nature = BRAVE
     Moves = BULKUP,BULLDOZE,IRONHEAD,DRAINPUNCH
     AbilityIndex = 0
-    EV = 75,75,110,0,0,0
-Pokemon = TYPHLOSION,50
+Pokemon = TYPHLOSION,52
     Form = 1
     Item = NEVERMELTICE
-    Nature = HASTY
-    Moves = ICYWIND,SNARL,AERIALACE,CHILLINGAIR
+    Moves = ICYWIND,CRUNCH,AERIALACE,CHILLINGAIR
     AbilityIndex = 1
-    EV = 0,0,0,110,75,75
-Pokemon = BLASTOISE,50
+Pokemon = BLASTOISE,52
     Form = 2
     Item = CHARCOAL
-    Nature = BOLD
     Moves = DRAGONPULSE,FLASHCANNON,INCINERATE,IRONDEFENSE
     AbilityIndex = 0
-    EV = 0,0,75,0,75,110
-Pokemon = LUMINEON,50
+Pokemon = LUMINEON,52
     Form = 1
     Item = MAGNET
-    Nature = MODEST
     Moves = DISCHARGE,HEX,THUNDERWAVE,SIGNALBEAM
     AbilityIndex = 1
-    EV = 0,0,0,110,75,75
 #-------------------------------
 [POKEMONRANGER_M,Wyatt]
 LoseText = "And now I lost on top of that!"
 Pokemon = WAILMER,51
+    EV = 51,51,51,51,51,51
 Pokemon = ALTARIA,51
+    EV = 51,51,51,51,51,51
 Pokemon = NINETALES,51
+    EV = 51,51,51,51,51,51
 #-------------------------------
 [ACETRAINER_M,Reece]
 LoseText = "That battle warmed me right up!"
@@ -2003,41 +2761,55 @@ Pokemon = GLALIE,53
     AbilityIndex = 1
     Moves = AVALANCHE,LIGHTSCREEN,SPIKES,WEATHERBALL
     Nature = RELAXED
-    EV = 0,75,110,0,75,0
 Pokemon = MRRIME,53
     AbilityIndex = 2
     Moves = FAKEOUT,DAZZLINGGLEAM,FREEZEDRY,PSYSHOCK
     Nature = CALM
-    EV = 75,0,0,0,110,75
 #-------------------------------
 [PICNICKER,Camilla]
 LoseText = "S-s-so c-cold..."
 Pokemon = BRONZOR,52
+    EV = 52,52,52,52,52,52
 Pokemon = CRAWDAUNT,52
     Form = 1
+    EV = 52,52,52,52,52,52
 #-------------------------------
 [CAMPER,Terrence]
 LoseText = "I just love cold weather! Don't you?"
 Pokemon = CUBCHOO,51
+    EV = 51,51,51,51,51,51
 Pokemon = PALPITOAD,51
+    EV = 51,51,51,51,51,51
 Pokemon = CARRACOSTA,52
+    EV = 52,52,52,52,52,52
 #-------------------------------
 [FISHERMAN,Bryson]
 LoseText = "Not a victory this time..."
 Pokemon = SEALEO,52
+    EV = 52,52,52,52,52,52
+    Ball = LUREBALL
 Pokemon = STARMIE,52
+    EV = 52,52,52,52,52,52
+    Ball = LUREBALL
 #-------------------------------
 [POKEMONRANGER_F,Ruby]
 LoseText = "NATUUUURE!"
 Pokemon = FROGADIER,53
+    EV = 53,53,53,53,53,53
 Pokemon = GASTRODON,53
     Form = 1
+    EV = 53,53,53,53,53,53
 Pokemon = CLEFABLE,53
+    EV = 53,53,53,53,53,53
 #-------------------------------
 [GENTLEMAN,Southwick]
 LoseText = "Respect your elders, kid!"
 Pokemon = DOUBLADE,52
+    EV = 52,52,52,52,52,52
+    Ball = LUXURYBALL
 Pokemon = SNORLAX,52
+    EV = 52,52,52,52,52,52
+    Ball = LUXURYBALL
 #-------------------------------
 [ASHER,Asher]
 LoseText = "Oh no!"
@@ -2058,22 +2830,19 @@ Pokemon = SQUIRTLE,15
     Form = 2
 #-------------------------------
 [ACETRAINER_M,Ashton]
-LoseText = "Great work."
+LoseText = "You're certainly impressive."
 Pokemon = GLACEON,56
     Moves = FREEZEDRY,HYPERVOICE,SHADOWBALL,REFLECT
     AbilityIndex = 0
     Nature = CALM
-    EV = 0,0,60,0,125,60
 Pokemon = STARMIE,56
     Moves = BLIZZARD,FLASHCANNON,PSYSHOCK,SURF
     AbilityIndex = 1
     Nature = MODEST
-    EV = 0,0,0,60,125,60
 Pokemon = GLALIE,56
     Moves = ICICLECRASH,IRONHEAD,BODYSLAM,CRUNCH
     AbilityIndex = 1
     Nature = IMPISH
-    EV = 0,125,60,0,0,60
 #-------------------------------
 [ACETRAINER_F,April]
 LoseText = "Ow! I got bonked on the head!"
@@ -2081,18 +2850,15 @@ Pokemon = QUILAVA,56
     Form = 1
     Moves = ICEBEAM,QUICKATTACK,DARKPULSE,CHILLINGAIR
     AbilityIndex = 1
-    EV = 0,0,0,60,125,125
     Nature = MODEST
 Pokemon = ARCTOVISH,56
     Moves = ANCIENTPOWER,FREEZEDRY,ICEBEAM,IRONHEAD
     AbilityIndex = 1
-    EV = 0,60,125,0,60,0
     Nature = RELAXED
 Pokemon = ROTOM,56
     Form = 3
     Moves = DISCHARGE,BLIZZARD,HEX,THUNDERWAVE
     AbilityIndex = 1
-    EV = 0,0,60,0,125,60
     Nature = MODEST
 #-------------------------------
 [ACETRAINER_M,Denzel]
@@ -2101,18 +2867,15 @@ Pokemon = MRMIME,57
     Form = 1
     Moves = ICEPUNCH,DAZZLINGGLEAM,ENERGYBALL,BRICKBREAK
     AbilityIndex = 2
-    EV = 0,60,0,60,125,0
     Nature = LONELY
 Pokemon = AURORUS,57
     Moves = DISCHARGE,HYPERVOICE,POWERGEM,AURORAVEIL
     AbilityIndex = 0
-    EV = 125,0,0,0,60,60
     Nature = SASSY
 Pokemon = DARMANITAN,57
     Form = 1
     Moves = ICEPUNCH
     AbilityIndex = 0
-    EV = 60,125,0,60,0,0
     Nature = LONELY
 #-------------------------------
 [ACETRAINER_F,Evelyn]
@@ -2120,18 +2883,15 @@ LoseText = "You absolutely have what it takes."
 Pokemon = WAILORD,57
     Moves = AVALANCHE,BODYPRESS,LIQUIDATION,REST
     AbilityIndex = 1
-    EV = 60,60,125,0,0,0
     Nature = RELAXED
 Pokemon = NINETALES,57
     Form = 1
     Moves = DAZZLINGGLEAM,ICEBEAM,EXTRASENSORY,CALMMIND
     AbilityIndex = 0
-    EV = 0,0,0,60,125,60
     Nature = TIMID
 Pokemon = WALREIN,57
     Moves = AVALANCHE,BODYSLAM,CRUNCH,WATERFALL
     AbilityIndex = 0
-    EV = 60,125,60,0,0,0
     Nature = RELAXED
 #-------------------------------
 [LEADER_Noel,Noel]
@@ -2141,71 +2901,97 @@ Pokemon = BEARTIC,60
     Item = ASSAULTVEST
     AbilityIndex = 1
     Moves = AVALANCHE,POWERUPPUNCH,ROCKSLIDE,EARTHQUAKE
-    EV = 90,90,170,0,0,0
+    EV = 180,100,180,0,0,0
+    IV = 31,31,31,31,31,31
     Nature = ADAMANT
+    Ball = TIMERBALL
 Pokemon = WALREIN,59
     Item = ROCKYHELMET
     AbilityIndex = 1
     Moves = AVALANCHE,HAIL,SURF,RAPIDSPIN
-    EV = 90,0,0,0,90,170
+    EV = 180,0,0,0,100,180
+    IV = 31,31,31,31,31,31
     Nature = CALM
+    Ball = TIMERBALL
 Pokemon = ARCTOZOLT,59
     Item = EXPERTBELT
     AbilityIndex = 2
     Moves = STONEEDGE,BOLTBEAK,BLIZZARD,SUBSTITUTE
-    EV = 0,90,170,0,0,90
+    EV = 0,180,180,0,0,100
+    IV = 31,31,31,31,31,31
     Nature = IMPISH
+    Ball = TIMERBALL
 Pokemon = SALAMENCE,60
     Item = SAFETYGOGGLES
     AbilityIndex = 0
     Moves = DRAGONCLAW,FLAMETHROWER,DEFOG,IRONTAIL
-    EV = 155,80,0,0,80,0
+    EV = 180,100,0,0,180,0
+    IV = 31,31,31,31,31,31
     Nature = HASTY
+    Ball = TIMERBALL
 Pokemon = GARDEVOIR,61
     Form = 2
     Item = NEVERMELTICE
     AbilityIndex = 0
     Moves = FLAMETHROWER,ICYWIND,DAZZLINGGLEAM,HAIL
-    EV = 0,0,0,90,170,90
+    EV = 0,0,0,100,180,180
+    IV = 31,31,31,31,31,31
     Nature = MODEST
+    Ball = TIMERBALL
 Pokemon = GALLADE,61
     Form = 2
     Item = GALLADITEP
     AbilityIndex = 0
     Moves = REFLECT,DRAINPUNCH,IRONHEAD,FROSTBLADE
-    EV = 0,75,85,55,0,65
+    EV = 0,180,100,180,0,0
+    IV = 31,31,31,31,31,31
     Nature = IMPISH
+    Ball = TIMERBALL
 #-------------------------------
 [POKEMONRANGER_M,Weston]
 LoseText = "I lost."
 Pokemon = LILLIGANT,55
+    EV = 55,55,55,55,55,55
 Pokemon = WHISCASH,55
+    EV = 55,55,55,55,55,55
 Pokemon = MAGMAR,55
+    EV = 55,55,55,55,55,55
 #-------------------------------
 [ACETRAINER_F,Macie]
 LoseText = "Looks like I need to train harder before I go back home..."
 Pokemon = BEWEAR,53
     Moves = BRICKBREAK,BODYSLAM,DARKESTLARIAT,AERIALACE
+    AbilityIndex = 0
 Pokemon = PALOSSAND,53
     Moves = ANCIENTPOWER,EARTHPOWER,GIGADRAIN,SHADOWBALL
+    AbilityIndex = 0
 Pokemon = LURANTIS,53
     Moves = LEECHLIFE,PETALBLIZZARD,POISONJAB
+    AbilityIndex = 0
 Pokemon = TURTONATOR,53
     Moves = DRAGONPULSE,FLAMETHROWER,SCORCHINGSANDS,HYPERVOICE
+    AbilityIndex = 0
 Pokemon = ARAQUANID,53
     Moves = CRUNCH,LIQUIDATION,LEECHLIFE,FACADE
+    AbilityIndex = 0
 #-------------------------------
 [POKEMONRANGER_F,Brielle]
 LoseText = "Well... now I've taken a tumble."
-Pokemon = CRAWDAUNT,55
+Pokemon = RHYDON,55
+    EV = 55,55,55,55,55,55
+Pokemon = SLOWBRO,55
     Form = 1
-Pokemon = MEDICHAM,55
-Pokemon = FRAXURE,55
+    EV = 55,55,55,55,55,55
+    Moves = PSYCHIC,AMNESIA,SLUDGEBOMB
+Pokemon = PINSIR,55
+    EV = 55,55,55,55,55,55
 #-------------------------------
 [POKEMANIAC,Alvaro]
 LoseText = "W-what?!"
 Pokemon = BEEDRILL,56
+    EV = 56,56,56,56,56,56
 Pokemon = BLISSEY,56
+    EV = 56,56,56,56,56,56
 #-------------------------------
 [ELIO,Elio]
 LoseText = "Wow, you're really strong!"
@@ -2214,37 +3000,44 @@ Pokemon = SALAZZLE,58
     AbilityIndex = 0
     Item = POISONBARB
     Nature = MILD
-    EV = 70,0,0,145,70,0
+    EV = 100,0,0,180,180,0
+    IV = 31,31,31,31,31,31
 Pokemon = NINETALES,58
     Form = 1
     Moves = AURORAVEIL,CALMMIND,DAZZLINGGLEAM,FREEZEDRY
     AbilityIndex = 2
     Nature = CALM
-    EV = 0,0,0,70,145,70
+    EV = 0,0,0,100,180,180
+    IV = 31,31,31,31,31,31
     Item = NEVERMELTICE
 Pokemon = WISHIWASHI,58
     Moves = AQUATAIL,ICEBEAM,PROTECT,AQUARING
     AbilityIndex = 0
     Nature = BRAVE
     Item = LEFTOVERS
-    EV = 0,70,0,0,70,145
+    EV = 0,180,0,0,100,180
+    IV = 31,31,31,31,31,31
 Pokemon = VIKAVOLT,58
     Moves = ACROBATICS,DISCHARGE,BUGBUZZ,ENERGYBALL
     AbilityIndex = 0
     Nature = QUIET
-    EV = 0,0,70,0,145,70
+    EV = 0,0,180,0,180,100
+    IV = 31,31,31,31,31,31
 Pokemon = DECIDUEYE,59
     Moves = LEAFBLADE,LOWSWEEP,SPIRITSHACKLE,DUALWINGBEAT
     AbilityIndex = 0
     Nature = GENTLE
     Item = GRASSIUMZ
-    EV = 70,145,0,0,0,70
+    EV = 100,180,0,0,0,180
+    IV = 31,31,31,31,31,31
 Pokemon = SOLGALEO,60
     Name = Nebby
     AbilityIndex = 0
     Moves = CRUNCH,SUNSTEELSTRIKE,PSYCHICFANGS,PHOTONICRUSH
     Nature = RELAXED
-    EV = 145,70,70,0,0,0
+    EV = 180,100,180,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = MASTERBALL
 #-------------------------------
 [SELENE,Selene]
 LoseText = "Wow, you're really strong!"
@@ -2254,114 +3047,145 @@ Pokemon = SANDSLASH,58
     Item = NEVERMELTICE
     AbilityIndex = 0
     Nature = IMPISH
-    EV = 70,145,70,0,0,0
+    EV = 100,180,180,0,0,0
+    IV = 31,31,31,31,31,31
 Pokemon = ARAQUANID,58
     Moves = LIQUIDATION,LEECHLIFE,REFLECT,STICKYWEB
     Item = ROCKYHELMET
     Nature = ADAMANT
     AbilityIndex = 0
-    EV = 70,145,0,0,0,70
+    EV = 100,180,0,0,0,180
+    IV = 31,31,31,31,31,31
 Pokemon = LURANTIS,58
     Moves = XSCISSOR,LEAFSTORM,KNOCKOFF,SUPERPOWER
     Nature = BRAVE
     AbilityIndex = 2
-    EV = 0,70,145,0,70,0
+    EV = 0,180,180,0,100,0
+    IV = 31,31,31,31,31,31
 Pokemon = TOUCANNON,58
     Moves = BULLETSEED,ROCKBLAST,BEAKBLAST,BOOMBURST
     Item = SHARPBEAK
     Nature = BRAVE
     AbilityIndex = 1
-    EV = 70,145,0,0,70,0
+    EV = 100,180,0,0,180,0
+    IV = 31,31,31,31,31,31
 Pokemon = INCINEROAR,59
     Moves = BLAZEKICK,DARKESTLARIAT,CROSSCHOP,LEECHLIFE
     Item = FIRIUMZ
     AbilityIndex = 0
     Nature = RELAXED
-    EV = 70,145,70,0,0,0
+    EV = 100,180,180,0,0,0
+    IV = 31,31,31,31,31,31
 Pokemon = LUNALA,60
     Name = Nebby
     Moves = PSYSHOCK,MOONGEISTBEAM,THUNDERBOLT,RAYOFLIGHT
     AbilityIndex = 0
     Nature = CALM
-    EV = 70,0,0,0,145,70
+    EV = 100,0,0,0,180,180
+    IV = 31,31,31,31,31,31
+    Ball = MASTERBALL
 #-------------------------------
 [PHOEBEAETHER,Phoebe]
 LoseText = "This... isn't over."
 Pokemon = LUCARIO,62
-    Moves = BLAZEKICK,DRAINPUNCH,EXTREMESPEED,THUNDERPUNCH
-    AbilityIndex = 0
-    Item = MUSCLEBAND
-    Nature = NAUGHTY
-    EV = 0,70,70,145,0,0
+    Moves = DRAINPUNCH,METEORMASH,BLAZEKICK,SWORDSDANCE
+    AbilityIndex = 1
+    Item = EXPERTBELT
+    Nature = HASTY
+    EV = 100,200,0,200,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = AEGISLASH,61
-    Moves = GYROBALL,SHADOWCLAW,KINGSSHIELD,SWORDSDANCE
+    Moves = GYROBALL,SHADOWCLAW,NIGHTSLASH,KINGSSHIELD
     AbilityIndex = 0
     Item = ROCKYHELMET
-    Nature = ADAMANT
-    EV = 0,70,145,0,0,70
+    Nature = RELAXED
+    EV = 100,200,200,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = PORYGONZ,61
-    Moves = DISCHARGE,PSYSHOCK,ICEBEAM,TRIATTACK
-    AbilityIndex = 0
-    Item = EXPERTBELT
-    Nature = TIMID
-    EV = 0,0,0,70,145,70
+    Moves = DISCHARGE,ICEBEAM,PSYCHIC,EXPLOSION
+    AbilityIndex = 2
+    Item = SILKSCARF
+    Nature = MILD
+    EV = 0,100,0,0,200,200
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = NOIVERN,61
-    Moves = BOOMBURST,DARKPULSE,DEFOG,DRAGONPULSE
+    Moves = BOOMBURST,DEFOG,DRAGONPULSE,AIRSLASH
     AbilityIndex = 1
-    Item = DRAGONFANG
+    Item = FLYINGGEM
     Nature = TIMID
-    EV = 70,0,0,70,145,0
+    EV = 200,0,0,200,100,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = BANETTE,62
-    Moves = THUNDERWAVE,BODYSLAM,SHADOWSNEAK,FEINTATTACK
+    Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
     AbilityIndex = 0
     Item = BANETTITE
     Nature = LONELY
-    EV = 0,145,0,70,0,70
+    EV = 200,200,0,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = NECROZMA,62
     Form = 1
     Moves = IRONDEFENSE,PHOTONGEYSER,POWERGEM,SUNSTEELSTRIKE
     AbilityIndex = 0
     Nature = RELAXED
-    EV = 0,70,145,0,0,70
+    EV = 200,100,200,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
 #-------------------------------
 [PHOEBEAETHER,Phoebe,1]
 LoseText = "This... isn't over."
 Pokemon = LUCARIO,62
-    Moves = BLAZEKICK,DRAINPUNCH,EXTREMESPEED,THUNDERPUNCH
-    AbilityIndex = 0
-    Item = MUSCLEBAND
-    Nature = NAUGHTY
-    EV = 0,70,70,145,0,0
+    Moves = DRAINPUNCH,METEORMASH,BLAZEKICK,SWORDSDANCE
+    AbilityIndex = 1
+    Item = EXPERTBELT
+    Nature = HASTY
+    EV = 100,200,0,200,0,0
+    Ball = ULTRABALL
+    IV = 31,31,31,31,31,31
 Pokemon = AEGISLASH,61
-    Moves = GYROBALL,SHADOWCLAW,KINGSSHIELD,SWORDSDANCE
+    Moves = GYROBALL,SHADOWCLAW,NIGHTSLASH,KINGSSHIELD
     AbilityIndex = 0
     Item = ROCKYHELMET
-    Nature = ADAMANT
-    EV = 0,70,145,0,0,70
+    Nature = RELAXED
+    EV = 100,200,200,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = PORYGONZ,61
-    Moves = DISCHARGE,PSYSHOCK,ICEBEAM,TRIATTACK
-    AbilityIndex = 0
-    Item = EXPERTBELT
-    Nature = TIMID
-    EV = 0,0,0,70,145,70
+    Moves = DISCHARGE,ICEBEAM,PSYCHIC,EXPLOSION
+    AbilityIndex = 2
+    Item = SILKSCARF
+    Nature = MILD
+    EV = 0,100,0,0,200,200
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = NOIVERN,61
-    Moves = BOOMBURST,DARKPULSE,DEFOG,DRAGONPULSE
+    Moves = BOOMBURST,DEFOG,DRAGONPULSE,AIRSLASH
     AbilityIndex = 1
-    Item = DRAGONFANG
+    Item = FLYINGGEM
     Nature = TIMID
-    EV = 70,0,0,70,145,0
+    EV = 200,0,0,200,100,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = BANETTE,62
-    Moves = THUNDERWAVE,BODYSLAM,SHADOWSNEAK,FEINTATTACK
+    Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
     AbilityIndex = 0
     Item = BANETTITE
     Nature = LONELY
-    EV = 0,145,0,70,0,70
+    EV = 200,200,0,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
 Pokemon = NECROZMA,62
     Form = 2
     Moves = CALMMIND,PHOTONGEYSER,STONEEDGE,MOONGEISTBEAM
     AbilityIndex = 0
     Nature = SASSY
-    EV = 0,0,70,0,70,145
+    EV = 100,0,0,0,200,200
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
 #-------------------------------
 [ACETRAINER_M,Tristan]
 LoseText = "Well... you can't win 'em all, I guess."
@@ -2406,12 +3230,15 @@ Pokemon = GOLEM,60
 LoseText = "Woah! You beat my bugs again!"
 Pokemon = VIKAVOLT,50
     Moves = AIRSLASH,BUGBUZZ,DISCHARGE,ENERGYBALL
+    Ball = NETBALL
 Pokemon = VENOMOTH,50
     AbilityIndex = 2
     Moves = PSYCHIC,SIGNALBEAM,AIRSLASH,SLUDGEBOMB
+    Ball = NETBALL
 Pokemon = BEEDRILL,52
     Item = BEEDRILLITE
     Moves = DRILLRUN,POISONJAB,XSCISSOR,AGILITY
+    Ball = NETBALL
 #-------------------------------
 [POKEMANIAC,Todd]
 LoseText = "Ah! I failed, Boss!"
@@ -2431,28 +3258,1103 @@ Pokemon = ZYGARDE,30
     Form = 1
     Moves = DRAGONBREATH,CRUNCH,GLARE,BULLDOZE
     IV = 31,31,31,31,31,31
-    EV = 80,80,80,80,80,80
+    EV = 252,85,85,252,85,85
 #-------------------------------
 [NEOAETHER_Q,???,2]
 LoseText = "..."
 Pokemon = SKORUPI,32
     Form = 99
+    EV = 32,32,32,32,32,32
+    Ball = BEASTBALL
 Pokemon = LARVESTA,32
     Form = 99
+    EV = 32,32,32,32,32,32
+    Ball = BEASTBALL
 Pokemon = OCTILLERY,32
     Form = 99
+    EV = 32,32,32,32,32,32
+    Ball = BEASTBALL
+#-------------------------------
+[HIKER,Mike]
+LoseText = "No way... my golden Aggron!"
+Pokemon = FLYGON,48
+Pokemon = GALVANTULA,48
+Pokemon = AGGRON,48
+    Item = AGGRONITE
+    Form = 99
+#-------------------------------
+[ACETRAINER_F,Jayda]
+LoseText = "No way! I need to train harder!"
+Pokemon = RIBOMBEE,61
+    AbilityIdex = 1
+    Moves = STICKYWEB,DRAININGKISS,BUGBUZZ,REFLECT
+Pokemon = FURRET,61
+    AbilityIndex = 0
+    Moves = DOUBLEEDGE,DRAINPUNCH,ICEBEAM,THUNDERBOLT
+Pokemon = ROSERADE,61
+    AbilityIndex = 0
+    Moves = EXTRASENSORY,LEECHSEED,GIGADRAIN,SUBSTITUTE
+#-------------------------------
+[PSYCHIC_M,Leonel]
+LoseText = "Could the future have been changed before my very eyes...?"
+Pokemon = ESPEON,60
+    IV = 31,1,30,30,31,31
+    AbilityIndex = 1
+    Moves = CALMMIND,SIGNALBEAM,PSYSHOCK,HIDDENPOWER
+    EV = 60,60,60,60,60,60
+Pokemon = SLOWKING,60
+    Form = 1
+    AbilityIndex = 2
+    Moves = FUTURESIGHT,SLUDGEBOMB,HEX,SCALD
+    EV = 60,60,60,60,60,60
+Pokemon = XATU,60
+    AbilityIndex = 0
+    Moves = AIRSLASH,DAZZLINGGLEAM,PSYCHIC,HAZE
+    EV = 60,60,60,60,60,60
+#-------------------------------
+[CRUSHGIRL,Betty]
+LoseText = "...Ah."
+Pokemon = MEDICHAM,61
+    AbilityIndex = 0
+    Moves = BULLETPUNCH,FAKEOUT,ICEPUNCH,DRAINPUNCH
+    EV = 61,61,61,61,61,61
+Pokemon = HAWLUCHA,61
+    Item = FLYINGGEM
+    AbilityIndex = 1
+    Moves = ACROBATICS,BODYSLAM,POISONJAB,POWERUPPUNCH
+    EV = 61,61,61,61,61,61
+Pokemon = KOMMOO,60
+    AbilityIndex = 0
+    Moves = AURASPHERE,DRAGONTAIL,ICEPUNCH,IRONHEAD
+    EV = 60,60,60,60,60,60
+#-------------------------------
+[ACETRAINER_M,Kyle]
+LoseText = "Waugh! No way, you were way better!"
+Pokemon = BRONZONG,62
+    AbilityIndex = 2
+    Moves = BODYPRESS,EXTRASENSORY,FLASHCANNON,GRASSKNOT
+Pokemon = ALTARIA,62
+    AbilityIndex = 0
+    Moves = HURRICANE,DAZZLINGGLEAM,HAZE,COTTONGUARD
+Pokemon = ABSOL,62
+    AbilityIndex = 1
+    Moves = AIRSLASH,FOULPLAY,PSYCHOCUT,KNOCKOFF
+#-------------------------------
+[HIKER,Joel]
+LoseText = "It seems I have more mountains to climb..."
+Pokemon = OMASTAR,60
+    AbilityIndex = 0
+    Moves = EARTHPOWER,SCALD,SHELLSMASH,CRUNCH
+    EV = 60,60,60,60,60,60
+Pokemon = CRADILY,60
+    AbilityIndex = 1
+    Moves = ENERGYBALL,ANCIENTPOWER,LEECHSEED,RECOVER
+    EV = 60,60,60,60,60,60
+#-------------------------------
+[ACETRAINER_M,Hilbert]
+LoseText = "My partners did great, didn't they?"
+Pokemon = SEISMITOAD,62
+    AbilityIndex = 1
+    Moves = DRAINPUNCH,LIQUIDATION,POWERWHIP,ICEPUNCH
+Pokemon = WHIMSICOTT,62
+    AbilityIndex = 0
+    Moves = COTTONGUARD,LEECHSEED,ENERGYBALL,SUBSTITUTE
+Pokemon = EELEKTROSS,62
+    AbilityIndex = 0
+    Moves = DISCHARGE,FLAMETHROWER,GIGADRAIN,ACIDSPRAY
+#-------------------------------
+[ACETRAINER_F,Lucy]
+LoseText = "Both sides did their best!"
+Pokemon = HATTERENE,62
+    AbilityIndex = 2
+    Moves = CALMMIND,DRAININGKISS,MYSTICALFIRE,PSYCHIC
+Pokemon = CINCCINO,62
+    AbilityIndex = 0
+    Moves = HIDDENPOWER,ROCKBLAST,TRIPLEAXEL,TAILSLAP
+    IV = 31,31,31,31,31,30
+Pokemon = SYLVEON,62
+    AbilityIndex = 2
+    Moves = PSYCHIC,MYSTICALFIRE,WISH,HYPERVOICE
+#-------------------------------
+[VETERAN_F,Marsha]
+LoseText = "It appears I still have much to learn."
+Pokemon = SKARMORY,63
+    AbilityIndex = 1
+    Moves = ROOST,BODYPRESS,STEALTHROCK,TAUNT
+    Item = LEFTOVERS
+Pokemon = DONPHAN,63
+    AbilityIndex = 0
+    Moves = KNOCKOFF,EARTHQUAKE,FIREFANG,ICESHARD
+Pokemon = LEAFEON,63
+    AbilityIndex = 1
+    Moves = AERIALACE,BULLETSEED,COVET,HIDDENPOWER
+    IV = 31,31,31,31,30,30
+Pokemon = JELLICENT,63
+    AbilityIndex = 1
+    Moves = WATERSPOUT,HEX,SLUDGEWAVE,STRENGTHSAP
+#-------------------------------
+[ACETRAINER_F,Allison]
+LoseText = "No way! This can't be!"
+Pokemon = TANGROWTH,62
+    AbilityIndex = 2
+    Moves = ENERGYBALL,ANCIENTPOWER,CURSE,STRENGTH
+Pokemon = MAGCARGO,62
+    AbilityIndex = 0
+    Moves = CLEARSMOG,EARTHPOWER,HEATWAVE,RECOVER
+Pokemon = WALREIN,62
+    AbilityIndex = 0
+    Moves = AVALANCHE,BODYPRESS,CRUNCH,SURF
+#-------------------------------
+[POKEMONRANGER_M,Luca]
+LoseText = "Just what are you...?"
+Pokemon = LYCANROC,60
+    Form = 0
+    AbilityIndex = 0
+    Moves = ACCELEROCK,DRILLRUN,CLOSECOMBAT,BULKUP
+Pokemon = PINSIR,60
+    AbilityIndex = 1
+    Moves = ROCKSLIDE,BULLDOZE,XSCISSOR,SWORDSDANCE
+Pokemon = SOLROCK,60
+    Form = 1
+    AbilityIndex = 0
+    Moves = ACROBATICS,FLAMETHROWER,IRONHEAD,PSYSHOCK
+#-------------------------------
+[ACETRAINER_M,Xander]
+LoseText = "Unbelievable!"
+Pokemon = CROBAT,62
+    AbilityIndex = 2
+    Moves = BRAVEBIRD,CRUNCH,POISONFANG,ROOST
+Pokemon = BEARTIC,62
+    Form = 1
+    AbilityIndex = 2
+    Item = FLAMEORB
+    Moves = AQUAJET,BRICKBREAK,ICICLECRASH,STOMPINGTANTRUM
+Pokemon = AGGRON,62
+    AbilityIndex = 2
+    Item = FOCUSSASH
+    Moves = HEAVYSLAM,HEADSMASH,IRONDEFENSE,BODYPRESS
+Pokemon = LUNATONE,62
+    Form = 1
+    AbilityIndex = 0
+    Moves = ICEBEAM,NASTYPLOT,SHADOWBALL,MOONBLAST
+#-------------------------------
+[VETERAN_M,Ronald]
+LoseText = "You're strong, for a kid."
+Pokemon = ARCHEOPS,64
+    AbilityIndex = 2
+    Moves = METEORBEAM,ACROBATICS,HEATWAVE,ROOST
+    Item = POWERHERB
+Pokemon = METAGROSS,64
+    AbilityIndex = 2
+    Moves = POWERUPPUNCH,BULLETPUNCH,PSYSHOCK,ICEPUNCH
+Pokemon = BLAZIKEN,64
+    AbilityIndex = 0
+    Moves = BLAZEKICK,ROCKSLIDE,SCORCHINGSANDS,BULKUP
+Pokemon = TROPIUS,64
+    AbilityIndex = 2
+    Moves = SUNNYDAY,STUFFCHEEKS,LEECHSEED,AIRSLASH
+#-------------------------------
+[BLACKBELT,Ty,1]
+LoseText = "Thoroughly smashed!"
+Pokemon = RHYPERIOR,64
+    AbilityIndex = 1
+    Moves = ROCKSMASH,DRILLRUN,ICEPUNCH,ROCKWRECKER
+Pokemon = SIRFETCHD,64
+    AbilityIndex = 2
+    Moves = ROCKSMASH,BRAVEBIRD,LEAFBLADE,IRONDEFENSE
+Pokemon = MIENSHAO,64
+    Form = 1
+    AbilityIndex = 0
+    Moves = ROCKSMASH,ACROBATICS,REFLECT,BLAZEKICK
+Pokemon = LUCARIO,64
+    Item = LUCARIONITE
+    AbilityIndex = 0
+    Moves = ROCKSMASH,METEORMASH,STONEEDGE,SWORDSDANCE
+#-------------------------------
+[HIKER,Ted]
+LoseText = "No way! But I had so many Pokémon!"
+Pokemon = STEELIX,60
+    AbilityIndex = 0
+    Moves = IRONTAIL,HEADSMASH,DOUBLEEDGE
+    EV = 60,60,60,60,60,60
+Pokemon = MAWILE,60
+    AbilityIndex = 2
+    Moves = FIREFANG,ICEFANG,IRONHEAD,SWORDSDANCE
+    EV = 60,60,60,60,60,60
+    Item = LIFEORB
+Pokemon = MINIOR,60
+    AbilityIndex = 0
+    Moves = BOUNCE,ROCKSLIDE,STEALTHROCK,ZENHEADBUTT
+    EV = 60,60,60,60,60,60
+Pokemon = GLISCOR,60
+    AbilityIndex = 2
+    Moves = ROOST,SWORDSDANCE,EARTHQUAKE,CRUNCH
+    EV = 60,60,60,60,60,60
+    Item = TOXICORB
+Pokemon = URSARING,60
+    AbilityIndex = 1
+    Moves = AVALANCHE,FACADE,HIGHHORSEPOWER,PLAYROUGH
+    EV = 60,60,60,60,60,60
+    Item = CHILLORB
+#-------------------------------
+[POKEMANIAC,Beckham]
+LoseText = "What?! No! I just got unlucky!"
+Pokemon = ROTOM,63
+    Form = 2
+    AbilityIndex = 0
+    Moves = DISCHARGE,LIGHTSCREEN,HYDROPUMP,THUNDERWAVE
+    EV = 63,63,63,63,63,63
+Pokemon = DITTO,63
+    AbilityIndex = 2
+    EV = 63,63,63,63,63,63
+Pokemon = PORYGONZ,63
+    AbilityIndex = 1
+    Moves = THUNDERBOLT,ZENHEADBUTT,SHADOWBALL,DOUBLEEDGE
+    EV = 63,63,63,63,63,63
+#-------------------------------
+[KURISU4,Kurisu]
+LoseText = "So even now, it seems I still don't have what it takes to beat you..."
+Pokemon = NAGANADEL,65
+    AbilityIndex = 0
+    Moves = HEATWAVE,GUNKSHOT,TOXICSPIKES,DRAGONPULSE
+    EV = 0,200,0,0,200,100
+    Nature = HASTY
+    Ball = BEASTBALL
+Pokemon = GRENINJA,65
+    Item = FOCUSSASH
+    AbilityIndex = 0
+    Moves = UTURN,ICEBEAM,SHADOWSNEAK,SCALD
+    EV = 0,0,0,200,200,100
+    Nature = HASTY 
+    Ball = DUSKBALL
+Pokemon = VANILLUXE,65
+    Form = 1
+    Item = LEFTOVERS
+    AbilityIndex = 0
+    Moves = EARTHPOWER,FLAMETHROWER,POWERGEM,LIGHTSCREEN
+    EV = 0,0,200,0,100,200
+    Nature = BOLD
+    Ball = QUICKBALL
+Pokemon = TANGROWTH,66
+    Item = EJECTPACK
+    AbilityIndex = 2
+    Moves = LEAFSTORM,FOCUSBLAST,EARTHQUAKE,KNOCKOFF
+    EV = 0,100,200,0,200,0
+    Nature = RELAXED
+    Ball = GREATBALL
+Pokemon = METAGROSS,66
+    Item = IAPAPABERRY
+    AbilityIndex = 1
+    Moves = METEORMASH,PSYCHIC,DYNAMICPUNCH,ZAPCANNON
+    EV = 200,100,200,0,0,0
+    Nature = BRAVE
+    Ball = TIMERBALL
+Pokemon = GARCHOMP,67
+    Gender = female
+    Item = GARCHOMPITE
+    AbilityIndex = 0
+    Moves = DRAGONCLAW,FLAMETHROWER,SANDSTORM,STONEEDGE
+    EV = 200,100,200,0,0,0
+    Nature = RELAXED
+#-------------------------------
+[PSYCHIC_F,Zaria]
+LoseText = "You... you're unlike anything I've ever seen!"
+Pokemon = CURSOLA,63
+    EV = 63,63,63,63,63,63
+    AbilityIndex = 2
+    Moves = HEX,POWERGEM,STEALTHROCK,CHILLINGAIR
+Pokemon = GARDEVOIR,63
+    Form = 2
+    EV = 63,63,63,63,63,63
+    AbilityIndex = 1
+    Moves = BLIZZARD,MYSTICALFIRE,HAIL,CHARGEBEAM
+Pokemon = GOTHITELLE,63
+    EV = 63,63,63,63,63,63
+    AbilityIndex = 1
+    Moves = GRASSKNOT,SHADOWBALL,REFLECT,PSYSHOCK
+Pokemon = MISMAGIUS,63
+    EV = 63,63,63,63,63,63
+    AbilityIndex = 0
+    Moves = HEX,THUNDERWAVE,DAZZLINGGLEAM,WILLOWISP
+#-------------------------------
+[VETERAN_M,Grady]
+LoseText = "What a thrilling battle!"
+Pokemon = PIDGEOT,63
+    AbilityIndex = 2
+    Moves = ROOST,RAINDANCE,THUNDER,HURRICANE
+Pokemon = NIDOKING,63
+    AbilityIndex = 2
+    Moves = THUNDER,ICEPUNCH,ROCKSLIDE,SLUDGEWAVE
+Pokemon = SNORLAX,63
+    AbilityIndex = 1
+    Moves = CURSE,DARKESTLARIAT,DOUBLEEDGE,WILDCHARGE
+    Item = LEFTOVERS
+Pokemon = LAPRAS,63
+    AbilityIndex = 1
+    Moves = FREEZEDRY,RAINDANCE,THUNDER,HYDROPUMP
+#-------------------------------
+[POKEMONRANGER_F,Lara]
+LoseText = "...Not today, though!"
+Pokemon = MUK,64
+    Form = 1
+    AbilityIndex = 0
+    Moves = BRICKBREAK,CRUNCH,HAZE,GUNKSHOT
+    EV = 64,64,64,64,64,64
+Pokemon = WEEZING,64
+    AbilityIndex = 2
+    Item = FLAMEORB
+    Moves = ACIDSPRAY,FIREBLAST,SHADOWBALL,SLUDGEWAVE
+    EV = 64,64,64,64,64,64
+Pokemon = VENOMOTH,64
+    AbilityIndex = 2
+    Moves = AIRSLASH,BUGBUZZ,PSYCHIC,QUIVERDANCE
+    EV = 64,64,64,64,64,64
+#-------------------------------
+[ACETRAINER_F,Steph]
+LoseText = "I thought I was gonna win..."
+Pokemon = AMBIPOM,64
+    AbilityIndex = 0
+    Moves = FAKEOUT,BATONPASS,NASTYPLOT,DOUBLEHIT
+Pokemon = MARACTUS,64
+    AbilityIndex = 0
+    Moves = FLAMETHROWER,LEECHSEED,EARTHPOWER,GIGADRAIN
+Pokemon = ELECTIVIRE,64
+    AbilityIndex = 1
+    Moves = WILDCHARGE,FIREPUNCH,DRAINPUNCH,CURSE
+Pokemon = SLOWBRO,64
+    Form = 1
+    AbilityIndex = 0
+    Moves = BLIZZARD,GUNKSHOT,HYDROPUMP,ZENHEADBUTT
+#-------------------------------
+[POKEMANIAC,Lenny]
+LoseText = "You broke through?!"
+Pokemon = BLISSEY,65
+    EV = 65,65,65,65,65,65
+    Item = LEFTOVERS
+    Moves = SEISMICTOSS,TELEPORT,SOFTBOILED,THUNDERWAVE
+    AbilityIndex = 0
+Pokemon = TOXAPEX,65
+    EV = 65,65,65,65,65,65
+    Item = BLACKSLUDGE
+    Moves = SCALD,RECOVER,HAZE,TOXIC
+    AbilityIndex = 2
+Pokemon = GOODRA,65
+    EV = 65,65,65,65,65,65
+    Item = ASSAULTVEST
+    Moves = GIGADRAIN,FIREBLAST,DRACOMETEOR,POISONJAB
+    AbilityIndex = 2
+Pokemon = CORVIKNIGHT,65
+    EV = 65,65,65,65,65,65
+    Item = ROCKYHELMET
+    Moves = BODYPRESS,BRAVEBIRD,IRONDEFENSE,ROOST
+    AbilityIndex = 0
+#-------------------------------
+[NEOAETHER_M,Member,2]
+LoseText = "Why do you interfere?"
+Pokemon = DRAPION,65
+    EV = 65,65,65,65,65,65
+    Moves = NIGHTSLASH,XSCISSOR,CROSSPOISON,FIREFANG
+    Ball = BEASTBALL
+Pokemon = CLEFABLE,65
+    Form = 99
+    EV = 65,65,65,65,65,65
+    Moves = RAYOFLIGHT,MOONBLAST,PSYSHOCK,COSMICPOWER
+    Ball = BEASTBALL
+Pokemon = PROBOPASS,65
+    EV = 65,65,65,65,65,65
+    Moves = STONEEDGE,FLASHCANNON,ZAPCANNON,IRONDEFENSE
+    Ball = BEASTBALL
+#-------------------------------
+[NEOAETHER_F,Member,2]
+LoseText = "This is only a small setback for us."
+Pokemon = OCTILLERY,65
+    Form = 1
+    EV = 65,65,65,65,65,65
+    Moves = IRONHEAD,BULLETSEED,HYDROPUMP,EXPLOSION
+    Ball = BEASTBALL
+Pokemon = BANETTE,65
+    Form = 99
+    EV = 65,65,65,65,65,65
+    Moves = PHOTONICRUSH,SHADOWCLAW,HEADBUTT,KNOCKOFF
+    Ball = BEASTBALL
+Pokemon = CLEFABLE,65
+    EV = 65,65,65,65,65,65
+    Moves = MOONBLAST,WISH,MISTYTERRAIN,THUNDERBOLT
+    Ball = BEASTBALL
+#-------------------------------
+[NEOAETHER_F,Member,3]
+LoseText = "Be consumed and disappear!"
+Pokemon = SABLEYE,65
+    EV = 65,65,65,65,65,65
+    Moves = NIGHTSLASH,SHADOWCLAW,POWERGEM,WILLOWISP
+    Ball = BEASTBALL
+Pokemon = REUNICLUS,65
+    Form = 99
+    EV = 65,65,65,65,65,65
+    Moves = RAYOFLIGHT,PSYCHIC,ENERGYBALL,FOCUSBLAST
+    Ball = BEASTBALL
+Pokemon = FROSLASS,65
+    EV = 65,65,65,65,65,65
+    Moves = FREEZEDRY,SHADOWBALL,CONFUSERAY,CRUNCH
+    Ball = BEASTBALL
+#-------------------------------
+[NEOAETHER_M,Member,3]
+LoseText = "None shall suffer any longer once our leader's plans come to fruition."
+Pokemon = GOLURK,65
+    EV = 65,65,65,65,65,65
+    Moves = HEATCRASH,HEAVYSLAM,PHANTOMFORCE,HIGHHORSEPOWER
+    Ball = BEASTBALL
+Pokemon = GIGALITH,65
+    Form = 99
+    EV = 65,65,65,65,65,65
+    Moves = PHOTONICRUSH,ROCKSLIDE,EARTHQUAKE,HEAVYSLAM
+    Ball = BEASTBALL
+Pokemon = TYPENULL,65
+    EV = 65,65,65,65,65,65
+    Moves = AIRSLASH,XSCISSOR,IRONHEAD,DOUBLEHIT
+    Ball = BEASTBALL
+#-------------------------------
+[VETERAN_M,Patrick]
+LoseText = "Don't forget me!"
+Pokemon = DHELMISE,66
+    Item = ASSAULTVEST
+    AbilityIndex = 0
+    Moves = ANCHORSHOT,GIGADRAIN,LIQUIDATION,SHADOWCLAW
+Pokemon = GOLEM,66
+    Form = 1
+    Moves = BODYPRESS,DOUBLEEDGE,IRONDEFENSE,STONEEDGE
+    AbilityIndex = 2
+Pokemon = DRACOZOLT,66
+    Moves = BOLTBEAK,DRACOMETEOR,ROCKBLAST,THUNDERWAVE
+    AbilityIndex = 0
+Pokemon = GALLADE,66
+    Form = 2
+    Moves = FIRELASH,TRIPLEAXEL,IRONHEAD,HAIL
+    AbilityIndex = 0
+#-------------------------------
+[VETERAN_F,Marge]
+LoseText = "There is still much to learn."
+Pokemon = VOLCARONA,66
+   AbilityIndex = 0
+   Moves = BUGBUZZ,SUNNYDAY,FIERYDANCE,GIGADRAIN
+Pokemon = DELPHOX,66
+   AbilityIndex = 2
+   Moves = FIREBLAST,PSYCHIC,MOONBLAST,HYPNOSIS
+Pokemon = GYARADOS,66
+   Form = 1
+   AbilityIndex = 1
+   Moves = DRAGONPULSE,FLAMECHARGE,DARKPULSE,HURRICANE
+Pokemon = LUDICOLO,66
+   Form = 1
+   AbilityIndex = 0
+   Moves = SOLARBEAM,WEATHERBALL,SUNNYDAY,TEETERDANCE
+#-------------------------------
+[ACETRAINER_M,Waylon]
+LoseText = "Seems I've gotta train harder..."
+Pokemon = FLYGON,65
+    AbilityIndex = 2
+    Moves = BUGBUZZ,EARTHQUAKE,DRAGONDANCE,DRAGONCLAW
+Pokemon = GLALIE,65
+    AbilityIndex = 0
+    Moves = FROSTBREATH,FREEZEDRY,CRUNCH,IRONHEAD
+Pokemon = VIKAVOLT,65
+    AbilityIndex = 0
+    Moves = THUNDERBOLT,ENERGYBALL,BUGBUZZ,AGILITY
+#-------------------------------
+[ACETRAINER_F,Elise]
+LoseText = "Sigh... I'm so cold."
+Pokemon = ARAQUANID,67
+    AbilityIndex = 0
+    Moves = LIQUIDATION,LEECHLIFE,POISONJAB,REFLECT
+Pokemon = MIMIKYU,67
+    AbilityIndex = 0
+    Moves = SHADOWCLAW,PLAYROUGH,WOODHAMMER,SWORDSDANCE
+Pokemon = MAGMORTAR,67
+    AbilityIndex = 1
+    Moves = FIREBLAST,FOCUSBLAST,SCORCHINGSANDS,DRAGONPULSE
+Pokemon = LILLIGANT,67
+    AbilityIndex = 1
+    Moves = PETALDANCE,QUIVERDANCE,DAZZLINGGLEAM,POLLENPUFF
+#-------------------------------
+[VETERAN_F,Clara]
+LoseText = "Pokémon are partners, not weapons of violence."
+Pokemon = NOIVERN,68
+    AbilityIndex = 1
+    Moves = DRAGONPULSE,CRUNCH,AIRSLASH,BOOMBURST
+Pokemon = MRRIME,68
+    AbilityIndex = 0
+    Moves = FREEZEDRY,MIRRORCOAT,PSYCHIC,THUNDERWAVE
+Pokemon = GYARADOS,68
+    AbilityIndex = 0
+    Moves = WATERFALL,CRUNCH,ICEFANG,DRAGONDANCE
+Pokemon = CRAWDAUNT,68
+    AbilityIndex = 2
+    Moves = XSCISSOR,NIGHTSLASH,SWORDSDANCE,CLOSECOMBAT
+    Form = 1
+#-------------------------------
+[VETERAN_M,Reginald]
+LoseText = "Magnificent."
+Pokemon = GALVANTULA,68
+    AbilityIndex = 0
+    Moves = STICKYWEB,THUNDER,BUGBUZZ,GIGADRAIN
+Pokemon = GIGALITH,68
+    AbilityIndex = 0
+    Moves = STONEEDGE,EARTHQUAKE,BODYPRESS,IRONDEFENSE
+Pokemon = HAXORUS,68
+    AbilityIndex = 1
+    Moves = DRAGONCLAW,DRAGONDANCE,EARTHQUAKE,POISONJAB
+Pokemon = BISHARP,68
+    AbilityIndex = 0
+    Moves = IRONHEAD,SUCKERPUNCH,LOWKICK,POISONJAB
+Pokemon = SCIZOR,68
+    IV = 31,31,31,31,30,30
+    AbilityIndex = 1
+    Moves = METALCLAW,FURYCUTTER,HIDDENPOWER,ACROBATICS
+Pokemon = MILOTIC,68
+    AbilityIndex = 0
+    Moves = HYDROPUMP,ICYWIND,DRAGONPULSE,RECOVER
+    Item = FLAMEORB
+#-------------------------------
+[ELITEFOUR_Elizabeth,Elizabeth]
+LoseText = "So it seems you managed to best me. You lived up to my expectations spectacularly."
+Pokemon = HYDREIGON,72
+    AbilityIndex = 0
+    Item = SCOPELENS
+    Nature = TIMID
+    EV = 200,0,0,0,200,100
+    Moves = DRACOMETEOR,FLASHCANNON,NASTYPLOT,DARKPULSE
+    Ball = DUSKBALL
+Pokemon = GOLURK,72
+    AbilityIndex = 0
+    Item = ASSAULTVEST
+    Nature = ADAMANT
+    EV = 100,200,200,0,0,0
+    Moves = DRAINPUNCH,ICEPUNCH,EARTHQUAKE,POLTERGEIST
+    Ball = DUSKBALL
+Pokemon = LUMINEON,72
+    AbilityIndex = 0
+    Item = LIFEORB
+    Form = 1
+    Nature = MODEST
+    EV = 0,0,0,200,200,100
+    Moves = SHADOWBALL,THUNDERBOLT,HYDROPUMP,TAILGLOW
+    Ball = DUSKBALL
+Pokemon = ZOROARK,73
+    AbilityIndex = 0
+    Item = GHOSTGEM
+    Form = 1
+    Nature = HASTY
+    EV = 100,0,0,200,200,0
+    Moves = BITTERMALICE,FLAMETHROWER,FOCUSBLAST,SLUDGEBOMB
+    Ball = DUSKBALL
+Pokemon = SABLEYE,74
+    AbilityIndex = 0
+    Item = SABLENITE
+    Nature = BRAVE
+    EV = 0,200,200,0,0,100
+    Moves = SHADOWCLAW,SUCKERPUNCH,GYROBALL,RECOVER
+    Ball = DUSKBALL
+Pokemon = MANDIBUZZ,73
+    AbilityIndex = 2
+    Item = LEFTOVERS
+    Nature = CALM
+    EV = 200,0,200,0,0,100
+    Moves = TOXIC,FOULPLAY,DEFOG,AIRSLASH
+    Ball = DUSKBALL
+#-------------------------------
+[ELITEFOUR_Joey,Joey]
+LoseText = "Oh... I'm out of Pokémon that can fight."
+Pokemon = RAICHU,72
+    AbilityIndex = 1
+    Item = ELECTRICSEED
+    Nature = NAUGHTY
+    EV = 0,100,0,200,200,0
+    Moves = THUNDER,PLAYROUGH,GRASSKNOT,LIGHTSCREEN
+Pokemon = ROSERADE,72
+    AbilityIndex = 2
+    Item = EXPERTBELT
+    Nature = TIMID
+    EV = 0,0,0,100,200,200
+    IV = 31,31,30,30,31,31
+    Moves = MEGADRAIN,HIDDENPOWER,DAZZLINGGLEAM,SLUDGEBOMB
+Pokemon = GASTRODON,72
+    AbilityIndex = 1
+    Item = RINDOBERRY
+    Nature = CALM
+    EV = 200,0,100,0,0,200
+    Moves = ACIDARMOR,EARTHPOWER,ICEBEAM,HYDROPUMP
+Pokemon = PYROAR,73
+    AbilityIndex = 1
+    Item = ASSAULTVEST
+    Nature = LONELY
+    EV = 0,200,0,100,200,0
+    IV = 31,31,31,30,30,31
+    Moves = FLAMETHROWER,HIDDENPOWER,DARKPULSE,PSYCHICFANGS
+Pokemon = RATICATE,73
+    Form = 1
+    AbilityIndex = 1
+    Item = FOCUSSASH
+    Nature = JOLLY
+    EV = 100,200,0,200,0,0
+    Moves = COUNTER,SWORDSDANCE,SUCKERPUNCH,SUPERFANG
+Pokemon = CORVIKNIGHT,74
+    AbilityIndex = 0
+    Item = CORVINITITE
+    Nature = ADAMANT
+    EV = 200,100,200,0,0,0
+    Moves = BODYPRESS,IRONHEAD,CURSE,BRAVEBIRD
+#-------------------------------
+[ELITEFOUR_Adam,Adam]
+LoseText = "We've been struck down... go figure."
+Pokemon = BRAVIARY,72
+    AbilityIndex = 2
+    Item = FIGYBERRY
+    Nature = ADAMANT
+    EV = 200,100,0,200,0,0
+    Moves = CLOSECOMBAT,TAILWIND,BRAVEBIRD,UTURN
+Pokemon = HAWLUCHA,72
+    AbilityIndex = 1
+    Item = FLYINGGEM
+    Nature = NAIVE
+    EV = 200,200,100,0,0,0
+    Moves = ACROBATICS,STONEEDGE,POISONJAB,POWERUPPUNCH
+Pokemon = FLYGON,72
+    AbilityIndex = 2
+    Item = ASSAULTVEST
+    Nature = LONELY
+    EV = 100,0,0,200,200,0
+    Moves = AIRSLASH,BUGBUZZ,FIREBLAST,EARTHQUAKE
+Pokemon = ARCHEOPS,73
+    AbilityIndex = 2
+    Item = POWERHERB
+    Nature = LONELY
+    EV = 0,100,0,200,200,0
+    Moves = METEORBEAM,EARTHPOWER,ROOST,ACROBATICS
+Pokemon = XATU,73
+    AbilityIndex = 2
+    Item = WEAKNESSPOLICY
+    Nature = TIMID
+    EV = 0,0,200,0,100,200
+    Moves = CALMMIND,BATONPASS,LIGHTSCREEN,AIRSLASH
+Pokemon = PIDGEOT,74
+    AbilityIndex = 0
+    Item = PIDGEOTITE
+    Nature = MODEST
+    EV = 200,0,0,100,200,0
+    Moves = THUNDER,HURRICANE,AGILITY,FOCUSBLAST
+#-------------------------------
+[ELITEFOUR_Lilian,Lilian]
+LoseText = "So it seems that in the end, your strength surpassed ours."
+Pokemon = BRELOOM,72
+    AbilityIndex = 1
+    Item = TOXICORB
+    Nature = ADAMANT
+    EV = 200,200,0,0,0,100
+    Moves = SPORE,SWORDSDANCE,DRAINPUNCH,THUNDERPUNCH
+Pokemon = CHESNAUGHT,72
+    Form = 1
+    AbilityIndex = 2
+    Item = ROCKYHELMET
+    Nature = IMPISH
+    EV = 100,200,200,0,0,0
+    Moves = SPIKYSHIELD,FOCUSPUNCH,EARTHQUAKE,AERIALACE
+Pokemon = BISHARP,72
+    AbilityIndex = 0
+    Item = CHOPLEBERRY
+    Nature = ADAMANT
+    EV = 0,200,200,100,0,0
+    Moves = IRONHEAD,POWERUPPUNCH,PSYCHOCUT,SUCKERPUNCH
+Pokemon = BLAZIKEN,73
+    AbilityIndex = 2
+    Item = LIFEORB
+    Nature = LONELY
+    IV = 31,31,31,30,30,31
+    EV = 0,200,0,100,200,0
+    Moves = BLAZEKICK,AURASPHERE,HIDDENPOWER,SCORCHINGSANDS
+Pokemon = EMPOLEON,73
+    AbilityIndex = 2
+    Item = WATERGEM
+    Nature = QUIET
+    EV = 0,200,0,0,200,100
+    Moves = HYDROPUMP,AVALANCHE,ROOST,FLASHCANNON
+Pokemon = LUCARIO,74
+    AbilityIndex = 0
+    Item = LUCARIONITE
+    Nature = MILD
+    EV = 0,100,0,200,200,0
+    Moves = AURASPHERE,DARKPULSE,CALMMIND,ICEPUNCH
+#-------------------------------
+[NEOAETHER_F,Member,4]
+LoseText = "Why, you..."
+Pokemon = REUNICLUS,52
+    Ball = BEASTBALL
+Pokemon = GLALIE,52
+    Ball = BEASTBALL
+Pokemon = CRADILY,52
+    Ball = BEASTBALL
+Pokemon = TYPENULL,54
+    Ball = BEASTBALL
+Pokemon = CLEFABLE,54
+    Form = 99
+    Ball = BEASTBALL
+Pokemon = AGGRON,54
+    Form = 99
+    Ball = BEASTBALL
+#-------------------------------
+[PHOEBEAETHER2,Phoebe]
+LoseText = "WHAT?! Impossible! My absolute strongest team... defeated...?!"
+Pokemon = LUCARIO,74
+    Moves = DRAINPUNCH,METEORMASH,BLAZEKICK,SWORDSDANCE
+    AbilityIndex = 1
+    Item = EXPERTBELT
+    Nature = HASTY
+    EV = 100,200,0,200,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = AEGISLASH,74
+    Moves = GYROBALL,SHADOWCLAW,NIGHTSLASH,KINGSSHIELD
+    AbilityIndex = 0
+    Item = ROCKYHELMET
+    Nature = RELAXED
+    EV = 100,200,200,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = PORYGONZ,74
+    Moves = DISCHARGE,ICEBEAM,PSYCHIC,EXPLOSION
+    AbilityIndex = 2
+    Item = SILKSCARF
+    Nature = MILD
+    EV = 0,100,0,0,200,200
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = NOIVERN,74
+    Moves = BOOMBURST,DEFOG,DRAGONPULSE,AIRSLASH
+    AbilityIndex = 1
+    Item = FLYINGGEM
+    Nature = TIMID
+    EV = 200,0,0,200,100,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = BANETTE,74
+    Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
+    AbilityIndex = 0
+    Item = BANETTITE
+    Nature = LONELY
+    EV = 200,200,0,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = NIHILEGO,73
+    Moves = SLUDGEBOMB,METEORBEAM,GRASSKNOT,LIGHTSCREEN
+    EV = 100,0,0,0,100,100
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = XURKITREE,73
+    Moves = DAZZLINGGLEAM,ENERGYBALL,THUNDER,TAILGLOW
+    EV = 0,0,100,0,100,100
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = KARTANA,73
+    Moves = LEAFBLADE,SACREDSWORD,SMARTSTRIKE,SWORDSDANCE
+    EV = 0,100,100,100,0,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = BLACEPHALON,73
+    Moves = FIREBLAST,SHADOWBALL,PSYSHOCK,CALMMIND
+    EV = 100,0,0,100,100,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = NECROZMA,75
+    Form = 1
+    Moves = PHOTONGEYSER,POWERGEM,SUNSTEELSTRIKE,SWORDSDANCE
+    AbilityIndex = 0
+    Item = ULTRANECROZIUMZ
+    Nature = RELAXED
+    EV = 110,200,0,0,190,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+#-------------------------------
+[PHOEBEAETHER2,Phoebe,1]
+LoseText = "WHAT?! Impossible! My absolute strongest team... defeated...?!"
+Pokemon = LUCARIO,74
+    Moves = DRAINPUNCH,METEORMASH,BLAZEKICK,SWORDSDANCE
+    AbilityIndex = 1
+    Item = EXPERTBELT
+    Nature = HASTY
+    EV = 100,200,0,200,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = AEGISLASH,74
+    Moves = GYROBALL,SHADOWCLAW,NIGHTSLASH,KINGSSHIELD
+    AbilityIndex = 0
+    Item = ROCKYHELMET
+    Nature = RELAXED
+    EV = 100,200,200,0,0,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = PORYGONZ,74
+    Moves = DISCHARGE,ICEBEAM,PSYCHIC,EXPLOSION
+    AbilityIndex = 2
+    Item = SILKSCARF
+    Nature = MILD
+    EV = 0,100,0,0,200,200
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = NOIVERN,74
+    Moves = BOOMBURST,DEFOG,DRAGONPULSE,AIRSLASH
+    AbilityIndex = 1
+    Item = FLYINGGEM
+    Nature = TIMID
+    EV = 200,0,0,200,100,0
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = BANETTE,74
+    Moves = KNOCKOFF,SHADOWSNEAK,HEADBUTT,THUNDERWAVE
+    AbilityIndex = 0
+    Item = BANETTITE
+    Nature = LONELY
+    EV = 200,200,0,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = ULTRABALL
+Pokemon = NIHILEGO,73
+    Moves = SLUDGEBOMB,METEORBEAM,GRASSKNOT,LIGHTSCREEN
+    EV = 100,0,0,0,100,100
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = XURKITREE,73
+    Moves = DAZZLINGGLEAM,ENERGYBALL,THUNDER,TAILGLOW
+    EV = 0,0,100,0,100,100
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = CELESTEELA,73
+    Moves = ACROBATICS,EARTHQUAKE,FLASHCANNON,HEAVYSLAM
+    EV = 100,100,0,0,100,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = STAKATAKA,73
+    Moves = BODYPRESS,HIGHHORSEPOWER,ROCKSLIDE,IRONDEFENSE
+    EV = 0,100,100,0,0,100
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+Pokemon = NECROZMA,75
+    Form = 2
+    Moves = PHOTONGEYSER,STONEEDGE,MOONGEISTBEAM,CALMMIND
+    AbilityIndex = 0
+    Item = ULTRANECROZIUMZ
+    Nature = SASSY
+    EV = 110,190,0,0,200,0
+    IV = 31,31,31,31,31,31
+    Ball = BEASTBALL
+#-------------------------------
+[KURISU4,Kurisu,1]
+LoseText = "..."
+Pokemon = NAGANADEL,72
+    AbilityIndex = 0
+    Moves = HEATWAVE,GUNKSHOT,TOXICSPIKES,DRAGONPULSE
+    EV = 0,200,0,0,200,100
+    Nature = HASTY
+    Ball = BEASTBALL
+Pokemon = GRENINJA,72
+    Item = FOCUSSASH
+    AbilityIndex = 0
+    Moves = UTURN,ICEBEAM,SHADOWSNEAK,SCALD
+    EV = 0,0,0,200,200,100
+    Nature = HASTY 
+    Ball = DUSKBALL
+Pokemon = VANILLUXE,72
+    Form = 1
+    Item = LEFTOVERS
+    AbilityIndex = 0
+    Moves = EARTHPOWER,FLAMETHROWER,POWERGEM,LIGHTSCREEN
+    EV = 0,0,200,0,100,200
+    Nature = BOLD
+    Ball = QUICKBALL
+Pokemon = TANGROWTH,73
+    Item = EJECTPACK
+    AbilityIndex = 2
+    Moves = LEAFSTORM,FOCUSBLAST,EARTHQUAKE,KNOCKOFF
+    EV = 0,100,200,0,200,0
+    Nature = RELAXED
+    Ball = GREATBALL
+Pokemon = METAGROSS,73
+    Item = IAPAPABERRY
+    AbilityIndex = 1
+    Moves = METEORMASH,PSYCHIC,DYNAMICPUNCH,ZAPCANNON
+    EV = 200,100,200,0,0,0
+    Nature = BRAVE
+    Ball = TIMERBALL
+Pokemon = GARCHOMP,74
+    Gender = female
+    Item = GARCHOMPITE
+    AbilityIndex = 0
+    Moves = DRAGONCLAW,FLAMETHROWER,SANDSTORM,STONEEDGE
+    EV = 200,100,200,0,0,0
+    Nature = RELAXED
+#-------------------------------
+[CHAMPION,Kurisu]
+LoseText = "So... after all that... you're still the stronger one. But even still, I'm not mad that I lost. In fact... this was the most amazing battle I've ever had."
+Pokemon = NAGANADEL,74
+    Item = DRAGONGEM
+    AbilityIndex = 0
+    Moves = HEATWAVE,GUNKSHOT,TOXICSPIKES,DRAGONPULSE
+    EV = 0,200,0,0,200,100
+    Nature = HASTY
+    Ball = BEASTBALL
+Pokemon = GRENINJA,74
+    Item = FOCUSSASH
+    AbilityIndex = 0
+    Moves = ROCKSLIDE,ICEBEAM,SHADOWSNEAK,SCALD
+    EV = 0,0,0,200,200,100
+    Nature = HASTY 
+    Ball = DUSKBALL
+Pokemon = VANILLUXE,74
+    Form = 1
+    Item = LEFTOVERS
+    AbilityIndex = 0
+    Moves = EARTHPOWER,FLAMETHROWER,POWERGEM,LIGHTSCREEN
+    EV = 0,0,200,0,100,200
+    Nature = BOLD
+    Ball = QUICKBALL
+Pokemon = TANGROWTH,75
+    Item = EJECTPACK
+    AbilityIndex = 2
+    Moves = LEAFSTORM,FOCUSBLAST,EARTHQUAKE,KNOCKOFF
+    EV = 0,100,200,0,200,0
+    Nature = RELAXED
+    Ball = GREATBALL
+Pokemon = METAGROSS,75
+    Item = IAPAPABERRY
+    AbilityIndex = 1
+    Moves = METEORMASH,PSYCHIC,DYNAMICPUNCH,GRASSKNOT
+    EV = 200,100,200,0,0,0
+    Nature = BRAVE
+    Ball = TIMERBALL
+Pokemon = GARCHOMP,76
+    Gender = female
+    Item = GARCHOMPITE
+    AbilityIndex = 0
+    Moves = DRAGONCLAW,EARTHQUAKE,SANDSTORM,STONEEDGE
+    EV = 200,100,200,0,0,0
+    Nature = RELAXED
+#-------------------------------
+[NEOAETHER_M,Member,4]
+LoseText = "What...? Why didn't it work?"
+Pokemon = PORYGON,50
+    EV = 252,0,252,0,0,252
+    Item = EVIOLITE
+    Moves = PSYBEAM,DISCHARGE,TRIATTACK
+Pokemon = MUK,50
+    Form = 1
+    EV = 0,0,0,0,0,0
+    Moves = BRICKBREAK,CRUNCH,GUNKSHOT
+Pokemon = REUNICLUS,50
+    EV = 0,0,0,0,0,0
+    Moves = PSYSHOCK,FOCUSBLAST,ENERGYBALL
+Pokemon = PIDGEOT,52
+    Form = 99
+    Moves = AIRSLASH,RAYOFLIGHT,AGILITY,ELECTROBALL
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [BECCACAT,test]
 LoseText = "Fuck you!"
-Pokemon = PIKACHU,10
-    Moves = THUNDERWAVE,POUND
+Pokemon = GOOMY,100
+    EV = 252,252,252,252,252,252
+    Moves = TESTMOVE
+Pokemon = GOOMY,100
+    EV = 252,252,252,252,252,252
+    Moves = TESTMOVE
+    Shiny = yes
+Pokemon = GOOMY,100
+    EV = 252,252,252,252,252,252
+    Moves = TESTMOVE
+Pokemon = GOOMY,100
+    EV = 252,252,252,252,252,252
+    Moves = TESTMOVE
 #-------------------------------
 [BECCACAT,Becca]
 LoseText = "Meow meow!"
 Pokemon = HYDREIGON,100
+    EV = 0,0,4,252,252,0
+    Moves = FLASHCANNON,DRACOMETEOR,DARKPULSE,THUNDERWAVE
+    Item = SCOPELENS
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = GALVANTULA,100
+    EV = 0,0,4,252,0,252
+    Moves = STICKYWEB,VOLTSWITCH,THUNDER,BUGBUZZ
+    Item = LIFEORB
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = REUNICLUS,100
+    EV = 252,0,252,0,0,4
+    Moves = CALMMIND,PSYSHOCK,FOCUSBLAST,ENERGYBALL
+    Item = LEFTOVERS
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = LUCARIO,100
+    EV = 0,252,0,252,0,4
+    Moves = CLOSECOMBAT,METEORMASH,SWORDSDANCE,EXTREMESPEED
+    Item = LIFEORB
+    AbilityIndex = 0
+    Nature = JOLLY
 Pokemon = GOODRA,100
-Pokemon = GALLADE,100
+    EV = 252,0,0,0,252,4
+    Moves = DRACOMETEOR,GIGADRAIN,FIREBLAST,HYDROPUMP
+    Item = EJECTPACK
+    AbilityIndex = 2
+    Nature = MODEST
+Pokemon = SCIZOR,100
+    EV = 0,252,252,0,0,4
+    Moves = BULLETPUNCH,UTURN,KNOCKOFF,HIDDENPOWER
+    IV = 31,31,31,31,30,30
+    Item = EXPERTBELT
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = SERPERIOR,100
+    EV = 56,0,0,252,200,0
+    Moves = LEAFSTORM,HIDDENPOWER,SUBSTITUTE,GLARE
+    IV = 31,31,31,31,31,30
+    Item = LEFTOVERS
+    AbilityIndex = 2
+    Nature = TIMID
+Pokemon = DELPHOX,100
+    EV = 0,0,0,252,252,4
+    Moves = FIREBLAST,MOONBLAST,PSYCHIC,CALMMIND
+    Item = LIFEORB
+    AbilityIndex = 2
+    Nature = MODEST
+Pokemon = EMPOLEON,100
+    EV = 252,4,0,0,0,252
+    Moves = SCALD,IRONHEAD,DEFOG,ROAR
+    Item = LEFTOVERS
+    AbilityIndex = 2
+    Nature = SASSY
 Pokemon = TYPHLOSION,100
-Pokemon = NAGANADEL,100
+    EV = 0,0,0,252,4,252
+    Moves = ICEBEAM,DARKPULSE,EARTHPOWER,DRAGONPULSE
+    AbilityIndex = 0
+    Nature = MODEST
+    Item = CHOICESCARF
+    Form = 1
+Pokemon = NECROZMA,100
+    Form = 2
+    EV = 252,0,0,0,252,4
+    Moves = FLASHCANNON,PHOTONGEYSER,HEATWAVE,METEORBEAM
+    Item = POWERHERB
+    AbilityIndex = 1
+    Nature = QUIET
 Pokemon = RAYQUAZA,100
+    Shiny = yes
     Item = DELTAMETEORITE
+    EV = 252,0,4,252,0,0
+    Moves = DRAGONCLAW,DRAGONDANCE,DRAGONASCENT,FLAMETHROWER
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[BIKER,Charles]
+LoseText = "I'm a heartbreaker... My name... Charles."
+Pokemon = ZEBSTRIKA,50
+Pokemon = KROOKODILE,50
+Pokemon = BASCULIN,50
+Pokemon = SIGILYPH,50
+Pokemon = CARRACOSTA,50
+Pokemon = ARCHEOPS,50

@@ -3,3 +3,324 @@
 BattleEnv       = MOUNTAIN
 WINTER
     BattleEnv   = SNOW
+#-------------------------------
+[022] # Crashsite A
+BattleEnv       = MOUNTAINT
+#-------------------------------
+[042] # Route 1
+BattleEnv       = MOUNTAINT
+#-------------------------------
+[043] # Titan's Foot Village
+BattleEnv       = OUTDOOR
+#-------------------------------
+[077] # Route 2
+BattleEnv       = OUTDOOR
+#-------------------------------
+[078] # Route 3
+BattleEnv       = OUTDOOR
+#-------------------------------
+[079] # Azure Lake
+BattleEnv       = OUTDOOR
+#-------------------------------
+[081] # Azure Base
+BattleEnv       = OUTDOOR
+#-------------------------------
+[082] # Azure PokéCenter
+BattleEnv       = INDOOR
+#-------------------------------
+[084] # Azure Gym
+BattleEnv       = GYM1
+#-------------------------------
+[085] # Route 4
+BattleEnv       = FOREST
+#-------------------------------
+[086] # Route 4
+BattleEnv       = FOREST
+#-------------------------------
+[087] # Luna Mine Entrance
+BattleEnv       = FOREST
+#-------------------------------
+[088] # Luna Mine
+BattleEnv       = CAVELUNA
+#-------------------------------
+[090] # Route 5
+BattleEnv       = OUTDOOR
+#-------------------------------
+[091] # Route 6
+BattleEnv       = FOREST2
+#-------------------------------
+[093] # Maple PokéCenter
+BattleEnv       = INDOOR
+#-------------------------------
+[095] # Maple Town
+BattleEnv       = INDOOR
+#-------------------------------
+[096] # Maple Gym
+BattleEnv       = GYM2
+#-------------------------------
+[097] # Nocturne Wood
+BattleEnv       = FOREST2
+#-------------------------------
+[098] # Route 7
+BattleEnv       = FOREST2
+#-------------------------------
+[099] # Girit Town
+BattleEnv       = FOREST
+#-------------------------------
+[102] # Route 8
+BattleEnv       = MOUNTAIN
+#-------------------------------
+[104] # Luna Mine
+BattleEnv       = CAVELUNA
+#-------------------------------
+[106] # Route 9
+BattleEnv       = MOUNTAIN
+#-------------------------------
+[107] # Route 10
+BattleEnv       = WATER
+#-------------------------------
+[108] # Bonfire Island
+BattleEnv       = WATER
+#-------------------------------
+[111] # Bonfire Gym
+BattleEnv       = GYM3
+#-------------------------------
+[116] # Bonfire Island
+BattleEnv	= INDOOR
+#-------------------------------
+[117] # Training Cave
+BattleEnv       = CAVE
+#-------------------------------
+[118] # Waterside Cavern
+BattleEnv       = CAVELUNA
+#-------------------------------
+[120] # Girit Gym
+BattleEnv       = GYM4
+#-------------------------------
+[121] # Route 11
+BattleEnv       = FOREST2
+#-------------------------------
+[122] # Route 12
+BattleEnv       = FOREST
+#-------------------------------
+[123] # Lavenn Forest
+BattleEnv       = FOREST3
+#-------------------------------
+[124] # Azure Lake
+BattleEnv       = OUTDOOR
+#-------------------------------
+[125] # Azure Shipyard
+BattleEnv       = SHIPYARD
+#-------------------------------
+[126] # Azure Shipyard
+BattleEnv       = SHIPYARD
+#-------------------------------
+[127] # Faypoint Town
+BattleEnv       = FOREST3
+#-------------------------------
+[130] # Faypoint Gym
+BattleEnv       = INDOOR3
+#-------------------------------
+[131] # Faypoint Gym
+BattleEnv       = GYM5
+#-------------------------------
+[132] # Keystone Pass
+BattleEnv       = CAVE
+#-------------------------------
+[133] # Keystone Pass
+BattleEnv       = CAVE
+#-------------------------------
+[134] # Route 13
+BattleEnv       = BADLANDS
+#-------------------------------
+[137] # Route 14
+BattleEnv       = BADLANDS
+#-------------------------------
+[140] # Abandoned House
+BattleEnv       = INDOOR3
+#-------------------------------
+[143] # Eridhe Gym
+BattleEnv       = GYM6
+#-------------------------------
+[145] # Aurum Desert
+BattleEnv       = BADLANDS
+#-------------------------------
+[146] # Ancient Ruins
+BattleEnv       = RUINS
+#-------------------------------
+[147] # Route 15
+BattleEnv       = BADLANDS
+#-------------------------------
+[148] # Route 15
+BattleEnv       = BADLANDS
+#-------------------------------
+[149] # Stark Beach
+BattleEnv       = BADLANDS
+#-------------------------------
+[150] # Argentum Caldera
+BattleEnv       = CAVELAVA
+#-------------------------------
+[151] # Stark Bay
+BattleEnv       = WATER
+#-------------------------------
+[152] # Route 16
+BattleEnv       = FORESTD
+#-------------------------------
+[154] # The Crucible
+BattleEnv       = CAVECRUCIBLE
+#-------------------------------
+[155] # Crucible Labyrinth
+BattleEnv       = CAVECRUCIBLE
+#-------------------------------
+[156] # The Crucible
+BattleEnv       = CAVECRUCIBLE
+#-------------------------------
+[157] # The Crucible
+BattleEnv       = CAVECRUCIBLE
+#-------------------------------
+[158] # The Crucible
+BattleEnv       = CAVECRUCIBLE
+#-------------------------------
+[160] # Argentum Caldera
+BattleEnv       = CAVELAVA
+#-------------------------------
+[161] # Argentum Caldera
+BattleEnv       = CAVELAVA
+#-------------------------------
+[162] # Route 17
+BattleEnv       = MOUNTAIN2
+#-------------------------------
+[164] # Route 17
+BattleEnv       = MOUNTAIN2
+#-------------------------------
+[167] # Draconis Gym
+BattleEnv       = GYM7
+#-------------------------------
+[168] # Team Beastman Base
+BattleEnv       = INDOOR2
+#-------------------------------
+[169] # Team Beastman Base
+BattleEnv       = INDOOR2
+#-------------------------------
+[170] # Team Beastman Base
+BattleEnv       = INDOOR2
+#-------------------------------
+[171] # Team Beastman Base
+BattleEnv       = INDOOR2
+#-------------------------------
+[172] # Draconis Cave
+BattleEnv       = CAVE
+#-------------------------------
+[173] # Draconis Cave
+BattleEnv       = CAVE
+#-------------------------------
+[176] # Route 18
+BattleEnv       = SNOW
+#-------------------------------
+[177] # Route 19
+BattleEnv       = SNOW
+#-------------------------------
+[179] # Luna Mine
+BattleEnv       = CAVELUNA
+#-------------------------------
+[183] # Frostpeak Gym
+BattleEnv       = GYM8
+#-------------------------------
+[185] # Route 20
+BattleEnv       = MOUNTAIN
+#-------------------------------
+[186] # Exeggutor Island
+BattleEnv       = BEACH
+#-------------------------------
+[188] # Ultra Space Wilds
+BattleEnv       = ULTRASPACE
+#-------------------------------
+[191] # Altar of the Stars
+BattleEnv       = MOUNTAIN
+#-------------------------------
+[194] # Ultra Space
+BattleEnv       = ULTRASPACEGRASS
+#-------------------------------
+[195] # Ultra Space
+BattleEnv       = CAVE
+#-------------------------------
+[196] # Ultra Space
+BattleEnv       = WATER
+#-------------------------------
+[197] # Ultra Space
+BattleEnv       = ULTRASPACEGRASS2
+#-------------------------------
+[198] # Route 21
+BattleEnv       = SNOW
+#-------------------------------
+[200] # Linking Cave
+BattleEnv       = CAVE
+#-------------------------------
+[203] # Desert Cave
+BattleEnv       = CAVE
+#-------------------------------
+[204] # Desert Cave
+BattleEnv       = CAVE
+#-------------------------------
+[206] # Victory Road
+BattleEnv       = CAVEVICTORY
+#-------------------------------
+[207] # Victory Road
+BattleEnv       = CAVEVICTORY
+#-------------------------------
+[208] # Victory Road
+BattleEnv       = FOREST
+#-------------------------------
+[209] # Victory Road
+BattleEnv       = CAVEVICTORY
+#-------------------------------
+[210] # Victory Road
+BattleEnv       = FOREST
+#-------------------------------
+[211] # Victory Road
+BattleEnv       = CAVEVICTORY
+#-------------------------------
+[212] # Victory Road
+BattleEnv       = MOUNTAIN
+#-------------------------------
+[213] # Victory Road
+BattleEnv       = CAVEVICTORY
+#-------------------------------
+[214] # Sol Isles
+BattleEnv       = BEACH
+#-------------------------------
+[216] # Gemstone Tunnel
+BattleEnv       = CAVE
+#-------------------------------
+[218] # Alohil Town
+BattleEnv       = BEACH
+#-------------------------------
+[219] # Victory Road
+BattleEnv       = CAVEVICTORYICE
+#-------------------------------
+[220] # Victory Road
+BattleEnv       = CAVEVICTORYICE
+#-------------------------------
+[224] # Spectral Chamber
+BattleEnv       = E4_1
+#-------------------------------
+[225] # Basic Chamber
+BattleEnv       = E4_2
+#-------------------------------
+[226] # Soaring Chamber
+BattleEnv       = E4_3
+#-------------------------------
+[227] # Martial Chamber
+BattleEnv       = E4_4
+#-------------------------------
+[235] # Neo Aether Paradise
+BattleEnv       = INDOOR2
+#-------------------------------
+[237] # Neo Aether Paradise - Apex
+BattleEnv       = NEOAETHER
+#-------------------------------
+[239] # Champion Chamber
+BattleEnv       = CHAMPION
+#-------------------------------
+[999] # Dummy Map (apparently whatever the last map in the list is just doesn't load properly)
+BattleEnv       = CAVE

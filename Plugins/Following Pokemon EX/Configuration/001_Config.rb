@@ -38,7 +38,7 @@ module FollowingPkmn
   FRIENDSHIP_TIME_TAKEN     = 125
 
   # Time Taken for Follower to find an item when first in party (in seconds)
-  ITEM_TIME_TAKEN           = 375
+  ITEM_TIME_TAKEN           = 240
 
   # Whether the Follower always stays in its move cycle (like HGSS) or not.
   ALWAYS_ANIMATE            = true

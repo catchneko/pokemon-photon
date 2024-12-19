@@ -5422,17 +5422,17 @@ BattlerPlayerY          = 0
 BattlerEnemyX           = 0
 #-------------------------------
 [SLOWPOKE,1]
-BattlerEnemyY           = 38
+BattlerEnemyY           = 72
 BattlerAltitude         = 0
-BattlerPlayerX          = 0
-BattlerPlayerY          = 62
+BattlerPlayerX          = 17
+BattlerPlayerY          = 71
 BattlerEnemyX           = 2
 #-------------------------------
 [SLOWBRO,1]
 BattlerEnemyY           = 49
 BattlerAltitude         = 0
 BattlerPlayerX          = -4
-BattlerPlayerY          = 50
+BattlerPlayerY          = 54
 BattlerEnemyX           = 8
 #-------------------------------
 [SLOWBRO,2]

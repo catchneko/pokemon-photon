@@ -1,30 +1,32 @@
 #-------------------------------
 [PLAYERDATABOX]
+XY		   = 288,232
 ShowHP             = true
 HPBarWidth         = 168
 HPBarXY            = 4,2
-ExpBarWidth        = 100
-EXPBarXY           = 4,16
+ExpBarWidth        = 50
+EXPBarXY           = 24,14
 Bitmap             = dataBox
 Container          = containers
 HPColors           = barColors
-ExpandInDoubles    = false
+ExpandInDoubles    = true
 CONTAINER
-  XYZ              = 20,6,1
+  XYZ              = 40,26,1
 NAME
-  XYZ              = 22,-24,9
+  XYZ              = 42,4,9
 HP
-  XYZ              = 22,9,9
+  XYZ              = 36,26,9
 STATUS
-  XYZ              = -26,16,1
+  XYZ              = 42,36,1
 MEGA
-  XYZ              = -10,-18,1
+  XYZ              = 142,4,1
 ULTRA
-  XYZ              = -10,-18,1
+  XYZ              = 10,4,1
 DYNAMAX
   XYZ              = -10,-18,1
 #-------------------------------
 [ENEMYDATABOX]
+XY		   = 0,30
 ShowHP             = false
 HPBarWidth         = 168
 HPBarXY            = 4,2
@@ -34,17 +36,17 @@ Bitmap             = dataBox
 Container          = containers
 HPColors           = barColors
 CONTAINER
-  XYZ              = 24,6,1
+  XYZ              = 6,26,1
 NAME
-  XYZ              = 26,-24,9
+  XYZ              = 8,4,9
 HP
-  XYZ              = 20,9,9
+  XYZ              = 2,26,9
 STATUS
-  XYZ              = 202,16,1
+  XYZ              = 24,36,1
 MEGA
-  XYZ              = 206,-18,1
+  XYZ              = 108,4,1
 ULTRA
-  XYZ              = 206,-18,1
+  XYZ              = 180,4,1
 DYNAMAX
   XYZ              = 206,-18,1
 #-------------------------------

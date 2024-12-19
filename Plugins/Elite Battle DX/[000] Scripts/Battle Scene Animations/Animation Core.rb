@@ -222,7 +222,7 @@ class PokeBattle_Scene
     poke.resetParticles
     databox = @sprites["dataBox_#{pkmn.index}"]
     # play cry
-    playBattlerCry(@battlers[pkmn.index])
+    playBattlerCryFaint(@battlers[pkmn.index])
     self.wait(GameData::Species.cry_length(pkmn.species, pkmn.form), true)
     # begin animation
     pbSEPlay("Pkmn faint")
