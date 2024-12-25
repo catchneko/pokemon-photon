@@ -981,3 +981,20 @@ Beta 0.12.0
 - Replaced the Escape Rope with Sitrus Berries in the Pickup item pool (otherwise it is identical to the items and probabilities found in ORAS)
 - Fixed the map metadata for every map, hopefully making the player icons properly display on the Town Map
 ```
+```
+Beta 0.12.1
+## BUG/ERROR FIXES
+- Fixed an error where the cutscene would break and the game would continue even if you lose to Ultra Necrozma
+- Fixed an issue with the AI using Play Nice
+- Fixed an issue with the Vitamin EV cap applying incorrectly
+- Fixed an issue where all tiles on Exeggutor Island can be surfed on
+- Fixed an issue with one of the bridges on Victory Road
+- Fixed a potential softlock when obtaining the Aether Password in Neo Aether Paradise
+- Fixed some tile collision on Victory Road
+- Fixed the panorama graphic not functioning properly on Route 15
+
+## MAP/EVENT CHANGES
+- Adjusted a cutscene in Azure Lake
+- Adjusted a cutscene on Route 17
+- Fixed some awkward eventing in Luna Mine
+```
