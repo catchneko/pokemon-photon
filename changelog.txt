@@ -980,8 +980,7 @@ Beta 0.12.0
 - Removed Escape Ropes from PokéMarts and the follower Pokémon item pool because they don't do anything
 - Replaced the Escape Rope with Sitrus Berries in the Pickup item pool (otherwise it is identical to the items and probabilities found in ORAS)
 - Fixed the map metadata for every map, hopefully making the player icons properly display on the Town Map
-```
-```
+
 Beta 0.12.1
 ## BUG/ERROR FIXES
 - Fixed an error where the cutscene would break and the game would continue even if you lose to Ultra Necrozma
@@ -997,4 +996,22 @@ Beta 0.12.1
 - Adjusted a cutscene in Azure Lake
 - Adjusted a cutscene on Route 17
 - Fixed some awkward eventing in Luna Mine
+
+Beta 0.12.2
+## MISC CHANGES
+- Changed the item shop in Eridhe Town
+    - The Choice Items and Life Orb no longer appear until the postgame
+    - Added the UpGrade and Dubious Disc (postgame only), allowing Porygon2 and Porygon-Z to finally be obtainable
+- Changed a line of dialogue in Jack's sidequest to fix an inconsistency
+
+## BUG/ERROR FIXES
+- Fixed Helia and Jack appearing where they shouldn't during/after their sidequests
+- Fixed a number of eventing errors in Jack's sidequest
+- Fixed a tileset error enabling the player to walk on tiles they shouldn't
+- Fixed another, more minor, tile error causing one of Kurisu's computers to appear underneath the table
+
+## MAP/EVENT CHANGES
+- Fixed some mapping in Azure Shipyard to remove awkward shading
+- Added a Dubious Disc item to Neo Aether Paradise
+- Changed the sign on the Girit Town Stuff Shop to be more descriptive
 ```
