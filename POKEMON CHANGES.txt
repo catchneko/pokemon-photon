@@ -546,7 +546,7 @@ Shiinotic
      HA | Rain Dish -> Life Roots
 
 Foongus
-    Evolution into Amoonguss: Lv.39 -> Lv.30
+    Evolution into Amoonguss: Lv.39 -> Lv.34
 
 Goomy
     Atk 50 -> 42 (-8)
@@ -770,7 +770,7 @@ Mega Swampert
     BST 635 -> 615 (-20)
 
 Yamask (Galar)
-    Evolution into Runerigus: Take 49 HP damage and go to a specific spot on the map -> Take 49 HP damage
+    Evolution into Runerigus: Take 49 HP damage and go to a specific spot on the map -> Lv.34
 (Certified "what where you finking game feak..." moment)
 
 Deino

@@ -1014,4 +1014,23 @@ Beta 0.12.2
 - Fixed some mapping in Azure Shipyard to remove awkward shading
 - Added a Dubious Disc item to Neo Aether Paradise
 - Changed the sign on the Girit Town Stuff Shop to be more descriptive
+
+Beta 0.12.3
+## ADDITIONS
+- Added a new password, "legendaryreset", which repawns all fainted Legendary Pokémon that have not yet been caught.
+
+## BUG/ERROR FIXES
+- Potentially fixed the error that makes the move Dragon Rage crash the game?
+- Moved Lass Sarah on Route 4 so that Lass Molly doesn't trigger a bug in which she could be fought twice in a Double Battle
+- Moved the Sailor on Route 20 forward a tile, fixing the bug where you could surf on land
+- Fixed a specific button in Neo Aether Paradise that allowed the player to accidentally trap themselves inside of the door puzzle
+- Fixed an issue where the player would become trapped at the Pokémon League if they re-entered it upon becoming Champion
+- Fixed a slight dialogue error if the player defeats Giratina instead of capturing it
+
+## POKEMON ATTRIBUTE CHANGES
+- Galarian Yamask now evolves into Runerigus at Lv34 (its old evo method was broken)
+
+## MAP/EVENT CHANGES
+- All Legendary Pokémon now respawn upon beating the game, if not caught
+    - If you have already beaten the game, you can use the "legendaryreset" password to respawn them instead, as the Pokémon League is not yet rematchable
 ```
