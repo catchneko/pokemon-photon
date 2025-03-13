@@ -1033,4 +1033,19 @@ Beta 0.12.3
 ## MAP/EVENT CHANGES
 - All Legendary Pokémon now respawn upon beating the game, if not caught
     - If you have already beaten the game, you can use the "legendaryreset" password to respawn them instead, as the Pokémon League is not yet rematchable
+
+Beta 0.12.4
+## ADDITIONS
+- Added an Encounters tab, showing the Pokémon that can be found in each area
+
+## BUG/ERROR FIXES
+- Fixed a game crash in the Eridhe Town item shop in the postgame
+- Fixed an issue where the cutscene in the deepest part of The Crucible would repeat and softlock the gamme if the player returned after completing it
+
+## MAP/EVENT CHANGES
+- Reduced the opacity of Lavenn Forest's fog layer, increasing visibility
+- Added an NPC to Girit Town that hints at how to evolve Prism-Buneary
+- Beast Balls are now sold at the Faypoint Poké Ball stand, after the events at Ultra Space have been completed
+    - A 3x Beast Ball item is also now found in Ultra Space
+- The Youngster in Azure Base now has some extra dialogue that indicates that the player should return to him after delivering the Super Potion
 ```

@@ -151,6 +151,9 @@ Resource Credits:
 		AiurJordan - Adapt to v19.1
 		ThatWelshOne_ - Helpful in debugging this script.
 
+	Encounter List UI:
+		ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
+
 ==Augmented Reborn Animations==
 	Project lead by StCooler.
 	Contributors: StCooler, DarryBD99, WolfPP, ardicoozer, riddlemeree.
