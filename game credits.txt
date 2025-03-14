@@ -154,6 +154,9 @@ Resource Credits:
 	Encounter List UI:
 		ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
 
+	F12 Fix Script:
+		Zeriab, Pia Carrot
+
 ==Augmented Reborn Animations==
 	Project lead by StCooler.
 	Contributors: StCooler, DarryBD99, WolfPP, ardicoozer, riddlemeree.

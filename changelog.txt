@@ -1048,4 +1048,8 @@ Beta 0.12.4
 - Beast Balls are now sold at the Faypoint Poké Ball stand, after the events at Ultra Space have been completed
     - A 3x Beast Ball item is also now found in Ultra Space
 - The Youngster in Azure Base now has some extra dialogue that indicates that the player should return to him after delivering the Super Potion
+
+Beta 0.12.4a
+## BUG/ERROR FIXES
+- Fixed the issues regarding using F12 to reset the game
 ```
